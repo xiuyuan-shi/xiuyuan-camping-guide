@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f8f7"><meta name="description" content="修远露营指南：杭州露营地点、设施线索、原文来源与更新时间。"><title>修远露营指南 · 杭州</title><link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="style.css?v=2"></head>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f8f7"><meta name="description" content="修远露营指南：杭州露营地点、设施线索、原文来源与更新时间。"><title>修远露营指南 · 杭州</title><link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="style.css?v=3"><link rel="stylesheet" href="vendor/leaflet/leaflet.css"></head>
 <body><main class="app">
-<div class="data-note">杭州资料版 · 图片为环境示意，信息以原文为准</div>
+<div class="data-note">杭州资料版 · 实景照片按拍摄日期展示</div>
 <header class="masthead"><a class="brand" href="./"><img src="assets/logo.png" alt="" width="36" height="28"><span>修远露营指南</span></a><button id="map-open" class="map-button"><img class="icon" src="assets/icons/map-2.svg" alt="">地图</button></header>
 <label class="search"><img class="icon" src="assets/icons/search.svg" alt=""><input id="query" type="search" placeholder="搜营地、地点或徒步路线" aria-label="搜索营地" autocomplete="off"></label>
 <nav class="cities" aria-label="城市"><button data-city="杭州" aria-pressed="true">杭州</button><button data-city="苏州" aria-pressed="false">苏州</button><button data-city="南京" aria-pressed="false">南京</button><button data-city="上海" aria-pressed="false">上海</button><button data-city="宁波" aria-pressed="false">宁波</button></nav>
@@ -14,11 +14,11 @@
 <button class="trip-row" id="trip-open"><img class="icon" src="assets/icons/users.svg" alt=""><span id="trip-summary">2位成人 · 自带装备 · 日营</span><img class="icon arrow" src="assets/icons/chevron-right.svg" alt=""></button>
 <div class="result-row"><span id="result-count" role="status" aria-live="polite">正在加载营地…</span><label class="sort"><select id="sort" aria-label="排序"><option value="default">资料优先</option><option value="sources">来源较多</option><option value="newest">最近采集</option></select><img src="assets/icons/chevron-down.svg" alt=""></label></div>
 <div id="error" class="empty" hidden><h2>资料暂时未加载</h2><p>请检查网络后重试。</p><button onclick="location.reload()">重新加载</button></div>
-<section id="cards" aria-label="营地列表"></section>
+<section id="map-view" hidden><div class="map-tools"><button id="search-map-area">搜索此区域</button><button id="map-fit">查看全部</button></div><div id="camp-map"></div><p id="map-status" role="status"></p><div id="map-selection"></div></section><section id="cards" aria-label="营地列表"></section>
 <section id="empty" class="empty" hidden><h2 id="empty-title">没有匹配的地点</h2><p id="empty-copy">换个关键词，或清除筛选再看看。</p><button id="reset">返回杭州 · 清除筛选</button></section>
 <button id="load-more" class="load-more" hidden>查看更多</button>
-<footer><p id="updated">正在读取更新时间</p><p>名单含公园、村落与待核实营位，并非全部营地。</p><button id="about-open">采集说明</button><a href="杭州露营资料.csv" download>下载资料</a><button id="nearby-open">周边线索</button></footer>
+<footer><p id="live-status"></p><p id="updated">正在读取更新时间</p><p>名单含公园、村落与待核实营位，并非全部营地。</p><button id="about-open">采集说明</button><a href="杭州露营资料.csv" download>下载资料</a><button id="nearby-open">周边线索</button></footer>
 </main>
-<dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-toolbar"><span>营地详情</span><button class="close" id="detail-close" aria-label="关闭地点详情"><img src="assets/icons/x.svg" alt=""></button></div><div id="detail-content"></div></dialog>
+<section id="live-page" hidden aria-live="polite"></section><dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-toolbar"><span>营地详情</span><button class="close" id="detail-close" aria-label="关闭地点详情"><img src="assets/icons/x.svg" alt=""></button></div><div id="detail-content"></div></dialog>
 <dialog id="utility-dialog" aria-labelledby="utility-title"><div class="dialog-toolbar"><h2 id="utility-title"></h2><button class="close" id="utility-close" aria-label="关闭面板"><img src="assets/icons/x.svg" alt=""></button></div><div id="utility-content"></div></dialog>
-<script src="app.js?v=2" defer></script></body></html>
+<script src="vendor/leaflet/leaflet.js" defer></script><script src="live.js?v=3" defer></script><script src="app.js?v=3" defer></script></body></html>
