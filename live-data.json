@@ -55,7 +55,7 @@
       },
       "images": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg/960px-Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg",
+          "url": "assets/photos/c009-1.jpg",
           "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xixi_Wetland_Park,_Hangzhou,_China.jpg",
           "permission": "allowed",
@@ -65,10 +65,13 @@
           "takenAt": "2012-04-25",
           "label": "西溪湿地实景，非具体营位",
           "description": "Xixi Wetland Park, Hangzhou, China",
-          "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg/960px-Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg",
+          "sha256": "6e9640314819c3b152ec8025b3f3bd64e3efa2916e17384fa1344bdd47aa2fa6",
+          "hosting": "same-origin licensed copy"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg/960px-%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
+          "url": "assets/photos/c009-2.jpg",
           "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
           "permission": "allowed",
@@ -78,7 +81,10 @@
           "takenAt": "2012-06",
           "label": "西溪湿地实景，非具体营位",
           "description": "Gaozhuang of Xixi National Wetland Park",
-          "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg/960px-%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
+          "sha256": "8b5a8d6fc7c5f79e62314459f94f305e453ddf411b76ecc3c93eec88986de53e",
+          "hosting": "same-origin licensed copy"
         }
       ]
     },
@@ -95,7 +101,7 @@
       },
       "images": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Xiang_Hu.jpg/960px-Xiang_Hu.jpg",
+          "url": "assets/photos/c104-1.jpg",
           "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Xiang_Hu.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiang_Hu.jpg",
           "permission": "allowed",
@@ -105,10 +111,13 @@
           "takenAt": "2023-09-07 10:29:12",
           "label": "湘湖实景，非具体营位",
           "description": "Xiang Hu (Lake)",
-          "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Xiang_Hu.jpg/960px-Xiang_Hu.jpg",
+          "sha256": "001efe9e9b063e449070eaef51135845d65bfd64fd0d3a05112a3a3d424a82c9",
+          "hosting": "same-origin licensed copy"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg/960px-%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg",
+          "url": "assets/photos/c104-2.jpg",
           "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_(69954).jpg",
           "permission": "allowed",
@@ -119,10 +128,13 @@
           "label": "湘湖实景，非具体营位",
           "description": "杭州湘湖的景观",
           "checkedAt": "2026-09-13T21:59:02.061905+08:00",
-          "dateNote": "日期来自照片Exif"
+          "dateNote": "日期来自照片Exif",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg/960px-%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg",
+          "sha256": "ca4d5ecb4dc0db9c4a41b1fffe749e3c56005ae99dec2e02a043310cffc228b0",
+          "hosting": "same-origin licensed copy"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Xiang_Lake_03.jpg/960px-Xiang_Lake_03.jpg",
+          "url": "assets/photos/c104-3.jpg",
           "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Xiang_Lake_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiang_Lake_03.jpg",
           "permission": "allowed",
@@ -132,7 +144,10 @@
           "takenAt": "2014-12-18 15:48:37",
           "label": "湘湖实景，非具体营位",
           "description": "Xiang Lake",
-          "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Xiang_Lake_03.jpg/960px-Xiang_Lake_03.jpg",
+          "sha256": "15b039b378b764209b2291d24629311f83428e38247475f87c42b053bb7296d7",
+          "hosting": "same-origin licensed copy"
         }
       ]
     },
