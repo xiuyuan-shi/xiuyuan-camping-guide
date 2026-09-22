@@ -3,8 +3,8 @@
   "scope": "已关联入库地点的808个去重图片URL",
   "limitation": "内容审核不等于拍摄地点核验；单次加载失败不等于永久失效。",
   "counts": {
-    "exclude": 594,
-    "keep": 174,
+    "exclude": 595,
+    "keep": 173,
     "unavailable": 40
   },
   "images": {
@@ -9026,8 +9026,8 @@
       "height": 321
     },
     "https://img01.yzcdn.cn/upload_files/2026/02/06/FrJvW-n_FElVVn8Vwu-nwCgz9RpO.png": {
-      "status": "keep",
-      "reason": "人工目视筛选：保留营位、自然环境或户外设施；精确地点仍待核实",
+      "status": "exclude",
+      "reason": "美丽洲堂教堂建筑，与公园露营区域混淆，剔除",
       "reviewedAt": "2026-09-22",
       "method": "浏览器缩略图目视审核及加载检查",
       "recordIds": [

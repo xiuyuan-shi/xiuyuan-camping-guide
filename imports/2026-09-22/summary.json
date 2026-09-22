@@ -1,4 +1,5 @@
 {
+  "heldPlaces": 7,
   "inputRows": 200,
   "uniqueNotes": 118,
   "mergedRows": 141,
@@ -12,10 +13,10 @@
   "interactionTotalMismatchRows": 51,
   "uniqueImageUrls": 963,
   "counts": {
-    "total": 217,
-    "hangzhou": 195,
+    "total": 210,
+    "hangzhou": 188,
     "nearby": 21,
     "outside": 1,
-    "withDetails": 81
+    "withDetails": 79
   }
 }

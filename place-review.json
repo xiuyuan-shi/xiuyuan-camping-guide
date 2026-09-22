@@ -1,0 +1,407 @@
+{
+  "reviewedAt": "2026-09-22",
+  "policy": "移出公开露营列表并保留原始证据；不将证据不足等同于禁止露营。恢复需核清独立地点及露营依据。",
+  "places": [
+    {
+      "id": "C184",
+      "name": "壶源溪·常安镇双坝",
+      "status": "hold",
+      "reason": "现有来源为壶源溪钓点合集，仅提供钓鱼位置，缺少该地点独立露营依据。",
+      "record": {
+        "id": "C184",
+        "name": "壶源溪·常安镇双坝",
+        "aliases": [],
+        "city": "杭州",
+        "area": "杭州富阳·壶源溪常安镇",
+        "scope": "hangzhou",
+        "type": "待分类",
+        "sourceIds": [
+          "X6a5b5539000000000401c910"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6a5b5539000000000401c910",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              67
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州富阳·壶源溪常安镇"
+              },
+              {
+                "key": "experience",
+                "label": "表格提取范围待核",
+                "value": "同一笔记对应多个地点；费用、设施和活动可能是合集通用描述，本次仅收录地点与位置线索。"
+              }
+            ],
+            "withheldCompilationClaims": true
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": false,
+        "mentionAuthors": 1,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 1
+      },
+      "originalIndex": 183
+    },
+    {
+      "id": "C185",
+      "name": "壶源溪·横搓村",
+      "status": "hold",
+      "reason": "现有来源为壶源溪钓点合集，仅提供钓鱼位置，缺少该地点独立露营依据。",
+      "record": {
+        "id": "C185",
+        "name": "壶源溪·横搓村",
+        "aliases": [],
+        "city": "杭州",
+        "area": "杭州富阳·壶源溪横搓村",
+        "scope": "hangzhou",
+        "type": "待分类",
+        "sourceIds": [
+          "X6a5b5539000000000401c910"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6a5b5539000000000401c910",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              69
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州富阳·壶源溪横搓村"
+              },
+              {
+                "key": "experience",
+                "label": "表格提取范围待核",
+                "value": "同一笔记对应多个地点；费用、设施和活动可能是合集通用描述，本次仅收录地点与位置线索。"
+              }
+            ],
+            "withheldCompilationClaims": true
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": false,
+        "mentionAuthors": 1,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 1
+      },
+      "originalIndex": 184
+    },
+    {
+      "id": "C187",
+      "name": "北湖coffee苕溪露营地",
+      "status": "hold",
+      "reason": "现有来源介绍北湖 coffee 村咖，尚不能确认咖啡店与独立露营区域的对应关系。",
+      "record": {
+        "id": "C187",
+        "name": "北湖coffee苕溪露营地",
+        "aliases": [],
+        "city": "杭州",
+        "area": "杭州余杭·苕溪北湖",
+        "scope": "hangzhou",
+        "type": "待分类",
+        "sourceIds": [
+          "X6a227734000000003701c6c0"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6a227734000000003701c6c0",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              71
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州余杭·苕溪北湖"
+              },
+              {
+                "key": "toilet",
+                "label": "厕所线索",
+                "value": "表格摘录（未复核原文）：有厕所"
+              },
+              {
+                "key": "parking",
+                "label": "交通线索",
+                "value": "表格摘录（未复核原文）：是"
+              },
+              {
+                "key": "environment",
+                "label": "环境与活动摘录",
+                "value": "表格摘录（未复核原文）：可带宠物"
+              }
+            ],
+            "withheldCompilationClaims": false
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": true,
+        "mentionAuthors": 1,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 1
+      },
+      "originalIndex": 186
+    },
+    {
+      "id": "C188",
+      "name": "漫画窗",
+      "status": "hold",
+      "reason": "“漫画窗”是泛化的拍照点名称，位置仅到杭州自驾范围，无法确认独立营地。",
+      "record": {
+        "id": "C188",
+        "name": "漫画窗",
+        "aliases": [],
+        "city": "杭州",
+        "area": "杭州（市区0.5h）",
+        "scope": "hangzhou",
+        "type": "待分类",
+        "sourceIds": [
+          "X6a0c6e940000000037036c49"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6a0c6e940000000037036c49",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              72
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州（市区0.5h）"
+              }
+            ],
+            "withheldCompilationClaims": false
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": false,
+        "mentionAuthors": 1,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 1
+      },
+      "originalIndex": 187
+    },
+    {
+      "id": "C201",
+      "name": "径山古道",
+      "status": "hold",
+      "reason": "现有来源为径山古道徒步线路，未定位到独立露营区域。",
+      "record": {
+        "id": "C201",
+        "name": "径山古道",
+        "aliases": [],
+        "city": "杭州",
+        "area": "杭州余杭·径山镇",
+        "scope": "hangzhou",
+        "type": "待分类",
+        "sourceIds": [
+          "X6aa130f70000000012002d7e"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6aa130f70000000012002d7e",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              123
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州余杭·径山镇"
+              },
+              {
+                "key": "experience",
+                "label": "表格提取范围待核",
+                "value": "同一笔记对应多个地点；费用、设施和活动可能是合集通用描述，本次仅收录地点与位置线索。"
+              }
+            ],
+            "withheldCompilationClaims": true
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": false,
+        "mentionAuthors": 1,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 1
+      },
+      "originalIndex": 200
+    },
+    {
+      "id": "C206",
+      "name": "良渚美丽洲公园",
+      "status": "hold",
+      "reason": "来源配图混入美丽洲堂教堂，与公园营地身份混淆；待核清具体露营区域后再展示。",
+      "record": {
+        "id": "C206",
+        "name": "良渚美丽洲公园",
+        "aliases": [
+          "良渚美丽洲"
+        ],
+        "city": "杭州",
+        "area": "杭州余杭·良渚",
+        "scope": "hangzhou",
+        "type": "公园与绿地",
+        "sourceIds": [
+          "X6a2cdacb0000000017009725",
+          "X690b503400000000030101f8"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6a2cdacb0000000017009725",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              129
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州余杭·良渚"
+              },
+              {
+                "key": "fee",
+                "label": "费用线索",
+                "value": "表格摘录（未复核原文）：免费"
+              },
+              {
+                "key": "stove",
+                "label": "用火线索",
+                "value": "表格摘录（未复核原文）：是。烧烤或其他炉具的描述不等于卡式炉许可。"
+              },
+              {
+                "key": "parking",
+                "label": "交通线索",
+                "value": "表格摘录（未复核原文）：是"
+              },
+              {
+                "key": "environment",
+                "label": "环境与活动摘录",
+                "value": "表格摘录（未复核原文）：湖景、大草坪、适合亲子"
+              }
+            ],
+            "withheldCompilationClaims": false
+          },
+          {
+            "sourceId": "X690b503400000000030101f8",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              158
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：杭州余杭·良渚"
+              },
+              {
+                "key": "experience",
+                "label": "表格提取范围待核",
+                "value": "同一笔记对应多个地点；费用、设施和活动可能是合集通用描述，本次仅收录地点与位置线索。"
+              }
+            ],
+            "withheldCompilationClaims": true
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": true,
+        "mentionAuthors": 2,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 2
+      },
+      "originalIndex": 205
+    },
+    {
+      "id": "C217",
+      "name": "建德夏日冬泳基地",
+      "status": "hold",
+      "reason": "现有记录指向夏日冬泳基地，来源为多活动游记，缺少该基地独立露营依据。",
+      "record": {
+        "id": "C217",
+        "name": "建德夏日冬泳基地",
+        "aliases": [],
+        "city": "杭州",
+        "area": "建德新安江夏日冬泳基地",
+        "scope": "hangzhou",
+        "type": "待分类",
+        "sourceIds": [
+          "X6a1d1a39000000003700c044"
+        ],
+        "evidence": [
+          {
+            "sourceId": "X6a1d1a39000000003700c044",
+            "importBatch": "2026-09-22",
+            "excelRows": [
+              192
+            ],
+            "caveat": "用户表格摘录，尚未复核原文及当前管理规则。",
+            "fields": [
+              {
+                "key": "location",
+                "label": "位置线索",
+                "value": "表格摘录（未复核原文）：建德新安江夏日冬泳基地"
+              },
+              {
+                "key": "experience",
+                "label": "表格提取范围待核",
+                "value": "同一笔记对应多个地点；费用、设施和活动可能是合集通用描述，本次仅收录地点与位置线索。"
+              }
+            ],
+            "withheldCompilationClaims": true
+          }
+        ],
+        "tags": [],
+        "lastCollected": "2026-09-22",
+        "conflict": false,
+        "note": "",
+        "fullVerified": false,
+        "hasDetails": false,
+        "mentionAuthors": 1,
+        "summary": "表格提供的地点线索，具体营位及现行规则待核实。",
+        "detailCount": 1
+      },
+      "originalIndex": 216
+    }
+  ]
+}

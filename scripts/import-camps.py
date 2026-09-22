@@ -82,6 +82,13 @@ def run():
     image_reviews = json.loads(review_path.read_text())['images'] if review_path.exists() else {}
     rows = json.loads((FOLDER/'source-rows.json').read_text())
     assert len(rows) == 200 and {r['序号'] for r in rows} == set(range(1,201))
+    place_review_path = ROOT/'place-review.json'
+    place_reviews = json.loads(place_review_path.read_text())['places'] if place_review_path.exists() else []
+    # Restore archived inputs before importing; keep IDs/evidence stable on every run.
+    active_ids = {r['id'] for r in data['records']}
+    for place in sorted(place_reviews, key=lambda p:p['originalIndex']):
+        if place['id'] not in active_ids:
+            data['records'].insert(place['originalIndex'], place['record'])
     records = {r['id']:r for r in data['records']}
     # Persist decisions for audit and idempotence, keeping published IDs stable.
     decision_path = FOLDER/'decisions.json'
@@ -224,9 +231,16 @@ def run():
         rec['detailCount'] = len(rec['evidence'])
         rec['mentionAuthors'] = len({data['sources'][s]['author'] for s in rec['sourceIds'] if data['sources'][s]['author']})
 
+    held_places = {p['id']:p for p in place_reviews if p['status']=='hold'}
+    data['excludedPlaces'] = [{k:p[k] for k in ['id','name','reason']} for p in held_places.values()]
+    data['records'] = [r for r in data['records'] if r['id'] not in held_places]
+    for decision in decisions:
+        if decision['recordId'] in held_places:
+            decision['status'] = '地点复核暂缓展示'
+            decision['reason'] = held_places[decision['recordId']]['reason']
     data['updatedAt'] = BATCH
     data['counts'] = dict(total=len(data['records']),**{s:sum(r['scope']==s for r in data['records']) for s in ['hangzhou','nearby','outside']},withDetails=sum(r['hasDetails'] for r in data['records']))
-    summary = dict(inputRows=len(rows),uniqueNotes=len(groups),mergedRows=len(mapping),
+    summary = dict(heldPlaces=len(held_places),inputRows=len(rows),uniqueNotes=len(groups),mergedRows=len(mapping),
         heldRows=len(HOLD),addedRecords=len(new_ids),updatedExistingRecords=len(set(mapping.values())-new_ids),
         distinctImportedRecords=len(set(mapping.values())),collapsedRows=len(mapping)-len(set(mapping.values())),
         conflictingRecordSources=conflict_count,withheldCompilationFields=withheld_count,
