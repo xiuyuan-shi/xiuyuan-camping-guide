@@ -1,0 +1,21 @@
+{
+  "inputRows": 200,
+  "uniqueNotes": 118,
+  "mergedRows": 141,
+  "heldRows": 59,
+  "addedRecords": 65,
+  "updatedExistingRecords": 52,
+  "distinctImportedRecords": 117,
+  "collapsedRows": 24,
+  "conflictingRecordSources": 1,
+  "withheldCompilationFields": 310,
+  "interactionTotalMismatchRows": 51,
+  "uniqueImageUrls": 963,
+  "counts": {
+    "total": 217,
+    "hangzhou": 195,
+    "nearby": 21,
+    "outside": 1,
+    "withDetails": 81
+  }
+}

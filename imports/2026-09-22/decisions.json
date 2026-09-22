@@ -1,0 +1,2002 @@
+[
+  {
+    "rowNumber": 1,
+    "excelRow": 2,
+    "name": "野趣推荐的溪谷露营地",
+    "recordId": null,
+    "sourceId": "X6837b6ea000000002202b632",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 2,
+    "excelRow": 3,
+    "name": "安吉古城国家考古遗址公园",
+    "recordId": "C153",
+    "sourceId": "X6a8442b20000000029032c42",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 3,
+    "excelRow": 4,
+    "name": "沿江景观10号桥水杉林",
+    "recordId": "C154",
+    "sourceId": "X6a3293a2000000000803f492",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 4,
+    "excelRow": 5,
+    "name": "杭钢公园",
+    "recordId": "C155",
+    "sourceId": "X6a8817170000000016026c02",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 5,
+    "excelRow": 6,
+    "name": "星空农庄（径山双溪）",
+    "recordId": "C156",
+    "sourceId": "X688e179e0000000003031713",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 6,
+    "excelRow": 7,
+    "name": "建德之江山风农场",
+    "recordId": "C157",
+    "sourceId": "X69ce8a300000000021004fe0",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 7,
+    "excelRow": 8,
+    "name": "青山村露营地",
+    "recordId": "C158",
+    "sourceId": "X68d7855700000000130062f6",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 8,
+    "excelRow": 9,
+    "name": "观潮城江边营地",
+    "recordId": "C159",
+    "sourceId": "X69f4afb00000000038022bc3",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 9,
+    "excelRow": 10,
+    "name": "花屿溪营地",
+    "recordId": "C160",
+    "sourceId": "X6a6b132b0000000025016340",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 10,
+    "excelRow": 11,
+    "name": "富阳溪边露营玩水地",
+    "recordId": null,
+    "sourceId": "X6a64490f000000000a0391f2",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 11,
+    "excelRow": 12,
+    "name": "鹿野森谷",
+    "recordId": "C161",
+    "sourceId": "X6a6c4c090000000032023f4c",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 12,
+    "excelRow": 13,
+    "name": "大朗山",
+    "recordId": "C162",
+    "sourceId": "X6a89643a00000000290265f9",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 13,
+    "excelRow": 14,
+    "name": "枫岭村大草坪",
+    "recordId": "C163",
+    "sourceId": "X691dcb24000000001f0048a8",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 14,
+    "excelRow": 15,
+    "name": "杨宅坞（三口公交站）",
+    "recordId": "C164",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 15,
+    "excelRow": 16,
+    "name": "横路湾",
+    "recordId": "C165",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 16,
+    "excelRow": 17,
+    "name": "宣王桥",
+    "recordId": "C028",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 17,
+    "excelRow": 18,
+    "name": "石门村（龙门秘境）",
+    "recordId": "C166",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 18,
+    "excelRow": 19,
+    "name": "龙上村（攀岩小镇）",
+    "recordId": "C167",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 19,
+    "excelRow": 20,
+    "name": "鼻头石",
+    "recordId": "C168",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 20,
+    "excelRow": 21,
+    "name": "天石滩",
+    "recordId": "C169",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 21,
+    "excelRow": 22,
+    "name": "大山村",
+    "recordId": "C170",
+    "sourceId": "X6a18f8d2000000003502a178",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 22,
+    "excelRow": 23,
+    "name": "清凉药谷（浙西小天池）",
+    "recordId": "C171",
+    "sourceId": "X6a64d927000000000301fbbe",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 23,
+    "excelRow": 24,
+    "name": "曲院风荷",
+    "recordId": "C172",
+    "sourceId": "X6947e562000000001e0066aa",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 24,
+    "excelRow": 25,
+    "name": "青山湖太阳湾旅游驿站",
+    "recordId": "C016",
+    "sourceId": "X69afae260000000006031664",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 25,
+    "excelRow": 26,
+    "name": "入坑艺术公园",
+    "recordId": "C173",
+    "sourceId": "X691f2949000000000d03cacb",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 26,
+    "excelRow": 27,
+    "name": "进贤村绅士溪水露营地",
+    "recordId": "C174",
+    "sourceId": "X6a032d0a000000000702afc7",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 27,
+    "excelRow": 28,
+    "name": "遐也空间",
+    "recordId": "C175",
+    "sourceId": "X69243716000000001b0231cc",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 28,
+    "excelRow": 29,
+    "name": "九溪十八涧",
+    "recordId": "C176",
+    "sourceId": "X6a124b2800000000060344d9",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 29,
+    "excelRow": 30,
+    "name": "壶源溪（双喜村）",
+    "recordId": "C138",
+    "sourceId": "X6a124b2800000000060344d9",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 30,
+    "excelRow": 31,
+    "name": "太湖源·指南慈境",
+    "recordId": "C177",
+    "sourceId": "X6a124b2800000000060344d9",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 31,
+    "excelRow": 32,
+    "name": "大鱼线",
+    "recordId": null,
+    "sourceId": "X6a124b2800000000060344d9",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "整条大鱼线，不能作为独立营地"
+  },
+  {
+    "rowNumber": 32,
+    "excelRow": 33,
+    "name": "径山双溪/进贤村",
+    "recordId": null,
+    "sourceId": "X6a124b2800000000060344d9",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "双溪与进贤村并列，具体营位不明"
+  },
+  {
+    "rowNumber": 33,
+    "excelRow": 34,
+    "name": "鸬鸟山沟沟",
+    "recordId": "C178",
+    "sourceId": "X6a124b2800000000060344d9",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 34,
+    "excelRow": 35,
+    "name": "东纪坞水库",
+    "recordId": "C179",
+    "sourceId": "X69d5f06a00000000220005c7",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 35,
+    "excelRow": 36,
+    "name": "滨江工业遗址公园露营地",
+    "recordId": "C015",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 36,
+    "excelRow": 37,
+    "name": "之江绿道廊架",
+    "recordId": "C015",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 37,
+    "excelRow": 38,
+    "name": "苕溪-落塘埠",
+    "recordId": "C017",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 38,
+    "excelRow": 39,
+    "name": "越秀风之谷公园",
+    "recordId": "C018",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 39,
+    "excelRow": 40,
+    "name": "中科粮油育种实验基地",
+    "recordId": "C019",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 40,
+    "excelRow": 41,
+    "name": "小丁松葡萄园",
+    "recordId": "C020",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 41,
+    "excelRow": 42,
+    "name": "长川绿道露营地",
+    "recordId": "C021",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 42,
+    "excelRow": 43,
+    "name": "自由大草坪露营地",
+    "recordId": "C022",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 43,
+    "excelRow": 44,
+    "name": "潘堰村露营地",
+    "recordId": "C023",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 44,
+    "excelRow": 45,
+    "name": "河桥古镇",
+    "recordId": "C024",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 45,
+    "excelRow": 46,
+    "name": "乌象坝&乌象大桥露营地",
+    "recordId": "C025",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 46,
+    "excelRow": 47,
+    "name": "天荒坪",
+    "recordId": "C026",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 47,
+    "excelRow": 48,
+    "name": "观新村&杭州汐遇民宿",
+    "recordId": "C027",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 48,
+    "excelRow": 49,
+    "name": "上店村",
+    "recordId": "C029",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 49,
+    "excelRow": 50,
+    "name": "山田大桥",
+    "recordId": "C030",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 50,
+    "excelRow": 51,
+    "name": "洪潭大桥",
+    "recordId": "C031",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 51,
+    "excelRow": 52,
+    "name": "安吉湿地",
+    "recordId": "C032",
+    "sourceId": "G05",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 52,
+    "excelRow": 53,
+    "name": "富阳龙鳞坝（梅州驿站）",
+    "recordId": "C180",
+    "sourceId": "X6a093429000000000702753d",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 53,
+    "excelRow": 54,
+    "name": "宣王桥（大鱼线）",
+    "recordId": "C028",
+    "sourceId": "X6a3b2cd5000000002100bd11",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 54,
+    "excelRow": 55,
+    "name": "钱岸公园七堡艺文公园",
+    "recordId": "C181",
+    "sourceId": "X69eb5c7d000000002202b4ea",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 55,
+    "excelRow": 56,
+    "name": "康门水库",
+    "recordId": "C152",
+    "sourceId": "X6aa2b92c000000002502cec4",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 56,
+    "excelRow": 57,
+    "name": "安顶山茶山",
+    "recordId": "C182",
+    "sourceId": "G09",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 57,
+    "excelRow": 58,
+    "name": "多彩田园诗画潘堰",
+    "recordId": "C023",
+    "sourceId": "G09",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 58,
+    "excelRow": 59,
+    "name": "北支江公园",
+    "recordId": "C062",
+    "sourceId": "G09",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 59,
+    "excelRow": 60,
+    "name": "富阳湘溪村",
+    "recordId": "C063",
+    "sourceId": "G09",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 60,
+    "excelRow": 61,
+    "name": "湘湖渔村",
+    "recordId": null,
+    "sourceId": "G09",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "湘湖渔村与已有停车场范围关系待核"
+  },
+  {
+    "rowNumber": 61,
+    "excelRow": 62,
+    "name": "寺坞岭望江阁",
+    "recordId": "C065",
+    "sourceId": "G09",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 62,
+    "excelRow": 63,
+    "name": "杭州青山艺术设计村",
+    "recordId": null,
+    "sourceId": "G09",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "青山村、艺术村与已有农庄停车点范围关系待核"
+  },
+  {
+    "rowNumber": 63,
+    "excelRow": 64,
+    "name": "进贤村溪边露营地",
+    "recordId": null,
+    "sourceId": "X69f2a44a000000003601fa17",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "进贤村溪边与已有村域线索范围关系待核"
+  },
+  {
+    "rowNumber": 64,
+    "excelRow": 65,
+    "name": "苕溪露营野地",
+    "recordId": null,
+    "sourceId": "X6a0855680000000007026cea",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "苕溪范围过大"
+  },
+  {
+    "rowNumber": 65,
+    "excelRow": 66,
+    "name": "田间有座岛露营地",
+    "recordId": "C183",
+    "sourceId": "X68a93552000000001c037589",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 66,
+    "excelRow": 67,
+    "name": "壶源溪·常安镇双坝",
+    "recordId": "C184",
+    "sourceId": "X6a5b5539000000000401c910",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 67,
+    "excelRow": 68,
+    "name": "壶源溪·古城桥古城坝",
+    "recordId": null,
+    "sourceId": "X6a5b5539000000000401c910",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "古城桥古城坝与已有安禾村古城桥对应关系待核"
+  },
+  {
+    "rowNumber": 68,
+    "excelRow": 69,
+    "name": "壶源溪·横搓村",
+    "recordId": "C185",
+    "sourceId": "X6a5b5539000000000401c910",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 69,
+    "excelRow": 70,
+    "name": "湘湖湘农路露营地",
+    "recordId": "C186",
+    "sourceId": "X6922ac31000000001e039a85",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 70,
+    "excelRow": 71,
+    "name": "北湖coffee苕溪露营地",
+    "recordId": "C187",
+    "sourceId": "X6a227734000000003701c6c0",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 71,
+    "excelRow": 72,
+    "name": "漫画窗",
+    "recordId": "C188",
+    "sourceId": "X6a0c6e940000000037036c49",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 72,
+    "excelRow": 73,
+    "name": "江畔森野露营地",
+    "recordId": "C189",
+    "sourceId": "X69cbafa9000000001b021a75",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 73,
+    "excelRow": 74,
+    "name": "幸福翼公园",
+    "recordId": "C190",
+    "sourceId": "X69368b92000000000d034dd3",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 74,
+    "excelRow": 75,
+    "name": "观潮城",
+    "recordId": "C159",
+    "sourceId": "X69368b92000000000d034dd3",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 75,
+    "excelRow": 76,
+    "name": "安吉外古庵",
+    "recordId": "C191",
+    "sourceId": "X69bbdc4f000000002301edcf",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 76,
+    "excelRow": 77,
+    "name": "临安龙岗镇野营地",
+    "recordId": null,
+    "sourceId": "X69bbdc4f000000002301edcf",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "只定位到龙岗镇"
+  },
+  {
+    "rowNumber": 77,
+    "excelRow": 78,
+    "name": "千岛湖湖畔野营地",
+    "recordId": null,
+    "sourceId": "X69bbdc4f000000002301edcf",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "只定位到千岛湖"
+  },
+  {
+    "rowNumber": 78,
+    "excelRow": 79,
+    "name": "翠羊湾·休闲露营农庄",
+    "recordId": "C192",
+    "sourceId": "X6a141ec4000000003601cc29",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 79,
+    "excelRow": 80,
+    "name": "北湖草荡",
+    "recordId": "C033",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 80,
+    "excelRow": 81,
+    "name": "杉树林（张堰村）",
+    "recordId": "C034",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 81,
+    "excelRow": 82,
+    "name": "榉树林",
+    "recordId": "C035",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 82,
+    "excelRow": 83,
+    "name": "溪塔村百年古樟树",
+    "recordId": "C036",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 83,
+    "excelRow": 84,
+    "name": "余杭吴山公园",
+    "recordId": "C037",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 84,
+    "excelRow": 85,
+    "name": "杨家村",
+    "recordId": "C038",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 85,
+    "excelRow": 86,
+    "name": "麻车头",
+    "recordId": "C039",
+    "sourceId": "G06",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 86,
+    "excelRow": 87,
+    "name": "太子尖星空营地",
+    "recordId": "C193",
+    "sourceId": "X6aa2338b000000002a025077",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 87,
+    "excelRow": 88,
+    "name": "建德沿江路线",
+    "recordId": null,
+    "sourceId": "X69d9ecbe0000000023013bef",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "沿江路线，非独立营地"
+  },
+  {
+    "rowNumber": 88,
+    "excelRow": 89,
+    "name": "杭州露营地（晒太阳）",
+    "recordId": null,
+    "sourceId": "X691806a800000000190253bc",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 89,
+    "excelRow": 90,
+    "name": "周末露营好去处",
+    "recordId": null,
+    "sourceId": "X6a2a060b0000000021009610",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 90,
+    "excelRow": 91,
+    "name": "湘湖房车露营",
+    "recordId": null,
+    "sourceId": "X6a98c992000000001001e9ab",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "湘湖房车营地与沐心岛是否同一经营方待核"
+  },
+  {
+    "rowNumber": 91,
+    "excelRow": 92,
+    "name": "风之谷",
+    "recordId": null,
+    "sourceId": "X6a9d751b0000000029013f86",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "风之谷与已有风之谷蓝色森林是否同一地点待核"
+  },
+  {
+    "rowNumber": 92,
+    "excelRow": 93,
+    "name": "阿里公园",
+    "recordId": "C004",
+    "sourceId": "G02",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 93,
+    "excelRow": 94,
+    "name": "青年林",
+    "recordId": "C010",
+    "sourceId": "G02",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 94,
+    "excelRow": 95,
+    "name": "富阳之江北公园",
+    "recordId": "C011",
+    "sourceId": "G02",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 95,
+    "excelRow": 96,
+    "name": "城北体育公园",
+    "recordId": "C012",
+    "sourceId": "G02",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 96,
+    "excelRow": 97,
+    "name": "白马湖公园",
+    "recordId": "C013",
+    "sourceId": "G02",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 97,
+    "excelRow": 98,
+    "name": "铜鉴湖公园",
+    "recordId": "C014",
+    "sourceId": "G02",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 98,
+    "excelRow": 99,
+    "name": "壶源溪",
+    "recordId": null,
+    "sourceId": "X69f4aa37000000001b02162f",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "壶源溪范围过大"
+  },
+  {
+    "rowNumber": 99,
+    "excelRow": 100,
+    "name": "出来玩户外组织",
+    "recordId": null,
+    "sourceId": "X69b7f3c90000000021013244",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "户外组织，非地点"
+  },
+  {
+    "rowNumber": 100,
+    "excelRow": 101,
+    "name": "江浙沪安全露营点",
+    "recordId": null,
+    "sourceId": "X6a27931c000000001c02739a",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "多地点合集，未提供地点名"
+  },
+  {
+    "rowNumber": 101,
+    "excelRow": 102,
+    "name": "安顶山",
+    "recordId": "C182",
+    "sourceId": "D19",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 102,
+    "excelRow": 103,
+    "name": "杭州江边免费露营地",
+    "recordId": null,
+    "sourceId": "X69f562ba00000000360190c0",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 103,
+    "excelRow": 104,
+    "name": "大鱼线宣王桥",
+    "recordId": "C028",
+    "sourceId": "X6a7160920000000028008598",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 104,
+    "excelRow": 105,
+    "name": "有风营地",
+    "recordId": null,
+    "sourceId": "X68dcac8b0000000005002ba8",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "与已有有风营地名称相同但地址、价格不一致，待核身份"
+  },
+  {
+    "rowNumber": 105,
+    "excelRow": 106,
+    "name": "沐心岛",
+    "recordId": "C194",
+    "sourceId": "X6a23ca43000000003501cf19",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 106,
+    "excelRow": 107,
+    "name": "在山野·亚运村露营基地",
+    "recordId": "C195",
+    "sourceId": "X68d731b100000000120227cf",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 107,
+    "excelRow": 108,
+    "name": "杭钢隔壁免费公园",
+    "recordId": null,
+    "sourceId": "X6a9f7dbe000000000d026191",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "公园名称不明，不能合并到杭钢公园"
+  },
+  {
+    "rowNumber": 108,
+    "excelRow": 109,
+    "name": "新安江白沙奇雾驻车点",
+    "recordId": "C196",
+    "sourceId": "X6a35d108000000001c02479e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 109,
+    "excelRow": 110,
+    "name": "杭州溯溪露营地",
+    "recordId": null,
+    "sourceId": "X6a6eb0de000000002c0072de",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 110,
+    "excelRow": 111,
+    "name": "孤山公园",
+    "recordId": "C083",
+    "sourceId": "X6a032ece000000003502db7c",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 111,
+    "excelRow": 112,
+    "name": "千岛湖阳光路989停车场",
+    "recordId": "C197",
+    "sourceId": "X6a1e5ebe0000000008002301",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 112,
+    "excelRow": 113,
+    "name": "临安秘境溯溪营地",
+    "recordId": null,
+    "sourceId": "X6a1e83db0000000007027a6e",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "秘境宣传名，身份不明"
+  },
+  {
+    "rowNumber": 113,
+    "excelRow": 114,
+    "name": "杭州周边9个封神级露营地（图片合集）",
+    "recordId": null,
+    "sourceId": "G03",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "多地点图片合集，未提供地点名"
+  },
+  {
+    "rowNumber": 114,
+    "excelRow": 115,
+    "name": "听潮音乐营地-木栖",
+    "recordId": "C198",
+    "sourceId": "X6a0fec5e000000000702f633",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 115,
+    "excelRow": 116,
+    "name": "临安免费露营钓鱼宝地",
+    "recordId": null,
+    "sourceId": "X6a40cd0300000000170296cd",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 116,
+    "excelRow": 117,
+    "name": "贝莱特庄园",
+    "recordId": "C199",
+    "sourceId": "X68ee10730000000007020812",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 117,
+    "excelRow": 118,
+    "name": "河桥古镇溪滩",
+    "recordId": "C024",
+    "sourceId": "X6a2ebc31000000003502822b",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 118,
+    "excelRow": 119,
+    "name": "雾凇谷",
+    "recordId": null,
+    "sourceId": "X6950b413000000001d03dc83",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "雾凇谷与已有雾松谷是否同一地点待核"
+  },
+  {
+    "rowNumber": 119,
+    "excelRow": 120,
+    "name": "牵牛岗",
+    "recordId": "C150",
+    "sourceId": "X6a4544580000000008032792",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 120,
+    "excelRow": 121,
+    "name": "径山榉树林",
+    "recordId": "C035",
+    "sourceId": "X6938d309000000001d03ca54",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 121,
+    "excelRow": 122,
+    "name": "建德新安江绿道驿站",
+    "recordId": "C200",
+    "sourceId": "X69fad2c20000000035027f3c",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 122,
+    "excelRow": 123,
+    "name": "径山古道",
+    "recordId": "C201",
+    "sourceId": "X6aa130f70000000012002d7e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 123,
+    "excelRow": 124,
+    "name": "小古城村",
+    "recordId": "C202",
+    "sourceId": "X6aa130f70000000012002d7e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 124,
+    "excelRow": 125,
+    "name": "长乐林场",
+    "recordId": "C203",
+    "sourceId": "X6aa130f70000000012002d7e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 125,
+    "excelRow": 126,
+    "name": "青山村",
+    "recordId": "C158",
+    "sourceId": "X6aa130f70000000012002d7e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 126,
+    "excelRow": 127,
+    "name": "鸬鸟山",
+    "recordId": "C204",
+    "sourceId": "X6aa130f70000000012002d7e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 127,
+    "excelRow": 128,
+    "name": "下陡门村",
+    "recordId": "C205",
+    "sourceId": "X6aa130f70000000012002d7e",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 128,
+    "excelRow": 129,
+    "name": "良渚美丽洲公园",
+    "recordId": "C206",
+    "sourceId": "X6a2cdacb0000000017009725",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 129,
+    "excelRow": 130,
+    "name": "山屿露营·大清谷店",
+    "recordId": "C207",
+    "sourceId": "X69f5d54400000000370370bc",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 130,
+    "excelRow": 131,
+    "name": "建德李家镇塘底石窟水库",
+    "recordId": "C208",
+    "sourceId": "X69b78d440000000023005860",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 131,
+    "excelRow": 132,
+    "name": "萧山戴村溪水露营地",
+    "recordId": null,
+    "sourceId": "X6a09d63c000000000803cffd",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "只定位到戴村"
+  },
+  {
+    "rowNumber": 132,
+    "excelRow": 133,
+    "name": "建德新安江柳杉林",
+    "recordId": null,
+    "sourceId": "X6a1d1a39000000003700c044",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "沿江柳杉林与该笔记多个活动点的对应关系不明"
+  },
+  {
+    "rowNumber": 133,
+    "excelRow": 134,
+    "name": "石门村猷戏谷（大鱼线）",
+    "recordId": "C209",
+    "sourceId": "X6a3fee5c0000000015024f97",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 134,
+    "excelRow": 135,
+    "name": "丁家岭",
+    "recordId": "C210",
+    "sourceId": "X6a8d3b8c000000001002b54d",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 135,
+    "excelRow": 136,
+    "name": "萧山本地溪水露营地",
+    "recordId": null,
+    "sourceId": "X6a1ea2f70000000036033d70",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "只定位到萧山"
+  },
+  {
+    "rowNumber": 136,
+    "excelRow": 137,
+    "name": "径山双溪绿道廊架",
+    "recordId": "C211",
+    "sourceId": "X6a8935b50000000035027411",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 137,
+    "excelRow": 138,
+    "name": "青年林（钱塘江水杉林）",
+    "recordId": "C010",
+    "sourceId": "X6a0164ae000000003502689c",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 138,
+    "excelRow": 139,
+    "name": "湘湖沐心岛房车营地",
+    "recordId": "C194",
+    "sourceId": "X6aa0b669000000002901582c",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 139,
+    "excelRow": 140,
+    "name": "开车直达露营玩水地",
+    "recordId": null,
+    "sourceId": "X6a8ac532000000000b026a65",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 140,
+    "excelRow": 141,
+    "name": "余杭露营团建基地",
+    "recordId": null,
+    "sourceId": "X6970255c000000000b01208e",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少经营主体名称"
+  },
+  {
+    "rowNumber": 141,
+    "excelRow": 142,
+    "name": "进贤村",
+    "recordId": "C001",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 142,
+    "excelRow": 143,
+    "name": "下溪村",
+    "recordId": "C002",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 143,
+    "excelRow": 144,
+    "name": "南湖公园",
+    "recordId": "C003",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 144,
+    "excelRow": 145,
+    "name": "运河亚运公园",
+    "recordId": "C005",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 145,
+    "excelRow": 146,
+    "name": "东湖公园",
+    "recordId": "C006",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 146,
+    "excelRow": 147,
+    "name": "光明寺水库",
+    "recordId": "C007",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 147,
+    "excelRow": 148,
+    "name": "乌龟潭",
+    "recordId": "C008",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 148,
+    "excelRow": 149,
+    "name": "西溪湿地",
+    "recordId": "C009",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 149,
+    "excelRow": 150,
+    "name": "松针露营地",
+    "recordId": null,
+    "sourceId": "X6a0af4fe0000000035022fe5",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "松针描述可能并非营地专名"
+  },
+  {
+    "rowNumber": 150,
+    "excelRow": 151,
+    "name": "杭州市内沿��免费露营地",
+    "recordId": null,
+    "sourceId": "X68fa0f560000000007033033",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "名称乱码且位置不明"
+  },
+  {
+    "rowNumber": 151,
+    "excelRow": 152,
+    "name": "jia宝自然农场",
+    "recordId": "C212",
+    "sourceId": "X69fb3467000000003502b06a",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 152,
+    "excelRow": 153,
+    "name": "杭州小众观星露营地",
+    "recordId": null,
+    "sourceId": "X69314ba6000000001b02375f",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 153,
+    "excelRow": 154,
+    "name": "北塘河草坪",
+    "recordId": "C213",
+    "sourceId": "X692aba80000000001b026f1a",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 154,
+    "excelRow": 155,
+    "name": "燕燕推荐露营地",
+    "recordId": null,
+    "sourceId": "X69f83bd1000000001a0360b4",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "作者推荐名，非地点名"
+  },
+  {
+    "rowNumber": 155,
+    "excelRow": 156,
+    "name": "杭州近郊桨板河边露营地",
+    "recordId": null,
+    "sourceId": "X6a6051e4000000000f03f0ce",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 156,
+    "excelRow": 157,
+    "name": "杭州户外露营烧烤宝藏地",
+    "recordId": null,
+    "sourceId": "X69e1aa40000000001a023c13",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 157,
+    "excelRow": 158,
+    "name": "良渚美丽洲",
+    "recordId": "C206",
+    "sourceId": "X690b503400000000030101f8",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 158,
+    "excelRow": 159,
+    "name": "溪畔营地",
+    "recordId": null,
+    "sourceId": "X690b503400000000030101f8",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "溪畔营地名称泛化，身份待核"
+  },
+  {
+    "rowNumber": 159,
+    "excelRow": 160,
+    "name": "西��源谷",
+    "recordId": "C057",
+    "sourceId": "G08",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 160,
+    "excelRow": 161,
+    "name": "考拉营地（皋亭山）",
+    "recordId": "C058",
+    "sourceId": "G08",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 161,
+    "excelRow": 162,
+    "name": "富阳云海营地",
+    "recordId": "C059",
+    "sourceId": "G08",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 162,
+    "excelRow": 163,
+    "name": "小古城苕溪营地",
+    "recordId": "C060",
+    "sourceId": "G08",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 163,
+    "excelRow": 164,
+    "name": "日回山",
+    "recordId": "C214",
+    "sourceId": "X6aa78b6c000000001203d5b5",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 164,
+    "excelRow": 165,
+    "name": "建德下涯之江村山风农场",
+    "recordId": "C157",
+    "sourceId": "X6a3155390000000007012706",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 165,
+    "excelRow": 166,
+    "name": "溪边营地",
+    "recordId": null,
+    "sourceId": "X6aa0e97a000000001202516d",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "溪边营地名称泛化，身份待核"
+  },
+  {
+    "rowNumber": 166,
+    "excelRow": 167,
+    "name": "杭州采秋打板栗摘柿地",
+    "recordId": null,
+    "sourceId": "X6aa78e57000000000d025d45",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "采摘合集，地点不明"
+  },
+  {
+    "rowNumber": 167,
+    "excelRow": 168,
+    "name": "市区宝藏营地",
+    "recordId": null,
+    "sourceId": "X6aa7acdb0000000012001c09",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 168,
+    "excelRow": 169,
+    "name": "龙尾巴山塘水库",
+    "recordId": "C215",
+    "sourceId": "X69bcd7130000000021010f1d",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 169,
+    "excelRow": 170,
+    "name": "舒服露营地",
+    "recordId": null,
+    "sourceId": "X6aa151f300000000260391ec",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 170,
+    "excelRow": 171,
+    "name": "临安小众临水石滩",
+    "recordId": null,
+    "sourceId": "X69e37bfc00000000230057eb",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 171,
+    "excelRow": 172,
+    "name": "富阳露营地",
+    "recordId": null,
+    "sourceId": "X68de292c0000000003036560",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "只定位到富阳"
+  },
+  {
+    "rowNumber": 172,
+    "excelRow": 173,
+    "name": "湘湖",
+    "recordId": "C104",
+    "sourceId": "X6aa39f1f000000000d02594c",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 173,
+    "excelRow": 174,
+    "name": "萧山免费滑草露营地",
+    "recordId": null,
+    "sourceId": "X69edaca1000000003603371d",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 174,
+    "excelRow": 175,
+    "name": "杭州车床露营一线风景地",
+    "recordId": null,
+    "sourceId": "X6aa15dad0000000026030f1a",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 175,
+    "excelRow": 176,
+    "name": "二刷营地",
+    "recordId": null,
+    "sourceId": "X6aa55d7f000000002603ae76",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 176,
+    "excelRow": 177,
+    "name": "曲院风荷西湖边露营",
+    "recordId": "C172",
+    "sourceId": "X69f1d2e80000000037037150",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 177,
+    "excelRow": 178,
+    "name": "杭州免费过夜露营地",
+    "recordId": null,
+    "sourceId": "X69d11744000000001b023923",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 178,
+    "excelRow": 179,
+    "name": "临安绝美溯溪露营地",
+    "recordId": null,
+    "sourceId": "X6a991f23000000002601ae56",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 179,
+    "excelRow": 180,
+    "name": "杭州免费过夜露营地（配��完善）",
+    "recordId": null,
+    "sourceId": "X6a01ff05000000003601f9d1",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "名称乱码且位置不明"
+  },
+  {
+    "rowNumber": 180,
+    "excelRow": 181,
+    "name": "杭州新晋露营地",
+    "recordId": null,
+    "sourceId": "X6a0add82000000000702135e",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 181,
+    "excelRow": 182,
+    "name": "钱塘江边宝藏露营地",
+    "recordId": null,
+    "sourceId": "X69f5320d0000000036003936",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 182,
+    "excelRow": 183,
+    "name": "径山新开帐篷烧烤营地",
+    "recordId": null,
+    "sourceId": "X6aa03cb200000000260339fa",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少经营主体名称"
+  },
+  {
+    "rowNumber": 183,
+    "excelRow": 184,
+    "name": "太子尖高山露营地",
+    "recordId": null,
+    "sourceId": "X693e8831000000001d03e4f7",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "太子尖高山营地与太子尖星空营地是否同一经营方待核"
+  },
+  {
+    "rowNumber": 184,
+    "excelRow": 185,
+    "name": "杭钢公园隔壁免费公园",
+    "recordId": null,
+    "sourceId": "X6a9f7dbe000000000d026191",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "公园名称不明，保留同笔记补充信息"
+  },
+  {
+    "rowNumber": 185,
+    "excelRow": 186,
+    "name": "西湖孤山公园（鲁迅铜像前草坪）",
+    "recordId": "C083",
+    "sourceId": "X6a032ece000000003502db7c",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 186,
+    "excelRow": 187,
+    "name": "听潮音乐营地（萧山溯溪露营地）",
+    "recordId": "C198",
+    "sourceId": "X6a0fec5e000000000702f633",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 187,
+    "excelRow": 188,
+    "name": "临安免费露营钓鱼营地",
+    "recordId": null,
+    "sourceId": "X6a40cd0300000000170296cd",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少可定位名称"
+  },
+  {
+    "rowNumber": 188,
+    "excelRow": 189,
+    "name": "大明山牵牛岗",
+    "recordId": "C150",
+    "sourceId": "X6a4544580000000008032792",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 189,
+    "excelRow": 190,
+    "name": "建德李家镇塘底水库（金鱼秘境）",
+    "recordId": "C208",
+    "sourceId": "X69b78d440000000023005860",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 190,
+    "excelRow": 191,
+    "name": "建德之江村（车中泊点）",
+    "recordId": "C216",
+    "sourceId": "X6a1d1a39000000003700c044",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 191,
+    "excelRow": 192,
+    "name": "建德夏日冬泳基地",
+    "recordId": "C217",
+    "sourceId": "X6a1d1a39000000003700c044",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 192,
+    "excelRow": 193,
+    "name": "临安大鱼线石门村猷戏谷",
+    "recordId": "C209",
+    "sourceId": "X6a3fee5c0000000015024f97",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 193,
+    "excelRow": 194,
+    "name": "桐庐丁家岭",
+    "recordId": "C210",
+    "sourceId": "X6a8d3b8c000000001002b54d",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 194,
+    "excelRow": 195,
+    "name": "径山双溪绿道",
+    "recordId": "C211",
+    "sourceId": "X6a8935b50000000035027411",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 195,
+    "excelRow": 196,
+    "name": "钱塘区青年林（水杉林）",
+    "recordId": "C010",
+    "sourceId": "X6a0164ae000000003502689c",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 196,
+    "excelRow": 197,
+    "name": "湘湖沐心岛房车露营",
+    "recordId": "C194",
+    "sourceId": "X6aa0b669000000002901582c",
+    "newRecord": true,
+    "status": "新增地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 197,
+    "excelRow": 198,
+    "name": "杭州SUV直达露营玩水地",
+    "recordId": null,
+    "sourceId": "X6a8ac532000000000b026a65",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "具体地点仅在图片中，尚未核对"
+  },
+  {
+    "rowNumber": 198,
+    "excelRow": 199,
+    "name": "有风营地（水库边）",
+    "recordId": "C143",
+    "sourceId": "X68db614c000000000301b5a7",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  },
+  {
+    "rowNumber": 199,
+    "excelRow": 200,
+    "name": "余杭半山竹林露营地（团建）",
+    "recordId": null,
+    "sourceId": "X6970255c000000000b01208e",
+    "newRecord": false,
+    "status": "待核实",
+    "reason": "缺少经营主体名称"
+  },
+  {
+    "rowNumber": 200,
+    "excelRow": 201,
+    "name": "南湖公园（余杭）",
+    "recordId": "C003",
+    "sourceId": "G01",
+    "newRecord": false,
+    "status": "合并已有地点",
+    "reason": "名称及地址人工比对；保留原始表格行号，不据同名自动合并"
+  }
+]
