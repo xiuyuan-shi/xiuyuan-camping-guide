@@ -78,6 +78,8 @@ def polarity(value):
 
 def run():
     data = json.loads((ROOT/'data.json').read_text())
+    review_path = ROOT/'image-review.json'
+    image_reviews = json.loads(review_path.read_text())['images'] if review_path.exists() else {}
     rows = json.loads((FOLDER/'source-rows.json').read_text())
     assert len(rows) == 200 and {r['序号'] for r in rows} == set(range(1,201))
     records = {r['id']:r for r in data['records']}
@@ -145,6 +147,9 @@ def run():
             referencedByNotes=len(image_notes[u]),
             excelRows=[row['excelRow'] for row in rs if u in urls(row)])
             for u in dict.fromkeys(u for row in rs for u in urls(row))]
+        for ref in src['imageReferences']:
+            ref['review'] = image_reviews.get(ref['url'].replace('http://','https://',1),
+                dict(status='pending',reason='未关联到已入库地点，不进入展示'))
         audits.append(dict(sourceId=sid,url=first['笔记链接'],rowNumbers=snap['rowNumbers'],
             images=list(dict.fromkeys(u for row in rs for u in urls(row))),
             imageStatus='仅保留来源线索；地点归属、拍摄日期及转载许可未核实，不进入实景相册',
