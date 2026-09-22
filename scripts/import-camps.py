@@ -150,6 +150,9 @@ def run():
         for ref in src['imageReferences']:
             ref['review'] = image_reviews.get(ref['url'].replace('http://','https://',1),
                 dict(status='pending',reason='未关联到已入库地点，不进入展示'))
+        # Serve only approved references, including to older cached clients.
+        # Original URLs and exclusions remain in source-rows and image-review.json.
+        src['imageReferences'] = [ref for ref in src['imageReferences'] if ref['review']['status']=='keep']
         audits.append(dict(sourceId=sid,url=first['笔记链接'],rowNumbers=snap['rowNumbers'],
             images=list(dict.fromkeys(u for row in rs for u in urls(row))),
             imageStatus='仅保留来源线索；地点归属、拍摄日期及转载许可未核实，不进入实景相册',
