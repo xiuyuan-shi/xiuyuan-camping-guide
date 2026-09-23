@@ -9,6 +9,26 @@
  ];
  const days=(date,now)=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(date||''))return null;const d=new Date(date+'T00:00:00Z');if(!Number.isFinite(+d)||d.toISOString().slice(0,10)!==date)return null;return (+new Date(now+'T00:00:00Z')-d)/86400000;};
  const fresh=(date,now,max)=>{const n=days(date,now);return n!==null&&n>=0&&n<=max;};
+ // A provisional, explicitly descriptive index for the existing sheet. It
+ // summarizes reported amenities and variety; it never claims verified quality.
+ const proxyDimensions=[
+  {key:'scenery',name:'已记录的景观类型',patterns:[/湖|水库|江景|溪|河|海|水边|瀑布/,/森林|树林|竹林|树荫|林间/,/草坪|草地|草甸|绿地/,/山景|山谷|峡谷|山顶/,/花海|花田|赏花|樱花|桃花/,/徒步|步道|绿道/]},
+  {key:'activities',name:'已记录的活动类型',patterns:[/徒步|骑行/,/桨板|皮划艇|划船|玩水|溯溪/,/烧烤|卡式炉/,/钓鱼|路亚/,/拍照|日落|星空/,/亲子活动|儿童游乐/]}
+ ];
+ const roundHalf=x=>Math.round(x*2)/2;
+ function provisional(record){
+  if(record.conflict||record.recommendationAudit?.unresolvedConflict===true)return null;
+  const tags=(record.tags||[]).join(' '),parts=[];
+  for(const d of proxyDimensions){const matches=d.patterns.filter(p=>p.test(tags));if(matches.length)parts.push({name:d.name,value:Math.min(5,2+matches.length*.6),basis:`${matches.length} 类`});}
+  const facts=record.primaryFacts||{},known=['toilet','parking'].filter(k=>['yes','no'].includes(facts[k]?.status));
+  if(known.length)parts.push({name:'清单所报基础设施',value:1+4*known.filter(k=>facts[k].status==='yes').length/known.length,basis:known.map(k=>(k==='toilet'?'厕所':'停车')+'：'+(facts[k].status==='yes'?'有':'无')).join('、')});
+  if((record.tags||[]).some(t=>/适合亲子|适合老人|适合情侣/.test(t)))parts.push({name:'人群适配线索',value:4,basis:(record.tags||[]).filter(t=>/适合亲子|适合老人|适合情侣/.test(t)).join('、')});
+  const route=record.routeSnapshot;
+  if(route?.duration>0&&/营位入口|经营营地入口/.test(record.location?.precision||''))parts.push({name:'武林门出发车程',value:route.duration<=1800?5:route.duration<=3600?4:route.duration<=5400?3:route.duration<=7200?2:1,basis:`约${Math.round(route.duration/600)/10}小时`});
+  if(parts.length<3)return null;
+  const score=parts.reduce((s,p)=>s+p.value,0)/parts.length;
+  return {status:'provisional',score,stars:roundHalf(score),parts,coverage:parts.length,totalProxy:5};
+ }
  function evaluate(record,sources={},now=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'})){
   const a=record.recommendationAudit||{},reasons=[],hasSource=id=>!!sources[id]?.url;
   if(a.locationConfirmed!==true||!a.locationSourceIds?.length||!a.locationSourceIds.every(hasSource))reasons.push('具体营位或可搭帐篷区域尚未核实');
@@ -22,11 +42,11 @@
   const values=dimensions.map(d=>d.items.map(([key])=>{const c=evidence[key];if(!c||![0,1].includes(c.value)||!c.sourceIds?.length||!c.sourceIds.every(hasSource)||!fresh(c.observedOn,now,90)||!c.measurement)return null;if(['clean','quiet'].includes(key)&&new Set((c.observationDates||[]).filter(x=>fresh(x,now,90))).size<2)return null;available++;return c.value;}));
   if(available!==20)reasons.push(`20项评分条件中，${20-available}项缺少可追溯的近期观察`);
   if(a.scenario!=='self-equipped-day')reasons.push('尚未完成自带装备日营场景评估');
-  if(reasons.length)return {status:'unrated',score:null,stars:null,reasons,available,total:20,dimensions};
+  if(reasons.length){const proxy=provisional(record);return proxy?{...proxy,reasons,available,total:20,dimensions}:{status:'unrated',score:null,stars:null,reasons,available,total:20,dimensions};}
   const subscores=values.map(v=>v.reduce((s,n)=>s+n,0)),score=subscores.reduce((s,n)=>s+n,0)/4;
   // Exhaustive sensitivity check: 15–35% in five-point steps, weights sum to 100%.
   const variants=[];for(let a=15;a<=35;a+=5)for(let b=15;b<=35;b+=5)for(let c=15;c<=35;c+=5){let d=100-a-b-c;if(d>=15&&d<=35)variants.push(subscores.reduce((s,n,i)=>s+n*[a,b,c,d][i]/100,0));}
   return {status:'rated',score,stars:Math.round(score*2)/2,range:[Math.min(...variants),Math.max(...variants)],subscores,dimensions,available,total:20,reasons:[]};
  }
- const api={evaluate,dimensions};root.CampRatings=api;if(typeof module!=='undefined')module.exports=api;
+ const api={evaluate,dimensions,proxyDimensions};root.CampRatings=api;if(typeof module!=='undefined')module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);

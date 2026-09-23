@@ -15,5 +15,6 @@
 /* Keep the approved card layout; expose methodology through the rating itself. */
 .rating-button{border:0;background:transparent;padding:0;cursor:pointer;font-family:inherit;font-weight:650;text-align:left;color:#ce670e;display:inline-flex;align-items:center;gap:5px}
 .rating-button.unrated .icon{opacity:.75}.rating-stars{color:#ce670e;font-size:24px;letter-spacing:3px}
+.star-glyph{font-size:15px;letter-spacing:-1px;white-space:nowrap;color:#ce670e}.rating-button{gap:6px}.rating-button.unrated .star-glyph{color:#b7a69a}
 .route-origin{font-size:11px;color:#737a77;margin:-4px 0 14px}.map-mode .route-origin{display:none}
 #utility-content details{border-top:1px solid #e2e7e4;padding:12px 0}#utility-content li{margin:7px 0}#utility-content summary{cursor:pointer}

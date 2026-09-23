@@ -1,1 +1,1269 @@
-{"updatedAt":"2026-09-13T21:59:02.061905+08:00","coordinateLicense":"OpenStreetMap数据 © OSM contributors，ODbL；保留独立数据层和来源链接。","origin":{"name":"杭州武林门地铁站","latitude":30.2721085,"longitude":120.1506043,"sourceUrl":"https://www.openstreetmap.org/node/9494588668","precision":"车站参考点，驾车按附近可通行道路匹配","coordinateSystem":"WGS84"},"providers":{"weather":"https://api.open-meteo.com/v1/forecast","routing":"https://router.project-osrm.org/route/v1/driving/","basemap":"basemap.geojson?v=5"},"records":{"C014":{"name":"铜鉴湖公园","location":{"latitude":30.12706915,"longitude":120.05080570000001,"crs":"WGS84","precision":"公园范围中心，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/way/987241596","checkedAt":"2026-09-13T21:59:02.061905+08:00","osmName":"铜鉴湖"},"images":[],"routeSnapshot":{"legs":[{"steps":[],"weight":1365.8,"summary":"","duration":1365.8,"distance":25339.1}],"weight_name":"routability","weight":1365.8,"duration":1365.8,"distance":25339.1,"waypoints":[{"hint":"PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA","location":[120.150549,30.272098],"name":"环城西路","distance":5.430729991},{"hint":"b59Hkv___38hAAAA5QAAADABAAAAAAAAJLsTQsG4WUPKBalDAAAAACEAAADlAAAAMAEAAAAAAAAaJwEACtMnB5isywF21CcH3bPLAQYAfxEAAAAA","location":[120.050442,30.125208],"name":"灵山线","distance":209.2611092}],"queriedAt":"2026-09-23T20:52:07.157762+08:00","sourceUrl":"https://project-osrm.org/","requestUrl":"https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.05080570000001,30.12706915?overview=full&geometries=geojson&steps=false","origin":"杭州武林门地铁站","originLocation":{"name":"杭州武林门地铁站","latitude":30.2721085,"longitude":120.1506043,"sourceUrl":"https://www.openstreetmap.org/node/9494588668","precision":"车站参考点，驾车按附近可通行道路匹配","coordinateSystem":"WGS84"},"destinationLocation":{"latitude":30.12706915,"longitude":120.05080570000001,"crs":"WGS84","precision":"公园范围中心，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/way/987241596","checkedAt":"2026-09-13T21:59:02.061905+08:00","osmName":"铜鉴湖"},"geometryUrl":"routes/C014.json?v=wulinmen-20260923","isSnapshot":true}},"C012":{"name":"城北体育公园","location":{"latitude":30.315334149999998,"longitude":120.15728375,"crs":"WGS84","precision":"公园范围中心，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/way/422017166","checkedAt":"2026-09-13T21:59:02.061905+08:00","osmName":"城北体育公园"},"images":[],"routeSnapshot":{"legs":[{"steps":[],"weight":661.4,"summary":"","duration":661.4,"distance":8918.9}],"weight_name":"routability","weight":661.4,"duration":661.4,"distance":8918.9,"waypoints":[{"hint":"PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA","location":[120.150549,30.272098],"name":"环城西路","distance":5.430729991},{"hint":"Y7nnibK754kEAAAAQgAAAMoAAACJAQAAAEiWP6dNkkHcx2BCbOHaQgQAAABCAAAAygAAAIkBAAAaJwEAVnYpB8KRzgFkdCkHRpPOAQoArwIAAAAA","location":[120.157782,30.314946],"name":"","distance":64.37259253}],"queriedAt":"2026-09-23T20:52:09.583848+08:00","sourceUrl":"https://project-osrm.org/","requestUrl":"https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.15728375,30.315334149999998?overview=full&geometries=geojson&steps=false","origin":"杭州武林门地铁站","originLocation":{"name":"杭州武林门地铁站","latitude":30.2721085,"longitude":120.1506043,"sourceUrl":"https://www.openstreetmap.org/node/9494588668","precision":"车站参考点，驾车按附近可通行道路匹配","coordinateSystem":"WGS84"},"destinationLocation":{"latitude":30.315334149999998,"longitude":120.15728375,"crs":"WGS84","precision":"公园范围中心，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/way/422017166","checkedAt":"2026-09-13T21:59:02.061905+08:00","osmName":"城北体育公园"},"geometryUrl":"routes/C012.json?v=wulinmen-20260923","isSnapshot":true}},"C009":{"name":"西溪湿地","location":{"latitude":30.26629775,"longitude":120.0626207,"crs":"WGS84","precision":"公园范围中心，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/way/783223294","checkedAt":"2026-09-13T21:59:02.061905+08:00","osmName":"西溪国家湿地公园"},"images":[{"url":"assets/photos/c009-1.jpg","originalUrl":"https://upload.wikimedia.org/wikipedia/commons/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Xixi_Wetland_Park,_Hangzhou,_China.jpg","permission":"allowed","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0","author":"Yoshi Canopus","takenAt":"2012-04-25","label":"西溪湿地实景，非具体营位","description":"Xixi Wetland Park, Hangzhou, China","checkedAt":"2026-09-13T21:59:02.061905+08:00","remoteUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg/960px-Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg","sha256":"6e9640314819c3b152ec8025b3f3bd64e3efa2916e17384fa1344bdd47aa2fa6","hosting":"same-origin licensed copy"},{"url":"assets/photos/c009-2.jpg","originalUrl":"https://upload.wikimedia.org/wikipedia/commons/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg","permission":"allowed","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0","author":"Tyj1982338","takenAt":"2012-06","label":"西溪湿地实景，非具体营位","description":"Gaozhuang of Xixi National Wetland Park","checkedAt":"2026-09-13T21:59:02.061905+08:00","remoteUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg/960px-%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg","sha256":"8b5a8d6fc7c5f79e62314459f94f305e453ddf411b76ecc3c93eec88986de53e","hosting":"same-origin licensed copy"}],"routeSnapshot":{"legs":[{"steps":[],"weight":568.5,"summary":"","duration":568.5,"distance":9566.2}],"weight_name":"routability","weight":568.5,"duration":568.5,"distance":9566.2,"waypoints":[{"hint":"PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA","location":[120.150549,30.272098],"name":"环城西路","distance":5.430729991},{"hint":"Exa1iv___39XAAAAZgAAAKsAAAAPAQAAV-gdQ8CS0EFt8ptDcEz0Q1cAAABmAAAAqwAAAA8BAAAaJwEAaxAoBzu-zQGdAigHutPNAQoAHw8AAAAA","location":[120.066155,30.260795],"name":"天目山路","distance":698.4146062}],"queriedAt":"2026-09-23T20:52:11.999682+08:00","sourceUrl":"https://project-osrm.org/","requestUrl":"https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.0626207,30.26629775?overview=full&geometries=geojson&steps=false","origin":"杭州武林门地铁站","originLocation":{"name":"杭州武林门地铁站","latitude":30.2721085,"longitude":120.1506043,"sourceUrl":"https://www.openstreetmap.org/node/9494588668","precision":"车站参考点，驾车按附近可通行道路匹配","coordinateSystem":"WGS84"},"destinationLocation":{"latitude":30.26629775,"longitude":120.0626207,"crs":"WGS84","precision":"公园范围中心，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/way/783223294","checkedAt":"2026-09-13T21:59:02.061905+08:00","osmName":"西溪国家湿地公园"},"geometryUrl":"routes/C009.json?v=wulinmen-20260923","isSnapshot":true}},"C104":{"name":"湘湖","location":{"latitude":30.138983333333332,"longitude":120.21096666666666,"crs":"WGS84","precision":"湘湖区域参考点，非营位或入口","source":"Wikimedia Commons / Wikidata","sourceUrl":"https://commons.wikimedia.org/wiki/Category:Xiang_Lake","checkedAt":"2026-09-13T21:59:02.061905+08:00"},"images":[{"url":"assets/photos/c104-1.jpg","originalUrl":"https://upload.wikimedia.org/wikipedia/commons/0/08/Xiang_Hu.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Xiang_Hu.jpg","permission":"allowed","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0","author":"Yumeto","takenAt":"2023-09-07 10:29:12","label":"湘湖实景，非具体营位","description":"Xiang Hu (Lake)","checkedAt":"2026-09-13T21:59:02.061905+08:00","remoteUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Xiang_Hu.jpg/960px-Xiang_Hu.jpg","sha256":"001efe9e9b063e449070eaef51135845d65bfd64fd0d3a05112a3a3d424a82c9","hosting":"same-origin licensed copy"},{"url":"assets/photos/c104-2.jpg","originalUrl":"https://upload.wikimedia.org/wikipedia/commons/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_(69954).jpg","permission":"allowed","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0","author":"Quaff5353","takenAt":"2026-05-02","label":"湘湖实景，非具体营位","description":"杭州湘湖的景观","checkedAt":"2026-09-13T21:59:02.061905+08:00","dateNote":"日期来自照片Exif","remoteUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg/960px-%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg","sha256":"ca4d5ecb4dc0db9c4a41b1fffe749e3c56005ae99dec2e02a043310cffc228b0","hosting":"same-origin licensed copy"},{"url":"assets/photos/c104-3.jpg","originalUrl":"https://upload.wikimedia.org/wikipedia/commons/a/a6/Xiang_Lake_03.jpg","sourceUrl":"https://commons.wikimedia.org/wiki/File:Xiang_Lake_03.jpg","permission":"allowed","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0","author":"Huandy618","takenAt":"2014-12-18 15:48:37","label":"湘湖实景，非具体营位","description":"Xiang Lake","checkedAt":"2026-09-13T21:59:02.061905+08:00","remoteUrl":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Xiang_Lake_03.jpg/960px-Xiang_Lake_03.jpg","sha256":"15b039b378b764209b2291d24629311f83428e38247475f87c42b053bb7296d7","hosting":"same-origin licensed copy"}],"routeSnapshot":{"legs":[{"steps":[],"weight":993.9,"summary":"","duration":993.9,"distance":17673.4}],"weight_name":"routability","weight":993.9,"duration":993.9,"distance":17673.4,"waypoints":[{"hint":"PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA","location":[120.150549,30.272098],"name":"环城西路","distance":5.430729991},{"hint":"x2VmkL_jWZIIAAAABgAAAP4AAADOAAAA3WURQV3tz0Btw41DvFtkQwgAAAAGAAAA_gAAAM4AAAAaJwEAvUIqB5rvywEXRioHZ-LLARAA3wQAAAAA","location":[120.210109,30.142362],"name":"越王路","distance":383.5942136}],"queriedAt":"2026-09-23T20:52:14.432956+08:00","sourceUrl":"https://project-osrm.org/","requestUrl":"https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.21096666666666,30.138983333333332?overview=full&geometries=geojson&steps=false","origin":"杭州武林门地铁站","originLocation":{"name":"杭州武林门地铁站","latitude":30.2721085,"longitude":120.1506043,"sourceUrl":"https://www.openstreetmap.org/node/9494588668","precision":"车站参考点，驾车按附近可通行道路匹配","coordinateSystem":"WGS84"},"destinationLocation":{"latitude":30.138983333333332,"longitude":120.21096666666666,"crs":"WGS84","precision":"湘湖区域参考点，非营位或入口","source":"Wikimedia Commons / Wikidata","sourceUrl":"https://commons.wikimedia.org/wiki/Category:Xiang_Lake","checkedAt":"2026-09-13T21:59:02.061905+08:00"},"geometryUrl":"routes/C104.json?v=wulinmen-20260923","isSnapshot":true}},"C085":{"name":"柳浪闻莺","location":{"latitude":30.2419031,"longitude":120.151076,"crs":"WGS84","precision":"景点参考点，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/node/1468743758","checkedAt":"2026-09-13T21:59:02.061905+08:00"},"images":[],"routeSnapshot":{"legs":[{"steps":[],"weight":284.1,"summary":"","duration":284.1,"distance":4082.6}],"weight_name":"routability","weight":284.1,"duration":284.1,"distance":4082.6,"waypoints":[{"hint":"PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA","location":[120.150549,30.272098],"name":"环城西路","distance":5.430729991},{"hint":"hHAQgKCW1ZQUAAAAFwAAAHUBAABfAAAAvZxlQfSadkGShoFDgjOEQhQAAAAXAAAAdQEAAF8AAAAaJwEAVFwpB5dvzQEkXCkHb3TNARQAzxAAAAAA","location":[120.151124,30.240663],"name":"清波桥河下","distance":137.539386}],"queriedAt":"2026-09-23T20:52:16.758559+08:00","sourceUrl":"https://project-osrm.org/","requestUrl":"https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.151076,30.2419031?overview=full&geometries=geojson&steps=false","origin":"杭州武林门地铁站","originLocation":{"name":"杭州武林门地铁站","latitude":30.2721085,"longitude":120.1506043,"sourceUrl":"https://www.openstreetmap.org/node/9494588668","precision":"车站参考点，驾车按附近可通行道路匹配","coordinateSystem":"WGS84"},"destinationLocation":{"latitude":30.2419031,"longitude":120.151076,"crs":"WGS84","precision":"景点参考点，非营位或入口","source":"OpenStreetMap","sourceUrl":"https://www.openstreetmap.org/node/1468743758","checkedAt":"2026-09-13T21:59:02.061905+08:00"},"geometryUrl":"routes/C085.json?v=wulinmen-20260923","isSnapshot":true}}}}
+{
+  "updatedAt": "2026-09-23T21:17:40.333618+08:00",
+  "coordinateLicense": "OpenStreetMap数据 © OSM contributors，ODbL；保留独立数据层和来源链接。",
+  "origin": {
+    "name": "杭州武林门地铁站",
+    "latitude": 30.2721085,
+    "longitude": 120.1506043,
+    "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+    "precision": "车站参考点，驾车按附近可通行道路匹配",
+    "coordinateSystem": "WGS84"
+  },
+  "providers": {
+    "weather": "https://api.open-meteo.com/v1/forecast",
+    "routing": "https://router.project-osrm.org/route/v1/driving/",
+    "basemap": "basemap.geojson?v=5"
+  },
+  "records": {
+    "C014": {
+      "name": "铜鉴湖公园",
+      "location": {
+        "latitude": 30.12706915,
+        "longitude": 120.05080570000001,
+        "crs": "WGS84",
+        "precision": "公园范围中心，非营位或入口",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/987241596",
+        "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+        "osmName": "铜鉴湖"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "legs": [
+          {
+            "steps": [],
+            "weight": 1365.8,
+            "summary": "",
+            "duration": 1365.8,
+            "distance": 25339.1
+          }
+        ],
+        "weight_name": "routability",
+        "weight": 1365.8,
+        "duration": 1365.8,
+        "distance": 25339.1,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "b59Hkv___38hAAAA5QAAADABAAAAAAAAJLsTQsG4WUPKBalDAAAAACEAAADlAAAAMAEAAAAAAAAaJwEACtMnB5isywF21CcH3bPLAQYAfxEAAAAA",
+            "location": [
+              120.050442,
+              30.125208
+            ],
+            "name": "灵山线",
+            "distance": 209.2611092
+          }
+        ],
+        "queriedAt": "2026-09-23T20:52:07.157762+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.05080570000001,30.12706915?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.12706915,
+          "longitude": 120.05080570000001,
+          "crs": "WGS84",
+          "precision": "公园范围中心，非营位或入口",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/987241596",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "osmName": "铜鉴湖"
+        },
+        "geometryUrl": "routes/C014.json?v=wulinmen-20260923",
+        "isSnapshot": true
+      }
+    },
+    "C012": {
+      "name": "城北体育公园",
+      "location": {
+        "latitude": 30.315334149999998,
+        "longitude": 120.15728375,
+        "crs": "WGS84",
+        "precision": "公园范围中心，非营位或入口",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/422017166",
+        "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+        "osmName": "城北体育公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "legs": [
+          {
+            "steps": [],
+            "weight": 661.4,
+            "summary": "",
+            "duration": 661.4,
+            "distance": 8918.9
+          }
+        ],
+        "weight_name": "routability",
+        "weight": 661.4,
+        "duration": 661.4,
+        "distance": 8918.9,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "Y7nnibK754kEAAAAQgAAAMoAAACJAQAAAEiWP6dNkkHcx2BCbOHaQgQAAABCAAAAygAAAIkBAAAaJwEAVnYpB8KRzgFkdCkHRpPOAQoArwIAAAAA",
+            "location": [
+              120.157782,
+              30.314946
+            ],
+            "name": "",
+            "distance": 64.37259253
+          }
+        ],
+        "queriedAt": "2026-09-23T20:52:09.583848+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.15728375,30.315334149999998?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.315334149999998,
+          "longitude": 120.15728375,
+          "crs": "WGS84",
+          "precision": "公园范围中心，非营位或入口",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/422017166",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "osmName": "城北体育公园"
+        },
+        "geometryUrl": "routes/C012.json?v=wulinmen-20260923",
+        "isSnapshot": true
+      }
+    },
+    "C009": {
+      "name": "西溪湿地",
+      "location": {
+        "latitude": 30.26629775,
+        "longitude": 120.0626207,
+        "crs": "WGS84",
+        "precision": "公园范围中心，非营位或入口",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/783223294",
+        "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+        "osmName": "西溪国家湿地公园"
+      },
+      "images": [
+        {
+          "url": "assets/photos/c009-1.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xixi_Wetland_Park,_Hangzhou,_China.jpg",
+          "permission": "allowed",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Yoshi Canopus",
+          "takenAt": "2012-04-25",
+          "label": "西溪湿地实景，非具体营位",
+          "description": "Xixi Wetland Park, Hangzhou, China",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg/960px-Xixi_Wetland_Park%2C_Hangzhou%2C_China.jpg",
+          "sha256": "6e9640314819c3b152ec8025b3f3bd64e3efa2916e17384fa1344bdd47aa2fa6",
+          "hosting": "same-origin licensed copy"
+        },
+        {
+          "url": "assets/photos/c009-2.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
+          "permission": "allowed",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Tyj1982338",
+          "takenAt": "2012-06",
+          "label": "西溪湿地实景，非具体营位",
+          "description": "Gaozhuang of Xixi National Wetland Park",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg/960px-%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E9%AB%98%E5%BA%84.jpg",
+          "sha256": "8b5a8d6fc7c5f79e62314459f94f305e453ddf411b76ecc3c93eec88986de53e",
+          "hosting": "same-origin licensed copy"
+        }
+      ],
+      "routeSnapshot": {
+        "legs": [
+          {
+            "steps": [],
+            "weight": 568.5,
+            "summary": "",
+            "duration": 568.5,
+            "distance": 9566.2
+          }
+        ],
+        "weight_name": "routability",
+        "weight": 568.5,
+        "duration": 568.5,
+        "distance": 9566.2,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "Exa1iv___39XAAAAZgAAAKsAAAAPAQAAV-gdQ8CS0EFt8ptDcEz0Q1cAAABmAAAAqwAAAA8BAAAaJwEAaxAoBzu-zQGdAigHutPNAQoAHw8AAAAA",
+            "location": [
+              120.066155,
+              30.260795
+            ],
+            "name": "天目山路",
+            "distance": 698.4146062
+          }
+        ],
+        "queriedAt": "2026-09-23T20:52:11.999682+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.0626207,30.26629775?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.26629775,
+          "longitude": 120.0626207,
+          "crs": "WGS84",
+          "precision": "公园范围中心，非营位或入口",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/783223294",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "osmName": "西溪国家湿地公园"
+        },
+        "geometryUrl": "routes/C009.json?v=wulinmen-20260923",
+        "isSnapshot": true
+      }
+    },
+    "C104": {
+      "name": "湘湖",
+      "location": {
+        "latitude": 30.138983333333332,
+        "longitude": 120.21096666666666,
+        "crs": "WGS84",
+        "precision": "湘湖区域参考点，非营位或入口",
+        "source": "Wikimedia Commons / Wikidata",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Xiang_Lake",
+        "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+      },
+      "images": [
+        {
+          "url": "assets/photos/c104-1.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Xiang_Hu.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiang_Hu.jpg",
+          "permission": "allowed",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "Yumeto",
+          "takenAt": "2023-09-07 10:29:12",
+          "label": "湘湖实景，非具体营位",
+          "description": "Xiang Hu (Lake)",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Xiang_Hu.jpg/960px-Xiang_Hu.jpg",
+          "sha256": "001efe9e9b063e449070eaef51135845d65bfd64fd0d3a05112a3a3d424a82c9",
+          "hosting": "same-origin licensed copy"
+        },
+        {
+          "url": "assets/photos/c104-2.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_(69954).jpg",
+          "permission": "allowed",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "author": "Quaff5353",
+          "takenAt": "2026-05-02",
+          "label": "湘湖实景，非具体营位",
+          "description": "杭州湘湖的景观",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "dateNote": "日期来自照片Exif",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg/960px-%E6%9D%AD%E5%B7%9E%E6%B9%98%E6%B9%96%E7%9A%84%E6%99%AF%E8%A7%82_%2869954%29.jpg",
+          "sha256": "ca4d5ecb4dc0db9c4a41b1fffe749e3c56005ae99dec2e02a043310cffc228b0",
+          "hosting": "same-origin licensed copy"
+        },
+        {
+          "url": "assets/photos/c104-3.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Xiang_Lake_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiang_Lake_03.jpg",
+          "permission": "allowed",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "author": "Huandy618",
+          "takenAt": "2014-12-18 15:48:37",
+          "label": "湘湖实景，非具体营位",
+          "description": "Xiang Lake",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00",
+          "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Xiang_Lake_03.jpg/960px-Xiang_Lake_03.jpg",
+          "sha256": "15b039b378b764209b2291d24629311f83428e38247475f87c42b053bb7296d7",
+          "hosting": "same-origin licensed copy"
+        }
+      ],
+      "routeSnapshot": {
+        "legs": [
+          {
+            "steps": [],
+            "weight": 993.9,
+            "summary": "",
+            "duration": 993.9,
+            "distance": 17673.4
+          }
+        ],
+        "weight_name": "routability",
+        "weight": 993.9,
+        "duration": 993.9,
+        "distance": 17673.4,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "x2VmkL_jWZIIAAAABgAAAP4AAADOAAAA3WURQV3tz0Btw41DvFtkQwgAAAAGAAAA_gAAAM4AAAAaJwEAvUIqB5rvywEXRioHZ-LLARAA3wQAAAAA",
+            "location": [
+              120.210109,
+              30.142362
+            ],
+            "name": "越王路",
+            "distance": 383.5942136
+          }
+        ],
+        "queriedAt": "2026-09-23T20:52:14.432956+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.21096666666666,30.138983333333332?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.138983333333332,
+          "longitude": 120.21096666666666,
+          "crs": "WGS84",
+          "precision": "湘湖区域参考点，非营位或入口",
+          "source": "Wikimedia Commons / Wikidata",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Xiang_Lake",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+        },
+        "geometryUrl": "routes/C104.json?v=wulinmen-20260923",
+        "isSnapshot": true
+      }
+    },
+    "C085": {
+      "name": "柳浪闻莺",
+      "location": {
+        "latitude": 30.2419031,
+        "longitude": 120.151076,
+        "crs": "WGS84",
+        "precision": "景点参考点，非营位或入口",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/1468743758",
+        "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "legs": [
+          {
+            "steps": [],
+            "weight": 284.1,
+            "summary": "",
+            "duration": 284.1,
+            "distance": 4082.6
+          }
+        ],
+        "weight_name": "routability",
+        "weight": 284.1,
+        "duration": 284.1,
+        "distance": 4082.6,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "hHAQgKCW1ZQUAAAAFwAAAHUBAABfAAAAvZxlQfSadkGShoFDgjOEQhQAAAAXAAAAdQEAAF8AAAAaJwEAVFwpB5dvzQEkXCkHb3TNARQAzxAAAAAA",
+            "location": [
+              120.151124,
+              30.240663
+            ],
+            "name": "清波桥河下",
+            "distance": 137.539386
+          }
+        ],
+        "queriedAt": "2026-09-23T20:52:16.758559+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.151076,30.2419031?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2419031,
+          "longitude": 120.151076,
+          "crs": "WGS84",
+          "precision": "景点参考点，非营位或入口",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/node/1468743758",
+          "checkedAt": "2026-09-13T21:59:02.061905+08:00"
+        },
+        "geometryUrl": "routes/C085.json?v=wulinmen-20260923",
+        "isSnapshot": true
+      }
+    },
+    "C006": {
+      "name": "东湖公园",
+      "location": {
+        "latitude": 30.386635,
+        "longitude": 120.289965,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/857685274",
+        "checkedAt": "2026-09-23T21:16:55.395614+08:00",
+        "osmName": "东湖公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1409.3,
+        "distance": 24174.5,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "6XG-kOpxvpBKAAAAUwAAAPcCAAAAAgAAcyr6QfBmCUIaUJ5Du0tVQ0oAAABTAAAA9wIAAAACAAAaJwEApn8rB9ulzwGteisHy6nPAQ4A7w0AAAAA",
+            "location": [
+              120.291238,
+              30.385627
+            ],
+            "name": "",
+            "distance": 165.7096855
+          }
+        ],
+        "queriedAt": "2026-09-23T21:16:55.395614+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.289965,30.386635?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.386635,
+          "longitude": 120.289965,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/857685274",
+          "checkedAt": "2026-09-23T21:16:55.395614+08:00",
+          "osmName": "东湖公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C006.json?v=wulinmen-20260923"
+      }
+    },
+    "C082": {
+      "name": "紫金园",
+      "location": {
+        "latitude": 30.2957,
+        "longitude": 120.084625,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/674580449",
+        "checkedAt": "2026-09-23T21:16:59.085399+08:00",
+        "osmName": "紫金园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 662.1,
+        "distance": 9146.2,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "_fAuiClBd4sAAAAAFQAAAAAAAAAAAAAAAAAAAFNvZUEAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAaJwEAA1woB7NDzgGRWCgHlEbOAQAA_woAAAAA",
+            "location": [
+              120.085507,
+              30.294963
+            ],
+            "name": "紫荆文路",
+            "distance": 117.8018685
+          }
+        ],
+        "queriedAt": "2026-09-23T21:16:59.085399+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.084625,30.2957?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2957,
+          "longitude": 120.084625,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/674580449",
+          "checkedAt": "2026-09-23T21:16:59.085399+08:00",
+          "osmName": "紫金园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C082.json?v=wulinmen-20260923"
+      }
+    },
+    "C086": {
+      "name": "双流公园",
+      "location": {
+        "latitude": 30.147785,
+        "longitude": 120.058995,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/990249645",
+        "checkedAt": "2026-09-23T21:17:02.548259+08:00",
+        "osmName": "双流公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1174.3,
+        "distance": 21881,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "15RFg9kUyooeAAAAQQAAACgAAABnAAAALN8JQhiejkLB6TJCPq_kQh4AAABBAAAAKAAAAGcAAAAaJwEA_vYnBzEEzAFz9CcHyQTMAQIA_wAAAAAA",
+            "location": [
+              120.059646,
+              30.147633
+            ],
+            "name": "",
+            "distance": 64.957185
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:02.548259+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.058995,30.147785?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.147785,
+          "longitude": 120.058995,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/990249645",
+          "checkedAt": "2026-09-23T21:17:02.548259+08:00",
+          "osmName": "双流公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C086.json?v=wulinmen-20260923"
+      }
+    },
+    "C090": {
+      "name": "桃源中央公园",
+      "location": {
+        "latitude": 30.35022,
+        "longitude": 120.1669,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/564049058",
+        "checkedAt": "2026-09-23T21:17:05.832949+08:00",
+        "osmName": "桃源中央公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 868,
+        "distance": 13516.1,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "8NydivPcnYoUAAAACAAAAOcBAADFAAAA1vYHQT2aPkAOvkpDVmykQhQAAAAIAAAA5wEAAMUAAAAaJwEAcpspB_sczwH0mSkHjBvPARwAPwgAAAAA",
+            "location": [
+              120.167282,
+              30.350587
+            ],
+            "name": "",
+            "distance": 54.80441546
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:05.832949+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.1669,30.35022?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.35022,
+          "longitude": 120.1669,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/564049058",
+          "checkedAt": "2026-09-23T21:17:05.832949+08:00",
+          "osmName": "桃源中央公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C090.json?v=wulinmen-20260923"
+      }
+    },
+    "C091": {
+      "name": "城东公园",
+      "location": {
+        "latitude": 30.273445,
+        "longitude": 120.18439,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/337813312",
+        "checkedAt": "2026-09-23T21:17:09.116430+08:00",
+        "osmName": "城东公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 298.6,
+        "distance": 4233.8,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "fH0egMrgSIANAAAADAAAAAAAAADbAAAAZQLFQTbiqkEAAAAAgJnFQw0AAAAMAAAAAAAAANsAAAAaJwEAg94pByzvzQFG3ikHpe_NAQAAbw8AAAAA",
+            "location": [
+              120.184451,
+              30.273324
+            ],
+            "name": "体育场路立交",
+            "distance": 14.64162003
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:09.116430+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.18439,30.273445?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.273445,
+          "longitude": 120.18439,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/337813312",
+          "checkedAt": "2026-09-23T21:17:09.116430+08:00",
+          "osmName": "城东公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C091.json?v=wulinmen-20260923"
+      }
+    },
+    "C092": {
+      "name": "紫荆公园",
+      "location": {
+        "latitude": 30.31057,
+        "longitude": 120.13542,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/514146350",
+        "checkedAt": "2026-09-23T21:17:12.629775+08:00",
+        "osmName": "紫荆公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 474.1,
+        "distance": 6113.5,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "Wcb0if___38MAAAAUgAAAGkAAAAIAAAA3-2dQZH10kJgByFDWnk4QQwAAABSAAAAaQAAAAgAAAAaJwEAvhspB5SAzgH8HikHqoDOAQgAbxYAAAAA",
+            "location": [
+              120.13459,
+              30.310548
+            ],
+            "name": "丽水路",
+            "distance": 79.85862774
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:12.629775+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.13542,30.31057?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.31057,
+          "longitude": 120.13542,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/514146350",
+          "checkedAt": "2026-09-23T21:17:12.629775+08:00",
+          "osmName": "紫荆公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C092.json?v=wulinmen-20260923"
+      }
+    },
+    "C093": {
+      "name": "大关公园",
+      "location": {
+        "latitude": 30.30548,
+        "longitude": 120.15137,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/423141450",
+        "checkedAt": "2026-09-23T21:17:16.088390+08:00",
+        "osmName": "大关公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 511,
+        "distance": 6686.6,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "XxbsiP___38PAAAAFwAAAC8AAAAyAAAAbJe9QZtgO0GRMY5CqriXQg8AAAAXAAAALwAAADIAAAAaJwEAyV4pB4VqzgFKXSkHyGzOAQIADw8AAAAA",
+            "location": [
+              120.151753,
+              30.304901
+            ],
+            "name": "香积寺路",
+            "distance": 74.00422819
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:16.088390+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.15137,30.30548?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.30548,
+          "longitude": 120.15137,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/423141450",
+          "checkedAt": "2026-09-23T21:17:16.088390+08:00",
+          "osmName": "大关公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C093.json?v=wulinmen-20260923"
+      }
+    },
+    "C095": {
+      "name": "桃花湖公园",
+      "location": {
+        "latitude": 30.356465,
+        "longitude": 120.2125,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1167135409",
+        "checkedAt": "2026-09-23T21:17:19.550661+08:00",
+        "osmName": "桃花湖公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 903.1,
+        "distance": 15738,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "A_4siC4gMJIGAAAAhwAAAH4AAAAAAAAASLEcQRUSTkNXSkBDAAAAAAYAAACHAAAAfgAAAAAAAAAaJwEAHEkqB5Q4zwEUTCoH8TPPAQQA3wMAAAAA",
+            "location": [
+              120.21174,
+              30.357652
+            ],
+            "name": "环丁路",
+            "distance": 150.5071556
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:19.550661+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.2125,30.356465?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.356465,
+          "longitude": 120.2125,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1167135409",
+          "checkedAt": "2026-09-23T21:17:19.550661+08:00",
+          "osmName": "桃花湖公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C095.json?v=wulinmen-20260923"
+      }
+    },
+    "C098": {
+      "name": "皋亭千桃园",
+      "location": {
+        "latitude": 30.38324,
+        "longitude": 120.231385,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/787424982",
+        "checkedAt": "2026-09-23T21:17:22.998277+08:00",
+        "osmName": "皋亭千桃园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1317.8,
+        "distance": 19472.1,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "ri83krEvN5IMAQAAAAAAANkCAAA_EwAA8wuVQgAAAAAel0pD-g2rRAwBAAAAAAAA2QIAAD8TAAAaJwEAR5gqB-yazwHZlSoHiJzPAQoAPwEAAAAA",
+            "location": [
+              120.232007,
+              30.382828
+            ],
+            "name": "",
+            "distance": 75.23727921
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:22.998277+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.231385,30.38324?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.38324,
+          "longitude": 120.231385,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/787424982",
+          "checkedAt": "2026-09-23T21:17:22.998277+08:00",
+          "osmName": "皋亭千桃园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C098.json?v=wulinmen-20260923"
+      }
+    },
+    "C099": {
+      "name": "江一公园",
+      "location": {
+        "latitude": 30.19855,
+        "longitude": 120.20321,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/535621393",
+        "checkedAt": "2026-09-23T21:17:26.435074+08:00",
+        "osmName": "江一公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 650.2,
+        "distance": 11356.5,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "Rdz0gE6Fu5AaAAAAAAAAALwAAACSAAAA-6PjQQAAAADCeFBDBmkiQxoAAAAAAAAAvAAAAJIAAAAaJwEAZCgqB43MzAHKJyoHFsvMAQQAnxEAAAAA",
+            "location": [
+              120.203364,
+              30.198925
+            ],
+            "name": "江汉路",
+            "distance": 44.1377348
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:26.435074+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.20321,30.19855?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.19855,
+          "longitude": 120.20321,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/535621393",
+          "checkedAt": "2026-09-23T21:17:26.435074+08:00",
+          "osmName": "江一公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C099.json?v=wulinmen-20260923"
+      }
+    },
+    "C106": {
+      "name": "城河公园",
+      "location": {
+        "latitude": 30.16276,
+        "longitude": 120.276725,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1111012245",
+        "checkedAt": "2026-09-23T21:17:29.941064+08:00",
+        "osmName": "城河公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1192.9,
+        "distance": 22395.4,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "a10Yh9HLQJTrAAAA6wAAAAAAAAAAAAAAwDUjQ8UXI0MAAAAAAAAAAOsAAADrAAAAAAAAAAAAAAAaJwEA30YrB6I_zAH1RisHSD_MAQAA7wQAAAAA",
+            "location": [
+              120.276703,
+              30.16285
+            ],
+            "name": "",
+            "distance": 10.19952216
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:29.941064+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.276725,30.16276?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.16276,
+          "longitude": 120.276725,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1111012245",
+          "checkedAt": "2026-09-23T21:17:29.941064+08:00",
+          "osmName": "城河公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C106.json?v=wulinmen-20260923"
+      }
+    },
+    "C111": {
+      "name": "金沙湖公园",
+      "location": {
+        "latitude": 30.30973,
+        "longitude": 120.31391,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/585012347",
+        "checkedAt": "2026-09-23T21:17:33.398196+08:00",
+        "osmName": "金沙湖公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1104.1,
+        "distance": 19005.4,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "3soyiv___39yAQAAjAIAAGQAAAAAAAAA372kQ3JbekNqHRpDAAAAAHIBAACMAgAAZAAAAAAAAAAaJwEABtsrB359zgE22CsHYn3OAQQAXxYAAAAA",
+            "location": [
+              120.31463,
+              30.309758
+            ],
+            "name": "金沙湖隧道",
+            "distance": 69.31217971
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:33.398196+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.31391,30.30973?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.30973,
+          "longitude": 120.31391,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/585012347",
+          "checkedAt": "2026-09-23T21:17:33.398196+08:00",
+          "osmName": "金沙湖公园"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C111.json?v=wulinmen-20260923"
+      }
+    },
+    "C172": {
+      "name": "曲院风荷",
+      "location": {
+        "latitude": 30.251705,
+        "longitude": 120.12891,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位或入口",
+        "source": "OpenStreetMap local basemap",
+        "sourceUrl": "https://www.openstreetmap.org/way/975710351",
+        "checkedAt": "2026-09-23T21:17:36.866122+08:00",
+        "osmName": "曲院风荷"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 370.2,
+        "distance": 4732.2,
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "qEb3j6pG948JAAAAAAAAAG4AAAC0AAAAAJlzQAAAAABf5jZC2naWQgkAAAAAAAAAbgAAALQAAAAaJwEAOQkpB-qgzQGOBSkHuZrNAQgAXwcAAAAA",
+            "location": [
+              120.129849,
+              30.25329
+            ],
+            "name": "",
+            "distance": 197.5767056
+          }
+        ],
+        "queriedAt": "2026-09-23T21:17:36.866122+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.12891,30.251705?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.251705,
+          "longitude": 120.12891,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位或入口",
+          "source": "OpenStreetMap local basemap",
+          "sourceUrl": "https://www.openstreetmap.org/way/975710351",
+          "checkedAt": "2026-09-23T21:17:36.866122+08:00",
+          "osmName": "曲院风荷"
+        },
+        "isSnapshot": true,
+        "geometryUrl": "routes/C172.json?v=wulinmen-20260923"
+      }
+    }
+  }
+}
