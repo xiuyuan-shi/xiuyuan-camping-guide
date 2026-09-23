@@ -74,11 +74,17 @@ def run():
    if img['status']!='keep' or rid not in img.get('recordIds',[]):continue
    related=[(row,d) for row,d in items if row['序号'] in img['rows']]
    if not related:continue
-   row,d=related[0];note=next((n for n in d['notes'] if n['slot']==1 and n['status']=='keep'),None)
-   if not note:continue
+   matches=[(row,d,note) for row,d in related for note in d['notes'] if note['slot']==img.get('sourceSlot',1) and note['status']=='keep' and (not img.get('sourceRowNumber') or row['序号']==img['sourceRowNumber'])]
+   if not matches:continue
+   row,d,note=matches[0]
    sid=by_url[note['url']]
-   r['reviewedPhotos'].append({'url':u,'sourceId':sid,'status':'keep','kind':'source','reviewedAt':BATCH,'label':r['name']+' · 来源景观配图','description':'验证版提供并经内容筛选；区域景观不等于已确认营位。'})
+   r['reviewedPhotos'].append({'url':u,'sourceId':sid,'status':'keep','kind':'source','reviewedAt':BATCH,'label':r['name']+' · 来源景观配图','coverPriority':img.get('coverPriority',10),'description':'验证版提供并经内容筛选；区域景观不等于已确认营位。'})
+  r['reviewedPhotos'].sort(key=lambda p:p.get('coverPriority',10))
   r['overview']={'paragraphs':primary_paragraphs[-1:]}
+ supplements=read(ROOT/'photo-supplements.json')['records'] if (ROOT/'photo-supplements.json').exists() else {}
+ for rid,photos in supplements.items():
+  if rid in records and rid not in held:
+   records[rid]['publicPhotos']=[p for p in photos if p['status']=='keep' and p['url'].startswith('https://') and p['sourceUrl'].startswith('https://')]
  # Structured descriptions expose existing evidence even when new text was rejected.
  for r in data['records']:
   if r['id'] in held:continue
@@ -105,7 +111,7 @@ def run():
  data['counts']=dict(total=len(data['records']),**{s:sum(r['scope']==s for r in data['records']) for s in ['hangzhou','nearby','outside']},withDetails=sum(r['hasDetails'] for r in data['records']))
  data['primarySource']={'name':'杭州热门露营地清单（验证版）','importedAt':BATCH,'reviewedRecords':len(groups),'policy':'通过检查的字段优先采用，旧资料补充；无关笔记、错配介绍和图片不入展示。'}
  save(ROOT/'data.json',data);save(FOLDER/'field-review.json',audit)
- summary={'inputRows':len(rows),'mergedRows':sum(d['status']=='merge' for d in decisions),'primaryRecords':len(groups),'duplicateRowsMerged':sum(d['status']=='merge' for d in decisions)-len(groups),'heldInputRows':sum(d['status']=='hold' for d in decisions),'newlyHeldExistingPlaces':len(data['excludedPlaces'])-len(read(FOLDER/'baseline.json')['excludedPlaces']),'acceptedNoteAssociations':sum(n['status']=='keep' for d in decisions for n in d['notes']),'rejectedNoteAssociations':sum(n['status']!='keep' for d in decisions for n in d['notes']),'newApprovedPhotos':sum(len(r.get('reviewedPhotos',[])) for r in data['records']),'recordsWithThreeNotes':sum(len(r['sourceIds'])>=3 for r in data['records']),'counts':data['counts']}
+ summary={'inputRows':len(rows),'mergedRows':sum(d['status']=='merge' for d in decisions),'primaryRecords':len(groups),'duplicateRowsMerged':sum(d['status']=='merge' for d in decisions)-len(groups),'heldInputRows':sum(d['status']=='hold' for d in decisions),'newlyHeldExistingPlaces':len(data['excludedPlaces'])-len(read(FOLDER/'baseline.json')['excludedPlaces']),'acceptedNoteAssociations':sum(n['status']=='keep' for d in decisions for n in d['notes']),'rejectedNoteAssociations':sum(n['status']!='keep' for d in decisions for n in d['notes']),'newApprovedPhotos':sum(len(r.get('reviewedPhotos',[])) for r in data['records']),'publicSupplementPhotos':sum(len(r.get('publicPhotos',[])) for r in data['records']),'recordsWithThreeNotes':sum(len(r['sourceIds'])>=3 for r in data['records']),'counts':data['counts']}
  save(FOLDER/'summary.json',summary)
  with (ROOT/'杭州露营资料.csv').open('w',encoding='utf-8-sig',newline='') as f:
   w=csv.writer(f,lineterminator='\n');w.writerow(['编号','名称','位置','主数据','营地介绍','笔记1','笔记2','笔记3'])

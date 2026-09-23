@@ -1,0 +1,55 @@
+{
+  "reviewedAt": "2026-09-23",
+  "records": {
+    "C039": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/1me6012000g47t5d08350_W_960_0_R5_Q60.webp?proc=source%2Ftrip",
+        "originalUrl": "https://ak-d.tripcdn.com/images/1me6012000g47t5d08350_W_960_0_R5_Q60.webp?proc=source%2Ftrip",
+        "sourceUrl": "https://my.trip.com/travel-guide/attraction/hangzhou/city-148710436/",
+        "sourceTitle": "麻车头村露营点 · Trip.com 地点页",
+        "author": "Trip.com 地点页（摄影者未标明）",
+        "publishedAt": null,
+        "takenAt": null,
+        "status": "keep",
+        "origin": "public-source",
+        "kind": "source",
+        "label": "麻车头 · 公开来源景观照片",
+        "reviewedAt": "2026-09-23",
+        "reviewReason": "来源页明确标注本地点，目视确认露营环境；已通过实际图片加载测试。",
+        "objectPosition": "50% 80%"
+      }
+    ],
+    "C003": [
+      {
+        "url": "https://mc-gxlmmz-public.8531.cn/16847634098504.jpg?height=2304&size=6137967&width=4096&x-oss-process=image%2Fresize%2Cw_1200%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+        "originalUrl": "https://mc-gxlmmz-public.8531.cn/16847634098504.jpg?height=2304&size=6137967&width=4096&x-oss-process=image%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+        "sourceUrl": "https://tidenews.com.cn/short_news.html?id=69d1fa94cecb620001d3c5c5",
+        "sourceTitle": "踏青赏春，余杭南湖 park · 潮新闻",
+        "author": "杭州晴空蓝",
+        "publishedAt": "2026-04-05",
+        "takenAt": null,
+        "status": "keep",
+        "origin": "public-source",
+        "kind": "source",
+        "label": "余杭南湖公园 · 公开来源景观照片",
+        "reviewedAt": "2026-09-23",
+        "reviewReason": "来源页明确标注本地点，目视确认露营环境；已通过实际图片加载测试。"
+      },
+      {
+        "url": "https://mc-gxlmmz-public.8531.cn/16847634082440.jpg?height=2304&size=4423227&width=4096&x-oss-process=image%2Fresize%2Cw_1200%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+        "originalUrl": "https://mc-gxlmmz-public.8531.cn/16847634082440.jpg?height=2304&size=4423227&width=4096&x-oss-process=image%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+        "sourceUrl": "https://tidenews.com.cn/short_news.html?id=69d1fa94cecb620001d3c5c5",
+        "sourceTitle": "踏青赏春，余杭南湖 park · 潮新闻",
+        "author": "杭州晴空蓝",
+        "publishedAt": "2026-04-05",
+        "takenAt": null,
+        "status": "keep",
+        "origin": "public-source",
+        "kind": "source",
+        "label": "余杭南湖公园 · 公开来源景观照片",
+        "reviewedAt": "2026-09-23",
+        "reviewReason": "来源页明确标注本地点，目视确认露营环境；已通过实际图片加载测试。"
+      }
+    ]
+  }
+}

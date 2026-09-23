@@ -248,6 +248,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "河桥古镇 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -257,6 +258,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "河桥古镇 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -266,6 +268,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "河桥古镇 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         }
       ],
@@ -503,7 +506,25 @@
             ]
           }
         ]
-      }
+      },
+      "publicPhotos": [
+        {
+          "url": "https://ak-d.tripcdn.com/images/1me6012000g47t5d08350_W_960_0_R5_Q60.webp?proc=source%2Ftrip",
+          "originalUrl": "https://ak-d.tripcdn.com/images/1me6012000g47t5d08350_W_960_0_R5_Q60.webp?proc=source%2Ftrip",
+          "sourceUrl": "https://my.trip.com/travel-guide/attraction/hangzhou/city-148710436/",
+          "sourceTitle": "麻车头村露营点 · Trip.com 地点页",
+          "author": "Trip.com 地点页（摄影者未标明）",
+          "publishedAt": null,
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "麻车头 · 公开来源景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "来源页明确标注本地点，目视确认露营环境；已通过实际图片加载测试。",
+          "objectPosition": "50% 80%"
+        }
+      ]
     },
     {
       "id": "C012",
@@ -1020,7 +1041,28 @@
         "status": "reviewed-extract",
         "note": "验证版优先，地点、描述和笔记逐项清洗；现行规则仍需确认。"
       },
-      "reviewedPhotos": [],
+      "reviewedPhotos": [
+        {
+          "url": "https://img01.yzcdn.cn/upload_files/2026/09/22/Fq47_7djJ0LPw99ID7KTGSw0MGWn.png",
+          "sourceId": "X6938d309000000001d03ca54",
+          "status": "keep",
+          "kind": "source",
+          "reviewedAt": "2026-09-23",
+          "label": "榉树林地面停车场 · 来源景观配图",
+          "coverPriority": 0,
+          "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
+        },
+        {
+          "url": "https://img01.yzcdn.cn/upload_files/2026/09/22/lkwptdsXuDYKMX45PgsvNmqAcslP.png",
+          "sourceId": "X6938d309000000001d03ca54",
+          "status": "keep",
+          "kind": "source",
+          "reviewedAt": "2026-09-23",
+          "label": "榉树林地面停车场 · 来源景观配图",
+          "coverPriority": 1,
+          "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
+        }
+      ],
       "overview": {
         "paragraphs": [
           {
@@ -1488,7 +1530,39 @@
             ]
           }
         ]
-      }
+      },
+      "publicPhotos": [
+        {
+          "url": "https://mc-gxlmmz-public.8531.cn/16847634098504.jpg?height=2304&size=6137967&width=4096&x-oss-process=image%2Fresize%2Cw_1200%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+          "originalUrl": "https://mc-gxlmmz-public.8531.cn/16847634098504.jpg?height=2304&size=6137967&width=4096&x-oss-process=image%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+          "sourceUrl": "https://tidenews.com.cn/short_news.html?id=69d1fa94cecb620001d3c5c5",
+          "sourceTitle": "踏青赏春，余杭南湖 park · 潮新闻",
+          "author": "杭州晴空蓝",
+          "publishedAt": "2026-04-05",
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "余杭南湖公园 · 公开来源景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "来源页明确标注本地点，目视确认露营环境；已通过实际图片加载测试。"
+        },
+        {
+          "url": "https://mc-gxlmmz-public.8531.cn/16847634082440.jpg?height=2304&size=4423227&width=4096&x-oss-process=image%2Fresize%2Cw_1200%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+          "originalUrl": "https://mc-gxlmmz-public.8531.cn/16847634082440.jpg?height=2304&size=4423227&width=4096&x-oss-process=image%2Fformat%2Cjpg%2Fauto-orient%2C1%2Fwatermark%2Cg_se%2Cx_0%2Cy_0%2Cimage_MTQxMjEzMjEwNTczNTIucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLFBfNTA",
+          "sourceUrl": "https://tidenews.com.cn/short_news.html?id=69d1fa94cecb620001d3c5c5",
+          "sourceTitle": "踏青赏春，余杭南湖 park · 潮新闻",
+          "author": "杭州晴空蓝",
+          "publishedAt": "2026-04-05",
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "余杭南湖公园 · 公开来源景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "来源页明确标注本地点，目视确认露营环境；已通过实际图片加载测试。"
+        }
+      ]
     },
     {
       "id": "C004",
@@ -6012,6 +6086,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "青山湖太阳湾旅游驿站 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -6021,6 +6096,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "青山湖太阳湾旅游驿站 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         }
       ],
@@ -13008,6 +13084,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "安吉古城国家考古遗址公园 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -13017,6 +13094,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "安吉古城国家考古遗址公园 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -13026,6 +13104,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "安吉古城国家考古遗址公园 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         }
       ],
@@ -13154,6 +13233,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "沿江景观10号桥水杉林 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -13163,6 +13243,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "沿江景观10号桥水杉林 · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         }
       ],
@@ -17771,6 +17852,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "建德之江村（车中泊点） · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         },
         {
@@ -17780,6 +17862,7 @@
           "kind": "source",
           "reviewedAt": "2026-09-23",
           "label": "建德之江村（车中泊点） · 来源景观配图",
+          "coverPriority": 10,
           "description": "验证版提供并经内容筛选；区域景观不等于已确认营位。"
         }
       ],

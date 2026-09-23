@@ -1,8 +1,8 @@
 {
   "counts": {
-    "exclude": 597,
+    "exclude": 595,
     "existing": 36,
-    "keep": 12,
+    "keep": 14,
     "unavailable": 9
   },
   "images": {
@@ -3552,18 +3552,34 @@
       ]
     },
     "https://img01.yzcdn.cn/upload_files/2026/09/22/lkwptdsXuDYKMX45PgsvNmqAcslP.png": {
-      "status": "exclude",
-      "reason": "地点或笔记归属不可靠，不因表格标注实拍而直接展示",
+      "status": "keep",
+      "reason": "林间帐篷露营场景；不再因笔记1无关而跳过该行第三篇相关笔记的图片",
       "rows": [
         126
-      ]
+      ],
+      "recordIds": [
+        "C035"
+      ],
+      "sourceSlot": 3,
+      "sourceRowNumber": 126,
+      "reviewedAt": "2026-09-23",
+      "method": "逐张复查图片与表格第三篇径山榉树林笔记对应关系",
+      "coverPriority": 1
     },
     "https://img01.yzcdn.cn/upload_files/2026/09/22/Fq47_7djJ0LPw99ID7KTGSw0MGWn.png": {
-      "status": "exclude",
-      "reason": "地点或笔记归属不可靠，不因表格标注实拍而直接展示",
+      "status": "keep",
+      "reason": "林间帐篷露营场景；不再因笔记1无关而跳过该行第三篇相关笔记的图片",
       "rows": [
         126
-      ]
+      ],
+      "recordIds": [
+        "C035"
+      ],
+      "sourceSlot": 3,
+      "sourceRowNumber": 126,
+      "reviewedAt": "2026-09-23",
+      "method": "逐张复查图片与表格第三篇径山榉树林笔记对应关系",
+      "coverPriority": 0
     },
     "https://img01.yzcdn.cn/upload_files/2026/09/22/lmQylsYen1irQO_dswlDjoz7rcsS.png": {
       "status": "exclude",

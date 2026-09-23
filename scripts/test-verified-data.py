@@ -8,7 +8,7 @@ ids={r['id'] for r in d['records']};assert len(ids)==192 and not ids & set(held)
 assert d['counts']['hangzhou']==171 and len([r for r in d['records'] if r.get('primaryData')])==89
 assert len(dec)==195 and sum(x['status']=='merge' for x in dec)==111
 assert all(len(r['sourceIds'])==len(set(r['sourceIds'])) for r in d['records'])
-assert sum(len(r.get('reviewedPhotos',[])) for r in d['records'])==12
+assert sum(len(r.get('reviewedPhotos',[])) for r in d['records'])==14
 for r in d['records']:
  assert all(s in d['sources'] for s in r['sourceIds'])
  assert all(e['sourceId'] in r['sourceIds'] for e in r['evidence'])
@@ -17,6 +17,13 @@ for r in d['records']:
   assert review[p['url']]['status']=='keep' and r['id'] in review[p['url']]['recordIds'] and p['sourceId'] in r['sourceIds']
  for s in r.get('primaryData',{}).get('sourceIds',[]):assert not re.search(r'成都|淄博|深圳|Yosemite|枣庄|日本|无锡',d['sources'][s]['title'])
  assert not r['fullVerified']
+assert sum(len(r.get('publicPhotos',[])) for r in d['records'])==3
+julin=next(r for r in d['records'] if r['id']=='C035')
+assert len(julin['reviewedPhotos'])==2
+assert all(d['sources'][p['sourceId']]['url'].endswith('6938d309000000001d03ca54') for p in julin['reviewedPhotos'])
+for rid in ['C039','C003']:
+ photos=next(r for r in d['records'] if r['id']==rid)['publicPhotos']
+ assert photos and all(p['status']=='keep' and p['sourceUrl'].startswith('https://') for p in photos)
 # Wrong notes in the new sheet must not newly attach to a place just to reach three.
 original={r['id']:r for r in base['records']}
 for row in dec:
