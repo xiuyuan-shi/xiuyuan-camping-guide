@@ -7,6 +7,16 @@ BATCH='2026-09-23'
 def read(p):return json.loads(p.read_text())
 def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
 def tidy(t):return re.sub(r'^表格摘录（未复核原文）：','',t or '').strip()
+def clean_description(row):
+ text=(row.get('营地描述') or '').strip().replace('。。','。')
+ if not text:return ''
+ # The workbook has copied addresses and lifestyle tips from unrelated notes.
+ # Keep the location in its separate field; do not publish those free-text clauses.
+ text=re.sub(r'，位于[^。]*','',text,count=1)
+ text=re.split(r'\bTips\s*[:：]',text,maxsplit=1,flags=re.I)[0]
+ text=re.sub(r'#[^#。]*\[话题\]#','',text)
+ text=re.sub(r'\s+',' ',text).strip(' 。,，')
+ return text+'。' if text else ''
 # Only these new narrative portions survived place-level and cross-note review.
 DESCRIPTIONS={
 7:'验证版将游览位置记为曲院风荷3号门，介绍以湖景和拍照为主。已有笔记提到西湖边露营体验，具体可搭帐区域与过夜安排需再确认。',
@@ -24,10 +34,33 @@ DESCRIPTIONS={
 # Detailed addresses were reviewed separately from the contaminated merged prose.
 AREAS={7:'杭州西湖区曲院风荷3号门附近（验证版位置线索）',52:'杭州临安大鱼线宣王桥桥下溪边（入口待核）',186:'杭州市建德市下涯镇之江村，导航山风农场（入口待核）',185:'杭州临安河桥古镇停车场附近，过桥到水边（作者路线）'}
 SAFE_RULE_ROWS={7,45,173}
+FACT_COLUMNS={'fee':'免费/付费','overnight':'是否可过夜','stove':'是否可用卡式炉','toilet':'是否有厕所','parking':'是否可开车直达'}
+def fact_category(key,value):
+ if not value or value=='未知' or (key=='stove' and ('风暴炉' in value or '烧烤' in value)):return 'unknown'
+ if key=='fee':return 'free' if value.startswith('免费') else 'paid' if value.startswith('付费') else 'unknown'
+ return 'yes' if value.startswith('是') else 'no' if value.startswith('否') else 'unknown'
 
 def run():
  data=read(FOLDER/'baseline.json');rows=read(FOLDER/'source-rows.json');decisions=read(FOLDER/'decisions.json');held=read(FOLDER/'held-places.json');images=read(FOLDER/'image-review.json')['images']
+ assert len(rows)==len(decisions) and all(row['序号']==decision['rowNumber'] for row,decision in zip(rows,decisions))
  records={r['id']:r for r in data['records']};by_url={s['url'].split('?')[0].replace('/discovery/item/','/explore/'):sid for sid,s in data['sources'].items()}
+ # Keep the workbook's three links as supplied for every row. Association review is
+ # separate: an unconfirmed link remains inspectable, but is not supporting evidence.
+ verified_rows=[]
+ for row,decision in zip(rows,decisions):
+  notes=[]
+  for slot in (1,2,3):
+   url=row[f'笔记{slot}链接']
+   assert re.fullmatch(r'https://www\.xiaohongshu\.com/explore/[a-f0-9]{24}',url), (row['序号'],slot)
+   review=next(n for n in decision['notes'] if n['slot']==slot)
+   assert review['url']==url
+   notes.append({'slot':slot,'title':row[f'笔记{slot}标题'] or '原表未提供标题','author':row[f'笔记{slot}作者'] or '原表未提供作者','url':url,'association':'matched' if review['status']=='keep' and decision['status']=='merge' else 'unconfirmed'})
+  assert len({n['url'] for n in notes})==3, row['序号']
+  image_candidates=[{'slot':i,'url':row[f'实拍图{i}'],'status':images.get(row[f'实拍图{i}'],{}).get('status','unreviewed'),'reason':images.get(row[f'实拍图{i}'],{}).get('reason','尚未完成审核')} for i in range(1,10) if row.get(f'实拍图{i}')]
+  image_urls=list(dict.fromkeys(p['url'] for p in image_candidates))
+  image_review=collections.Counter(images.get(url,{}).get('status','unreviewed') for url in image_urls)
+  verified_rows.append({'rowNumber':row['序号'],'name':row['营地名称'],'area':row['位置/地址'],'facts':{key:row[col] for key,col in FACT_COLUMNS.items()},'highlights':row['特色亮点'],'description':DESCRIPTIONS.get(row['序号']) or clean_description(row),'rawDescription':row['营地描述'],'interactions':{key:row[key] for key in ['笔记1点赞','笔记1收藏','笔记1评论','总互动量']},'recordId':decision['recordId'] if decision['status']=='merge' else None,'status':decision['status'],'reason':decision['reason'],'notes':notes,'imageCandidates':image_candidates,'imageReview':{'supplied':len(image_urls),'approved':image_review['keep'],'existing':image_review['existing'],'withheld':image_review['exclude']+image_review['unavailable']+image_review['unreviewed']}})
+ data['verifiedRows']=verified_rows
  groups=collections.defaultdict(list)
  for row,d in zip(rows,decisions):
   if d['status']=='merge':groups[d['recordId']].append((row,d))
@@ -48,9 +81,10 @@ def run():
    name=row['营地名称']
    if '\ufffd' not in name and name!=r['name'] and name not in r['aliases']:r['aliases'].append(name)
    if n in AREAS:r['area']=AREAS[n];field_audit['adopted'].append('独立复查的位置片段')
-   if n in DESCRIPTIONS:
-    primary_paragraphs.append({'text':DESCRIPTIONS[n],'sourceIds':accepted,'origin':'验证版清洗介绍','rowNumber':n});field_audit['adopted'].append('清洗后的介绍片段')
-   else:field_audit['withheld'].append('原描述存在混合笔记聚合或缺乏独立归属，不整段覆盖')
+   description=DESCRIPTIONS.get(n) or clean_description(row)
+   if description:
+    primary_paragraphs.append({'text':description,'sourceIds':accepted,'origin':'验证版整理描述；活动与规则待实地核对','rowNumber':n});field_audit['adopted'].append('移除自由文本位置与混合提示后的原表描述')
+   else:field_audit['withheld'].append('原表描述为空')
    if n in SAFE_RULE_ROWS and accepted:
     fields=[]
     for col,key,label in [('免费/付费','fee','费用'),('是否可过夜','overnight','过夜'),('是否有厕所','toilet','卫生间'),('是否可开车直达','parking','车辆到达')]:
@@ -66,6 +100,13 @@ def run():
   r['sourceIds']=list(dict.fromkeys(primary_ids+r['sourceIds']))
   r['sourceIds'].sort(key=lambda sid: -sum(term in data['sources'][sid]['title'] for term in anchors))
   r['evidence']=primary_fields+r['evidence']
+  r['primaryFacts']={}
+  for key,column in FACT_COLUMNS.items():
+   entries=[{'rowNumber':row['序号'],'value':row[column]} for row,d in items]
+   categories={fact_category(key,e['value']) for e in entries}-{'unknown'}
+   r['primaryFacts'][key]={'status':'conflict' if len(categories)>1 else next(iter(categories),'unknown'),'value':next((e['value'] for e in entries if fact_category(key,e['value'])!='unknown'),'未知'),'entries':entries}
+  primary_tags=[tag.strip() for row,d in items for tag in (row['特色亮点'] or '').split('、') if tag.strip()]
+  r['tags']=list(dict.fromkeys(primary_tags+r['tags']))[:16]
   r['primaryData']={'name':'杭州热门露营地清单（验证版）','importedAt':BATCH,'rowNumbers':[row['序号'] for row,d in items],'sourceIds':primary_ids,'status':'reviewed-extract','note':'验证版优先，地点、描述和笔记逐项清洗；现行规则仍需确认。'}
   r['lastCollected']=BATCH
   # Source photos have their own approval and record binding; never inherit all 9 images from a note.
@@ -80,7 +121,7 @@ def run():
    sid=by_url[note['url']]
    r['reviewedPhotos'].append({'url':u,'sourceId':sid,'status':'keep','kind':'source','reviewedAt':BATCH,'label':r['name']+' · 来源景观配图','coverPriority':img.get('coverPriority',10),'description':'验证版提供并经内容筛选；区域景观不等于已确认营位。'})
   r['reviewedPhotos'].sort(key=lambda p:p.get('coverPriority',10))
-  r['overview']={'paragraphs':primary_paragraphs[-1:]}
+  r['overview']={'paragraphs':list({p['text']:p for p in primary_paragraphs}.values())}
  supplements=read(ROOT/'photo-supplements.json')['records'] if (ROOT/'photo-supplements.json').exists() else {}
  for rid,photos in supplements.items():
   if rid in records and rid not in held:
@@ -109,15 +150,20 @@ def run():
  data['records']=[r for r in data['records'] if r['id'] not in held]
  data['updatedAt']=BATCH;data['nextUpdate']='2026-09-24'
  data['counts']=dict(total=len(data['records']),**{s:sum(r['scope']==s for r in data['records']) for s in ['hangzhou','nearby','outside']},withDetails=sum(r['hasDetails'] for r in data['records']))
- data['primarySource']={'name':'杭州热门露营地清单（验证版）','importedAt':BATCH,'reviewedRecords':len(groups),'policy':'通过检查的字段优先采用，旧资料补充；无关笔记、错配介绍和图片不入展示。'}
+ data['primarySource']={'name':'杭州热门露营地清单（验证版）','importedAt':BATCH,'inputRows':len(verified_rows),'reviewedRecords':len(groups),'policy':'逐行保留原表三篇笔记链接并区分地点关联状态；可信字段优先，旧资料补充；错配介绍和图片不作营地事实。'}
  save(ROOT/'data.json',data);save(FOLDER/'field-review.json',audit)
- summary={'inputRows':len(rows),'mergedRows':sum(d['status']=='merge' for d in decisions),'primaryRecords':len(groups),'duplicateRowsMerged':sum(d['status']=='merge' for d in decisions)-len(groups),'heldInputRows':sum(d['status']=='hold' for d in decisions),'newlyHeldExistingPlaces':len(data['excludedPlaces'])-len(read(FOLDER/'baseline.json')['excludedPlaces']),'acceptedNoteAssociations':sum(n['status']=='keep' for d in decisions for n in d['notes']),'rejectedNoteAssociations':sum(n['status']!='keep' for d in decisions for n in d['notes']),'newApprovedPhotos':sum(len(r.get('reviewedPhotos',[])) for r in data['records']),'publicSupplementPhotos':sum(len(r.get('publicPhotos',[])) for r in data['records']),'recordsWithThreeNotes':sum(len(r['sourceIds'])>=3 for r in data['records']),'counts':data['counts']}
+ summary={'inputRows':len(rows),'workbookNoteLinks':sum(len(r['notes']) for r in verified_rows),'uniqueWorkbookUrls':len({n['url'] for r in verified_rows for n in r['notes']}),'mergedRows':sum(d['status']=='merge' for d in decisions),'primaryRecords':len(groups),'duplicateRowsMerged':sum(d['status']=='merge' for d in decisions)-len(groups),'heldInputRows':sum(d['status']=='hold' for d in decisions),'newlyHeldExistingPlaces':len(data['excludedPlaces'])-len(read(FOLDER/'baseline.json')['excludedPlaces']),'acceptedNoteAssociations':sum(n['status']=='keep' for d in decisions for n in d['notes']),'unconfirmedNoteAssociations':sum(n['status']!='keep' for d in decisions for n in d['notes']),'newApprovedPhotos':sum(len(r.get('reviewedPhotos',[])) for r in data['records']),'publicSupplementPhotos':sum(len(r.get('publicPhotos',[])) for r in data['records']),'primaryRecordsWithThreeWorkbookNotes':sum(bool(r.get('primaryData')) and all(len(v['notes'])==3 for v in verified_rows if v['recordId']==r['id']) for r in data['records']),'counts':data['counts']}
  save(FOLDER/'summary.json',summary)
  with (ROOT/'杭州露营资料.csv').open('w',encoding='utf-8-sig',newline='') as f:
   w=csv.writer(f,lineterminator='\n');w.writerow(['编号','名称','位置','主数据','营地介绍','笔记1','笔记2','笔记3'])
   for r in data['records']:
-   links=[data['sources'][sid]['url'] for sid in r['sourceIds'][:3]]
+   workbook_row=next((v for v in verified_rows if v['recordId']==r['id']),None)
+   links=[n['url'] for n in workbook_row['notes']] if workbook_row else [data['sources'][sid]['url'] for sid in r['sourceIds'][:3]]
    w.writerow([r['id'],r['name'],r['area'],'验证版优先' if r.get('primaryData') else '已有资料','\n'.join(p['text'] for p in r['overview']['paragraphs']),*(links+['']*(3-len(links)))])
+ with (ROOT/'验证版逐行核对.csv').open('w',encoding='utf-8-sig',newline='') as f:
+  w=csv.writer(f,lineterminator='\n');w.writerow(['原表序号','名称','位置','收录状态','合并后编号','审核说明',*FACT_COLUMNS.values(),'特色亮点','清洗后描述','原表完整描述','笔记1','笔记1关联','笔记2','笔记2关联','笔记3','笔记3关联','笔记1点赞','笔记1收藏','笔记1评论','总互动量',*(x for i in range(1,10) for x in (f'实拍图{i}',f'图片{i}审核'))])
+  for v in verified_rows:
+   w.writerow([v['rowNumber'],v['name'],v['area'],'已合并' if v['status']=='merge' else '待核',v['recordId'] or '',v['reason'],*v['facts'].values(),v['highlights'],v['description'],v['rawDescription'],*(x for n in v['notes'] for x in (n['url'],'地点关联已检查' if n['association']=='matched' else '地点关联待核')),*v['interactions'].values(),*(x for i in range(1,10) for x in (next((p['url'] for p in v['imageCandidates'] if p['slot']==i),''),next((p['status'] for p in v['imageCandidates'] if p['slot']==i),'')))])
  version=hashlib.sha256((ROOT/'data.json').read_bytes()).hexdigest()[:12];p=ROOT/'index.html';html=p.read_text();html=re.sub(r'(name="camp-data-version" content=")[^"]+',lambda m:m[1]+version,html);html=re.sub(r'(?<!-)data.json\?v=[a-f0-9]+','data.json?v='+version,html);html=re.sub(r'live-data.json\?v=[a-f0-9]+', 'live-data.json?v='+re.search(r'name="camp-live-version" content="([^"]+)', html)[1],html);p.write_text(html)
  print(json.dumps(summary,ensure_ascii=False,indent=2))
 if __name__=='__main__':run()
