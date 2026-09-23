@@ -1,0 +1,19 @@
+{
+  "inputRows": 195,
+  "mergedRows": 111,
+  "primaryRecords": 89,
+  "duplicateRowsMerged": 22,
+  "heldInputRows": 84,
+  "newlyHeldExistingPlaces": 18,
+  "acceptedNoteAssociations": 75,
+  "rejectedNoteAssociations": 510,
+  "newApprovedPhotos": 12,
+  "recordsWithThreeNotes": 22,
+  "counts": {
+    "total": 192,
+    "hangzhou": 171,
+    "nearby": 20,
+    "outside": 1,
+    "withDetails": 92
+  }
+}

@@ -267,4 +267,11 @@ def run():
     (ROOT/'index.html').write_text(html)
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 
-if __name__ == '__main__': run()
+if __name__ == '__main__':
+    # The reviewed workbook supersedes this historical import; do not resurrect held data.
+    latest = ROOT/'scripts/import-verified.py'
+    if latest.exists():
+        import subprocess, sys
+        subprocess.run([sys.executable, str(latest)], check=True)
+    else:
+        run()

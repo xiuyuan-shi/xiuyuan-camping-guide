@@ -1,0 +1,5462 @@
+[
+  {
+    "rowNumber": 1,
+    "excelRow": 2,
+    "name": "九溪十八涧",
+    "recordId": "C176",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6859542a0000000022031255",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a124b2800000000060344d9",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 2,
+    "excelRow": 3,
+    "name": "洪潭大桥",
+    "recordId": "C031",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6422716c0000000014025202",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 3,
+    "excelRow": 4,
+    "name": "径山新开帐篷烧烤营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/644f83d90000000027010771",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6451d69c0000000013011b2f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64b48db60000000010028c40",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 4,
+    "excelRow": 5,
+    "name": "河桥古镇溪滩",
+    "recordId": "C024",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/63fc7492000000001203f82d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 5,
+    "excelRow": 6,
+    "name": "安吉古城国家考古遗址公园",
+    "recordId": "C153",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a8442b20000000029032c42",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69aa7fa90000000022023bb8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/691941050000000005001363",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 6,
+    "excelRow": 7,
+    "name": "江浙沪安全露营点",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69e4306b000000001b020dcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 7,
+    "excelRow": 8,
+    "name": "曲院风荷",
+    "recordId": "C172",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6476e53c0000000011012dc7",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/681f4cb9000000002101b56c",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6947e562000000001e0066aa",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 8,
+    "excelRow": 9,
+    "name": "萧山免费滑草露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f4afb00000000038022bc3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/691dcb24000000001f0048a8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 9,
+    "excelRow": 10,
+    "name": "临安免费露营钓鱼宝地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a3293a2000000000803f492",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 10,
+    "excelRow": 11,
+    "name": "杭州免费过夜露营地（配��完善）",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a005cf30000000035033c31",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 11,
+    "excelRow": 12,
+    "name": "燕燕推荐露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d232ce000000001a034eac",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 12,
+    "excelRow": 13,
+    "name": "余杭吴山公园",
+    "recordId": "C037",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/691dcb24000000001f0048a8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69a4f6d7000000000e03d053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 13,
+    "excelRow": 14,
+    "name": "野趣推荐的溪谷露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d232ce000000001a034eac",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68be50f8000000001d007dc0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 14,
+    "excelRow": 15,
+    "name": "杭钢公园",
+    "recordId": "C155",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a8817170000000016026c02",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e837d1000000001a02bf5f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 15,
+    "excelRow": 16,
+    "name": "杭钢公园隔壁免费公园",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a8817170000000016026c02",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e837d1000000001a02bf5f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 16,
+    "excelRow": 17,
+    "name": "二刷营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6867ae51000000001201743d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 17,
+    "excelRow": 18,
+    "name": "北湖草荡",
+    "recordId": "C033",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f4afb00000000038022bc3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/691dcb24000000001f0048a8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 18,
+    "excelRow": 19,
+    "name": "钱塘江边宝藏露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f4afb00000000038022bc3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/642273af0000000013036ab9",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 19,
+    "excelRow": 20,
+    "name": "宣王桥",
+    "recordId": "C028",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6442b46d000000001203e687",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a435fa6000000000d00bc00",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 20,
+    "excelRow": 21,
+    "name": "杭州溯溪露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/689db9e5000000001b0228c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 21,
+    "excelRow": 22,
+    "name": "北支江公园",
+    "recordId": "C062",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a78611f0000000022031cd4",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 22,
+    "excelRow": 23,
+    "name": "太湖源·指南慈境",
+    "recordId": "C177",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/64e96ed3000000001701bd5a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/610f5547000000002103927f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 23,
+    "excelRow": 24,
+    "name": "杭州周边9个封神级露营地（图片合集）",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 24,
+    "excelRow": 25,
+    "name": "杭州近郊桨板河边露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 25,
+    "excelRow": 26,
+    "name": "杭州SUV直达露营玩水地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 26,
+    "excelRow": 27,
+    "name": "富阳之江北公园",
+    "recordId": "C011",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e837d1000000001a02bf5f",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 27,
+    "excelRow": 28,
+    "name": "杭州户外露营烧烤宝藏地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69e5bf970000000023026098",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 28,
+    "excelRow": 29,
+    "name": "开车直达露营玩水地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 29,
+    "excelRow": 30,
+    "name": "西湖孤山公园（鲁迅铜像前草坪）",
+    "recordId": "C083",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6947e562000000001e0066aa",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 30,
+    "excelRow": 31,
+    "name": "富阳露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 31,
+    "excelRow": 32,
+    "name": "杭州江边免费露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f4afb00000000038022bc3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 32,
+    "excelRow": 33,
+    "name": "富阳云海营地",
+    "recordId": "C059",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 33,
+    "excelRow": 34,
+    "name": "东湖公园",
+    "recordId": "C006",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d35f4a000000001a029472",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 34,
+    "excelRow": 35,
+    "name": "沿江景观10号桥水杉林",
+    "recordId": "C154",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a3293a2000000000803f492",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/646f3afe0000000013014564",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 35,
+    "excelRow": 36,
+    "name": "富阳湘溪村",
+    "recordId": "C063",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 36,
+    "excelRow": 37,
+    "name": "进贤村溪边露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f2a44a000000003601fa17",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 37,
+    "excelRow": 38,
+    "name": "有风营地（水库边）",
+    "recordId": "C143",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/643def84000000002702851c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6437a839000000001300ae2d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6412ec7900000000130110c1",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 38,
+    "excelRow": 39,
+    "name": "杭州车床露营一线风景地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 39,
+    "excelRow": 40,
+    "name": "观新村&杭州汐遇民宿",
+    "recordId": "C027",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 40,
+    "excelRow": 41,
+    "name": "杭州青山艺术设计村",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 41,
+    "excelRow": 42,
+    "name": "青山村",
+    "recordId": "C158",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68d7855700000000130062f6",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 42,
+    "excelRow": 43,
+    "name": "太子尖星空营地",
+    "recordId": "C193",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69ae9214000000000d00802e",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa2338b000000002a025077",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 43,
+    "excelRow": 44,
+    "name": "临安大鱼线石门村猷戏谷",
+    "recordId": "C209",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a18f8d2000000003502a178",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a9d751b0000000029013f86",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 44,
+    "excelRow": 45,
+    "name": "曲院风荷西湖边露营",
+    "recordId": "C172",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6947e562000000001e0066aa",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 45,
+    "excelRow": 46,
+    "name": "青山湖太阳湾旅游驿站",
+    "recordId": "C016",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69afae260000000006031664",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1e8f840000000022016297",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d0f2000000001b001a86",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 46,
+    "excelRow": 47,
+    "name": "杭州小众观星露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 47,
+    "excelRow": 48,
+    "name": "杭州免费过夜露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 48,
+    "excelRow": 49,
+    "name": "良渚美丽洲公园",
+    "recordId": "C206",
+    "status": "hold",
+    "reason": "来源配图混入美丽洲堂教堂，与公园营地身份混淆；待核清具体露营区域后再展示。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6460db58000000002702bda3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 49,
+    "excelRow": 50,
+    "name": "青山村露营地",
+    "recordId": "C158",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68d7855700000000130062f6",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/673452e7000000001d038626",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 50,
+    "excelRow": 51,
+    "name": "运河亚运公园",
+    "recordId": "C005",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68d731b100000000120227cf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 51,
+    "excelRow": 52,
+    "name": "杭钢隔壁免费公园",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eb1c120000000020000803",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 52,
+    "excelRow": 53,
+    "name": "大鱼线宣王桥",
+    "recordId": "C028",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a3293a2000000000803f492",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a7160920000000028008598",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 53,
+    "excelRow": 54,
+    "name": "进贤村绅士溪水露营地",
+    "recordId": "C174",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 54,
+    "excelRow": 55,
+    "name": "下溪村",
+    "recordId": "C002",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 55,
+    "excelRow": 56,
+    "name": "萧山本地溪水露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 56,
+    "excelRow": 57,
+    "name": "周末露营好去处",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a3f8eea0000000006035eea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 57,
+    "excelRow": 58,
+    "name": "壶源溪·常安镇双坝",
+    "recordId": "C184",
+    "status": "hold",
+    "reason": "现有来源为壶源溪钓点合集，仅提供钓鱼位置，缺少该地点独立露营依据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a5b5539000000000401c910",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 58,
+    "excelRow": 59,
+    "name": "钱岸公园七堡艺文公园",
+    "recordId": "C181",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 59,
+    "excelRow": 60,
+    "name": "杭州市内沿��免费露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a032d0a000000000702afc7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 60,
+    "excelRow": 61,
+    "name": "临安绝美溯溪露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 61,
+    "excelRow": 62,
+    "name": "富阳溪边露营玩水地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/610f5547000000002103927f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 62,
+    "excelRow": 63,
+    "name": "壶源溪（双喜村）",
+    "recordId": "C138",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a124b2800000000060344d9",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 63,
+    "excelRow": 64,
+    "name": "苕溪-落塘埠",
+    "recordId": "C017",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 64,
+    "excelRow": 65,
+    "name": "杭州露营地（晒太阳）",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 65,
+    "excelRow": 66,
+    "name": "杭州新晋露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 66,
+    "excelRow": 67,
+    "name": "杭州采秋打板栗摘柿地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 67,
+    "excelRow": 68,
+    "name": "富阳龙鳞坝（梅州驿站）",
+    "recordId": "C180",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64490f000000000a0391f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69bc12a4000000001a0235a6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 68,
+    "excelRow": 69,
+    "name": "光明寺水库",
+    "recordId": "C007",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a1d4b09000000003700e24a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 69,
+    "excelRow": 70,
+    "name": "龙尾巴山塘水库",
+    "recordId": "C215",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a1d4b09000000003700e24a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 70,
+    "excelRow": 71,
+    "name": "观潮城江边营地",
+    "recordId": "C159",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f4afb00000000038022bc3",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69ae37350000000015038122",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 71,
+    "excelRow": 72,
+    "name": "幸福翼公园",
+    "recordId": "C190",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 72,
+    "excelRow": 73,
+    "name": "孤山公园",
+    "recordId": "C083",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 73,
+    "excelRow": 74,
+    "name": "鸬鸟山",
+    "recordId": "C204",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/698db820000000000e03e611",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 74,
+    "excelRow": 75,
+    "name": "清凉药谷（浙西小天池）",
+    "recordId": "C171",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f5d54400000000370370bc",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 75,
+    "excelRow": 76,
+    "name": "康门水库",
+    "recordId": "C152",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa2b92c000000002502cec4",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a1d4b09000000003700e24a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 76,
+    "excelRow": 77,
+    "name": "铜鉴湖公园",
+    "recordId": "C014",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69e837d1000000001a02bf5f",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a032ece000000003502db7c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 77,
+    "excelRow": 78,
+    "name": "日回山",
+    "recordId": "C214",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 78,
+    "excelRow": 79,
+    "name": "建德下涯之江村山风农场",
+    "recordId": "C157",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69ce8a300000000021004fe0",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d9ecbe0000000023013bef",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a1d1a39000000003700c044",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 79,
+    "excelRow": 80,
+    "name": "山田大桥",
+    "recordId": "C030",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 80,
+    "excelRow": 81,
+    "name": "进贤村",
+    "recordId": "C001",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 81,
+    "excelRow": 82,
+    "name": "萧山戴村溪水露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 82,
+    "excelRow": 83,
+    "name": "余杭半山竹林露营地（团建）",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69eb1c120000000020000803",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 83,
+    "excelRow": 84,
+    "name": "松针露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 84,
+    "excelRow": 85,
+    "name": "翠羊湾·休闲露营农庄",
+    "recordId": "C192",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6902d7260000000003011c99",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69cf5b2e000000001f003876",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 85,
+    "excelRow": 86,
+    "name": "壶源溪",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 86,
+    "excelRow": 87,
+    "name": "湘湖沐心岛房车营地",
+    "recordId": "C194",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/64a185cf000000001303379d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 87,
+    "excelRow": 88,
+    "name": "湘湖沐心岛房车露营",
+    "recordId": "C194",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 88,
+    "excelRow": 89,
+    "name": "建德新安江柳杉林",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a93e3cb000000002903e3e0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/66fd82c8000000002c028394",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69fad2c20000000035027f3c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 89,
+    "excelRow": 90,
+    "name": "自由大草坪露营地",
+    "recordId": "C022",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/691dcb24000000001f0048a8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/699f0146000000001d011610",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/67f62887000000001d006ed9",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 90,
+    "excelRow": 91,
+    "name": "临安免费露营钓鱼营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d35f4a000000001a029472",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 91,
+    "excelRow": 92,
+    "name": "壶源溪·横搓村",
+    "recordId": "C185",
+    "status": "hold",
+    "reason": "现有来源为壶源溪钓点合集，仅提供钓鱼位置，缺少该地点独立露营依据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 92,
+    "excelRow": 93,
+    "name": "南湖公园（余杭）",
+    "recordId": "C003",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a032ece000000003502db7c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64222da6000000001300cc17",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 93,
+    "excelRow": 94,
+    "name": "舒服露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69b3ae15000000001a02b63c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 94,
+    "excelRow": 95,
+    "name": "南湖公园",
+    "recordId": "C003",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a032ece000000003502db7c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64222da6000000001300cc17",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 95,
+    "excelRow": 96,
+    "name": "花屿溪营地",
+    "recordId": "C160",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a64d927000000000301fbbe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 96,
+    "excelRow": 97,
+    "name": "白马湖公园",
+    "recordId": "C013",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a032ece000000003502db7c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa8ddca00000000120377ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 97,
+    "excelRow": 98,
+    "name": "径山双溪绿道廊架",
+    "recordId": "C211",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a44d42a000000002103f7fa",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 98,
+    "excelRow": 99,
+    "name": "阿里公园",
+    "recordId": "C004",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa4e459000000002601f282",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 99,
+    "excelRow": 100,
+    "name": "山屿露营·大清谷店",
+    "recordId": "C207",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/66fd82c8000000002c028394",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 100,
+    "excelRow": 101,
+    "name": "青年林（钱塘江水杉林）",
+    "recordId": "C010",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/66fd82c8000000002c028394",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 101,
+    "excelRow": 102,
+    "name": "青年林",
+    "recordId": "C010",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/66fd82c8000000002c028394",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 102,
+    "excelRow": 103,
+    "name": "大明山牵牛岗",
+    "recordId": "C150",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 103,
+    "excelRow": 104,
+    "name": "建德新安江绿道驿站",
+    "recordId": "C200",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a93e3cb000000002903e3e0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d9ecbe0000000023013bef",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 104,
+    "excelRow": 105,
+    "name": "枫岭村大草坪",
+    "recordId": "C163",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/691dcb24000000001f0048a8",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/699f0146000000001d011610",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64b2958c000000003102f78d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 105,
+    "excelRow": 106,
+    "name": "安吉湿地",
+    "recordId": "C032",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a38af6f0000000016026a7e",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 106,
+    "excelRow": 107,
+    "name": "安顶山茶山",
+    "recordId": "C182",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6485d8630000000013016bd7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 107,
+    "excelRow": 108,
+    "name": "湘湖渔村",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/684be8710000000022036d21",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 108,
+    "excelRow": 109,
+    "name": "牵牛岗",
+    "recordId": "C150",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 109,
+    "excelRow": 110,
+    "name": "小古城苕溪营地",
+    "recordId": "C060",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 110,
+    "excelRow": 111,
+    "name": "寺坞岭望江阁",
+    "recordId": "C065",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e2e07c000000001a02ae49",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 111,
+    "excelRow": 112,
+    "name": "溪边营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 112,
+    "excelRow": 113,
+    "name": "太子尖高山露营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa2338b000000002a025077",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 113,
+    "excelRow": 114,
+    "name": "径山双溪绿道",
+    "recordId": "C211",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 114,
+    "excelRow": 115,
+    "name": "建德李家镇塘底水库（金鱼秘境）",
+    "recordId": "C208",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1d4b09000000003700e24a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69fad2c20000000035027f3c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 115,
+    "excelRow": 116,
+    "name": "多彩田园诗画潘堰",
+    "recordId": "C023",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6965f577000000001a027f48",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 116,
+    "excelRow": 117,
+    "name": "建德李家镇塘底石窟水库",
+    "recordId": "C208",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1d4b09000000003700e24a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69fad2c20000000035027f3c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 117,
+    "excelRow": 118,
+    "name": "潘堰村露营地",
+    "recordId": "C023",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68de292c0000000003036560",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 118,
+    "excelRow": 119,
+    "name": "西��源谷",
+    "recordId": "C057",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 119,
+    "excelRow": 120,
+    "name": "湘湖房车露营",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 120,
+    "excelRow": 121,
+    "name": "安顶山",
+    "recordId": "C182",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 121,
+    "excelRow": 122,
+    "name": "城北体育公园",
+    "recordId": "C012",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67c41eab000000002902cae0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69e59ddc000000002200d9d3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69a69d4f000000001d010447",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 122,
+    "excelRow": 123,
+    "name": "湘湖",
+    "recordId": "C104",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a032ece000000003502db7c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 123,
+    "excelRow": 124,
+    "name": "横路湾",
+    "recordId": "C165",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 124,
+    "excelRow": 125,
+    "name": "壶源溪·古城桥古城坝",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 125,
+    "excelRow": 126,
+    "name": "临安小众临水石滩",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d35f4a000000001a029472",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cf972f000000002300563f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a7160920000000028008598",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 126,
+    "excelRow": 127,
+    "name": "径山榉树林",
+    "recordId": "C035",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6938d309000000001d03ca54",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 127,
+    "excelRow": 128,
+    "name": "石门村猷戏谷（大鱼线）",
+    "recordId": "C209",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f5d54400000000370370bc",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 128,
+    "excelRow": 129,
+    "name": "临安秘境溯溪营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a093429000000000702753d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a3fee5c0000000015024f97",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 129,
+    "excelRow": 130,
+    "name": "东纪坞水库",
+    "recordId": "C179",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d5f06a00000000220005c7",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1d4b09000000003700e24a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/677cea4a000000000203cb09",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 130,
+    "excelRow": 131,
+    "name": "大朗山",
+    "recordId": "C162",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 131,
+    "excelRow": 132,
+    "name": "北塘河草坪",
+    "recordId": "C213",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/691dcb24000000001f0048a8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/692aba80000000001b026f1a",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69ded4e200000000220019f5",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 132,
+    "excelRow": 133,
+    "name": "钱塘区青年林（水杉林）",
+    "recordId": "C010",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69e837d1000000001a02bf5f",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69ea35fd000000001f00329b",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 133,
+    "excelRow": 134,
+    "name": "丁家岭",
+    "recordId": "C210",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a0af4fe0000000035022fe5",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 134,
+    "excelRow": 135,
+    "name": "宣王桥（大鱼线）",
+    "recordId": "C028",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a38af6f0000000016026a7e",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 135,
+    "excelRow": 136,
+    "name": "雾凇谷",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/693e8831000000001d03e4f7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/697f0e71000000001a021035",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 136,
+    "excelRow": 137,
+    "name": "杨家村",
+    "recordId": "C038",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 137,
+    "excelRow": 138,
+    "name": "麻车头",
+    "recordId": "C039",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 138,
+    "excelRow": 139,
+    "name": "长乐林场",
+    "recordId": "C203",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/648266f60000000014027eea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69217ab2000000001d03e076",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 139,
+    "excelRow": 140,
+    "name": "下陡门村",
+    "recordId": "C205",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68ca544d000000001301ae64",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 140,
+    "excelRow": 141,
+    "name": "溪畔营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 141,
+    "excelRow": 142,
+    "name": "临安龙岗镇野营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d35f4a000000001a029472",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6979dd91000000001a032ebd",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 142,
+    "excelRow": 143,
+    "name": "小古城村",
+    "recordId": "C202",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68de292c0000000003036560",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 143,
+    "excelRow": 144,
+    "name": "观潮城",
+    "recordId": "C159",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f5a06c000000003601f9f4",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 144,
+    "excelRow": 145,
+    "name": "漫画窗",
+    "recordId": "C188",
+    "status": "hold",
+    "reason": "“漫画窗”是泛化的拍照点名称，位置仅到杭州自驾范围，无法确认独立营地。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa56c6500000000260142fe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 145,
+    "excelRow": 146,
+    "name": "建德沿江路线",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eb5c7d000000002202b4ea",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69d9ecbe0000000023013bef",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69fad2c20000000035027f3c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 146,
+    "excelRow": 147,
+    "name": "北湖coffee苕溪露营地",
+    "recordId": "C187",
+    "status": "hold",
+    "reason": "现有来源介绍北湖 coffee 村咖，尚不能确认咖啡店与独立露营区域的对应关系。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a227734000000003701c6c0",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69eb1c120000000020000803",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa895980000000026009728",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 147,
+    "excelRow": 148,
+    "name": "杉树林（张堰村）",
+    "recordId": "C034",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/66fd82c8000000002c028394",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6967f43a000000000e03c94a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 148,
+    "excelRow": 149,
+    "name": "听潮音乐营地（萧山溯溪露营地）",
+    "recordId": "C198",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69bd31fd00000000280083c3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/668a1ff0000000001f006cc1",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/67f64c90000000001c016aed",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 149,
+    "excelRow": 150,
+    "name": "在山野·亚运村露营基地",
+    "recordId": "C195",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68d731b100000000120227cf",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/646ce28f0000000013013884",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 150,
+    "excelRow": 151,
+    "name": "良渚美丽洲",
+    "recordId": "C206",
+    "status": "hold",
+    "reason": "来源配图混入美丽洲堂教堂，与公园营地身份混淆；待核清具体露营区域后再展示。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/64b6a0c1000000001e01b44d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 151,
+    "excelRow": 152,
+    "name": "湘湖湘农路露营地",
+    "recordId": "C186",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/684be8710000000022036d21",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a65e12f000000001302d3eb",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 152,
+    "excelRow": 153,
+    "name": "星空农庄（径山双溪）",
+    "recordId": "C156",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/690daf9100000000040173e5",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6902d7260000000003011c99",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e9dea10000000020003801",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 153,
+    "excelRow": 154,
+    "name": "鸬鸟山沟沟",
+    "recordId": "C178",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/698db820000000000e03e611",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/647b54e5000000000703a3fd",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 154,
+    "excelRow": 155,
+    "name": "贝莱特庄园",
+    "recordId": "C199",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67f637a1000000001c01d513",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68ee10730000000007020812",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 155,
+    "excelRow": 156,
+    "name": "新安江白沙奇雾驻车点",
+    "recordId": "C196",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a35d108000000001c02479e",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a1d1a39000000003700c044",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 156,
+    "excelRow": 157,
+    "name": "建德夏日冬泳基地",
+    "recordId": "C217",
+    "status": "hold",
+    "reason": "现有记录指向夏日冬泳基地，来源为多活动游记，缺少该基地独立露营依据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/66fd82c8000000002c028394",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a23ca43000000003501cf19",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68d731b100000000120227cf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 157,
+    "excelRow": 158,
+    "name": "苕溪露营野地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69cb97fd00000000210045e8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 158,
+    "excelRow": 159,
+    "name": "风之谷",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a9d751b0000000029013f86",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64be3a11000000001701b956",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 159,
+    "excelRow": 160,
+    "name": "径山双溪/进贤村",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69368b92000000000d034dd3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68d731b100000000120227cf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 160,
+    "excelRow": 161,
+    "name": "乌象坝&乌象大桥露营地",
+    "recordId": "C025",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/64509fb80000000027000936",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68f4d795000000000301cc76",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 161,
+    "excelRow": 162,
+    "name": "千岛湖阳光路989停车场",
+    "recordId": "C197",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68ac10c7000000001d005297",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1e5ebe0000000008002301",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64551db0000000001303707f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 162,
+    "excelRow": 163,
+    "name": "溪塔村百年古樟树",
+    "recordId": "C036",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eb1c120000000020000803",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f4aa37000000001b02162f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6442904d00000000270020a1",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 163,
+    "excelRow": 164,
+    "name": "市区宝藏营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69eefc81000000003601b053",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a9153dc000000002a032cc2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 164,
+    "excelRow": 165,
+    "name": "考拉营地（皋亭山）",
+    "recordId": "C058",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68d731b100000000120227cf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa7ec57000000002802bf4b",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 165,
+    "excelRow": 166,
+    "name": "之江绿道廊架",
+    "recordId": "C015",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/694fa7a8000000001f00c9db",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69ef1a710000000038035865",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68e3eb52000000000703ab13",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 166,
+    "excelRow": 167,
+    "name": "长川绿道露营地",
+    "recordId": "C021",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa91496000000002803814f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa56c6500000000260142fe",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 167,
+    "excelRow": 168,
+    "name": "中科粮油育种实验基地",
+    "recordId": "C019",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68dbb20e00000000040017b6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a9153dc000000002a032cc2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6890db5d0000000025012253",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 168,
+    "excelRow": 169,
+    "name": "榉树林",
+    "recordId": "C035",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6967f43a000000000e03c94a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6938d309000000001d03ca54",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 169,
+    "excelRow": 170,
+    "name": "越秀风之谷公园",
+    "recordId": "C018",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a9d751b0000000029013f86",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/64be3a11000000001701b956",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 170,
+    "excelRow": 171,
+    "name": "鹿野森谷",
+    "recordId": "C161",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a09b5db00000000080267e6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a13da9c000000003502cba8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/66840066000000001e012373",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 171,
+    "excelRow": 172,
+    "name": "大山村",
+    "recordId": "C170",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69f1f63b000000003601b2ee",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa590a4000000002a027414",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 172,
+    "excelRow": 173,
+    "name": "沐心岛",
+    "recordId": "C194",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a23ca43000000003501cf19",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690da88100000000050010d3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 173,
+    "excelRow": 174,
+    "name": "建德之江村（车中泊点）",
+    "recordId": "C216",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69d9ecbe0000000023013bef",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69fad2c20000000035027f3c",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69b78d440000000023005860",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 174,
+    "excelRow": 175,
+    "name": "有风营地",
+    "recordId": "C143",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a38af6f0000000016026a7e",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa930c70000000025035ce3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 175,
+    "excelRow": 176,
+    "name": "田间有座岛露营地",
+    "recordId": "C183",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69c4d72f000000001d01f918",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/64b8eff7000000000800c2cf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69a1616e000000001d02669a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 176,
+    "excelRow": 177,
+    "name": "听潮音乐营地-木栖",
+    "recordId": "C198",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/668a1ff0000000001f006cc1",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 177,
+    "excelRow": 178,
+    "name": "千岛湖湖畔野营地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68ac10c7000000001d005297",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1e5ebe0000000008002301",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69a3b20d000000002603de18",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 178,
+    "excelRow": 179,
+    "name": "天荒坪",
+    "recordId": "C026",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/692aba80000000001b026f1a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69a1616e000000001d02669a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 179,
+    "excelRow": 180,
+    "name": "江畔森野露营地",
+    "recordId": "C189",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69cbafa9000000001b021a75",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/691c3a5a000000001f00833a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69ef1a710000000038035865",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 180,
+    "excelRow": 181,
+    "name": "天石滩",
+    "recordId": "C169",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6922ac31000000001e039a85",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6aa590a4000000002a027414",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69a1616e000000001d02669a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 181,
+    "excelRow": 182,
+    "name": "入坑艺术公园",
+    "recordId": "C173",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/67dcc861000000000d015e9c",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a9f7dbe000000000d026191",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a1ee2b10000000021022d8d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 182,
+    "excelRow": 183,
+    "name": "石门村（龙门秘境）",
+    "recordId": "C166",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/680cceca000000000e007012",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68de292c0000000003036560",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa590a4000000002a027414",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 183,
+    "excelRow": 184,
+    "name": "大鱼线",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a7160920000000028008598",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a3fee5c0000000015024f97",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a8d3f140000000017009537",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 184,
+    "excelRow": 185,
+    "name": "上店村",
+    "recordId": "C029",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69be57c6000000001b000578",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/68de292c0000000003036560",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a0463310000000035023497",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 185,
+    "excelRow": 186,
+    "name": "河桥古镇",
+    "recordId": "C024",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/68d3f23e000000000e033c72",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/692aba80000000001b026f1a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69f5a06c000000003601f9f4",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 186,
+    "excelRow": 187,
+    "name": "建德之江山风农场",
+    "recordId": "C157",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a033d0d0000000035032f1e",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a1d1a39000000003700c044",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6a3155390000000007012706",
+        "status": "keep",
+        "reason": "地点与标题人工匹配或已有同地点来源关联"
+      }
+    ]
+  },
+  {
+    "rowNumber": 187,
+    "excelRow": 188,
+    "name": "龙上村（攀岩小镇）",
+    "recordId": "C167",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69be57c6000000001b000578",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69bcd7130000000021010f1d",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/68de292c0000000003036560",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 188,
+    "excelRow": 189,
+    "name": "杨宅坞（三口公交站）",
+    "recordId": "C164",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/677cea4a000000000203cb09",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f19b04000000003502fcae",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69d11744000000001b023923",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 189,
+    "excelRow": 190,
+    "name": "滨江工业遗址公园露营地",
+    "recordId": "C015",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6900462d0000000004013550",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/647d627e000000001300468b",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e59ddc000000002200d9d3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 190,
+    "excelRow": 191,
+    "name": "余杭露营团建基地",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/690b503400000000030101f8",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6912e8f50000000003036adc",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69bbb08d000000001a037697",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 191,
+    "excelRow": 192,
+    "name": "安吉外古庵",
+    "recordId": "C191",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/69a1616e000000001d02669a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a06cbc600000000060233d7",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69e59ddc000000002200d9d3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 192,
+    "excelRow": 193,
+    "name": "遐也空间",
+    "recordId": "C175",
+    "status": "merge",
+    "reason": "同地点合并，逐字段采用通过检查的主数据",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6aa590a4000000002a027414",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a2584af00000000070113f2",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/66d02a14000000001f03b2f6",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 193,
+    "excelRow": 194,
+    "name": "鼻头石",
+    "recordId": "C168",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6aa590a4000000002a027414",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69e59ddc000000002200d9d3",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/6aa21fcd000000001203f583",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 194,
+    "excelRow": 195,
+    "name": "jia宝自然农场",
+    "recordId": "C212",
+    "status": "hold",
+    "reason": "来源主要为游览、徒步、溯溪或农场介绍，未能定位有独立露营依据的营位；本次暂缓展示，待补充地点与露营证据。",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a0ec1ce000000000702cf78",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/69f5a06c000000003601f9f4",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/67359df9000000003c01f755",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  },
+  {
+    "rowNumber": 195,
+    "excelRow": 196,
+    "name": "出来玩户外组织",
+    "recordId": null,
+    "status": "hold",
+    "reason": "无法确认独立营地身份、名称含糊或存在跨地点错配",
+    "notes": [
+      {
+        "slot": 1,
+        "url": "https://www.xiaohongshu.com/explore/6a4ba6d9000000001702e90a",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 2,
+        "url": "https://www.xiaohongshu.com/explore/6a266fff000000002101a235",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      },
+      {
+        "slot": 3,
+        "url": "https://www.xiaohongshu.com/explore/69290642000000001e01260f",
+        "status": "exclude",
+        "reason": "未能建立该笔记与本地点的可靠对应关系，不能充作依据"
+      }
+    ]
+  }
+]
