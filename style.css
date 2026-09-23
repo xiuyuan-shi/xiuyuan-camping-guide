@@ -11,3 +11,9 @@
 .primary-info{padding:20px 22px;border-bottom:1px solid var(--line)}.primary-info h2{font-size:20px;margin:0 0 10px}.primary-row{margin-top:18px}.primary-row h3{font-size:14px;margin:0 0 10px;color:var(--green)}.primary-fact-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.primary-fact-grid>div{padding:10px;background:#f4f7f4;border-radius:6px;min-width:0}.primary-fact-grid>div.wide{grid-column:1/-1}.primary-fact-grid strong,.primary-fact-grid span{display:block;overflow-wrap:anywhere}.primary-fact-grid strong{font-size:11px;color:#647568;margin-bottom:5px}.primary-fact-grid span{font-size:13px;line-height:1.55;color:#203b2f}@media(max-width:359px){.primary-fact-grid{grid-template-columns:1fr}.primary-fact-grid>div.wide{grid-column:auto}}
 .row-audit-link{display:inline-block;margin-top:10px;color:var(--green);font-size:12px}.verified-page details{margin:12px 0}.verified-page details summary{color:var(--green);cursor:pointer}
 .verified-entry{display:block;width:calc(100% - 40px);margin:0 20px 14px;padding:10px 12px;border:1px solid #dce8dc;border-radius:8px;background:#f4f8f3;color:var(--green);text-align:left;font-size:13px;font-weight:600}
+
+/* Keep the approved card layout; expose methodology through the rating itself. */
+.rating-button{border:0;background:transparent;padding:0;cursor:pointer;font-family:inherit;font-weight:650;text-align:left;color:#ce670e;display:inline-flex;align-items:center;gap:5px}
+.rating-button.unrated .icon{opacity:.75}.rating-stars{color:#ce670e;font-size:24px;letter-spacing:3px}
+.route-origin{font-size:11px;color:#737a77;margin:-4px 0 14px}.map-mode .route-origin{display:none}
+#utility-content details{border-top:1px solid #e2e7e4;padding:12px 0}#utility-content li{margin:7px 0}#utility-content summary{cursor:pointer}
