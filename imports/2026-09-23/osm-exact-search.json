@@ -1,0 +1,1669 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-23T13:41:35Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 744758209,
+  "lat": 30.3425270,
+  "lon": 119.8817581,
+  "tags": {
+    "bus": "yes",
+    "name": "麻车头",
+    "name:zh": "麻车头",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 744758789,
+  "lat": 30.3673523,
+  "lon": 119.6752568,
+  "tags": {
+    "bus": "yes",
+    "name": "宣王桥",
+    "name:zh": "宣王桥",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 1468743758,
+  "lat": 30.2419031,
+  "lon": 120.1510760,
+  "tags": {
+    "name": "柳浪闻莺",
+    "name:en": "Orioles Singing in the Willows",
+    "note": "西湖十景",
+    "note:en": "Ten Scenes of West Lake",
+    "tourism": "viewpoint",
+    "wikidata": "Q11109951",
+    "wikipedia": "zh:柳浪闻莺"
+  }
+},
+{
+  "type": "node",
+  "id": 1468743785,
+  "lat": 30.2516070,
+  "lon": 120.1269040,
+  "tags": {
+    "name": "曲院风荷",
+    "name:en": "Wind and Lotus at the Crooked Courtyard",
+    "note": "西湖十景",
+    "note:en": "Ten Scenes of West Lake",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3826502949,
+  "lat": 30.3325574,
+  "lon": 119.3568777,
+  "tags": {
+    "bus": "yes",
+    "name": "蝴蝶谷",
+    "name:zh": "蝴蝶谷",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 4427428624,
+  "lat": 30.2504698,
+  "lon": 120.1317871,
+  "tags": {
+    "information": "board",
+    "name": "曲院风荷",
+    "name:en": "Wind and Lotus at the Crooked Courtyard",
+    "name:zh": "曲院风荷",
+    "name:zh-Hans-CN": "曲院风荷",
+    "name:zh-Hant-CN": "曲院風荷",
+    "note": "西湖十景",
+    "note:en": "Ten Scenes of West Lake",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4685252590,
+  "lat": 30.2534690,
+  "lon": 120.1309847,
+  "tags": {
+    "name": "曲院风荷",
+    "name:en": "Wind and Lotus at the Crooked Courtyard",
+    "name:zh": "曲院风荷",
+    "note": "西湖十景",
+    "note:en": "Ten Scenes of West Lake",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4789540528,
+  "lat": 29.2226797,
+  "lon": 118.4279990,
+  "tags": {
+    "name": "杨家村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4791220878,
+  "lat": 29.0619132,
+  "lon": 118.3809107,
+  "tags": {
+    "name": "下溪村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 5023551670,
+  "lat": 30.3539288,
+  "lon": 120.2167533,
+  "tags": {
+    "name": "桃花湖公园",
+    "name:en": "Taohua Lake Park",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5500601724,
+  "lat": 30.3197682,
+  "lon": 120.1889654,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5500601725,
+  "lat": 30.3217586,
+  "lon": 120.1896185,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5511545813,
+  "lat": 29.1385387,
+  "lon": 118.9598368,
+  "tags": {
+    "name": "下溪村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 5916369076,
+  "lat": 29.4562071,
+  "lon": 118.5906523,
+  "tags": {
+    "name": "杨家村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 6087283078,
+  "lat": 29.0612805,
+  "lon": 119.2119514,
+  "tags": {
+    "name": "杨家村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 6093304556,
+  "lat": 31.0268455,
+  "lon": 120.5326795,
+  "tags": {
+    "name": "沧州村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 6123219828,
+  "lat": 29.6902394,
+  "lon": 119.0387454,
+  "tags": {
+    "name": "进贤村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 6505799704,
+  "lat": 30.1701861,
+  "lon": 120.2301186,
+  "tags": {
+    "name": "湘湖",
+    "name:en": "Xianghu",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7148156671,
+  "lat": 29.8362566,
+  "lon": 119.9195205,
+  "tags": {
+    "bus": "yes",
+    "name": "树石村",
+    "name:zh": "树石村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 7149693786,
+  "lat": 29.8922035,
+  "lon": 119.8046853,
+  "tags": {
+    "bus": "yes",
+    "name": "桐洲岛",
+    "name:zh": "桐洲岛",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 7742655421,
+  "lat": 30.4085204,
+  "lon": 119.4998198,
+  "tags": {
+    "ele": "1248.7",
+    "name": "仰天坪",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 8595835981,
+  "lat": 30.1963831,
+  "lon": 119.9316601,
+  "tags": {
+    "name": "大朗山",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 8867410724,
+  "lat": 30.4450122,
+  "lon": 120.3817244,
+  "tags": {
+    "name": "杨家村",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 8982332627,
+  "lat": 30.1701753,
+  "lon": 120.2299646,
+  "tags": {
+    "name": "湘湖",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9021619195,
+  "lat": 30.3537850,
+  "lon": 120.2168109,
+  "tags": {
+    "name": "桃花湖公园",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9446435363,
+  "lat": 30.1701799,
+  "lon": 120.2300465,
+  "tags": {
+    "layer": "-1",
+    "name": "湘湖",
+    "name:en": "Xianghu",
+    "name:zh": "湘湖",
+    "opening_hours": "06:09-23:49",
+    "operator": "杭州杭港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "1",
+    "start_date": "-",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9838545532,
+  "lat": 30.2365060,
+  "lon": 119.2949674,
+  "tags": {
+    "ele": "680",
+    "name": "仰天坪",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 9862441937,
+  "lat": 30.3538632,
+  "lon": 120.2167754,
+  "tags": {
+    "layer": "-1",
+    "name": "桃花湖公园",
+    "name:en": "Taohuahu Park",
+    "opening_hours": "06:09-23:49",
+    "operator": "杭州地铁运营有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "3",
+    "start_date": "-",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11542881437,
+  "lat": 30.1064849,
+  "lon": 119.4479044,
+  "tags": {
+    "ele": "281",
+    "name": "浮云岭",
+    "natural": "saddle"
+  }
+},
+{
+  "type": "node",
+  "id": 11542935114,
+  "lat": 30.0635545,
+  "lon": 119.6065856,
+  "tags": {
+    "ele": "464",
+    "name": "仰天坪",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 12528963820,
+  "lat": 30.0731477,
+  "lon": 119.9936360,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "北支江公园",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12528963821,
+  "lat": 30.0730291,
+  "lon": 119.9926246,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "北支江公园",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12546641316,
+  "lat": 30.1172631,
+  "lon": 120.5379112,
+  "tags": {
+    "name": "羊山公园",
+    "public_transport": "platform",
+    "source:position": "Esri; Bing"
+  }
+},
+{
+  "type": "node",
+  "id": 12546670406,
+  "lat": 30.1174765,
+  "lon": 120.5377355,
+  "tags": {
+    "name": "羊山公园",
+    "public_transport": "platform",
+    "route_ref": "118;158;815;831;832;832A;快896",
+    "shelter": "yes",
+    "source:position": "Geotagged Images"
+  }
+},
+{
+  "type": "node",
+  "id": 12623179278,
+  "lat": 30.3217432,
+  "lon": 120.1895129,
+  "tags": {
+    "bus": "yes",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12623179279,
+  "lat": 30.3197522,
+  "lon": 120.1891110,
+  "tags": {
+    "bus": "yes",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12641274695,
+  "lat": 30.3049079,
+  "lon": 120.1521248,
+  "tags": {
+    "bus": "yes",
+    "name": "大关公园",
+    "name:zh": "大关公园",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12641274696,
+  "lat": 30.3050072,
+  "lon": 120.1519665,
+  "tags": {
+    "bus": "yes",
+    "name": "大关公园",
+    "name:zh": "大关公园",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12641274697,
+  "lat": 30.3048221,
+  "lon": 120.1521867,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "大关公园",
+    "name:zh": "大关公园",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12641274698,
+  "lat": 30.3050490,
+  "lon": 120.1519614,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "大关公园",
+    "name:zh": "大关公园",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12643204701,
+  "lat": 30.3115304,
+  "lon": 120.1358896,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "紫荆公园",
+    "name:zh": "紫荆公园",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12643204702,
+  "lat": 30.3115958,
+  "lon": 120.1358923,
+  "tags": {
+    "bus": "yes",
+    "name": "紫荆公园",
+    "name:zh": "紫荆公园",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12643204703,
+  "lat": 30.3116485,
+  "lon": 120.1369572,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "紫荆公园",
+    "name:zh": "紫荆公园",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12643204704,
+  "lat": 30.3115897,
+  "lon": 120.1369519,
+  "tags": {
+    "bus": "yes",
+    "name": "紫荆公园",
+    "name:zh": "紫荆公园",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12946813341,
+  "lat": 30.0786756,
+  "lon": 120.2051738,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12946813342,
+  "lat": 30.0788031,
+  "lon": 120.2052451,
+  "tags": {
+    "bus": "yes",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12946813343,
+  "lat": 30.0787986,
+  "lon": 120.2053079,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12946813344,
+  "lat": 30.0786777,
+  "lon": 120.2052398,
+  "tags": {
+    "bus": "yes",
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 12969056259,
+  "lat": 29.8922435,
+  "lon": 119.8046771,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "桐洲岛",
+    "name:zh": "桐洲岛",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12969056260,
+  "lat": 29.8921388,
+  "lon": 119.8045993,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "桐洲岛",
+    "name:zh": "桐洲岛",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12969056261,
+  "lat": 29.8921700,
+  "lon": 119.8045755,
+  "tags": {
+    "bus": "yes",
+    "name": "桐洲岛",
+    "name:zh": "桐洲岛",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868967,
+  "lat": 29.8363533,
+  "lon": 119.9195391,
+  "tags": {
+    "bus": "yes",
+    "name": "树石村",
+    "name:zh": "树石村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868968,
+  "lat": 29.8363420,
+  "lon": 119.9196017,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "树石村",
+    "name:zh": "树石村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868969,
+  "lat": 29.8362442,
+  "lon": 119.9194515,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "树石村",
+    "name:zh": "树石村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868974,
+  "lat": 29.8278607,
+  "lon": 119.9335395,
+  "tags": {
+    "bus": "yes",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868975,
+  "lat": 29.8279857,
+  "lon": 119.9335509,
+  "tags": {
+    "bus": "yes",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868976,
+  "lat": 29.8279807,
+  "lon": 119.9334982,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13026868977,
+  "lat": 29.8278515,
+  "lon": 119.9336176,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13039667144,
+  "lat": 30.3425977,
+  "lon": 119.8817718,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "麻车头",
+    "name:zh": "麻车头",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13039667145,
+  "lat": 30.3424495,
+  "lon": 119.8819113,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "麻车头",
+    "name:zh": "麻车头",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13039667146,
+  "lat": 30.3425199,
+  "lon": 119.8819269,
+  "tags": {
+    "bus": "yes",
+    "name": "麻车头",
+    "name:zh": "麻车头",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13058214157,
+  "lat": 30.4338184,
+  "lon": 119.7203994,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13058214158,
+  "lat": 30.4339109,
+  "lon": 119.7200560,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13058214159,
+  "lat": 30.4339843,
+  "lon": 119.7201061,
+  "tags": {
+    "bus": "yes",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13058214160,
+  "lat": 30.4337402,
+  "lon": 119.7203577,
+  "tags": {
+    "bus": "yes",
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13070457886,
+  "lat": 30.3674358,
+  "lon": 119.6754925,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "宣王桥",
+    "name:zh": "宣王桥",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13070457887,
+  "lat": 30.3673870,
+  "lon": 119.6754896,
+  "tags": {
+    "bus": "yes",
+    "name": "宣王桥",
+    "name:zh": "宣王桥",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13070457888,
+  "lat": 30.3672703,
+  "lon": 119.6752471,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "宣王桥",
+    "name:zh": "宣王桥",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13164817489,
+  "lat": 30.3325593,
+  "lon": 119.3569224,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "蝴蝶谷",
+    "name:zh": "蝴蝶谷",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13164817490,
+  "lat": 30.3326447,
+  "lon": 119.3568215,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "蝴蝶谷",
+    "name:zh": "蝴蝶谷",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13164817491,
+  "lat": 30.3326514,
+  "lon": 119.3568509,
+  "tags": {
+    "bus": "yes",
+    "name": "蝴蝶谷",
+    "name:zh": "蝴蝶谷",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13180763444,
+  "lat": 30.1048277,
+  "lon": 119.2365074,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "河桥古镇",
+    "name:zh": "河桥古镇",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13180763445,
+  "lat": 30.1048431,
+  "lon": 119.2364325,
+  "tags": {
+    "bus": "yes",
+    "name": "河桥古镇",
+    "name:zh": "河桥古镇",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13807743509,
+  "lat": 29.8694335,
+  "lon": 119.8955315,
+  "tags": {
+    "alt_name": "沧州",
+    "name": "沧州村",
+    "place": "village",
+    "place:CN": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 14173681311,
+  "lat": 30.1737159,
+  "lon": 121.0769670,
+  "tags": {
+    "name": "杨家村",
+    "place": "village"
+  }
+},
+{
+  "type": "way",
+  "id": 4546622,
+  "center": {
+    "lat": 29.8866897,
+    "lon": 119.7989680
+  },
+  "tags": {
+    "name": "桐洲岛",
+    "name:en": "Tongzhou Island",
+    "name:zh": "桐洲岛",
+    "name:zh-Hans": "桐洲岛",
+    "place": "island",
+    "source": "GPS"
+  }
+},
+{
+  "type": "way",
+  "id": 117948709,
+  "center": {
+    "lat": 30.1793708,
+    "lon": 120.0255138
+  },
+  "tags": {
+    "name": "光明寺水库",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 161419347,
+  "center": {
+    "lat": 30.2340105,
+    "lon": 120.1283633
+  },
+  "tags": {
+    "name": "乌龟潭",
+    "name:en": "Turtle lake",
+    "natural": "water"
+  }
+},
+{
+  "type": "way",
+  "id": 186613743,
+  "center": {
+    "lat": 30.3195256,
+    "lon": 120.3473132
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "高教西公园",
+    "name:en": "Higher Education West Park",
+    "name:zh": "高教西公园"
+  }
+},
+{
+  "type": "way",
+  "id": 229705516,
+  "center": {
+    "lat": 30.4217548,
+    "lon": 120.2786276
+  },
+  "tags": {
+    "name": "临平公园",
+    "natural": "wood"
+  }
+},
+{
+  "type": "way",
+  "id": 278810569,
+  "center": {
+    "lat": 29.1451871,
+    "lon": 121.0343211
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "东湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 337813312,
+  "center": {
+    "lat": 30.2734466,
+    "lon": 120.1843904
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "城东公园"
+  }
+},
+{
+  "type": "way",
+  "id": 422017166,
+  "center": {
+    "lat": 30.3153341,
+    "lon": 120.1572838
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "城北体育公园",
+    "name:en": "Chengbei Sports Park"
+  }
+},
+{
+  "type": "way",
+  "id": 423141450,
+  "center": {
+    "lat": 30.3054778,
+    "lon": 120.1513734
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "大关公园"
+  }
+},
+{
+  "type": "way",
+  "id": 438233652,
+  "center": {
+    "lat": 30.6999984,
+    "lon": 121.0234581
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "东湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 491879245,
+  "center": {
+    "lat": 30.2284365,
+    "lon": 119.7290531
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "吴越文化公园"
+  }
+},
+{
+  "type": "way",
+  "id": 514146350,
+  "center": {
+    "lat": 30.3105716,
+    "lon": 120.1354184
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "紫荆公园"
+  }
+},
+{
+  "type": "way",
+  "id": 535621393,
+  "center": {
+    "lat": 30.1985498,
+    "lon": 120.2032088
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "江一公园"
+  }
+},
+{
+  "type": "way",
+  "id": 564049058,
+  "center": {
+    "lat": 30.3502212,
+    "lon": 120.1669007
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "桃源中央公园"
+  }
+},
+{
+  "type": "way",
+  "id": 585012347,
+  "center": {
+    "lat": 30.3097291,
+    "lon": 120.3139124
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "金沙湖公园",
+    "name:en": "Jinshahu Park",
+    "name:zh": "金沙湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 650075936,
+  "center": {
+    "lat": 30.2785253,
+    "lon": 120.3305438
+  },
+  "tags": {
+    "name": "青年林",
+    "natural": "wood"
+  }
+},
+{
+  "type": "way",
+  "id": 674580449,
+  "center": {
+    "lat": 30.2957011,
+    "lon": 120.0846220
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "紫金园"
+  }
+},
+{
+  "type": "way",
+  "id": 787424982,
+  "center": {
+    "lat": 30.3832438,
+    "lon": 120.2313795
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "皋亭千桃园"
+  }
+},
+{
+  "type": "way",
+  "id": 857685274,
+  "center": {
+    "lat": 30.3866368,
+    "lon": 120.2899655
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "东湖公园",
+    "wikidata": "Q138605359"
+  }
+},
+{
+  "type": "way",
+  "id": 888501847,
+  "center": {
+    "lat": 31.4217313,
+    "lon": 120.9224446
+  },
+  "tags": {
+    "name": "玉湖",
+    "natural": "water",
+    "water": "lake"
+  }
+},
+{
+  "type": "way",
+  "id": 951422875,
+  "center": {
+    "lat": 30.1206985,
+    "lon": 120.0585905
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "铜鉴湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 970559707,
+  "center": {
+    "lat": 30.1706704,
+    "lon": 120.2297849
+  },
+  "tags": {
+    "building": "train_station",
+    "layer": "-1",
+    "name": "湘湖",
+    "name:en": "Xianghu",
+    "name:zh": "湘湖",
+    "operator": "杭州杭港地铁有限公司",
+    "ref": "1",
+    "start_date": "-",
+    "wikidata": "Q2510400"
+  }
+},
+{
+  "type": "way",
+  "id": 974870618,
+  "center": {
+    "lat": 30.3540522,
+    "lon": 120.2168982
+  },
+  "tags": {
+    "building": "train_station",
+    "layer": "-1",
+    "name": "桃花湖公园",
+    "name:en": "Taohuahu Park",
+    "opening_hours": "06:09-23:49",
+    "operator": "杭州地铁运营有限公司",
+    "ref": "3",
+    "start_date": "-"
+  }
+},
+{
+  "type": "way",
+  "id": 975710351,
+  "center": {
+    "lat": 30.2517039,
+    "lon": 120.1289085
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "曲院风荷",
+    "name:en": "Wind and Lotus at the Crooked Courtyard",
+    "note": "西湖十景",
+    "note:en": "Ten Scenes of West Lake"
+  }
+},
+{
+  "type": "way",
+  "id": 990249645,
+  "center": {
+    "lat": 30.1477864,
+    "lon": 120.0589961
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "双流公园",
+    "name:en": "Shuangliu park"
+  }
+},
+{
+  "type": "way",
+  "id": 1111012245,
+  "center": {
+    "lat": 30.1627561,
+    "lon": 120.2767228
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "城河公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1167135409,
+  "center": {
+    "lat": 30.3564675,
+    "lon": 120.2125006
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "桃花湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1186521610,
+  "center": {
+    "lat": 30.4513302,
+    "lon": 120.2698691
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "龙安湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1193581492,
+  "center": {
+    "lat": 31.2275357,
+    "lon": 120.6236547
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "东湖公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1320024864,
+  "center": {
+    "lat": 30.3591603,
+    "lon": 120.1056942
+  },
+  "tags": {
+    "intermittent": "no",
+    "name": "玉湖",
+    "natural": "water",
+    "salt": "no",
+    "water": "lake"
+  }
+},
+{
+  "type": "way",
+  "id": 1355693388,
+  "center": {
+    "lat": 30.1154876,
+    "lon": 120.5409716
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "羊山公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1368372600,
+  "center": {
+    "lat": 30.1994562,
+    "lon": 120.1988719
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "北塘河爱心公园"
+  }
+},
+{
+  "type": "way",
+  "id": 1424409686,
+  "center": {
+    "lat": 30.1955532,
+    "lon": 119.1155909
+  },
+  "tags": {
+    "bridge": "yes",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "山田大桥"
+  }
+},
+{
+  "type": "way",
+  "id": 1424409687,
+  "center": {
+    "lat": 30.2051834,
+    "lon": 119.1080218
+  },
+  "tags": {
+    "bridge": "yes",
+    "layer": "1",
+    "man_made": "bridge",
+    "name": "洪潭大桥"
+  }
+},
+{
+  "type": "way",
+  "id": 1528565132,
+  "center": {
+    "lat": 29.6933036,
+    "lon": 120.2696112
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "城东公园"
+  }
+},
+{
+  "type": "relation",
+  "id": 8450950,
+  "center": {
+    "lat": 30.1365430,
+    "lon": 120.2106218
+  },
+  "tags": {
+    "name": "湘湖",
+    "name:en": "Xianghu Lake",
+    "natural": "water",
+    "salt": "no",
+    "tidal": "no",
+    "type": "multipolygon",
+    "water": "lake",
+    "wikidata": "Q16935741",
+    "wikipedia": "zh:湘湖"
+  }
+},
+{
+  "type": "relation",
+  "id": 9049791,
+  "center": {
+    "lat": 31.0285960,
+    "lon": 120.5374378
+  },
+  "tags": {
+    "admin_level": "10",
+    "boundary": "administrative",
+    "name": "沧州村",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 13132005,
+  "center": {
+    "lat": 30.2418342,
+    "lon": 120.1517093
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "柳浪闻莺",
+    "name:en": "Orioles Singing in the Willows",
+    "note": "西湖十景",
+    "note:en": "Ten Scenes of West Lake",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13320356,
+  "center": {
+    "lat": 30.1700696,
+    "lon": 120.2297964
+  },
+  "tags": {
+    "name": "湘湖",
+    "name:en": "Xianghu",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 13538214,
+  "center": {
+    "lat": 30.3540598,
+    "lon": 120.2168680
+  },
+  "tags": {
+    "name": "桃花湖公园",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 18760072,
+  "center": {
+    "lat": 30.3207554,
+    "lon": 120.1892919
+  },
+  "tags": {
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 18789434,
+  "center": {
+    "lat": 30.3049355,
+    "lon": 120.1520741
+  },
+  "tags": {
+    "name": "大关公园",
+    "name:zh": "大关公园",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 18792444,
+  "center": {
+    "lat": 30.3115894,
+    "lon": 120.1364234
+  },
+  "tags": {
+    "name": "紫荆公园",
+    "name:zh": "紫荆公园",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19280306,
+  "center": {
+    "lat": 30.0787393,
+    "lon": 120.2052408
+  },
+  "tags": {
+    "name": "杨家村",
+    "name:zh": "杨家村",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19298209,
+  "center": {
+    "lat": 30.3054101,
+    "lon": 120.2823403
+  },
+  "tags": {
+    "addr:city": "杭州市",
+    "addr:district": "上城区",
+    "addr:province": "浙江省",
+    "leisure": "park",
+    "name": "东湖路市民公园",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 19313210,
+  "center": {
+    "lat": 29.8921912,
+    "lon": 119.8046304
+  },
+  "tags": {
+    "name": "桐洲岛",
+    "name:zh": "桐洲岛",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19392305,
+  "center": {
+    "lat": 29.8362987,
+    "lon": 119.9195266
+  },
+  "tags": {
+    "name": "树石村",
+    "name:zh": "树石村",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19392307,
+  "center": {
+    "lat": 29.8279186,
+    "lon": 119.9335579
+  },
+  "tags": {
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19412552,
+  "center": {
+    "lat": 30.3425236,
+    "lon": 119.8818425
+  },
+  "tags": {
+    "name": "麻车头",
+    "name:zh": "麻车头",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19440003,
+  "center": {
+    "lat": 30.4338623,
+    "lon": 119.7202277
+  },
+  "tags": {
+    "name": "下溪村",
+    "name:zh": "下溪村",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19459906,
+  "center": {
+    "lat": 30.3673530,
+    "lon": 119.6753698
+  },
+  "tags": {
+    "name": "宣王桥",
+    "name:zh": "宣王桥",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19639681,
+  "center": {
+    "lat": 30.3326044,
+    "lon": 119.3568719
+  },
+  "tags": {
+    "name": "蝴蝶谷",
+    "name:zh": "蝴蝶谷",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 19660955,
+  "center": {
+    "lat": 30.1048354,
+    "lon": 119.2364700
+  },
+  "tags": {
+    "name": "河桥古镇",
+    "name:zh": "河桥古镇",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 20083679,
+  "center": {
+    "lat": 30.2541350,
+    "lon": 120.1378116
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "孤山公园",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

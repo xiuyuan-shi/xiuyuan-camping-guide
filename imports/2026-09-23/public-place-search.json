@@ -1,0 +1,5205 @@
+{
+  "C020": {
+    "name": "小丁松葡萄园",
+    "queriedAt": "2026-09-23T13:44:18.604965+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%B0%8F%E4%B8%81%E6%9D%BE%E8%91%A1%E8%90%84%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C035": {
+    "name": "榉树林地面停车场",
+    "queriedAt": "2026-09-23T13:44:22.132198+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A6%89%E6%A0%91%E6%9E%97%E5%9C%B0%E9%9D%A2%E5%81%9C%E8%BD%A6%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C068": {
+    "name": "桐庐田山",
+    "queriedAt": "2026-09-23T13:44:26.685910+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E5%BA%90%E7%94%B0%E5%B1%B1&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225011013,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 429570127,
+        "lat": "29.8100627",
+        "lon": "119.6577975",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05339587930113676,
+        "addresstype": "road",
+        "name": "天目山西路",
+        "display_name": "天目山西路, 桐君街道, 桐庐县, 杭州市, 浙江省, 中国",
+        "address": {
+          "road": "天目山西路",
+          "suburb": "桐君街道",
+          "city": "桐庐县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.8046740",
+          "29.8141450",
+          "119.6504551",
+          "119.6664546"
+        ]
+      },
+      {
+        "place_id": 225008728,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 331355442,
+        "lat": "29.8142473",
+        "lon": "119.6746131",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05339587930113676,
+        "addresstype": "road",
+        "name": "天目山路",
+        "display_name": "天目山路, 桐君街道, 桐庐县, 杭州市, 浙江省, 中国",
+        "address": {
+          "road": "天目山路",
+          "suburb": "桐君街道",
+          "city": "桐庐县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.8099312",
+          "29.8153151",
+          "119.6684836",
+          "119.6780176"
+        ]
+      },
+      {
+        "place_id": 225428706,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13584493401,
+        "lat": "29.7703679",
+        "lon": "119.3616720",
+        "category": "tourism",
+        "type": "theme_park",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "tourism",
+        "name": "天子地山野乐园",
+        "display_name": "天子地山野乐园, 百江镇, 桐庐县, 杭州市, 浙江省, 中国",
+        "address": {
+          "tourism": "天子地山野乐园",
+          "town": "百江镇",
+          "city": "桐庐县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.7703179",
+          "29.7704179",
+          "119.3616220",
+          "119.3617220"
+        ]
+      }
+    ]
+  },
+  "C003": {
+    "name": "余杭南湖公园",
+    "queriedAt": "2026-09-23T13:44:30.124602+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%BD%99%E6%9D%AD%E5%8D%97%E6%B9%96%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224845572,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 775708037,
+        "lat": "30.2711730",
+        "lon": "119.9298379",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "南湖公园",
+        "display_name": "南湖公园, 余杭街道, 余杭区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "南湖公园",
+          "suburb": "余杭街道",
+          "city": "余杭区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2694351",
+          "30.2731310",
+          "119.9277327",
+          "119.9319349"
+        ]
+      },
+      {
+        "place_id": 222255371,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4584044797,
+        "lat": "30.2730638",
+        "lon": "119.9310339",
+        "category": "tourism",
+        "type": "theme_park",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "tourism",
+        "name": "南湖公园",
+        "display_name": "南湖公园, 南湖路, 南安社区, 余杭街道, 余杭区, 杭州市, 浙江省, 311121, 中国",
+        "address": {
+          "tourism": "南湖公园",
+          "road": "南湖路",
+          "neighbourhood": "南安社区",
+          "suburb": "余杭街道",
+          "city": "余杭区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "311121",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2730138",
+          "30.2731138",
+          "119.9309839",
+          "119.9310839"
+        ]
+      }
+    ]
+  },
+  "C004": {
+    "name": "阿里公园",
+    "queriedAt": "2026-09-23T13:44:34.186567+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%98%BF%E9%87%8C%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 237836963,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 4182605,
+        "lat": "22.2824022",
+        "lon": "114.1887806",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.4577956320282617,
+        "addresstype": "park",
+        "name": "維多利亞公園 Victoria Park",
+        "display_name": "維多利亞公園 Victoria Park, 灣仔區 Wan Chai District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
+        "address": {
+          "park": "維多利亞公園 Victoria Park",
+          "suburb": "灣仔區 Wan Chai District",
+          "city_district": "香港島 Hong Kong Island",
+          "city": "香港 Hong Kong",
+          "region": "香港 Hong Kong",
+          "ISO3166-2-lvl3": "CN-HK",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.2797477",
+          "22.2851023",
+          "114.1859403",
+          "114.1911584"
+        ]
+      },
+      {
+        "place_id": 237540834,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 25609090,
+        "lat": "22.3363278",
+        "lon": "114.1364395",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.3623846332493779,
+        "addresstype": "park",
+        "name": "荔枝角公園 Lai Chi Kok Park",
+        "display_name": "荔枝角公園 Lai Chi Kok Park, 深水埗區 Sham Shui Po District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+        "address": {
+          "park": "荔枝角公園 Lai Chi Kok Park",
+          "suburb": "深水埗區 Sham Shui Po District",
+          "region": "九龍 Kowloon",
+          "city": "香港 Hong Kong",
+          "ISO3166-2-lvl3": "CN-HK",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.3323894",
+          "22.3400732",
+          "114.1350128",
+          "114.1424369"
+        ]
+      },
+      {
+        "place_id": 237578981,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 122139266,
+        "lat": "22.3068569",
+        "lon": "114.2260818",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.35892997054582615,
+        "addresstype": "park",
+        "name": "麗港公園 Laguna Park",
+        "display_name": "麗港公園 Laguna Park, 晒草灣 Sai Tso Wan, 觀塘區 Kwun Tong District, 九龍 Kowloon, 香港 Hong Kong, 中国",
+        "address": {
+          "park": "麗港公園 Laguna Park",
+          "suburb": "晒草灣 Sai Tso Wan",
+          "region": "九龍 Kowloon",
+          "city": "香港 Hong Kong",
+          "ISO3166-2-lvl3": "CN-HK",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.3057479",
+          "22.3082562",
+          "114.2248044",
+          "114.2281910"
+        ]
+      },
+      {
+        "place_id": 237816596,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 148228845,
+        "lat": "22.2858808",
+        "lon": "114.1477084",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.35293318613167857,
+        "addresstype": "park",
+        "name": "荷李活道公園 Hollywood Road Park",
+        "display_name": "荷李活道公園 Hollywood Road Park, 上環 Sheung Wan, 中西區 Central and Western District, 香港島 Hong Kong Island, 香港 Hong Kong, 中国",
+        "address": {
+          "park": "荷李活道公園 Hollywood Road Park",
+          "suburb": "上環 Sheung Wan",
+          "city_district": "香港島 Hong Kong Island",
+          "city": "香港 Hong Kong",
+          "region": "香港 Hong Kong",
+          "ISO3166-2-lvl3": "CN-HK",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.2856619",
+          "22.2864583",
+          "114.1471958",
+          "114.1481376"
+        ]
+      },
+      {
+        "place_id": 237789819,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 135248210,
+        "lat": "22.3132481",
+        "lon": "114.2652908",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.3415289282979405,
+        "addresstype": "park",
+        "name": "坑口文曲里公園 Hang Hau Man Kuk Lane Park",
+        "display_name": "坑口文曲里公園 Hang Hau Man Kuk Lane Park, 6, 佛頭洲村 Fat Tau Chau Village, 西貢區 Sai Kung District, 新界 New Territories, 香港 Hong Kong, 中国",
+        "address": {
+          "park": "坑口文曲里公園 Hang Hau Man Kuk Lane Park",
+          "house_number": "6",
+          "hamlet": "佛頭洲村 Fat Tau Chau Village",
+          "suburb": "西貢區 Sai Kung District",
+          "region": "新界 New Territories",
+          "city": "香港 Hong Kong",
+          "ISO3166-2-lvl3": "CN-HK",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.3124157",
+          "22.3141535",
+          "114.2643803",
+          "114.2663187"
+        ]
+      }
+    ]
+  },
+  "C041": {
+    "name": "盼云",
+    "queriedAt": "2026-09-23T13:44:37.193663+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%9B%BC%E4%BA%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224634704,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1058715351,
+        "lat": "31.0427998",
+        "lon": "120.8572496",
+        "category": "landuse",
+        "type": "construction",
+        "place_rank": 24,
+        "importance": 0.08006827573052565,
+        "addresstype": "construction",
+        "name": "保利湖畔云上",
+        "display_name": "保利湖畔云上, 黎里镇, 吴江区, 苏州市, 江苏省, 中国",
+        "address": {
+          "construction": "保利湖畔云上",
+          "town": "黎里镇",
+          "city": "吴江区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.0403256",
+          "31.0461648",
+          "120.8554720",
+          "120.8590175"
+        ]
+      },
+      {
+        "place_id": 224818542,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1113600342,
+        "lat": "31.4619933",
+        "lon": "120.8877421",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08006827573052565,
+        "addresstype": "residential",
+        "name": "湖畔水韵",
+        "display_name": "湖畔水韵, 巴城镇, 昆山市, 苏州市, 江苏省, 中国",
+        "address": {
+          "residential": "湖畔水韵",
+          "town": "巴城镇",
+          "city": "昆山市",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.4611843",
+          "31.4624143",
+          "120.8862927",
+          "120.8892539"
+        ]
+      },
+      {
+        "place_id": 224865682,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1097617376,
+        "lat": "30.0915302",
+        "lon": "119.9326441",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "residential",
+        "name": "中国中铁溪畔云璟府",
+        "display_name": "中国中铁溪畔云璟府, 银湖街道, 富阳区, 杭州市, 浙江省, 中国",
+        "address": {
+          "residential": "中国中铁溪畔云璟府",
+          "suburb": "银湖街道",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.0907775",
+          "30.0935930",
+          "119.9311250",
+          "119.9345801"
+        ]
+      },
+      {
+        "place_id": 224208697,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 969995091,
+        "lat": "30.4343880",
+        "lon": "120.2781604",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "residential",
+        "name": "锦畔云汀府",
+        "display_name": "锦畔云汀府, 临平街道, 临平区, 杭州市, 浙江省, 中国",
+        "address": {
+          "residential": "锦畔云汀府",
+          "suburb": "临平街道",
+          "city": "临平区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.4325821",
+          "30.4358847",
+          "120.2768396",
+          "120.2795977"
+        ]
+      },
+      {
+        "place_id": 224182035,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 533719280,
+        "lat": "30.1790562",
+        "lon": "120.1522372",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "residential",
+        "name": "江畔云庐",
+        "display_name": "江畔云庐, 浦沿街道, 滨江区, 杭州市, 浙江省, 中国",
+        "address": {
+          "residential": "江畔云庐",
+          "suburb": "浦沿街道",
+          "city": "滨江区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1785141",
+          "30.1796582",
+          "120.1497646",
+          "120.1561129"
+        ]
+      }
+    ]
+  },
+  "C045": {
+    "name": "雾松谷",
+    "queriedAt": "2026-09-23T13:44:40.555190+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%9B%BE%E6%9D%BE%E8%B0%B7&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 226041532,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4832692949,
+        "lat": "29.2010233",
+        "lon": "118.6214124",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.16005472724498357,
+        "addresstype": "peak",
+        "name": "松坞尖",
+        "display_name": "松坞尖, 衢州市, 浙江省, 中国",
+        "address": {
+          "peak": "松坞尖",
+          "city": "衢州市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.2009733",
+          "29.2010733",
+          "118.6213624",
+          "118.6214624"
+        ]
+      },
+      {
+        "place_id": 226094818,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4776749973,
+        "lat": "29.1925051",
+        "lon": "118.6155741",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.16005472724498357,
+        "addresstype": "peak",
+        "name": "小松坞尖",
+        "display_name": "小松坞尖, 衢州市, 浙江省, 中国",
+        "address": {
+          "peak": "小松坞尖",
+          "city": "衢州市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.1924551",
+          "29.1925551",
+          "118.6155241",
+          "118.6156241"
+        ]
+      },
+      {
+        "place_id": 225891986,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9913650883,
+        "lat": "29.0676536",
+        "lon": "118.7467069",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.1600532898451209,
+        "addresstype": "peak",
+        "name": "松岗坞",
+        "display_name": "松岗坞, 衢州市, 浙江省, 中国",
+        "address": {
+          "peak": "松岗坞",
+          "city": "衢州市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.0676036",
+          "29.0677036",
+          "118.7466569",
+          "118.7467569"
+        ]
+      },
+      {
+        "place_id": 225560653,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4797864807,
+        "lat": "29.3126800",
+        "lon": "118.5663318",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333880605783169,
+        "addresstype": "hamlet",
+        "name": "宋坞",
+        "display_name": "宋坞, 村头镇, 开化县, 衢州市, 浙江省, 中国",
+        "address": {
+          "hamlet": "宋坞",
+          "town": "村头镇",
+          "city": "开化县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.2926800",
+          "29.3326800",
+          "118.5463318",
+          "118.5863318"
+        ]
+      },
+      {
+        "place_id": 228437616,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5931735336,
+        "lat": "29.1542667",
+        "lon": "119.1164582",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333867483024338,
+        "addresstype": "hamlet",
+        "name": "松垄坞",
+        "display_name": "松垄坞, 塔石镇, 龙游县, 衢州市, 浙江省, 中国",
+        "address": {
+          "hamlet": "松垄坞",
+          "town": "塔石镇",
+          "city": "龙游县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.1342667",
+          "29.1742667",
+          "119.0964582",
+          "119.1364582"
+        ]
+      }
+    ]
+  },
+  "C049": {
+    "name": "千岛湖山有岛",
+    "queriedAt": "2026-09-23T13:44:45.087135+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%8D%83%E5%B2%9B%E6%B9%96%E5%B1%B1%E6%9C%89%E5%B2%9B&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225726885,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 302030858,
+        "lat": "29.5394845",
+        "lon": "119.2948607",
+        "category": "highway",
+        "type": "motorway",
+        "place_rank": 26,
+        "importance": 0.05339587930113676,
+        "addresstype": "road",
+        "name": "溧宁高速",
+        "display_name": "溧宁高速, 李家, 洋溪街道, 建德市, 杭州市, 浙江省, 中国",
+        "address": {
+          "road": "溧宁高速",
+          "hamlet": "李家",
+          "town": "洋溪街道",
+          "city": "建德市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.5384476",
+          "29.5407238",
+          "119.2936006",
+          "119.2962944"
+        ]
+      }
+    ]
+  },
+  "C054": {
+    "name": "鹿鸣大地",
+    "queriedAt": "2026-09-23T13:44:48.699677+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%B9%BF%E9%B8%A3%E5%A4%A7%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 424853643,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 985089999,
+        "lat": "28.6685926",
+        "lon": "118.3575637",
+        "category": "tunnel",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 0.5095362050375118,
+        "addresstype": "tunnel",
+        "name": "詹畈明洞",
+        "display_name": "詹畈明洞, X653, 万家, 岩瑞, 岩瑞镇, 玉山县, 上饶市, 江西省, 中国",
+        "address": {
+          "tunnel": "詹畈明洞",
+          "road": "X653",
+          "hamlet": "万家",
+          "village": "岩瑞",
+          "town": "岩瑞镇",
+          "county": "玉山县",
+          "region": "上饶市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.6685812",
+          "28.6686040",
+          "118.3570614",
+          "118.3580659"
+        ]
+      }
+    ]
+  },
+  "C057": {
+    "name": "西溪源谷",
+    "queriedAt": "2026-09-23T13:44:51.734068+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%A5%BF%E6%BA%AA%E6%BA%90%E8%B0%B7&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 240727646,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9189062370,
+        "lat": "26.8476431",
+        "lon": "100.2757697",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333951102464332,
+        "addresstype": "hamlet",
+        "name": "西奚",
+        "display_name": "西奚, 金山街道, 古城区, 丽江市, 云南省, 674100, 中国",
+        "address": {
+          "hamlet": "西奚",
+          "town": "金山街道",
+          "city": "古城区",
+          "state": "云南省",
+          "ISO3166-2-lvl4": "CN-YN",
+          "postcode": "674100",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "26.8276431",
+          "26.8676431",
+          "100.2557697",
+          "100.2957697"
+        ]
+      }
+    ]
+  },
+  "C073": {
+    "name": "渣河墩",
+    "queriedAt": "2026-09-23T13:44:55.237588+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B8%A3%E6%B2%B3%E5%A2%A9&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 217629028,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5314893071,
+        "lat": "33.3966609",
+        "lon": "108.0728919",
+        "category": "place",
+        "type": "town",
+        "place_rank": 18,
+        "importance": 0.205345191009919,
+        "addresstype": "town",
+        "name": "石墩河镇",
+        "display_name": "石墩河镇, 佛坪县, 汉中市, 陕西省, 中国",
+        "address": {
+          "town": "石墩河镇",
+          "county": "佛坪县",
+          "region": "汉中市",
+          "state": "陕西省",
+          "ISO3166-2-lvl4": "CN-SN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "33.3566609",
+          "33.4366609",
+          "108.0328919",
+          "108.1128919"
+        ]
+      },
+      {
+        "place_id": 224523506,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 427556438,
+        "lat": "31.2192308",
+        "lon": "121.7121975",
+        "category": "waterway",
+        "type": "canal",
+        "place_rank": 20,
+        "importance": 0.13339581063553824,
+        "addresstype": "canal",
+        "name": "水闸港",
+        "display_name": "水闸港, 蔡路, 合庆镇, 浦东新区, 上海市, 中国",
+        "address": {
+          "canal": "水闸港",
+          "suburb": "蔡路",
+          "town": "合庆镇",
+          "city": "浦东新区",
+          "state": "上海市",
+          "ISO3166-2-lvl4": "CN-SH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.2152154",
+          "31.2219618",
+          "121.6969941",
+          "121.7246496"
+        ]
+      }
+    ]
+  },
+  "C077": {
+    "name": "桐庐洪石",
+    "queriedAt": "2026-09-23T13:44:58.445926+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E5%BA%90%E6%B4%AA%E7%9F%B3&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225383468,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 3221182,
+        "lat": "29.7965627",
+        "lon": "119.6876858",
+        "category": "boundary",
+        "type": "administrative",
+        "place_rank": 12,
+        "importance": 0.48706661751337776,
+        "addresstype": "city",
+        "name": "桐庐县",
+        "display_name": "桐庐县, 杭州市, 浙江省, 311500, 中国",
+        "address": {
+          "city": "桐庐县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "311500",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.5916530",
+          "30.0906681",
+          "119.1752462",
+          "119.9704384"
+        ]
+      }
+    ]
+  },
+  "C079": {
+    "name": "桐青坞",
+    "queriedAt": "2026-09-23T13:45:01.860306+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E9%9D%92%E5%9D%9E&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225642417,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6162800047,
+        "lat": "28.7122486",
+        "lon": "118.0338991",
+        "category": "place",
+        "type": "isolated_dwelling",
+        "place_rank": 22,
+        "importance": 0.10670416800183105,
+        "addresstype": "isolated_dwelling",
+        "name": "桐青坞",
+        "display_name": "桐青坞, 过家, 必姆镇, 玉山县, 上饶市, 江西省, 中国",
+        "address": {
+          "isolated_dwelling": "桐青坞",
+          "hamlet": "过家",
+          "town": "必姆镇",
+          "county": "玉山县",
+          "region": "上饶市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.7121986",
+          "28.7122986",
+          "118.0338491",
+          "118.0339491"
+        ]
+      }
+    ]
+  },
+  "C080": {
+    "name": "安顶村观景台",
+    "queriedAt": "2026-09-23T13:45:05.509822+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AE%89%E9%A1%B6%E6%9D%91%E8%A7%82%E6%99%AF%E5%8F%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 220948030,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10081133272,
+        "lat": "39.6099610",
+        "lon": "115.6523443",
+        "category": "tourism",
+        "type": "attraction",
+        "place_rank": 30,
+        "importance": 5.759746700231964e-05,
+        "addresstype": "tourism",
+        "name": "观景台",
+        "display_name": "观景台, 乐谷银滩登山步道, 张坊镇, 房山区, 北京市, 河北省, 中国",
+        "address": {
+          "tourism": "观景台",
+          "road": "乐谷银滩登山步道",
+          "town": "张坊镇",
+          "city": "房山区",
+          "ISO3166-2-lvl4": "CN-HE",
+          "state": "河北省",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "39.6099110",
+          "39.6100110",
+          "115.6522943",
+          "115.6523943"
+        ]
+      }
+    ]
+  },
+  "C129": {
+    "name": "城坑坞",
+    "queriedAt": "2026-09-23T13:45:10.567400+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%9F%8E%E5%9D%91%E5%9D%9E&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225400301,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9025795889,
+        "lat": "30.2556852",
+        "lon": "118.6818513",
+        "category": "natural",
+        "type": "peak",
+        "place_rank": 18,
+        "importance": 0.1600610490577554,
+        "addresstype": "peak",
+        "name": "坑南坞尖",
+        "display_name": "坑南坞尖, 宣城市, 安徽省, 中国",
+        "address": {
+          "peak": "坑南坞尖",
+          "city": "宣城市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2556352",
+          "30.2557352",
+          "118.6818013",
+          "118.6819013"
+        ]
+      },
+      {
+        "place_id": 226255659,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5342543796,
+        "lat": "29.0416055",
+        "lon": "118.6810696",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333999504081788,
+        "addresstype": "hamlet",
+        "name": "东坑坞",
+        "display_name": "东坑坞, 东案乡, 常山县, 衢州市, 浙江省, 中国",
+        "address": {
+          "hamlet": "东坑坞",
+          "town": "东案乡",
+          "city": "常山县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.0216055",
+          "29.0616055",
+          "118.6610696",
+          "118.7010696"
+        ]
+      },
+      {
+        "place_id": 225949483,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9096448273,
+        "lat": "29.7987244",
+        "lon": "118.6735857",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333933356221866,
+        "addresstype": "hamlet",
+        "name": "田坑坞",
+        "display_name": "田坑坞, 街口镇, 歙县, 黄山市, 安徽省, 中国",
+        "address": {
+          "hamlet": "田坑坞",
+          "town": "街口镇",
+          "county": "歙县",
+          "city": "黄山市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.7787244",
+          "29.8187244",
+          "118.6535857",
+          "118.6935857"
+        ]
+      },
+      {
+        "place_id": 225890828,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9096631754,
+        "lat": "29.7957024",
+        "lon": "118.6774487",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333933356221866,
+        "addresstype": "hamlet",
+        "name": "洁坞坑",
+        "display_name": "洁坞坑, 新溪口乡, 歙县, 黄山市, 安徽省, 中国",
+        "address": {
+          "hamlet": "洁坞坑",
+          "town": "新溪口乡",
+          "county": "歙县",
+          "city": "黄山市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.7757024",
+          "29.8157024",
+          "118.6574487",
+          "118.6974487"
+        ]
+      },
+      {
+        "place_id": 226252115,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4789470561,
+        "lat": "29.2203515",
+        "lon": "118.3693076",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333880605783169,
+        "addresstype": "hamlet",
+        "name": "龙坞坑",
+        "display_name": "龙坞坑, 音坑镇, 开化县, 衢州市, 浙江省, 中国",
+        "address": {
+          "hamlet": "龙坞坑",
+          "town": "音坑镇",
+          "city": "开化县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.2003515",
+          "29.2403515",
+          "118.3493076",
+          "118.3893076"
+        ]
+      }
+    ]
+  },
+  "C143": {
+    "name": "有风营地",
+    "queriedAt": "2026-09-23T13:45:13.858637+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%9C%89%E9%A3%8E%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 221529607,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1208092805,
+        "lat": "29.9167025",
+        "lon": "120.1399774",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "浙江大彩绗缝制品有限公司",
+        "display_name": "浙江大彩绗缝制品有限公司, 楼塔镇, 萧山区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "浙江大彩绗缝制品有限公司",
+          "town": "楼塔镇",
+          "city": "萧山区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.9156974",
+          "29.9176213",
+          "120.1386368",
+          "120.1413176"
+        ]
+      },
+      {
+        "place_id": 223931024,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1122534618,
+        "lat": "30.2280119",
+        "lon": "120.3512912",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "浙江兆丰机电股份有限公司(兆丰路)",
+        "display_name": "浙江兆丰机电股份有限公司(兆丰路), 新街街道, 萧山区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "浙江兆丰机电股份有限公司(兆丰路)",
+          "suburb": "新街街道",
+          "city": "萧山区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2261314",
+          "30.2296820",
+          "120.3506450",
+          "120.3519505"
+        ]
+      },
+      {
+        "place_id": 224113808,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1168451703,
+        "lat": "30.3437076",
+        "lon": "120.2270807",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "杭州风驰物流有限公司",
+        "display_name": "杭州风驰物流有限公司, 小营门, 笕桥街道, 上城区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "杭州风驰物流有限公司",
+          "hamlet": "小营门",
+          "suburb": "笕桥街道",
+          "city": "上城区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3435570",
+          "30.3441463",
+          "120.2267466",
+          "120.2275061"
+        ]
+      },
+      {
+        "place_id": 224216365,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 550152140,
+        "lat": "30.2527378",
+        "lon": "120.1764035",
+        "category": "office",
+        "type": "government",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "office",
+        "name": "杭州市上城区风景旅游局",
+        "display_name": "杭州市上城区风景旅游局, 小河下, 葵巷社区南区, 长明寺巷社区, 小营街道, 上城区, 杭州市, 浙江省, 310009, 中国",
+        "address": {
+          "office": "杭州市上城区风景旅游局",
+          "road": "小河下",
+          "residential": "葵巷社区南区",
+          "quarter": "长明寺巷社区",
+          "suburb": "小营街道",
+          "city": "上城区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310009",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2526388",
+          "30.2528368",
+          "120.1761226",
+          "120.1766844"
+        ]
+      },
+      {
+        "place_id": 224212747,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 549718635,
+        "lat": "30.2561970",
+        "lon": "120.1795840",
+        "category": "building",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "building",
+        "name": "杭州胜利瑞丰幼儿园",
+        "display_name": "杭州胜利瑞丰幼儿园, 老浙大横路, 水岸城市花园（广厦·檀香园）, 葵巷社区, 小营街道, 上城区, 杭州市, 浙江省, 310009, 中国",
+        "address": {
+          "building": "杭州胜利瑞丰幼儿园",
+          "road": "老浙大横路",
+          "residential": "水岸城市花园（广厦·檀香园）",
+          "quarter": "葵巷社区",
+          "suburb": "小营街道",
+          "city": "上城区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310009",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2561090",
+          "30.2562849",
+          "120.1794498",
+          "120.1797181"
+        ]
+      }
+    ]
+  },
+  "C144": {
+    "name": "白象湾湿地（白象湾桥附近）",
+    "queriedAt": "2026-09-23T13:45:18.365332+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%99%BD%E8%B1%A1%E6%B9%BE%E6%B9%BF%E5%9C%B0%EF%BC%88%E7%99%BD%E8%B1%A1%E6%B9%BE%E6%A1%A5%E9%99%84%E8%BF%91%EF%BC%89&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C145": {
+    "name": "前塘村湖边",
+    "queriedAt": "2026-09-23T13:45:21.386689+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%89%8D%E5%A1%98%E6%9D%91%E6%B9%96%E8%BE%B9&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 237703804,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12091355505,
+        "lat": "23.0712370",
+        "lon": "112.4731612",
+        "category": "shop",
+        "type": "convenience",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "shop",
+        "name": "湖景便利店",
+        "display_name": "湖景便利店, 岩前宝环大道, 岩前社区, 城东街道, 端州区, 肇庆市, 广东省, 526060, 中国",
+        "address": {
+          "shop": "湖景便利店",
+          "road": "岩前宝环大道",
+          "quarter": "岩前社区",
+          "suburb": "城东街道",
+          "district": "端州区",
+          "city": "肇庆市",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "526060",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.0711870",
+          "23.0712870",
+          "112.4731112",
+          "112.4732112"
+        ]
+      }
+    ]
+  },
+  "C146": {
+    "name": "富山村村委前花海区域",
+    "queriedAt": "2026-09-23T13:45:25.036595+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E5%B1%B1%E6%9D%91%E6%9D%91%E5%A7%94%E5%89%8D%E8%8A%B1%E6%B5%B7%E5%8C%BA%E5%9F%9F&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C147": {
+    "name": "田立方共享农场",
+    "queriedAt": "2026-09-23T13:45:29.817404+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%94%B0%E7%AB%8B%E6%96%B9%E5%85%B1%E4%BA%AB%E5%86%9C%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C148": {
+    "name": "黄弹村石梯山庄附近溪潭",
+    "queriedAt": "2026-09-23T13:45:33.273038+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%BB%84%E5%BC%B9%E6%9D%91%E7%9F%B3%E6%A2%AF%E5%B1%B1%E5%BA%84%E9%99%84%E8%BF%91%E6%BA%AA%E6%BD%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C149": {
+    "name": "泥舍村山顶",
+    "queriedAt": "2026-09-23T13:45:38.670863+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B3%A5%E8%88%8D%E6%9D%91%E5%B1%B1%E9%A1%B6&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224279139,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6651438846,
+        "lat": "29.2685572",
+        "lon": "121.8239647",
+        "category": "office",
+        "type": "association",
+        "place_rank": 30,
+        "importance": 5.77302204928209e-05,
+        "addresstype": "office",
+        "name": "象山县定塘镇中坭村经济合作社 社会团体",
+        "display_name": "象山县定塘镇中坭村经济合作社 社会团体, 石浦疏港高速, 定塘镇, 象山县, 宁波市, 浙江省, 中国",
+        "address": {
+          "office": "象山县定塘镇中坭村经济合作社 社会团体",
+          "road": "石浦疏港高速",
+          "town": "定塘镇",
+          "city": "象山县",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.2685072",
+          "29.2686072",
+          "121.8239147",
+          "121.8240147"
+        ]
+      }
+    ]
+  },
+  "C150": {
+    "name": "牵牛岗露营点",
+    "queriedAt": "2026-09-23T13:45:42.525053+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%89%B5%E7%89%9B%E5%B2%97%E9%9C%B2%E8%90%A5%E7%82%B9&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C151": {
+    "name": "路隐那森·中苕溪营地",
+    "queriedAt": "2026-09-23T13:45:46.978855+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%B7%AF%E9%9A%90%E9%82%A3%E6%A3%AE%C2%B7%E4%B8%AD%E8%8B%95%E6%BA%AA%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C152": {
+    "name": "康门水库周边",
+    "queriedAt": "2026-09-23T13:45:50.585631+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BA%B7%E9%97%A8%E6%B0%B4%E5%BA%93%E5%91%A8%E8%BE%B9&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C005": {
+    "name": "运河亚运公园",
+    "queriedAt": "2026-09-23T13:45:54.240724+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%BF%90%E6%B2%B3%E4%BA%9A%E8%BF%90%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C021": {
+    "name": "长川绿道",
+    "queriedAt": "2026-09-23T13:45:57.361062+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%95%BF%E5%B7%9D%E7%BB%BF%E9%81%93&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 222856368,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 329780233,
+        "lat": "31.9299908",
+        "lon": "120.9492686",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05339757915617605,
+        "addresstype": "road",
+        "name": "长川路",
+        "display_name": "长川路, 景瑞社区, 新开街道, 南通经济技术开发区, 崇川区, 南通市, 江苏省, 226000, 中国",
+        "address": {
+          "road": "长川路",
+          "city_block": "景瑞社区",
+          "suburb": "新开街道",
+          "city": "崇川区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "postcode": "226000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.9291693",
+          "31.9308128",
+          "120.9492159",
+          "120.9493132"
+        ]
+      }
+    ]
+  },
+  "C023": {
+    "name": "潘堰村",
+    "queriedAt": "2026-09-23T13:46:01.621690+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%BD%98%E5%A0%B0%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 219249964,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9546673571,
+        "lat": "40.3247373",
+        "lon": "112.2534205",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.13339831616693368,
+        "addresstype": "hamlet",
+        "name": "营盘堰村",
+        "display_name": "营盘堰村, 新店子镇, 和林格尔县 ᠬᠣᠷᠢᠨᠭᠡᠷ ᠰᠢᠶᠠᠨ, 呼和浩特市, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 011500, 中国",
+        "address": {
+          "hamlet": "营盘堰村",
+          "town": "新店子镇",
+          "county": "和林格尔县 ᠬᠣᠷᠢᠨᠭᠡᠷ ᠰᠢᠶᠠᠨ",
+          "city": "呼和浩特市",
+          "state": "内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ",
+          "ISO3166-2-lvl4": "CN-NM",
+          "postcode": "011500",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.3047373",
+          "40.3447373",
+          "112.2334205",
+          "112.2734205"
+        ]
+      },
+      {
+        "place_id": 420307286,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1363980273,
+        "lat": "29.0615961",
+        "lon": "120.1130664",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.053399512474250364,
+        "addresstype": "road",
+        "name": "岩潘线",
+        "display_name": "岩潘线, 永康市, 金华市, 浙江省, 中国",
+        "address": {
+          "road": "岩潘线",
+          "city": "永康市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.0585661",
+          "29.0656408",
+          "120.1086804",
+          "120.1174460"
+        ]
+      },
+      {
+        "place_id": 223959289,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 643214740,
+        "lat": "30.2969210",
+        "lon": "120.0059948",
+        "category": "amenity",
+        "type": "college",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "amenity",
+        "name": "浙江湖畔创业研学中心",
+        "display_name": "浙江湖畔创业研学中心, 礼贤路, 田杜里, 仓前街道, 余杭区, 杭州市, 浙江省, 311121, 中国",
+        "address": {
+          "amenity": "浙江湖畔创业研学中心",
+          "road": "礼贤路",
+          "hamlet": "田杜里",
+          "suburb": "仓前街道",
+          "city": "余杭区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "311121",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2940650",
+          "30.2995271",
+          "120.0012624",
+          "120.0080768"
+        ]
+      },
+      {
+        "place_id": 423664533,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14040771840,
+        "lat": "30.1803841",
+        "lon": "120.2583933",
+        "category": "leisure",
+        "type": "sports_centre",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "leisure",
+        "name": "CLIFFS颗粒攀岩",
+        "display_name": "CLIFFS颗粒攀岩, 688号, 山阴路, 畈里张社区, 北干街道, 萧山区, 杭州市, 浙江省, 中国",
+        "address": {
+          "leisure": "CLIFFS颗粒攀岩",
+          "house_number": "688号",
+          "road": "山阴路",
+          "quarter": "畈里张社区",
+          "suburb": "北干街道",
+          "city": "萧山区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1803341",
+          "30.1804341",
+          "120.2583433",
+          "120.2584433"
+        ]
+      },
+      {
+        "place_id": 224021650,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1495776641,
+        "lat": "31.1939825",
+        "lon": "121.2783900",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 5.647135118634344e-05,
+        "addresstype": "amenity",
+        "name": "青浦区实验蟠文幼儿园",
+        "display_name": "青浦区实验蟠文幼儿园, 龙联路, 蟠龙, 徐泾镇, 青浦区, 上海市, 201107, 中国",
+        "address": {
+          "amenity": "青浦区实验蟠文幼儿园",
+          "road": "龙联路",
+          "quarter": "蟠龙",
+          "town": "徐泾镇",
+          "city": "青浦区",
+          "state": "上海市",
+          "ISO3166-2-lvl4": "CN-SH",
+          "postcode": "201107",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.1934597",
+          "31.1944505",
+          "121.2778955",
+          "121.2788971"
+        ]
+      }
+    ]
+  },
+  "C138": {
+    "name": "富阳双喜村",
+    "queriedAt": "2026-09-23T13:46:05.315667+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E5%8F%8C%E5%96%9C%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 220870562,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 2489009377,
+        "lat": "33.2996530",
+        "lon": "115.5628503",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333933356221866,
+        "addresstype": "hamlet",
+        "name": "双西村",
+        "display_name": "双西村, 双浮镇, 太和县, 阜阳市, 安徽省, 中国",
+        "address": {
+          "hamlet": "双西村",
+          "town": "双浮镇",
+          "county": "太和县",
+          "city": "阜阳市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "33.2796530",
+          "33.3196530",
+          "115.5428503",
+          "115.5828503"
+        ]
+      },
+      {
+        "place_id": 418245231,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1522004171,
+        "lat": "29.8186655",
+        "lon": "119.9442150",
+        "category": "amenity",
+        "type": "townhall",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "amenity",
+        "name": "双喜村村委会",
+        "display_name": "双喜村村委会, 壶源溪绿道, 寺口, 湖源乡, 富阳区, 杭州市, 浙江省, 中国",
+        "address": {
+          "amenity": "双喜村村委会",
+          "road": "壶源溪绿道",
+          "hamlet": "寺口",
+          "town": "湖源乡",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.8186093",
+          "29.8187216",
+          "119.9440560",
+          "119.9443739"
+        ]
+      },
+      {
+        "place_id": 225938752,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13033690417,
+        "lat": "29.9316880",
+        "lon": "119.9845540",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "highway",
+        "name": "大源双溪村",
+        "display_name": "大源双溪村, 驻军坞隧道, 车茶坞, 大源镇, 富阳区, 杭州市, 浙江省, 中国",
+        "address": {
+          "highway": "大源双溪村",
+          "road": "驻军坞隧道",
+          "hamlet": "车茶坞",
+          "town": "大源镇",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.9316380",
+          "29.9317380",
+          "119.9845040",
+          "119.9846040"
+        ]
+      }
+    ]
+  },
+  "C011": {
+    "name": "富阳之江北公园",
+    "queriedAt": "2026-09-23T13:46:08.858669+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E4%B9%8B%E6%B1%9F%E5%8C%97%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224225169,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12528963821,
+        "lat": "30.0730291",
+        "lon": "119.9926246",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "highway",
+        "name": "北支江公园",
+        "display_name": "北支江公园, 江滨东大道, 东洲街道, 富阳区, 杭州市, 浙江省, 311401, 中国",
+        "address": {
+          "highway": "北支江公园",
+          "road": "江滨东大道",
+          "suburb": "东洲街道",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "311401",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.0729791",
+          "30.0730791",
+          "119.9925746",
+          "119.9926746"
+        ]
+      }
+    ]
+  },
+  "C013": {
+    "name": "白马湖公园",
+    "queriedAt": "2026-09-23T13:46:12.118748+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%99%BD%E9%A9%AC%E6%B9%96%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 221467506,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1120244664,
+        "lat": "30.1699612",
+        "lon": "120.1993468",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "白马湖小区北公园",
+        "display_name": "白马湖小区北公园, 长河街道, 滨江区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "白马湖小区北公园",
+          "suburb": "长河街道",
+          "city": "滨江区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1695484",
+          "30.1706055",
+          "120.1988197",
+          "120.2012130"
+        ]
+      },
+      {
+        "place_id": 224051349,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1120244694,
+        "lat": "30.1603226",
+        "lon": "120.1867529",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "白马湖生态创意城SOHO创意园",
+        "display_name": "白马湖生态创意城SOHO创意园, 柴家坞, 长河街道, 滨江区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "白马湖生态创意城SOHO创意园",
+          "hamlet": "柴家坞",
+          "suburb": "长河街道",
+          "city": "滨江区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1599904",
+          "30.1612398",
+          "120.1861494",
+          "120.1876059"
+        ]
+      },
+      {
+        "place_id": 222919014,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 12889719,
+        "lat": "27.9255901",
+        "lon": "116.7660246",
+        "category": "natural",
+        "type": "water",
+        "place_rank": 22,
+        "importance": 0.10671868696116577,
+        "addresstype": "water",
+        "name": "白马湖",
+        "display_name": "白马湖, 珊城, 北门村, 秀谷镇, 金溪县, 抚州市, 江西省, 中国",
+        "address": {
+          "water": "白马湖",
+          "suburb": "珊城",
+          "village": "北门村",
+          "town": "秀谷镇",
+          "county": "金溪县",
+          "region": "抚州市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "27.9220921",
+          "27.9289292",
+          "116.7613462",
+          "116.7758864"
+        ]
+      }
+    ]
+  },
+  "C015": {
+    "name": "滨江工业遗址公园及之江绿道廊架",
+    "queriedAt": "2026-09-23T13:46:16.091924+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%BB%A8%E6%B1%9F%E5%B7%A5%E4%B8%9A%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD%E5%8F%8A%E4%B9%8B%E6%B1%9F%E7%BB%BF%E9%81%93%E5%BB%8A%E6%9E%B6&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C016": {
+    "name": "青山湖太阳湾旅游驿站",
+    "queriedAt": "2026-09-23T13:46:19.945450+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%9D%92%E5%B1%B1%E6%B9%96%E5%A4%AA%E9%98%B3%E6%B9%BE%E6%97%85%E6%B8%B8%E9%A9%BF%E7%AB%99&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C017": {
+    "name": "余杭苕溪落塘埠",
+    "queriedAt": "2026-09-23T13:46:23.233357+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%BD%99%E6%9D%AD%E8%8B%95%E6%BA%AA%E8%90%BD%E5%A1%98%E5%9F%A0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C018": {
+    "name": "越秀风之谷公园",
+    "queriedAt": "2026-09-23T13:46:27.924292+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%B6%8A%E7%A7%80%E9%A3%8E%E4%B9%8B%E8%B0%B7%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C019": {
+    "name": "萧山中科粮油育种实验基地",
+    "queriedAt": "2026-09-23T13:46:32.352815+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%90%A7%E5%B1%B1%E4%B8%AD%E7%A7%91%E7%B2%AE%E6%B2%B9%E8%82%B2%E7%A7%8D%E5%AE%9E%E9%AA%8C%E5%9F%BA%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C022": {
+    "name": "余杭自由大草坪露营地",
+    "queriedAt": "2026-09-23T13:46:36.878577+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%BD%99%E6%9D%AD%E8%87%AA%E7%94%B1%E5%A4%A7%E8%8D%89%E5%9D%AA%E9%9C%B2%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C025": {
+    "name": "乌象坝及乌象大桥",
+    "queriedAt": "2026-09-23T13:46:40.437430+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%B9%8C%E8%B1%A1%E5%9D%9D%E5%8F%8A%E4%B9%8C%E8%B1%A1%E5%A4%A7%E6%A1%A5&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 218291346,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1173989636,
+        "lat": "39.4590846",
+        "lon": "106.7596555",
+        "category": "bridge",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 4.9638361181002785e-05,
+        "addresstype": "bridge",
+        "name": "跨黄公铁路特大桥",
+        "display_name": "跨黄公铁路特大桥, 海南-乌达城际快速路, 巴音陶亥镇, 海南区 ᠬᠠᠶᠢᠨᠠᠨ ᠲᠣᠭᠣᠷᠢᠭ, 乌达区 ᠤᠳᠠ ᠲᠣᠭᠣᠷᠢᠭ, 乌海市 ᠦᠬᠠᠢ ᠬᠣᠲᠠ, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 016000, 中国",
+        "address": {
+          "bridge": "跨黄公铁路特大桥",
+          "road": "海南-乌达城际快速路",
+          "town": "巴音陶亥镇",
+          "city": "海南区 ᠬᠠᠶᠢᠨᠠᠨ ᠲᠣᠭᠣᠷᠢᠭ",
+          "district": "乌达区 ᠤᠳᠠ ᠲᠣᠭᠣᠷᠢᠭ",
+          "region": "乌海市 ᠦᠬᠠᠢ ᠬᠣᠲᠠ",
+          "state": "内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ",
+          "ISO3166-2-lvl4": "CN-NM",
+          "postcode": "016000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "39.4440640",
+          "39.4738231",
+          "106.7596511",
+          "106.7627077"
+        ]
+      }
+    ]
+  },
+  "C027": {
+    "name": "观新村及杭州汐遇民宿",
+    "queriedAt": "2026-09-23T13:46:44.914690+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%A7%82%E6%96%B0%E6%9D%91%E5%8F%8A%E6%9D%AD%E5%B7%9E%E6%B1%90%E9%81%87%E6%B0%91%E5%AE%BF&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C029": {
+    "name": "桐庐上店村",
+    "queriedAt": "2026-09-23T13:46:48.545698+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E5%BA%90%E4%B8%8A%E5%BA%97%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 221062363,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12890358975,
+        "lat": "39.8386690",
+        "lon": "116.7502097",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 5.730449378190307e-05,
+        "addresstype": "highway",
+        "name": "上店村",
+        "display_name": "上店村, 梁上路, 张家湾镇, 通州区, 北京市, 中国",
+        "address": {
+          "highway": "上店村",
+          "road": "梁上路",
+          "town": "张家湾镇",
+          "city": "通州区",
+          "ISO3166-2-lvl4": "CN-BJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "39.8386190",
+          "39.8387190",
+          "116.7501597",
+          "116.7502597"
+        ]
+      }
+    ]
+  },
+  "C033": {
+    "name": "北湖草荡",
+    "queriedAt": "2026-09-23T13:46:52.040861+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%8C%97%E6%B9%96%E8%8D%89%E8%8D%A1&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223572082,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8810330680,
+        "lat": "30.8428190",
+        "lon": "115.0326198",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333933356221866,
+        "addresstype": "hamlet",
+        "name": "曹家垱",
+        "display_name": "曹家垱, 团风县, 黄冈市, 湖北省, 438808, 中国",
+        "address": {
+          "hamlet": "曹家垱",
+          "city": "团风县",
+          "state": "湖北省",
+          "ISO3166-2-lvl4": "CN-HB",
+          "postcode": "438808",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.8228190",
+          "30.8628190",
+          "115.0126198",
+          "115.0526198"
+        ]
+      },
+      {
+        "place_id": 223560174,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8909170226,
+        "lat": "30.8869743",
+        "lon": "114.4230401",
+        "category": "place",
+        "type": "hamlet",
+        "place_rank": 20,
+        "importance": 0.1333933356221866,
+        "addresstype": "hamlet",
+        "name": "曹家垱",
+        "display_name": "曹家垱, 黄陂区, 武汉市, 湖北省, 中国",
+        "address": {
+          "hamlet": "曹家垱",
+          "district": "黄陂区",
+          "city": "武汉市",
+          "state": "湖北省",
+          "ISO3166-2-lvl4": "CN-HB",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.8669743",
+          "30.9069743",
+          "114.4030401",
+          "114.4430401"
+        ]
+      }
+    ]
+  },
+  "C034": {
+    "name": "张堰村杉树林",
+    "queriedAt": "2026-09-23T13:46:55.835741+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BC%A0%E5%A0%B0%E6%9D%91%E6%9D%89%E6%A0%91%E6%9E%97&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 220650970,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12165508485,
+        "lat": "34.2203478",
+        "lon": "108.9259102",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08007041504539555,
+        "addresstype": "park",
+        "name": "小树林公园",
+        "display_name": "小树林公园, 丁白路社区, 小寨路街道, 雁塔区, 西安市, 陕西省, 710068, 中国",
+        "address": {
+          "park": "小树林公园",
+          "quarter": "丁白路社区",
+          "suburb": "小寨路街道",
+          "city": "雁塔区",
+          "state": "陕西省",
+          "ISO3166-2-lvl4": "CN-SN",
+          "postcode": "710068",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "34.2202978",
+          "34.2203978",
+          "108.9258602",
+          "108.9259602"
+        ]
+      },
+      {
+        "place_id": 220655564,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1015712080,
+        "lat": "34.1712920",
+        "lon": "108.8894082",
+        "category": "building",
+        "type": "residential",
+        "place_rank": 30,
+        "importance": 7.041504539554463e-05,
+        "addresstype": "building",
+        "name": "书香林苑11号楼",
+        "display_name": "书香林苑11号楼, 茅坡路, 茅坡新城, 杜城街道, 雁塔区, 西安市, 陕西省, 710000, 中国",
+        "address": {
+          "building": "书香林苑11号楼",
+          "road": "茅坡路",
+          "residential": "茅坡新城",
+          "suburb": "杜城街道",
+          "city": "雁塔区",
+          "state": "陕西省",
+          "ISO3166-2-lvl4": "CN-SN",
+          "postcode": "710000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "34.1711573",
+          "34.1714266",
+          "108.8892540",
+          "108.8895625"
+        ]
+      }
+    ]
+  },
+  "C036": {
+    "name": "溪塔村古樟树",
+    "queriedAt": "2026-09-23T13:46:58.940336+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%BA%AA%E5%A1%94%E6%9D%91%E5%8F%A4%E6%A8%9F%E6%A0%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C037": {
+    "name": "余杭吴山公园",
+    "queriedAt": "2026-09-23T13:47:02.211933+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%BD%99%E6%9D%AD%E5%90%B4%E5%B1%B1%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224838131,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 554386693,
+        "lat": "30.3883404",
+        "lon": "119.8644311",
+        "category": "landuse",
+        "type": "forest",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "forest",
+        "name": "吴山公园",
+        "display_name": "吴山公园, 许家村, 径山镇, 余杭区, 杭州市, 浙江省, 中国",
+        "address": {
+          "forest": "吴山公园",
+          "hamlet": "许家村",
+          "town": "径山镇",
+          "city": "余杭区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3863984",
+          "30.3900563",
+          "119.8629458",
+          "119.8658109"
+        ]
+      },
+      {
+        "place_id": 225012281,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1231737782,
+        "lat": "30.3872200",
+        "lon": "119.8630025",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "吴山公园",
+        "display_name": "吴山公园, 许家村, 径山镇, 余杭区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "吴山公园",
+          "hamlet": "许家村",
+          "town": "径山镇",
+          "city": "余杭区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3855269",
+          "30.3889123",
+          "119.8622252",
+          "119.8644373"
+        ]
+      }
+    ]
+  },
+  "C058": {
+    "name": "皋亭山考拉营地",
+    "queriedAt": "2026-09-23T13:47:06.517004+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%9A%8B%E4%BA%AD%E5%B1%B1%E8%80%83%E6%8B%89%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C059": {
+    "name": "富阳云海营地",
+    "queriedAt": "2026-09-23T13:47:10.012376+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E4%BA%91%E6%B5%B7%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 241560058,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 934951493,
+        "lat": "24.8924019",
+        "lon": "103.0258663",
+        "category": "tourism",
+        "type": "camp_site",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "tourism",
+        "name": "云腾野奢营地",
+        "display_name": "云腾野奢营地, 草汤公路, 汤池街道, 昆明阳宗海风景名胜区, 宜良县, 昆明市, 云南省, 中国",
+        "address": {
+          "tourism": "云腾野奢营地",
+          "road": "草汤公路",
+          "town": "汤池街道",
+          "suburb": "昆明阳宗海风景名胜区",
+          "county": "宜良县",
+          "city": "昆明市",
+          "state": "云南省",
+          "ISO3166-2-lvl4": "CN-YN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "24.8850307",
+          "24.9003806",
+          "103.0193524",
+          "103.0325396"
+        ]
+      }
+    ]
+  },
+  "C060": {
+    "name": "小古城苕溪营地",
+    "queriedAt": "2026-09-23T13:47:13.811504+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%B0%8F%E5%8F%A4%E5%9F%8E%E8%8B%95%E6%BA%AA%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C061": {
+    "name": "安顶山云雾茶镇停车场",
+    "queriedAt": "2026-09-23T13:47:18.868103+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AE%89%E9%A1%B6%E5%B1%B1%E4%BA%91%E9%9B%BE%E8%8C%B6%E9%95%87%E5%81%9C%E8%BD%A6%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C063": {
+    "name": "富阳湘溪村",
+    "queriedAt": "2026-09-23T13:47:22.533828+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E6%B9%98%E6%BA%AA%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225316172,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13004692688,
+        "lat": "30.0548544",
+        "lon": "119.7053951",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "highway",
+        "name": "湘溪村委",
+        "display_name": "湘溪村委, S206, 永昌镇, 富阳区, 杭州市, 浙江省, 中国",
+        "address": {
+          "highway": "湘溪村委",
+          "road": "S206",
+          "town": "永昌镇",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.0548044",
+          "30.0549044",
+          "119.7053451",
+          "119.7054451"
+        ]
+      }
+    ]
+  },
+  "C064": {
+    "name": "湘湖渔村停车场",
+    "queriedAt": "2026-09-23T13:47:25.968767+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B9%98%E6%B9%96%E6%B8%94%E6%9D%91%E5%81%9C%E8%BD%A6%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 222920690,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10036673192,
+        "lat": "31.3812156",
+        "lon": "120.5030203",
+        "category": "amenity",
+        "type": "parking",
+        "place_rank": 30,
+        "importance": 6.82757305256278e-05,
+        "addresstype": "amenity",
+        "name": "停车场",
+        "display_name": "停车场, 水域路, 和祥社区, 浒墅关镇, 虎丘区, 苏州市, 江苏省, 中国",
+        "address": {
+          "amenity": "停车场",
+          "road": "水域路",
+          "neighbourhood": "和祥社区",
+          "town": "浒墅关镇",
+          "city": "虎丘区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.3811656",
+          "31.3812656",
+          "120.5029703",
+          "120.5030703"
+        ]
+      }
+    ]
+  },
+  "C065": {
+    "name": "寺坞岭望江阁",
+    "queriedAt": "2026-09-23T13:47:30.070003+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%BA%E5%9D%9E%E5%B2%AD%E6%9C%9B%E6%B1%9F%E9%98%81&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C066": {
+    "name": "青山村茅草园生态农庄停车点",
+    "queriedAt": "2026-09-23T13:47:33.923890+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%9D%92%E5%B1%B1%E6%9D%91%E8%8C%85%E8%8D%89%E5%9B%AD%E7%94%9F%E6%80%81%E5%86%9C%E5%BA%84%E5%81%9C%E8%BD%A6%E7%82%B9&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C067": {
+    "name": "富阳七一村",
+    "queriedAt": "2026-09-23T13:47:36.990487+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E4%B8%83%E4%B8%80%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C069": {
+    "name": "富阳小李线",
+    "queriedAt": "2026-09-23T13:47:40.582170+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E5%B0%8F%E6%9D%8E%E7%BA%BF&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224123735,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1124673865,
+        "lat": "30.1560164",
+        "lon": "120.4019358",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "杭州萧山纤展玻璃制品厂",
+        "display_name": "杭州萧山纤展玻璃制品厂, 衙前镇, 萧山区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "杭州萧山纤展玻璃制品厂",
+          "town": "衙前镇",
+          "city": "萧山区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1553330",
+          "30.1563075",
+          "120.4015824",
+          "120.4021827"
+        ]
+      },
+      {
+        "place_id": 220698088,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 516947409,
+        "lat": "32.7902191",
+        "lon": "115.4393746",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "amenity",
+        "name": "临泉县土陂乡李霞寨小学",
+        "display_name": "临泉县土陂乡李霞寨小学, X060县道, 大刘庄, 土陂乡, 临泉县, 阜阳市, 安徽省, 中国",
+        "address": {
+          "amenity": "临泉县土陂乡李霞寨小学",
+          "road": "X060县道",
+          "hamlet": "大刘庄",
+          "town": "土陂乡",
+          "county": "临泉县",
+          "city": "阜阳市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "32.7900483",
+          "32.7903800",
+          "115.4391948",
+          "115.4395497"
+        ]
+      },
+      {
+        "place_id": 220885900,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5045758809,
+        "lat": "32.7902438",
+        "lon": "115.4394144",
+        "category": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "amenity",
+        "name": "临泉县土陂乡李霞寨小学",
+        "display_name": "临泉县土陂乡李霞寨小学, X060县道, 大刘庄, 土陂乡, 临泉县, 阜阳市, 安徽省, 中国",
+        "address": {
+          "amenity": "临泉县土陂乡李霞寨小学",
+          "road": "X060县道",
+          "hamlet": "大刘庄",
+          "town": "土陂乡",
+          "county": "临泉县",
+          "city": "阜阳市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "32.7901938",
+          "32.7902938",
+          "115.4393644",
+          "115.4394644"
+        ]
+      }
+    ]
+  },
+  "C071": {
+    "name": "富阳祥多葡萄园",
+    "queriedAt": "2026-09-23T13:47:43.944143+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E7%A5%A5%E5%A4%9A%E8%91%A1%E8%90%84%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C072": {
+    "name": "间余水居民宿旁河道",
+    "queriedAt": "2026-09-23T13:47:48.065596+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%97%B4%E4%BD%99%E6%B0%B4%E5%B1%85%E6%B0%91%E5%AE%BF%E6%97%81%E6%B2%B3%E9%81%93&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C074": {
+    "name": "北塘河三益线4号停车场",
+    "queriedAt": "2026-09-23T13:47:51.540912+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%8C%97%E5%A1%98%E6%B2%B3%E4%B8%89%E7%9B%8A%E7%BA%BF4%E5%8F%B7%E5%81%9C%E8%BD%A6%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C075": {
+    "name": "南阳美女坝",
+    "queriedAt": "2026-09-23T13:47:55.614734+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%8D%97%E9%98%B3%E7%BE%8E%E5%A5%B3%E5%9D%9D&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224717413,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1133514821,
+        "lat": "30.2632961",
+        "lon": "120.3865537",
+        "category": "leisure",
+        "type": "marina",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "leisure",
+        "name": "美女坝",
+        "display_name": "美女坝, 钱塘江南岸海塘, 新街街道, 萧山区, 杭州市, 浙江省, 311215, 中国",
+        "address": {
+          "leisure": "美女坝",
+          "road": "钱塘江南岸海塘",
+          "suburb": "新街街道",
+          "city": "萧山区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "311215",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2622868",
+          "30.2644479",
+          "120.3839767",
+          "120.3873369"
+        ]
+      }
+    ]
+  },
+  "C076": {
+    "name": "桐庐大源溪蕾蕾草莓园附近",
+    "queriedAt": "2026-09-23T13:47:59.564793+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E5%BA%90%E5%A4%A7%E6%BA%90%E6%BA%AA%E8%95%BE%E8%95%BE%E8%8D%89%E8%8E%93%E5%9B%AD%E9%99%84%E8%BF%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C078": {
+    "name": "盛联村",
+    "queriedAt": "2026-09-23T13:48:02.911077+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%9B%9B%E8%81%94%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223698646,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10781387310,
+        "lat": "30.2346524",
+        "lon": "120.4540822",
+        "category": "place",
+        "type": "village",
+        "place_rank": 19,
+        "importance": 0.14672921263447009,
+        "addresstype": "village",
+        "name": "胜联村",
+        "display_name": "胜联村, 杭州市, 浙江省, 311223, 中国",
+        "address": {
+          "village": "胜联村",
+          "city": "杭州市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "311223",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2146524",
+          "30.2546524",
+          "120.4340822",
+          "120.4740822"
+        ]
+      }
+    ]
+  },
+  "C081": {
+    "name": "安顶山游客中心",
+    "queriedAt": "2026-09-23T13:48:06.609342+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AE%89%E9%A1%B6%E5%B1%B1%E6%B8%B8%E5%AE%A2%E4%B8%AD%E5%BF%83&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 422613916,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1536690917,
+        "lat": "32.6346721",
+        "lon": "116.7973199",
+        "category": "information",
+        "type": "visitor_centre",
+        "place_rank": 30,
+        "importance": 6.047379262984691e-05,
+        "addresstype": "information",
+        "name": "八公山风景区游客中心",
+        "display_name": "八公山风景区游客中心, 丁山路, 妙山村, 八公山镇, 八公山区, 淮南市, 安徽省, 中国",
+        "address": {
+          "information": "八公山风景区游客中心",
+          "road": "丁山路",
+          "neighbourhood": "妙山村",
+          "town": "八公山镇",
+          "city": "八公山区",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "32.6346113",
+          "32.6347403",
+          "116.7971198",
+          "116.7975209"
+        ]
+      }
+    ]
+  },
+  "C084": {
+    "name": "九溪公园",
+    "queriedAt": "2026-09-23T13:48:10.028140+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%B9%9D%E6%BA%AA%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 233132174,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1496414643,
+        "lat": "30.1968562",
+        "lon": "120.1137499",
+        "category": "tourism",
+        "type": "hotel",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "tourism",
+        "name": "职工疗养院 (遗弃有狗)",
+        "display_name": "职工疗养院 (遗弃有狗), 九溪路, 西湖街道, 西湖区, 杭州市, 浙江省, 310008, 中国",
+        "address": {
+          "tourism": "职工疗养院 (遗弃有狗)",
+          "road": "九溪路",
+          "suburb": "西湖街道",
+          "city": "西湖区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310008",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1962277",
+          "30.1974507",
+          "120.1125649",
+          "120.1142881"
+        ]
+      },
+      {
+        "place_id": 422388701,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13992115453,
+        "lat": "30.2019329",
+        "lon": "120.1357007",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "highway",
+        "name": "白塔公园",
+        "display_name": "白塔公园, 之江路隧道, 马儿山, 南星街道, 上城区, 杭州市, 浙江省, 310053, 中国",
+        "address": {
+          "highway": "白塔公园",
+          "road": "之江路隧道",
+          "hamlet": "马儿山",
+          "suburb": "南星街道",
+          "city": "上城区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310053",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2018829",
+          "30.2019829",
+          "120.1356507",
+          "120.1357507"
+        ]
+      },
+      {
+        "place_id": 225933847,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1104876637,
+        "lat": "30.1985872",
+        "lon": "120.1261287",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "六和塔文化公园",
+        "display_name": "六和塔文化公园, 马儿山, 西湖街道, 西湖区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "六和塔文化公园",
+          "hamlet": "马儿山",
+          "suburb": "西湖街道",
+          "city": "西湖区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.1968684",
+          "30.2000524",
+          "120.1234214",
+          "120.1299172"
+        ]
+      }
+    ]
+  },
+  "C087": {
+    "name": "紫霞公园",
+    "queriedAt": "2026-09-23T13:48:13.512814+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%B4%AB%E9%9C%9E%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 220800963,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 661915874,
+        "lat": "34.9450301",
+        "lon": "113.0866293",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.080055816739147,
+        "addresstype": "park",
+        "name": "子夏公园",
+        "display_name": "子夏公园, 前东南王村, 温县, 焦作市, 河南省, 中国",
+        "address": {
+          "park": "子夏公园",
+          "village": "前东南王村",
+          "city": "温县",
+          "region": "焦作市",
+          "state": "河南省",
+          "ISO3166-2-lvl4": "CN-HA",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "34.9421234",
+          "34.9464022",
+          "113.0844240",
+          "113.0889016"
+        ]
+      }
+    ]
+  },
+  "C088": {
+    "name": "嘉绿苑小游园",
+    "queriedAt": "2026-09-23T13:48:17.710202+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%98%89%E7%BB%BF%E8%8B%91%E5%B0%8F%E6%B8%B8%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 222546192,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1366664108,
+        "lat": "30.2475364",
+        "lon": "120.0627655",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05339587930113676,
+        "addresstype": "road",
+        "name": "百家园路",
+        "display_name": "百家园路, 浙江油田留下小区, 留下街道, 西湖区, 杭州市, 浙江省, 310023, 中国",
+        "address": {
+          "road": "百家园路",
+          "quarter": "浙江油田留下小区",
+          "suburb": "留下街道",
+          "city": "西湖区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310023",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2474999",
+          "30.2475728",
+          "120.0627296",
+          "120.0628013"
+        ]
+      },
+      {
+        "place_id": 222552523,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 960928239,
+        "lat": "30.2499954",
+        "lon": "120.0542590",
+        "category": "amenity",
+        "type": "kindergarten",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "amenity",
+        "name": "百家园路幼儿园",
+        "display_name": "百家园路幼儿园, 91, 百家园路, 浙江油田留下小区, 留下街道, 西湖区, 杭州市, 浙江省, 310023, 中国",
+        "address": {
+          "amenity": "百家园路幼儿园",
+          "house_number": "91",
+          "road": "百家园路",
+          "quarter": "浙江油田留下小区",
+          "suburb": "留下街道",
+          "city": "西湖区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310023",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2496612",
+          "30.2502729",
+          "120.0538666",
+          "120.0546789"
+        ]
+      }
+    ]
+  },
+  "C089": {
+    "name": "象山海塘遗址公园",
+    "queriedAt": "2026-09-23T13:48:23.045175+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%B1%A1%E5%B1%B1%E6%B5%B7%E5%A1%98%E9%81%97%E5%9D%80%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 237374328,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13204810152,
+        "lat": "22.3524663",
+        "lon": "113.5793699",
+        "category": "amenity",
+        "type": "college",
+        "place_rank": 30,
+        "importance": 6.367360952158415e-05,
+        "addresstype": "amenity",
+        "name": "中山大学珠海校区人工智能学院",
+        "display_name": "中山大学珠海校区人工智能学院, 逸仙大道, 唐家湾镇, 香洲区, 珠海市, 广东省, 519000, 中国",
+        "address": {
+          "amenity": "中山大学珠海校区人工智能学院",
+          "road": "逸仙大道",
+          "town": "唐家湾镇",
+          "city": "香洲区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "postcode": "519000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.3524163",
+          "22.3525163",
+          "113.5793199",
+          "113.5794199"
+        ]
+      }
+    ]
+  },
+  "C096": {
+    "name": "运河文体公园",
+    "queriedAt": "2026-09-23T13:48:26.046487+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%BF%90%E6%B2%B3%E6%96%87%E4%BD%93%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 240402343,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 665625455,
+        "lat": "25.5431119",
+        "lon": "103.8155221",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.1679799034751623,
+        "addresstype": "park",
+        "name": "曲靖市文化体育公园",
+        "display_name": "曲靖市文化体育公园, 建宁街道, 麒麟区, 曲靖市, 云南省, 中国",
+        "address": {
+          "park": "曲靖市文化体育公园",
+          "suburb": "建宁街道",
+          "city": "麒麟区",
+          "district": "麒麟区",
+          "region": "曲靖市",
+          "state": "云南省",
+          "ISO3166-2-lvl4": "CN-YN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "25.5407388",
+          "25.5498031",
+          "103.8135373",
+          "103.8175177"
+        ]
+      }
+    ]
+  },
+  "C097": {
+    "name": "丁兰长睦绕城绿地",
+    "queriedAt": "2026-09-23T13:48:29.918397+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%B8%81%E5%85%B0%E9%95%BF%E7%9D%A6%E7%BB%95%E5%9F%8E%E7%BB%BF%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C101": {
+    "name": "智慧新天地沿江公园",
+    "queriedAt": "2026-09-23T13:48:37.183844+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%99%BA%E6%85%A7%E6%96%B0%E5%A4%A9%E5%9C%B0%E6%B2%BF%E6%B1%9F%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223360437,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 845804991,
+        "lat": "31.7407331",
+        "lon": "117.2670071",
+        "category": "amenity",
+        "type": "college",
+        "place_rank": 30,
+        "importance": 6.629205767905726e-05,
+        "addresstype": "amenity",
+        "name": "安徽汽车职业技术学院",
+        "display_name": "安徽汽车职业技术学院, 紫云路, 合肥华泰工业园, 临湖社区, 合肥经济技术开发区, 蜀山区, 合肥市, 安徽省, 230601, 中国",
+        "address": {
+          "amenity": "安徽汽车职业技术学院",
+          "road": "紫云路",
+          "industrial": "合肥华泰工业园",
+          "neighbourhood": "临湖社区",
+          "suburb": "合肥经济技术开发区",
+          "city": "蜀山区",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "postcode": "230601",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.7388069",
+          "31.7427409",
+          "117.2647594",
+          "117.2696006"
+        ]
+      },
+      {
+        "place_id": 223384481,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 846184306,
+        "lat": "31.7714634",
+        "lon": "117.2297662",
+        "category": "amenity",
+        "type": "college",
+        "place_rank": 30,
+        "importance": 6.629205767905726e-05,
+        "addresstype": "amenity",
+        "name": "安徽汽车职业技术学院莲花校区",
+        "display_name": "安徽汽车职业技术学院莲花校区, 佛掌路, 丹霞居民委员会, 莲花社区, 合肥经济技术开发区, 蜀山区, 合肥市, 安徽省, 230601, 中国",
+        "address": {
+          "amenity": "安徽汽车职业技术学院莲花校区",
+          "road": "佛掌路",
+          "neighbourhood": "丹霞居民委员会",
+          "suburb": "合肥经济技术开发区",
+          "city": "蜀山区",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "postcode": "230601",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.7701936",
+          "31.7727400",
+          "117.2289533",
+          "117.2305786"
+        ]
+      }
+    ]
+  },
+  "C102": {
+    "name": "沿江景观带公园",
+    "queriedAt": "2026-09-23T13:48:40.354521+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B2%BF%E6%B1%9F%E6%99%AF%E8%A7%82%E5%B8%A6%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224220577,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1196397876,
+        "lat": "29.9498808",
+        "lon": "121.7082054",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08005773022049284,
+        "addresstype": "park",
+        "name": "沿江景观带",
+        "display_name": "沿江景观带, 招宝山街道, 镇海区, 宁波市, 浙江省, 中国",
+        "address": {
+          "park": "沿江景观带",
+          "suburb": "招宝山街道",
+          "city": "镇海区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.9489056",
+          "29.9508690",
+          "121.7026754",
+          "121.7128618"
+        ]
+      }
+    ]
+  },
+  "C103": {
+    "name": "六和公园",
+    "queriedAt": "2026-09-23T13:48:43.447430+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%85%AD%E5%92%8C%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 237959758,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 676496911,
+        "lat": "23.4338228",
+        "lon": "112.8317790",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "park",
+        "name": "六和公园",
+        "display_name": "六和公园, 南山镇, 三水区, 佛山市, 广东省, 中国",
+        "address": {
+          "park": "六和公园",
+          "town": "南山镇",
+          "city": "三水区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.4326637",
+          "23.4348404",
+          "112.8306381",
+          "112.8326836"
+        ]
+      },
+      {
+        "place_id": 237357708,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6335093508,
+        "lat": "23.4336535",
+        "lon": "112.8327069",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "highway",
+        "name": "六和公园",
+        "display_name": "六和公园, X503, 南山镇, 三水区, 佛山市, 广东省, 中国",
+        "address": {
+          "highway": "六和公园",
+          "road": "X503",
+          "town": "南山镇",
+          "city": "三水区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.4336035",
+          "23.4337035",
+          "112.8326569",
+          "112.8327569"
+        ]
+      }
+    ]
+  },
+  "C105": {
+    "name": "市北西公园",
+    "queriedAt": "2026-09-23T13:48:47.661347+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%B8%82%E5%8C%97%E8%A5%BF%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 222497932,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1357085331,
+        "lat": "36.1073840",
+        "lon": "120.3527596",
+        "category": "landuse",
+        "type": "commercial",
+        "place_rank": 24,
+        "importance": 0.0800707354848554,
+        "addresstype": "commercial",
+        "name": "青岛永安大戏院有限公司",
+        "display_name": "青岛永安大戏院有限公司, 建国村社区, 四方街道, 市北区, 青岛市, 山东省, 266032, 中国",
+        "address": {
+          "commercial": "青岛永安大戏院有限公司",
+          "quarter": "建国村社区",
+          "suburb": "四方街道",
+          "city": "市北区",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "postcode": "266032",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "36.1071664",
+          "36.1076712",
+          "120.3523213",
+          "120.3531990"
+        ]
+      },
+      {
+        "place_id": 222564062,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11455568366,
+        "lat": "36.1228222",
+        "lon": "120.3608310",
+        "category": "place",
+        "type": "square",
+        "place_rank": 25,
+        "importance": 0.06673740215152209,
+        "addresstype": "square",
+        "name": "北岭山森林公园西门",
+        "display_name": "北岭山森林公园西门, 水清沟街道, 市北区, 青岛市, 山东省, 266044, 中国",
+        "address": {
+          "square": "北岭山森林公园西门",
+          "suburb": "水清沟街道",
+          "city": "市北区",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "postcode": "266044",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "36.1227722",
+          "36.1228722",
+          "120.3607810",
+          "120.3608810"
+        ]
+      },
+      {
+        "place_id": 224929613,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5487869246,
+        "lat": "30.3208767",
+        "lon": "120.3502416",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "highway",
+        "name": "高教西公园北",
+        "display_name": "高教西公园北, 学源街, 白杨街道, 钱塘区, 杭州市, 浙江省, 310018, 中国",
+        "address": {
+          "highway": "高教西公园北",
+          "road": "学源街",
+          "suburb": "白杨街道",
+          "city": "钱塘区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310018",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3208267",
+          "30.3209267",
+          "120.3501916",
+          "120.3502916"
+        ]
+      }
+    ]
+  },
+  "C107": {
+    "name": "江南公园",
+    "queriedAt": "2026-09-23T13:48:50.951457+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B1%9F%E5%8D%97%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 238294502,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 839767730,
+        "lat": "22.7886657",
+        "lon": "108.2747035",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006584649423969,
+        "addresstype": "park",
+        "name": "江南公园",
+        "display_name": "江南公园, 那洪街道, 江南区, 南宁市, 广西壮族自治区, 中国",
+        "address": {
+          "park": "江南公园",
+          "suburb": "那洪街道",
+          "district": "江南区",
+          "city": "南宁市",
+          "state": "广西壮族自治区",
+          "ISO3166-2-lvl4": "CN-GX",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.7849327",
+          "22.7921120",
+          "108.2682321",
+          "108.2823390"
+        ]
+      },
+      {
+        "place_id": 220369364,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 792511900,
+        "lat": "33.3678372",
+        "lon": "104.9471967",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.080064087129015,
+        "addresstype": "park",
+        "name": "江南公园",
+        "display_name": "江南公园, 江北街道, 李家咀村, 武都区, 陇南市, 甘肃省, 中国",
+        "address": {
+          "park": "江南公园",
+          "suburb": "江北街道",
+          "village": "李家咀村",
+          "district": "武都区",
+          "region": "陇南市",
+          "state": "甘肃省",
+          "ISO3166-2-lvl4": "CN-GS",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "33.3666123",
+          "33.3686570",
+          "104.9462661",
+          "104.9480350"
+        ]
+      },
+      {
+        "place_id": 238257393,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 444285138,
+        "lat": "22.5813732",
+        "lon": "113.0930092",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006239032578008,
+        "addresstype": "park",
+        "name": "江南公园",
+        "display_name": "江南公园, 江南街道, 江海区, 江门市, 广东省, 中国",
+        "address": {
+          "park": "江南公园",
+          "town": "江南街道",
+          "district": "江海区",
+          "city": "江门市",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.5809171",
+          "22.5818890",
+          "113.0924061",
+          "113.0933293"
+        ]
+      },
+      {
+        "place_id": 238225169,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1063990335,
+        "lat": "22.6231000",
+        "lon": "110.1618769",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006138780804148,
+        "addresstype": "park",
+        "name": "江南公园",
+        "display_name": "江南公园, 镇忠, 南江街道, 玉林市, 玉州区, 玉林市, 广西壮族自治区, 543000, 中国",
+        "address": {
+          "park": "江南公园",
+          "quarter": "镇忠",
+          "suburb": "南江街道",
+          "city": "玉林市",
+          "region": "玉林市",
+          "state": "广西壮族自治区",
+          "ISO3166-2-lvl4": "CN-GX",
+          "postcode": "543000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.6217241",
+          "22.6247132",
+          "110.1599425",
+          "110.1643476"
+        ]
+      },
+      {
+        "place_id": 221144248,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 297525276,
+        "lat": "43.8264273",
+        "lon": "126.5515218",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "park",
+        "name": "江南公园",
+        "display_name": "江南公园, 泰山街道, 丰满区, 吉林市, 丰满区, 吉林省, 中国",
+        "address": {
+          "park": "江南公园",
+          "suburb": "泰山街道",
+          "city": "丰满区",
+          "district": "丰满区",
+          "state": "吉林省",
+          "ISO3166-2-lvl4": "CN-JL",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "43.8227170",
+          "43.8301021",
+          "126.5474585",
+          "126.5553929"
+        ]
+      }
+    ]
+  },
+  "C108": {
+    "name": "山水见公园",
+    "queriedAt": "2026-09-23T13:48:54.319624+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%B1%B1%E6%B0%B4%E8%A7%81%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225537131,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 866126211,
+        "lat": "28.1025149",
+        "lon": "113.0440028",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08005557106889445,
+        "addresstype": "park",
+        "name": "中航城山水间",
+        "display_name": "中航城山水间, 洞井街道, 雨花区, 长沙市, 湖南省, 410007, 中国",
+        "address": {
+          "park": "中航城山水间",
+          "suburb": "洞井街道",
+          "city": "雨花区",
+          "region": "长沙市",
+          "state": "湖南省",
+          "ISO3166-2-lvl4": "CN-HN",
+          "postcode": "410007",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.1020142",
+          "28.1030672",
+          "113.0430969",
+          "113.0451269"
+        ]
+      }
+    ]
+  },
+  "C113": {
+    "name": "钱江直河公园",
+    "queriedAt": "2026-09-23T13:48:59.991326+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%92%B1%E6%B1%9F%E7%9B%B4%E6%B2%B3%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 222634804,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 650075925,
+        "lat": "30.2837353",
+        "lon": "120.3245790",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "杭州和达市政园林建设有限公司",
+        "display_name": "杭州和达市政园林建设有限公司, 白杨街道, 钱塘区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "杭州和达市政园林建设有限公司",
+          "suburb": "白杨街道",
+          "city": "钱塘区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2825207",
+          "30.2843533",
+          "120.3234677",
+          "120.3260453"
+        ]
+      },
+      {
+        "place_id": 222622101,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1199471476,
+        "lat": "30.2904476",
+        "lon": "120.4619438",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "河庄街道工业园区",
+        "display_name": "河庄街道工业园区, 河庄街道, 钱塘区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "河庄街道工业园区",
+          "town": "河庄街道",
+          "city": "钱塘区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2896198",
+          "30.2920907",
+          "120.4610251",
+          "120.4628986"
+        ]
+      },
+      {
+        "place_id": 222628676,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1170957807,
+        "lat": "30.2893693",
+        "lon": "120.3330504",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "industrial",
+        "name": "和达市政园林建设有限公司市政养护基地",
+        "display_name": "和达市政园林建设有限公司市政养护基地, 白杨街道, 钱塘区, 杭州市, 浙江省, 中国",
+        "address": {
+          "industrial": "和达市政园林建设有限公司市政养护基地",
+          "suburb": "白杨街道",
+          "city": "钱塘区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2889335",
+          "30.2898590",
+          "120.3323963",
+          "120.3336998"
+        ]
+      }
+    ]
+  },
+  "C114": {
+    "name": "沿江景观东公园",
+    "queriedAt": "2026-09-23T13:49:05.915188+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B2%BF%E6%B1%9F%E6%99%AF%E8%A7%82%E4%B8%9C%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225028772,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1378070928,
+        "lat": "28.6642337",
+        "lon": "115.8893980",
+        "category": "highway",
+        "type": "cycleway",
+        "place_rank": 27,
+        "importance": 0.04006716639963377,
+        "addresstype": "road",
+        "name": "抚河公园绿道",
+        "display_name": "抚河公园绿道, 前进路社区, 里洲社区, 南浦街道, 三角村, 西湖区, 南昌市, 江西省, 330025, 中国",
+        "address": {
+          "road": "抚河公园绿道",
+          "quarter": "前进路社区",
+          "suburb": "南浦街道",
+          "village": "三角村",
+          "city": "西湖区",
+          "region": "南昌市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "postcode": "330025",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.6445817",
+          "28.6813790",
+          "115.8764643",
+          "115.8968370"
+        ]
+      }
+    ]
+  },
+  "C117": {
+    "name": "水汀东湖公园",
+    "queriedAt": "2026-09-23T13:49:09.454277+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B0%B4%E6%B1%80%E4%B8%9C%E6%B9%96%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224638511,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 857685274,
+        "lat": "30.3866508",
+        "lon": "120.2898557",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "东湖公园",
+        "display_name": "东湖公园, 乔司街道, 临平区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "东湖公园",
+          "suburb": "乔司街道",
+          "city": "临平区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3836593",
+          "30.3896142",
+          "120.2866826",
+          "120.2932483"
+        ]
+      }
+    ]
+  },
+  "C119": {
+    "name": "玲珑山公园",
+    "queriedAt": "2026-09-23T13:49:13.522847+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%8E%B2%E7%8F%91%E5%B1%B1%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 235974216,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 406559056,
+        "lat": "23.0988867",
+        "lon": "112.4741466",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "park",
+        "name": "龙山公园",
+        "display_name": "龙山公园, 大坪, 黄岗街道, 端州区, 肇庆市, 广东省, 中国",
+        "address": {
+          "park": "龙山公园",
+          "hamlet": "大坪",
+          "suburb": "黄岗街道",
+          "district": "端州区",
+          "city": "肇庆市",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "23.0982281",
+          "23.0995020",
+          "112.4736377",
+          "112.4751913"
+        ]
+      }
+    ]
+  },
+  "C120": {
+    "name": "苕溪锦绣公园",
+    "queriedAt": "2026-09-23T13:49:17.189692+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%8B%95%E6%BA%AA%E9%94%A6%E7%BB%A3%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223827232,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 388044886,
+        "lat": "30.2870470",
+        "lon": "120.1464766",
+        "category": "amenity",
+        "type": "restaurant",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "amenity",
+        "name": "卡玛巴西烧烤",
+        "display_name": "卡玛巴西烧烤, 潮王路, 米市巷, 米市巷街道, 拱墅区, 杭州市, 浙江省, 310028, 中国",
+        "address": {
+          "amenity": "卡玛巴西烧烤",
+          "road": "潮王路",
+          "quarter": "米市巷",
+          "suburb": "米市巷街道",
+          "city": "拱墅区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310028",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.2869970",
+          "30.2870970",
+          "120.1464266",
+          "120.1465266"
+        ]
+      }
+    ]
+  },
+  "C121": {
+    "name": "东吴文化公园",
+    "queriedAt": "2026-09-23T13:49:20.609198+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 221820622,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 789276308,
+        "lat": "36.5120510",
+        "lon": "118.5498184",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "park",
+        "name": "文化公园",
+        "display_name": "文化公园, 东城街道, 临朐县, 潍坊市, 临朐县, 山东省, 262600, 中国",
+        "address": {
+          "park": "文化公园",
+          "suburb": "东城街道",
+          "city": "临朐县",
+          "county": "临朐县",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "postcode": "262600",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "36.5104498",
+          "36.5136657",
+          "118.5480436",
+          "118.5507675"
+        ]
+      }
+    ]
+  },
+  "C122": {
+    "name": "西大道景观二期公园",
+    "queriedAt": "2026-09-23T13:49:24.167746+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%A5%BF%E5%A4%A7%E9%81%93%E6%99%AF%E8%A7%82%E4%BA%8C%E6%9C%9F%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C123": {
+    "name": "富阳儿童公园",
+    "queriedAt": "2026-09-23T13:49:27.767528+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E5%84%BF%E7%AB%A5%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225192178,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 6501369,
+        "lat": "30.0569037",
+        "lon": "119.9430402",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "park",
+        "name": "儿童公园",
+        "display_name": "儿童公园, 富春街道, 富阳区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "儿童公园",
+          "suburb": "富春街道",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.0557126",
+          "30.0580729",
+          "119.9402121",
+          "119.9457059"
+        ]
+      }
+    ]
+  },
+  "C127": {
+    "name": "沙坞水库附近",
+    "queriedAt": "2026-09-23T13:49:31.450641+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B2%99%E5%9D%9E%E6%B0%B4%E5%BA%93%E9%99%84%E8%BF%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C128": {
+    "name": "徐家坞村",
+    "queriedAt": "2026-09-23T13:49:35.086604+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BE%90%E5%AE%B6%E5%9D%9E%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225437250,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5375067511,
+        "lat": "28.9821440",
+        "lon": "118.8910245",
+        "category": "place",
+        "type": "village",
+        "place_rank": 19,
+        "importance": 0.14671955977721823,
+        "addresstype": "village",
+        "name": "徐家坞村",
+        "display_name": "徐家坞村, 衢州市, 浙江省, 324000, 中国",
+        "address": {
+          "village": "徐家坞村",
+          "city": "衢州市",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "324000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.9621440",
+          "29.0021440",
+          "118.8710245",
+          "118.9110245"
+        ]
+      }
+    ]
+  },
+  "C130": {
+    "name": "安禾村古城桥",
+    "queriedAt": "2026-09-23T13:49:38.494008+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AE%89%E7%A6%BE%E6%9D%91%E5%8F%A4%E5%9F%8E%E6%A1%A5&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223543287,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12820399291,
+        "lat": "29.8608237",
+        "lon": "119.9126853",
+        "category": "place",
+        "type": "locality",
+        "place_rank": 25,
+        "importance": 0.06672921263447013,
+        "addresstype": "locality",
+        "name": "古城桥",
+        "display_name": "古城桥, 古城, 常安镇, 富阳区, 杭州市, 浙江省, 中国",
+        "address": {
+          "locality": "古城桥",
+          "hamlet": "古城",
+          "town": "常安镇",
+          "city": "富阳区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "29.8508237",
+          "29.8708237",
+          "119.9026853",
+          "119.9226853"
+        ]
+      }
+    ]
+  },
+  "C131": {
+    "name": "富阳回龙村",
+    "queriedAt": "2026-09-23T13:49:42.159668+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E5%9B%9E%E9%BE%99%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225561098,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1120109825,
+        "lat": "31.7093212",
+        "lon": "117.9354063",
+        "category": "amenity",
+        "type": "townhall",
+        "place_rank": 30,
+        "importance": 6.064011596852091e-05,
+        "addresstype": "amenity",
+        "name": "姚垅村村民委员会",
+        "display_name": "姚垅村村民委员会, 环半路, 姚垄村, 清溪镇, 含山县, 马鞍山市, 安徽省, 238100, 中国",
+        "address": {
+          "amenity": "姚垅村村民委员会",
+          "road": "环半路",
+          "neighbourhood": "姚垄村",
+          "town": "清溪镇",
+          "county": "含山县",
+          "city": "马鞍山市",
+          "state": "安徽省",
+          "ISO3166-2-lvl4": "CN-AH",
+          "postcode": "238100",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.7088557",
+          "31.7094764",
+          "117.9349977",
+          "117.9358117"
+        ]
+      },
+      {
+        "place_id": 221115556,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9053932258,
+        "lat": "33.8237503",
+        "lon": "118.5370067",
+        "category": "amenity",
+        "type": "townhall",
+        "place_rank": 30,
+        "importance": 6.119401846337098e-05,
+        "addresstype": "amenity",
+        "name": "复隆村委会",
+        "display_name": "复隆村委会, 丁仰线, 仰化镇, 宿豫区, 宿迁市, 江苏省, 223724, 中国",
+        "address": {
+          "amenity": "复隆村委会",
+          "road": "丁仰线",
+          "town": "仰化镇",
+          "city": "宿豫区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "postcode": "223724",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "33.8237003",
+          "33.8238003",
+          "118.5369567",
+          "118.5370567"
+        ]
+      }
+    ]
+  },
+  "C133": {
+    "name": "风之谷蓝色森林",
+    "queriedAt": "2026-09-23T13:49:45.750533+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%A3%8E%E4%B9%8B%E8%B0%B7%E8%93%9D%E8%89%B2%E6%A3%AE%E6%9E%97&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C135": {
+    "name": "余杭皮山坞",
+    "queriedAt": "2026-09-23T13:49:49.619775+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%BD%99%E6%9D%AD%E7%9A%AE%E5%B1%B1%E5%9D%9E&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 225428465,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1484281132,
+        "lat": "31.1193088",
+        "lon": "114.2180559",
+        "category": "leisure",
+        "type": "nature_reserve",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "nature_reserve",
+        "name": "木兰云雾山景区",
+        "display_name": "木兰云雾山景区, 黄陂区, 武汉市, 孝昌县, 孝感市, 湖北省, 中国",
+        "address": {
+          "nature_reserve": "木兰云雾山景区",
+          "district": "黄陂区",
+          "city": "武汉市",
+          "county": "孝昌县",
+          "region": "孝感市",
+          "state": "湖北省",
+          "ISO3166-2-lvl4": "CN-HB",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "31.0884790",
+          "31.1495406",
+          "114.1859936",
+          "114.2419982"
+        ]
+      }
+    ]
+  },
+  "C136": {
+    "name": "桐庐高家村",
+    "queriedAt": "2026-09-23T13:49:53.277186+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E5%BA%90%E9%AB%98%E5%AE%B6%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 218927756,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 533620071,
+        "lat": "40.6371691",
+        "lon": "109.2612292",
+        "category": "leisure",
+        "type": "golf_course",
+        "place_rank": 30,
+        "importance": 5.1738002593988214e-05,
+        "addresstype": "leisure",
+        "name": "维信国际高尔夫度假村",
+        "display_name": "维信国际高尔夫度假村, G110, 哈业胡同镇, 白彦花镇 ᠪᠠᠶᠠᠨᠬᠤᠸᠠ, 白彦花镇 ᠪᠠᠶᠠᠨᠬᠤᠸᠠ ᠪᠠᠯᠭᠠᠰᠤ, 乌拉特前旗 ᠤᠷᠠᠳ ᠤᠨ ᠡᠮᠦᠨᠡᠳᠦ ᠬᠣᠰᠢᠭᠤ, 巴彦淖尔市 ᠪᠠᠶᠠᠨᠨᠠᠭᠤᠷ ᠬᠣᠲᠠ, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 014400, 中国",
+        "address": {
+          "leisure": "维信国际高尔夫度假村",
+          "road": "G110",
+          "town": "哈业胡同镇",
+          "city": "白彦花镇 ᠪᠠᠶᠠᠨᠬᠤᠸᠠ ᠪᠠᠯᠭᠠᠰᠤ",
+          "county": "乌拉特前旗 ᠤᠷᠠᠳ ᠤᠨ ᠡᠮᠦᠨᠡᠳᠦ ᠬᠣᠰᠢᠭᠤ",
+          "region": "巴彦淖尔市 ᠪᠠᠶᠠᠨᠨᠠᠭᠤᠷ ᠬᠣᠲᠠ",
+          "state": "内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ",
+          "ISO3166-2-lvl4": "CN-NM",
+          "postcode": "014400",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.6277283",
+          "40.6473402",
+          "109.2488623",
+          "109.2670530"
+        ]
+      }
+    ]
+  },
+  "C137": {
+    "name": "桐庐高明村",
+    "queriedAt": "2026-09-23T13:49:56.766913+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%A1%90%E5%BA%90%E9%AB%98%E6%98%8E%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 237324950,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 199767812,
+        "lat": "22.8728006",
+        "lon": "112.6099346",
+        "category": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05339333562218658,
+        "addresstype": "road",
+        "name": "政通路",
+        "display_name": "政通路, 新塘村, 更合镇, 高明区, 佛山市, 高明区, 广东省, 中国",
+        "address": {
+          "road": "政通路",
+          "neighbourhood": "新塘村",
+          "town": "更合镇",
+          "city": "高明区",
+          "county": "高明区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.8705220",
+          "22.8762580",
+          "112.6056063",
+          "112.6134845"
+        ]
+      },
+      {
+        "place_id": 237642357,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1410217475,
+        "lat": "22.9296639",
+        "lon": "112.7899289",
+        "category": "tourism",
+        "type": "theme_park",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "tourism",
+        "name": "塘伙旅游生态乐园",
+        "display_name": "塘伙旅游生态乐园, 明西路, 西安, 荷城街道, 高明区, 佛山市, 高明区, 广东省, 中国",
+        "address": {
+          "tourism": "塘伙旅游生态乐园",
+          "road": "明西路",
+          "quarter": "西安",
+          "suburb": "荷城街道",
+          "city": "高明区",
+          "county": "高明区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.9271500",
+          "22.9315504",
+          "112.7872330",
+          "112.7915187"
+        ]
+      }
+    ]
+  },
+  "C139": {
+    "name": "清凉峰马啸小学附近",
+    "queriedAt": "2026-09-23T13:50:00.162244+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B8%85%E5%87%89%E5%B3%B0%E9%A9%AC%E5%95%B8%E5%B0%8F%E5%AD%A6%E9%99%84%E8%BF%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C141": {
+    "name": "窈口村",
+    "queriedAt": "2026-09-23T13:50:03.373926+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%AA%88%E5%8F%A3%E6%9D%91&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 221738325,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 9832096693,
+        "lat": "37.3512259",
+        "lon": "121.6675329",
+        "category": "place",
+        "type": "village",
+        "place_rank": 19,
+        "importance": 0.14673439307240402,
+        "addresstype": "village",
+        "name": "窑口村",
+        "display_name": "窑口村, 烟台市, 山东省, 264000, 中国",
+        "address": {
+          "village": "窑口村",
+          "city": "烟台市",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "postcode": "264000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "37.3312259",
+          "37.3712259",
+          "121.6475329",
+          "121.6875329"
+        ]
+      },
+      {
+        "place_id": 424631217,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14070542858,
+        "lat": "34.3411823",
+        "lon": "110.3436184",
+        "category": "place",
+        "type": "village",
+        "place_rank": 19,
+        "importance": 0.14672846494239714,
+        "addresstype": "village",
+        "name": "窑口村",
+        "display_name": "窑口村, 商洛市, 陕西省, 中国",
+        "address": {
+          "village": "窑口村",
+          "city": "商洛市",
+          "state": "陕西省",
+          "ISO3166-2-lvl4": "CN-SN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "34.3211823",
+          "34.3611823",
+          "110.3236184",
+          "110.3636184"
+        ]
+      },
+      {
+        "place_id": 220522093,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8930110386,
+        "lat": "34.2244467",
+        "lon": "113.5983277",
+        "category": "place",
+        "type": "village",
+        "place_rank": 19,
+        "importance": 0.14672375600823984,
+        "addresstype": "village",
+        "name": "窑口村",
+        "display_name": "窑口村, 长葛市, 许昌市, 河南省, 中国",
+        "address": {
+          "village": "窑口村",
+          "county": "长葛市",
+          "region": "许昌市",
+          "state": "河南省",
+          "ISO3166-2-lvl4": "CN-HA",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "34.2044467",
+          "34.2444467",
+          "113.5783277",
+          "113.6183277"
+        ]
+      }
+    ]
+  },
+  "C142": {
+    "name": "同心坝",
+    "queriedAt": "2026-09-23T13:50:08.067250+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%90%8C%E5%BF%83%E5%9D%9D&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223414609,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 3436694064,
+        "lat": "32.1470866",
+        "lon": "120.7203252",
+        "category": "place",
+        "type": "suburb",
+        "place_rank": 19,
+        "importance": 0.14673091248950937,
+        "addresstype": "suburb",
+        "name": "新坝",
+        "display_name": "新坝, 平潮镇, 通州区, 南通市, 江苏省, 226300, 中国",
+        "address": {
+          "suburb": "新坝",
+          "town": "平潮镇",
+          "city": "通州区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "postcode": "226300",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "32.1270866",
+          "32.1670866",
+          "120.7003252",
+          "120.7403252"
+        ]
+      },
+      {
+        "place_id": 223402961,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 3324599379,
+        "lat": "32.1461216",
+        "lon": "120.7207085",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.424582284271027e-05,
+        "addresstype": "highway",
+        "name": "新坝",
+        "display_name": "新坝, 新坝南路, 吉坝村, 平潮镇, 通州区, 南通市, 江苏省, 226300, 中国",
+        "address": {
+          "highway": "新坝",
+          "road": "新坝南路",
+          "neighbourhood": "吉坝村",
+          "town": "平潮镇",
+          "city": "通州区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "postcode": "226300",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "32.1460716",
+          "32.1461716",
+          "120.7206585",
+          "120.7207585"
+        ]
+      }
+    ]
+  },
+  "C154": {
+    "name": "沿江景观10号桥水杉林",
+    "queriedAt": "2026-09-23T13:50:11.402183+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B2%BF%E6%B1%9F%E6%99%AF%E8%A7%8210%E5%8F%B7%E6%A1%A5%E6%B0%B4%E6%9D%89%E6%9E%97&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C155": {
+    "name": "杭钢公园",
+    "queriedAt": "2026-09-23T13:50:15.288975+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%9D%AD%E9%92%A2%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223850837,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1396534442,
+        "lat": "30.3607192",
+        "lon": "120.1662503",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.11734328469919902,
+        "addresstype": "park",
+        "name": "大运河杭钢公园",
+        "display_name": "大运河杭钢公园, 半山街道, 拱墅区, 杭州市, 浙江省, 中国",
+        "address": {
+          "park": "大运河杭钢公园",
+          "suburb": "半山街道",
+          "city": "拱墅区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3568987",
+          "30.3644708",
+          "120.1595667",
+          "120.1699575"
+        ]
+      }
+    ]
+  },
+  "C156": {
+    "name": "星空农庄（径山双溪）",
+    "queriedAt": "2026-09-23T13:50:18.514452+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%98%9F%E7%A9%BA%E5%86%9C%E5%BA%84%EF%BC%88%E5%BE%84%E5%B1%B1%E5%8F%8C%E6%BA%AA%EF%BC%89&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C157": {
+    "name": "建德之江山风农场",
+    "queriedAt": "2026-09-23T13:50:21.536957+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BB%BA%E5%BE%B7%E4%B9%8B%E6%B1%9F%E5%B1%B1%E9%A3%8E%E5%86%9C%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223397562,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1433240141,
+        "lat": "28.9495077",
+        "lon": "115.9525747",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05338719844357973,
+        "addresstype": "road",
+        "name": "乐化-恒湖农场",
+        "display_name": "乐化-恒湖农场, 槎溪村, 象山镇, 金桥乡, 赣江新区直管区, 新建区, 南昌市, 江西省, 中国",
+        "address": {
+          "road": "乐化-恒湖农场",
+          "village": "槎溪村",
+          "suburb": "象山镇",
+          "town": "金桥乡",
+          "city": "赣江新区直管区",
+          "district": "新建区",
+          "region": "南昌市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.9404501",
+          "28.9513007",
+          "115.9328509",
+          "115.9758961"
+        ]
+      },
+      {
+        "place_id": 225352058,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1450445915,
+        "lat": "28.5999704",
+        "lon": "115.6834976",
+        "category": "amenity",
+        "type": "marketplace",
+        "place_rank": 30,
+        "importance": 3.750133516437045e-05,
+        "addresstype": "amenity",
+        "name": "昌西大市场农贸市场",
+        "display_name": "昌西大市场农贸市场, 上海—瑞丽, 社山唐家, 石埠村, 竹园村, 石埠镇, 新建区, 南昌市, 江西省, 中国",
+        "address": {
+          "amenity": "昌西大市场农贸市场",
+          "road": "上海—瑞丽",
+          "hamlet": "社山唐家",
+          "village": "石埠村",
+          "town": "石埠镇",
+          "district": "新建区",
+          "region": "南昌市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.5994450",
+          "28.6004959",
+          "115.6832218",
+          "115.6837733"
+        ]
+      }
+    ]
+  },
+  "C158": {
+    "name": "青山村露营地",
+    "queriedAt": "2026-09-23T13:50:25.272834+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%9D%92%E5%B1%B1%E6%9D%91%E9%9C%B2%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 241729143,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 12104621431,
+        "lat": "28.8583763",
+        "lon": "109.2631166",
+        "category": "tourism",
+        "type": "camp_site",
+        "place_rank": 30,
+        "importance": 4.6958876935942895e-05,
+        "addresstype": "tourism",
+        "name": "鸳鸯崖帐篷露营基地",
+        "display_name": "鸳鸯崖帐篷露营基地, 环山公路, 自生桥村第四村民小组, 自生桥村, 龙山县, 湘西土家族苗族自治州, 湖南省, 中国",
+        "address": {
+          "tourism": "鸳鸯崖帐篷露营基地",
+          "road": "环山公路",
+          "hamlet": "自生桥村第四村民小组",
+          "village": "自生桥村",
+          "county": "龙山县",
+          "region": "湘西土家族苗族自治州",
+          "state": "湖南省",
+          "ISO3166-2-lvl4": "CN-HN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "28.8583263",
+          "28.8584263",
+          "109.2630666",
+          "109.2631666"
+        ]
+      },
+      {
+        "place_id": 238319827,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1419935879,
+        "lat": "22.9904613",
+        "lon": "112.6454292",
+        "category": "tourism",
+        "type": "camp_site",
+        "place_rank": 30,
+        "importance": 6.0002288853238995e-05,
+        "addresstype": "tourism",
+        "name": "绿地樾湖极限中国飞行营地",
+        "display_name": "绿地樾湖极限中国飞行营地, S536;Y195, 回龙镇, 高要区, 肇庆市, 广东省, 中国",
+        "address": {
+          "tourism": "绿地樾湖极限中国飞行营地",
+          "road": "S536;Y195",
+          "town": "回龙镇",
+          "city": "高要区",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.9889393",
+          "22.9916023",
+          "112.6445131",
+          "112.6463070"
+        ]
+      },
+      {
+        "place_id": 222177958,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1238902393,
+        "lat": "39.4302930",
+        "lon": "117.0762202",
+        "category": "tourism",
+        "type": "caravan_site",
+        "place_rank": 30,
+        "importance": 5.504158083462299e-05,
+        "addresstype": "tourism",
+        "name": "天津武清北运河郊野公园房车露营地",
+        "display_name": "天津武清北运河郊野公园房车露营地, 杨崔路, 长屯村, 武清区, 天津市, 中国",
+        "address": {
+          "tourism": "天津武清北运河郊野公园房车露营地",
+          "road": "杨崔路",
+          "village": "长屯村",
+          "city": "武清区",
+          "state": "天津市",
+          "ISO3166-2-lvl4": "CN-TJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "39.4291952",
+          "39.4315998",
+          "117.0722499",
+          "117.0800353"
+        ]
+      }
+    ]
+  },
+  "C159": {
+    "name": "观潮城江边营地",
+    "queriedAt": "2026-09-23T13:50:29.014384+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%A7%82%E6%BD%AE%E5%9F%8E%E6%B1%9F%E8%BE%B9%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C163": {
+    "name": "枫岭村大草坪",
+    "queriedAt": "2026-09-23T13:50:32.708054+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%9E%AB%E5%B2%AD%E6%9D%91%E5%A4%A7%E8%8D%89%E5%9D%AA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C171": {
+    "name": "清凉药谷（浙西小天池）",
+    "queriedAt": "2026-09-23T13:50:35.987014+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B8%85%E5%87%89%E8%8D%AF%E8%B0%B7%EF%BC%88%E6%B5%99%E8%A5%BF%E5%B0%8F%E5%A4%A9%E6%B1%A0%EF%BC%89&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C173": {
+    "name": "入坑艺术公园",
+    "queriedAt": "2026-09-23T13:50:40.484262+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%85%A5%E5%9D%91%E8%89%BA%E6%9C%AF%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C174": {
+    "name": "进贤村绅士溪水露营地",
+    "queriedAt": "2026-09-23T13:50:44.758986+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%BF%9B%E8%B4%A4%E6%9D%91%E7%BB%85%E5%A3%AB%E6%BA%AA%E6%B0%B4%E9%9C%B2%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C175": {
+    "name": "遐也空间",
+    "queriedAt": "2026-09-23T13:50:48.411503+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%81%90%E4%B9%9F%E7%A9%BA%E9%97%B4&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 223676737,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13239708504,
+        "lat": "30.0698252",
+        "lon": "120.4718980",
+        "category": "amenity",
+        "type": "restaurant",
+        "place_rank": 30,
+        "importance": 6.468223086895578e-05,
+        "addresstype": "amenity",
+        "name": "朴素空间",
+        "display_name": "朴素空间, 下市头直街, 下市头社区, 柯桥街道, 柯桥区, 绍兴市, 浙江省, 312030, 中国",
+        "address": {
+          "amenity": "朴素空间",
+          "road": "下市头直街",
+          "quarter": "下市头社区",
+          "suburb": "柯桥街道",
+          "city": "柯桥区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "312030",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.0697752",
+          "30.0698752",
+          "120.4718480",
+          "120.4719480"
+        ]
+      }
+    ]
+  },
+  "C179": {
+    "name": "东纪坞水库",
+    "queriedAt": "2026-09-23T13:50:52.163893+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E4%B8%9C%E7%BA%AA%E5%9D%9E%E6%B0%B4%E5%BA%93&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 241327765,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 6854187,
+        "lat": "26.2410120",
+        "lon": "102.3308078",
+        "category": "water",
+        "type": "reservoir",
+        "place_rank": 20,
+        "importance": 0.40647197265303264,
+        "addresstype": "reservoir",
+        "name": "乌东德水库",
+        "display_name": "乌东德水库, 昆明市, 武定县, 楚雄彝族自治州, 云南省, 中国",
+        "address": {
+          "reservoir": "乌东德水库",
+          "city": "昆明市",
+          "county": "武定县",
+          "region": "楚雄彝族自治州",
+          "state": "云南省",
+          "ISO3166-2-lvl4": "CN-YN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "25.8759499",
+          "26.6060859",
+          "101.8108326",
+          "102.6352640"
+        ]
+      },
+      {
+        "place_id": 221919887,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 13546109,
+        "lat": "37.2381589",
+        "lon": "116.0550403",
+        "category": "water",
+        "type": "reservoir",
+        "place_rank": 20,
+        "importance": 0.13339899824521245,
+        "addresstype": "reservoir",
+        "name": "建德水库",
+        "display_name": "建德水库, 武城县, 德州市, 山东省, 253300, 中国",
+        "address": {
+          "reservoir": "建德水库",
+          "city": "武城县",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "postcode": "253300",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "37.2333586",
+          "37.2427627",
+          "116.0485622",
+          "116.0646377"
+        ]
+      },
+      {
+        "place_id": 220797546,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 820309117,
+        "lat": "35.1086201",
+        "lon": "119.2284787",
+        "category": "water",
+        "type": "reservoir",
+        "place_rank": 20,
+        "importance": 0.13339635843442432,
+        "addresstype": "reservoir",
+        "name": "西棘荡水库",
+        "display_name": "西棘荡水库, 赣榆区, 连云港市, 江苏省, 中国",
+        "address": {
+          "reservoir": "西棘荡水库",
+          "city": "赣榆区",
+          "state": "江苏省",
+          "ISO3166-2-lvl4": "CN-JS",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "35.1071291",
+          "35.1097918",
+          "119.2272149",
+          "119.2297778"
+        ]
+      },
+      {
+        "place_id": 238167519,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1239912814,
+        "lat": "22.4595687",
+        "lon": "113.5234909",
+        "category": "water",
+        "type": "reservoir",
+        "place_rank": 20,
+        "importance": 0.1333956275272755,
+        "addresstype": "reservoir",
+        "name": "马了螂水库",
+        "display_name": "马了螂水库, 牛角坑, 南朗街道, 翠亨村, 中山市, 广东省, 中国",
+        "address": {
+          "reservoir": "马了螂水库",
+          "hamlet": "牛角坑",
+          "suburb": "南朗街道",
+          "village": "翠亨村",
+          "city": "中山市",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.4583656",
+          "22.4607802",
+          "113.5190629",
+          "113.5249931"
+        ]
+      },
+      {
+        "place_id": 238177926,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 386286947,
+        "lat": "22.4556000",
+        "lon": "113.4842989",
+        "category": "water",
+        "type": "reservoir",
+        "place_rank": 20,
+        "importance": 0.1333956275272755,
+        "addresstype": "reservoir",
+        "name": "箭竹山水库",
+        "display_name": "箭竹山水库, 南朗街道, 剑门牌, 中山市, 广东省, 中国",
+        "address": {
+          "reservoir": "箭竹山水库",
+          "suburb": "南朗街道",
+          "village": "剑门牌",
+          "city": "中山市",
+          "state": "广东省",
+          "ISO3166-2-lvl4": "CN-GD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "22.4539324",
+          "22.4572931",
+          "113.4824309",
+          "113.4859347"
+        ]
+      }
+    ]
+  },
+  "C180": {
+    "name": "富阳龙鳞坝（梅州驿站）",
+    "queriedAt": "2026-09-23T13:50:55.824173+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AF%8C%E9%98%B3%E9%BE%99%E9%B3%9E%E5%9D%9D%EF%BC%88%E6%A2%85%E5%B7%9E%E9%A9%BF%E7%AB%99%EF%BC%89&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C181": {
+    "name": "钱岸公园七堡艺文公园",
+    "queriedAt": "2026-09-23T13:50:59.795846+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%92%B1%E5%B2%B8%E5%85%AC%E5%9B%AD%E4%B8%83%E5%A0%A1%E8%89%BA%E6%96%87%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C182": {
+    "name": "安顶山茶山",
+    "queriedAt": "2026-09-23T13:51:03.004364+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%AE%89%E9%A1%B6%E5%B1%B1%E8%8C%B6%E5%B1%B1&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 219913164,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1046176332,
+        "lat": "35.1266891",
+        "lon": "119.3021108",
+        "category": "amenity",
+        "type": "police",
+        "place_rank": 30,
+        "importance": 6.360189211866967e-05,
+        "addresstype": "amenity",
+        "name": "日照市公安局交通警察支队岚山大队",
+        "display_name": "日照市公安局交通警察支队岚山大队, 轿顶山路, 安东卫街道, 岚山区, 日照市, 山东省, 276800, 中国",
+        "address": {
+          "amenity": "日照市公安局交通警察支队岚山大队",
+          "road": "轿顶山路",
+          "suburb": "安东卫街道",
+          "city": "岚山区",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "postcode": "276800",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "35.1260382",
+          "35.1277718",
+          "119.3013851",
+          "119.3030371"
+        ]
+      },
+      {
+        "place_id": 241735073,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 788091453,
+        "lat": "30.0770358",
+        "lon": "103.0886191",
+        "category": "tourism",
+        "type": "museum",
+        "place_rank": 30,
+        "importance": 6.153429465166732e-05,
+        "addresstype": "tourism",
+        "name": "蒙顶山茶史博物馆",
+        "display_name": "蒙顶山茶史博物馆, 西蒙路, 蒙阳街道, 名山区, 雅安市, 四川省, 中国",
+        "address": {
+          "tourism": "蒙顶山茶史博物馆",
+          "road": "西蒙路",
+          "suburb": "蒙阳街道",
+          "city": "名山区",
+          "district": "名山区",
+          "region": "雅安市",
+          "state": "四川省",
+          "ISO3166-2-lvl4": "CN-SC",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.0767050",
+          "30.0773317",
+          "103.0881473",
+          "103.0890915"
+        ]
+      },
+      {
+        "place_id": 225667068,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 948375915,
+        "lat": "26.7485033",
+        "lon": "114.2714116",
+        "category": "amenity",
+        "type": "police",
+        "place_rank": 30,
+        "importance": 6.391165026317262e-05,
+        "addresstype": "amenity",
+        "name": "井冈山市公安局交通警察大队",
+        "display_name": "井冈山市公安局交通警察大队, 五指峰大道, 绿地鑫城, 映山红路社区, 红星街道, 井冈山市, 吉安市, 江西省, 343600, 中国",
+        "address": {
+          "amenity": "井冈山市公安局交通警察大队",
+          "road": "五指峰大道",
+          "retail": "绿地鑫城",
+          "quarter": "映山红路社区",
+          "suburb": "红星街道",
+          "county": "井冈山市",
+          "city": "吉安市",
+          "state": "江西省",
+          "ISO3166-2-lvl4": "CN-JX",
+          "postcode": "343600",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "26.7479183",
+          "26.7491033",
+          "114.2709162",
+          "114.2719085"
+        ]
+      }
+    ]
+  },
+  "C183": {
+    "name": "田间有座岛露营地",
+    "queriedAt": "2026-09-23T13:51:06.513681+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%94%B0%E9%97%B4%E6%9C%89%E5%BA%A7%E5%B2%9B%E9%9C%B2%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C186": {
+    "name": "湘湖湘农路露营地",
+    "queriedAt": "2026-09-23T13:51:09.940512+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B9%98%E6%B9%96%E6%B9%98%E5%86%9C%E8%B7%AF%E9%9C%B2%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C190": {
+    "name": "幸福翼公园",
+    "queriedAt": "2026-09-23T13:51:14.155302+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%B9%B8%E7%A6%8F%E7%BF%BC%E5%85%AC%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 217356710,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 20216062,
+        "lat": "43.8092252",
+        "lon": "125.3037820",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006739375906001,
+        "addresstype": "park",
+        "name": "如意溪公园",
+        "display_name": "如意溪公园, 明珠街道, 南关区, 长春市, 绿园区, 吉林省, 130000, 中国",
+        "address": {
+          "park": "如意溪公园",
+          "suburb": "明珠街道",
+          "city": "南关区",
+          "district": "绿园区",
+          "state": "吉林省",
+          "ISO3166-2-lvl4": "CN-JL",
+          "postcode": "130000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "43.8048551",
+          "43.8108801",
+          "125.2897803",
+          "125.3097496"
+        ]
+      },
+      {
+        "place_id": 221414176,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 297702355,
+        "lat": "43.8118567",
+        "lon": "125.3149685",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006739375906001,
+        "addresstype": "park",
+        "name": "友谊公园",
+        "display_name": "友谊公园, 明珠街道, 南关区, 长春市, 南关区, 吉林省, 130000, 中国",
+        "address": {
+          "park": "友谊公园",
+          "suburb": "明珠街道",
+          "city": "南关区",
+          "district": "南关区",
+          "state": "吉林省",
+          "ISO3166-2-lvl4": "CN-JL",
+          "postcode": "130000",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "43.8099489",
+          "43.8142115",
+          "125.3104428",
+          "125.3194690"
+        ]
+      },
+      {
+        "place_id": 225177647,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1213123896,
+        "lat": "26.8346938",
+        "lon": "112.6489916",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "park",
+        "name": "幸福如意公园",
+        "display_name": "幸福如意公园, 竹山湾, 白沙洲街道, 雁峰区, 衡阳市, 湖南省, 中国",
+        "address": {
+          "park": "幸福如意公园",
+          "hamlet": "竹山湾",
+          "suburb": "白沙洲街道",
+          "city": "雁峰区",
+          "state": "湖南省",
+          "ISO3166-2-lvl4": "CN-HN",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "26.8339207",
+          "26.8353725",
+          "112.6482088",
+          "112.6510305"
+        ]
+      },
+      {
+        "place_id": 219130365,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 742824030,
+        "lat": "35.2411304",
+        "lon": "119.0959817",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08006000228885325,
+        "addresstype": "park",
+        "name": "临沂市临港新区行政服务中心",
+        "display_name": "临沂市临港新区行政服务中心, 临沂临港经济开发区, 莒南县, 临沂市, 山东省, 中国",
+        "address": {
+          "park": "临沂市临港新区行政服务中心",
+          "suburb": "临沂临港经济开发区",
+          "county": "莒南县",
+          "city": "临沂市",
+          "state": "山东省",
+          "ISO3166-2-lvl4": "CN-SD",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "35.2378507",
+          "35.2444012",
+          "119.0934422",
+          "119.0985422"
+        ]
+      }
+    ]
+  },
+  "C192": {
+    "name": "翠羊湾·休闲露营农庄",
+    "queriedAt": "2026-09-23T13:51:18.120005+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%BF%A0%E7%BE%8A%E6%B9%BE%C2%B7%E4%BC%91%E9%97%B2%E9%9C%B2%E8%90%A5%E5%86%9C%E5%BA%84&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C193": {
+    "name": "太子尖星空营地",
+    "queriedAt": "2026-09-23T13:51:21.414224+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%A4%AA%E5%AD%90%E5%B0%96%E6%98%9F%E7%A9%BA%E8%90%A5%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C194": {
+    "name": "沐心岛",
+    "queriedAt": "2026-09-23T13:51:24.798524+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%B2%90%E5%BF%83%E5%B2%9B&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224533520,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 851947677,
+        "lat": "30.3144874",
+        "lon": "120.3621979",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 6.254596780341829e-05,
+        "addresstype": "building",
+        "name": "沐心",
+        "display_name": "沐心, 沪昆高速, 白杨街道, 钱塘区, 杭州市, 浙江省, 310018, 中国",
+        "address": {
+          "building": "沐心",
+          "road": "沪昆高速",
+          "suburb": "白杨街道",
+          "city": "钱塘区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "postcode": "310018",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3143677",
+          "30.3146070",
+          "120.3619289",
+          "120.3624548"
+        ]
+      }
+    ]
+  },
+  "C195": {
+    "name": "在山野·亚运村露营基地",
+    "queriedAt": "2026-09-23T13:51:28.460424+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%9C%A8%E5%B1%B1%E9%87%8E%C2%B7%E4%BA%9A%E8%BF%90%E6%9D%91%E9%9C%B2%E8%90%A5%E5%9F%BA%E5%9C%B0&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C196": {
+    "name": "新安江白沙奇雾驻车点",
+    "queriedAt": "2026-09-23T13:51:31.759881+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E6%96%B0%E5%AE%89%E6%B1%9F%E7%99%BD%E6%B2%99%E5%A5%87%E9%9B%BE%E9%A9%BB%E8%BD%A6%E7%82%B9&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C197": {
+    "name": "千岛湖阳光路989停车场",
+    "queriedAt": "2026-09-23T13:51:35.114250+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%8D%83%E5%B2%9B%E6%B9%96%E9%98%B3%E5%85%89%E8%B7%AF989%E5%81%9C%E8%BD%A6%E5%9C%BA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C198": {
+    "name": "听潮音乐营地-木栖",
+    "queriedAt": "2026-09-23T13:51:39.048368+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%90%AC%E6%BD%AE%E9%9F%B3%E4%B9%90%E8%90%A5%E5%9C%B0-%E6%9C%A8%E6%A0%96&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C199": {
+    "name": "贝莱特庄园",
+    "queriedAt": "2026-09-23T13:51:42.781720+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E8%B4%9D%E8%8E%B1%E7%89%B9%E5%BA%84%E5%9B%AD&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 218715463,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 55697075,
+        "lat": "40.0385990",
+        "lon": "116.4288725",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08008344167238877,
+        "addresstype": "residential",
+        "name": "时代庄园",
+        "display_name": "时代庄园, 来广营乡, 朝阳区, 北京市, 中国",
+        "address": {
+          "residential": "时代庄园",
+          "town": "来广营乡",
+          "city": "朝阳区",
+          "ISO3166-2-lvl4": "CN-BJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.0367098",
+          "40.0409729",
+          "116.4244562",
+          "116.4317411"
+        ]
+      },
+      {
+        "place_id": 218878322,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 106616533,
+        "lat": "40.0555138",
+        "lon": "116.4302289",
+        "category": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08008344167238877,
+        "addresstype": "residential",
+        "name": "润泽庄园",
+        "display_name": "润泽庄园, 来广营乡, 朝阳区, 北京市, 中国",
+        "address": {
+          "residential": "润泽庄园",
+          "town": "来广营乡",
+          "city": "朝阳区",
+          "ISO3166-2-lvl4": "CN-BJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.0539242",
+          "40.0578692",
+          "116.4277202",
+          "116.4326157"
+        ]
+      },
+      {
+        "place_id": 219109257,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 775722807,
+        "lat": "40.0410547",
+        "lon": "116.4273285",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08008344167238877,
+        "addresstype": "industrial",
+        "name": "时代庄园",
+        "display_name": "时代庄园, 来广营乡, 朝阳区, 北京市, 中国",
+        "address": {
+          "industrial": "时代庄园",
+          "town": "来广营乡",
+          "city": "朝阳区",
+          "ISO3166-2-lvl4": "CN-BJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.0402315",
+          "40.0413366",
+          "116.4267061",
+          "116.4283963"
+        ]
+      },
+      {
+        "place_id": 218722840,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8433876084,
+        "lat": "40.0382373",
+        "lon": "116.4269109",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 8.344167238875436e-05,
+        "addresstype": "highway",
+        "name": "时代庄园",
+        "display_name": "时代庄园, 红军营东路, 来广营乡, 朝阳区, 北京市, 100012, 中国",
+        "address": {
+          "highway": "时代庄园",
+          "road": "红军营东路",
+          "town": "来广营乡",
+          "city": "朝阳区",
+          "ISO3166-2-lvl4": "CN-BJ",
+          "postcode": "100012",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.0381873",
+          "40.0382873",
+          "116.4268609",
+          "116.4269609"
+        ]
+      },
+      {
+        "place_id": 219110228,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 859951281,
+        "lat": "40.0225897",
+        "lon": "116.4693153",
+        "category": "leisure",
+        "type": "park",
+        "place_rank": 24,
+        "importance": 0.08008344167238877,
+        "addresstype": "park",
+        "name": "善各庄城市休闲公园",
+        "display_name": "善各庄城市休闲公园, 崔各庄乡, 朝阳区, 北京市, 中国",
+        "address": {
+          "park": "善各庄城市休闲公园",
+          "town": "崔各庄乡",
+          "city": "朝阳区",
+          "ISO3166-2-lvl4": "CN-BJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "40.0217185",
+          "40.0234109",
+          "116.4679134",
+          "116.4705662"
+        ]
+      }
+    ]
+  },
+  "C200": {
+    "name": "建德新安江绿道驿站",
+    "queriedAt": "2026-09-23T13:51:46.014286+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BB%BA%E5%BE%B7%E6%96%B0%E5%AE%89%E6%B1%9F%E7%BB%BF%E9%81%93%E9%A9%BF%E7%AB%99&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C207": {
+    "name": "山屿露营·大清谷店",
+    "queriedAt": "2026-09-23T13:51:50.065013+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%B1%B1%E5%B1%BF%E9%9C%B2%E8%90%A5%C2%B7%E5%A4%A7%E6%B8%85%E8%B0%B7%E5%BA%97&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C208": {
+    "name": "建德李家镇塘底石窟水库",
+    "queriedAt": "2026-09-23T13:51:53.881952+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BB%BA%E5%BE%B7%E6%9D%8E%E5%AE%B6%E9%95%87%E5%A1%98%E5%BA%95%E7%9F%B3%E7%AA%9F%E6%B0%B4%E5%BA%93&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C209": {
+    "name": "石门村猷戏谷（大鱼线）",
+    "queriedAt": "2026-09-23T13:51:57.143309+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E7%9F%B3%E9%97%A8%E6%9D%91%E7%8C%B7%E6%88%8F%E8%B0%B7%EF%BC%88%E5%A4%A7%E9%B1%BC%E7%BA%BF%EF%BC%89&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C213": {
+    "name": "北塘河草坪",
+    "queriedAt": "2026-09-23T13:52:00.779640+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%8C%97%E5%A1%98%E6%B2%B3%E8%8D%89%E5%9D%AA&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": [
+      {
+        "place_id": 224663693,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1491806078,
+        "lat": "30.3168652",
+        "lon": "120.3412394",
+        "category": "landuse",
+        "type": "grass",
+        "place_rank": 24,
+        "importance": 0.08006254596780343,
+        "addresstype": "grass",
+        "name": "学生活动中心后草坪",
+        "display_name": "学生活动中心后草坪, 白杨街道, 钱塘区, 杭州市, 浙江省, 中国",
+        "address": {
+          "grass": "学生活动中心后草坪",
+          "suburb": "白杨街道",
+          "city": "钱塘区",
+          "state": "浙江省",
+          "ISO3166-2-lvl4": "CN-ZJ",
+          "country": "中国",
+          "country_code": "cn"
+        },
+        "boundingbox": [
+          "30.3166273",
+          "30.3170575",
+          "120.3408976",
+          "120.3415848"
+        ]
+      }
+    ]
+  },
+  "C215": {
+    "name": "龙尾巴山塘水库",
+    "queriedAt": "2026-09-23T13:52:04.382223+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E9%BE%99%E5%B0%BE%E5%B7%B4%E5%B1%B1%E5%A1%98%E6%B0%B4%E5%BA%93&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  },
+  "C216": {
+    "name": "建德之江村（车中泊点）",
+    "queriedAt": "2026-09-23T13:52:08.475217+00:00",
+    "query": "https://nominatim.openstreetmap.org/search?q=%E5%BB%BA%E5%BE%B7%E4%B9%8B%E6%B1%9F%E6%9D%91%EF%BC%88%E8%BD%A6%E4%B8%AD%E6%B3%8A%E7%82%B9%EF%BC%89&format=jsonv2&addressdetails=1&limit=5&countrycodes=cn&viewbox=118.2%2C31.5%2C121.3%2C29.0",
+    "results": []
+  }
+}

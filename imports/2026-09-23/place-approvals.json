@@ -1,0 +1,267 @@
+{
+  "C039": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 19412552,
+    "matchedName": "麻车头",
+    "precision": "同名公交站参考点，苕溪草坪入口未核实",
+    "travelLabel": "麻车头公交站",
+    "pointKind": "公交站"
+  },
+  "C028": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 19459906,
+    "matchedName": "宣王桥",
+    "precision": "同名公交站参考点，桥下溪边营位未核实",
+    "travelLabel": "宣王桥公交站",
+    "pointKind": "公交站"
+  },
+  "C140": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 19392305,
+    "matchedName": "树石村",
+    "precision": "同名村庄公交站参考点，溪边营位未核实",
+    "travelLabel": "树石村公交站",
+    "pointKind": "公交站"
+  },
+  "C124": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 19313210,
+    "matchedName": "桐洲岛",
+    "precision": "同名公交站参考点，渡口与岛上营位需另行确认",
+    "travelLabel": "桐洲岛公交站",
+    "pointKind": "公交站"
+  },
+  "C062": {
+    "source": "OpenStreetMap",
+    "type": "node",
+    "osmId": 12528963820,
+    "matchedName": "北支江公园",
+    "precision": "同名公园公交站参考点，非营位入口",
+    "travelLabel": "北支江公园公交站",
+    "pointKind": "公交站"
+  },
+  "C110": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 1355693388,
+    "matchedName": "羊山公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "羊山公园",
+    "pointKind": "公园"
+  },
+  "C024": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 19660955,
+    "matchedName": "河桥古镇",
+    "precision": "同名古镇公交站参考点，溪滩位置未核实",
+    "travelLabel": "河桥古镇公交站",
+    "pointKind": "公交站"
+  },
+  "C008": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 161419347,
+    "matchedName": "乌龟潭",
+    "precision": "同名水域范围参考点，非营位入口",
+    "travelLabel": "乌龟潭",
+    "pointKind": "区域参考点"
+  },
+  "C112": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 186613743,
+    "matchedName": "高教西公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "高教西公园",
+    "pointKind": "公园"
+  },
+  "C116": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 229705516,
+    "matchedName": "临平公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "临平公园",
+    "pointKind": "公园"
+  },
+  "C118": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 491879245,
+    "matchedName": "吴越文化公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "吴越文化公园",
+    "pointKind": "公园"
+  },
+  "C010": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 650075936,
+    "matchedName": "青年林",
+    "precision": "下沙同名树林范围参考点，非营位入口",
+    "travelLabel": "青年林",
+    "pointKind": "区域参考点"
+  },
+  "C115": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 1186521610,
+    "matchedName": "龙安湖公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "龙安湖公园",
+    "pointKind": "公园"
+  },
+  "C100": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 1368372600,
+    "matchedName": "北塘河爱心公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "北塘河爱心公园",
+    "pointKind": "公园"
+  },
+  "C030": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 1424409686,
+    "matchedName": "山田大桥",
+    "precision": "同名桥梁参考点，非桥下营位",
+    "travelLabel": "山田大桥",
+    "pointKind": "桥梁"
+  },
+  "C031": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 1424409687,
+    "matchedName": "洪潭大桥",
+    "precision": "同名桥梁参考点，非桥下营位",
+    "travelLabel": "洪潭大桥",
+    "pointKind": "桥梁"
+  },
+  "C094": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 19298209,
+    "matchedName": "东湖路市民公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "东湖路市民公园",
+    "pointKind": "公园"
+  },
+  "C083": {
+    "source": "OpenStreetMap",
+    "type": "relation",
+    "osmId": 20083679,
+    "matchedName": "孤山公园",
+    "precision": "同名公园范围参考点，非营位入口",
+    "travelLabel": "孤山公园",
+    "pointKind": "公园"
+  },
+  "C003": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 0,
+    "matchedName": "南湖公园",
+    "precision": "余杭南湖公园范围参考点，非营位入口",
+    "travelLabel": "南湖公园",
+    "pointKind": "公园"
+  },
+  "C037": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 1,
+    "matchedName": "吴山公园",
+    "precision": "余杭径山吴山公园范围参考点，非营位入口",
+    "travelLabel": "吴山公园",
+    "pointKind": "公园"
+  },
+  "C123": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 0,
+    "matchedName": "儿童公园",
+    "precision": "富阳儿童公园范围参考点，非营位入口",
+    "travelLabel": "富阳儿童公园",
+    "pointKind": "公园"
+  },
+  "C173": {
+    "source": "Amap",
+    "latitude": 30.224709,
+    "longitude": 119.94324,
+    "sourceUrl": "https://www.amap.com/place/B0J0JSFWNP",
+    "matchedName": "入坑艺术公园地面停车场(出入口)",
+    "precision": "入坑艺术公园停车场入口参考点，非营位",
+    "travelLabel": "入坑艺术公园停车场",
+    "pointKind": "停车场"
+  },
+  "C207": {
+    "source": "Amap",
+    "latitude": 30.192398,
+    "longitude": 120.066523,
+    "sourceUrl": "https://ditu.amap.com/place/B023B0229C",
+    "matchedName": "大清谷",
+    "precision": "大清谷景区参考点，山屿露营店入口未核实",
+    "travelLabel": "大清谷景区",
+    "pointKind": "景区"
+  },
+  "C007": {
+    "source": "OpenStreetMap",
+    "type": "way",
+    "osmId": 117948709,
+    "matchedName": "光明寺水库",
+    "precision": "光明寺水库范围参考点，非营位入口",
+    "travelLabel": "光明寺水库",
+    "pointKind": "水库"
+  },
+  "C042": {
+    "source": "OpenStreetMap",
+    "type": "node",
+    "osmId": 11542881437,
+    "matchedName": "浮云岭",
+    "precision": "浮云岭地名参考点，3-1号营位入口未核实",
+    "travelLabel": "浮云岭",
+    "pointKind": "区域参考点"
+  },
+  "C162": {
+    "source": "OpenStreetMap",
+    "type": "node",
+    "osmId": 8595835981,
+    "matchedName": "大朗山",
+    "precision": "大朗山地名参考点，山顶营位入口未核实",
+    "travelLabel": "大朗山",
+    "pointKind": "区域参考点"
+  },
+  "C075": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 0,
+    "matchedName": "美女坝",
+    "precision": "萧山美女坝游船码头参考点，非露营落点",
+    "travelLabel": "美女坝",
+    "pointKind": "码头"
+  },
+  "C130": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 0,
+    "matchedName": "古城桥",
+    "precision": "富阳常安古城桥地名参考点，安禾村营位未核实",
+    "travelLabel": "古城桥",
+    "pointKind": "区域参考点"
+  },
+  "C155": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 0,
+    "matchedName": "大运河杭钢公园",
+    "precision": "拱墅大运河杭钢公园范围参考点，非营位入口",
+    "travelLabel": "大运河杭钢公园",
+    "pointKind": "公园"
+  },
+  "C138": {
+    "source": "OpenStreetMap Nominatim",
+    "resultIndex": 1,
+    "matchedName": "双喜村村委会",
+    "precision": "富阳湖源乡双喜村委会参考点，壶源溪营位未核实",
+    "travelLabel": "双喜村村委会",
+    "pointKind": "村委会"
+  }
+}

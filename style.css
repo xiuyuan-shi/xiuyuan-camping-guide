@@ -18,3 +18,4 @@
 .star-glyph{font-size:15px;letter-spacing:-1px;white-space:nowrap;color:#ce670e}.rating-button{gap:6px}.rating-button.unrated .star-glyph{color:#b7a69a}
 .route-origin{font-size:11px;color:#737a77;margin:-4px 0 14px}.map-mode .route-origin{display:none}
 #utility-content details{border-top:1px solid #e2e7e4;padding:12px 0}#utility-content li{margin:7px 0}#utility-content summary{cursor:pointer}
+.route-copy{display:block;min-width:0}.route-copy span,.route-copy small{display:block;white-space:nowrap;line-height:1.25}.route-copy small{font-size:10px;color:#79827a;font-weight:400;margin-top:2px}

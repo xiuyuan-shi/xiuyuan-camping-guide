@@ -1,0 +1,134 @@
+[
+  {
+    "id": "C039",
+    "status": "already-published"
+  },
+  {
+    "id": "C028",
+    "status": "already-published"
+  },
+  {
+    "id": "C140",
+    "status": "already-published"
+  },
+  {
+    "id": "C124",
+    "status": "already-published"
+  },
+  {
+    "id": "C062",
+    "status": "already-published"
+  },
+  {
+    "id": "C110",
+    "status": "already-published"
+  },
+  {
+    "id": "C024",
+    "status": "already-published"
+  },
+  {
+    "id": "C008",
+    "status": "already-published"
+  },
+  {
+    "id": "C112",
+    "status": "already-published"
+  },
+  {
+    "id": "C116",
+    "status": "already-published"
+  },
+  {
+    "id": "C118",
+    "status": "already-published"
+  },
+  {
+    "id": "C010",
+    "status": "already-published"
+  },
+  {
+    "id": "C115",
+    "status": "already-published"
+  },
+  {
+    "id": "C100",
+    "status": "already-published"
+  },
+  {
+    "id": "C030",
+    "status": "already-published"
+  },
+  {
+    "id": "C031",
+    "status": "already-published"
+  },
+  {
+    "id": "C094",
+    "status": "already-published"
+  },
+  {
+    "id": "C083",
+    "status": "already-published"
+  },
+  {
+    "id": "C003",
+    "status": "already-published"
+  },
+  {
+    "id": "C037",
+    "status": "already-published"
+  },
+  {
+    "id": "C123",
+    "status": "already-published"
+  },
+  {
+    "id": "C173",
+    "status": "already-published"
+  },
+  {
+    "id": "C207",
+    "status": "already-published"
+  },
+  {
+    "id": "C007",
+    "status": "already-published"
+  },
+  {
+    "id": "C042",
+    "status": "already-published"
+  },
+  {
+    "id": "C162",
+    "status": "already-published"
+  },
+  {
+    "id": "C075",
+    "name": "南阳美女坝",
+    "status": "published",
+    "minutes": 27,
+    "roadSnapMeters": 119
+  },
+  {
+    "id": "C130",
+    "name": "安禾村古城桥",
+    "status": "published",
+    "minutes": 50,
+    "roadSnapMeters": 4
+  },
+  {
+    "id": "C155",
+    "name": "杭钢公园",
+    "status": "published",
+    "minutes": 17,
+    "roadSnapMeters": 154
+  },
+  {
+    "id": "C138",
+    "name": "富阳双喜村",
+    "status": "published",
+    "minutes": 56,
+    "roadSnapMeters": 18
+  }
+]

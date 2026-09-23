@@ -44,7 +44,7 @@ assert by_id['C010']['primaryFacts']['fee']['status']=='conflict'
 assert by_id['C024']['primaryFacts']['fee']['status']=='free'
 assert by_id['C143']['primaryFacts']['stove']['status']=='yes'  # another row says yes; BBQ-only row itself is not proof
 assert sum(r['primaryFacts']['fee']['status']=='conflict' for r in d['records'] if r.get('primaryData'))>=5
-assert sum(len(r.get('publicPhotos',[])) for r in d['records'])==3
+assert sum(len(r.get('publicPhotos',[])) for r in d['records'])==8
 julin=next(r for r in d['records'] if r['id']=='C035')
 assert len(julin['reviewedPhotos'])==2
 assert all(d['sources'][p['sourceId']]['url'].endswith('6938d309000000001d03ca54') for p in julin['reviewedPhotos'])

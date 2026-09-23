@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T21:17:40.333618+08:00",
+  "updatedAt": "2026-09-23T21:56:38.419988+08:00",
   "coordinateLicense": "OpenStreetMap数据 © OSM contributors，ODbL；保留独立数据层和来源链接。",
   "origin": {
     "name": "杭州武林门地铁站",
@@ -1263,6 +1263,1986 @@
         },
         "isSnapshot": true,
         "geometryUrl": "routes/C172.json?v=wulinmen-20260923"
+      }
+    },
+    "C039": {
+      "name": "麻车头",
+      "location": {
+        "latitude": 30.3425236,
+        "longitude": 119.8818425,
+        "crs": "WGS84",
+        "precision": "同名公交站参考点，苕溪草坪入口未核实",
+        "travelLabel": "麻车头公交站",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/19412552",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "麻车头",
+        "pointKind": "公交站"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1780.2,
+        "distance": 34392.8,
+        "geometryUrl": "routes/C039.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "nf0Lguj9C4IFAAAABgAAAGsDAAASAAAA5PsCQcdcAUFpKqdEsZneQQUAAAAGAAAAawMAABIAAAAaJwEAc0AlB3v9zgFzQCUHfP3OASwAzwUAAAAA",
+            "location": [
+              119.881843,
+              30.342523
+            ],
+            "name": "彭凤线",
+            "distance": 0.1108579379
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.8818425,30.3425236?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.3425236,
+          "longitude": 119.8818425,
+          "crs": "WGS84",
+          "precision": "同名公交站参考点，苕溪草坪入口未核实",
+          "travelLabel": "麻车头公交站",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/19412552",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "麻车头",
+          "pointKind": "公交站"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C028": {
+      "name": "宣王桥",
+      "location": {
+        "latitude": 30.367353,
+        "longitude": 119.6753698,
+        "crs": "WGS84",
+        "precision": "同名公交站参考点，桥下溪边营位未核实",
+        "travelLabel": "宣王桥公交站",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/19459906",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "宣王桥",
+        "pointKind": "公交站"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 3150.4,
+        "distance": 59438.8,
+        "geometryUrl": "routes/C028.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "oP0Lgu9rcZQHAAAACAAAAEEGAAAQAAAAqdc_QQ3XK0Eu5BhFfKLDQQcAAAAIAAAAQQYAABAAAAAaJwEA5xkiB4lezwHqGSIHeV7PAVoATxAAAAAA",
+            "location": [
+              119.675367,
+              30.367369
+            ],
+            "name": "大鱼线",
+            "distance": 1.797028007
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.6753698,30.367353?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.367353,
+          "longitude": 119.6753698,
+          "crs": "WGS84",
+          "precision": "同名公交站参考点，桥下溪边营位未核实",
+          "travelLabel": "宣王桥公交站",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/19459906",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "宣王桥",
+          "pointKind": "公交站"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C140": {
+      "name": "树石村",
+      "location": {
+        "latitude": 29.8362987,
+        "longitude": 119.9195266,
+        "crs": "WGS84",
+        "precision": "同名村庄公交站参考点，溪边营位未核实",
+        "travelLabel": "树石村公交站",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/19392305",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "树石村",
+        "pointKind": "公交站"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 3144.7,
+        "distance": 67514.8,
+        "geometryUrl": "routes/C140.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "UP9flFj_X5QDAAAABAAAAAQFAADQAQAAxQWXQG0HwkCya_VEuLcxRAMAAAAEAAAABAUAANABAAAaJwEAqdMlBwtExwGn0yUHC0THAVIAnwAAAAAA",
+            "location": [
+              119.919529,
+              29.836299
+            ],
+            "name": "环金线",
+            "distance": 0.1933102389
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.9195266,29.8362987?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 29.8362987,
+          "longitude": 119.9195266,
+          "crs": "WGS84",
+          "precision": "同名村庄公交站参考点，溪边营位未核实",
+          "travelLabel": "树石村公交站",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/19392305",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "树石村",
+          "pointKind": "公交站"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C124": {
+      "name": "桐洲岛",
+      "location": {
+        "latitude": 29.8921912,
+        "longitude": 119.8046304,
+        "crs": "WGS84",
+        "precision": "同名公交站参考点，渡口与岛上营位需另行确认",
+        "travelLabel": "桐洲岛公交站",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/19313210",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "桐洲岛",
+        "pointKind": "公交站"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 3244.8,
+        "distance": 65639.4,
+        "geometryUrl": "routes/C124.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "M8nLhgSU24wEAAAABgAAADYAAABEAAAAFZeuQFhSt0DKjW9Cm6CWQgQAAAAGAAAANgAAAEQAAAAaJwEA2BIkB1seyAHWEiQHXx7IAQYArw8AAAAA",
+            "location": [
+              119.804632,
+              29.892187
+            ],
+            "name": "蒋大线",
+            "distance": 0.4836697104
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.8046304,29.8921912?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 29.8921912,
+          "longitude": 119.8046304,
+          "crs": "WGS84",
+          "precision": "同名公交站参考点，渡口与岛上营位需另行确认",
+          "travelLabel": "桐洲岛公交站",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/19313210",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "桐洲岛",
+          "pointKind": "公交站"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C062": {
+      "name": "北支江公园",
+      "location": {
+        "latitude": 30.0731477,
+        "longitude": 119.993636,
+        "crs": "WGS84",
+        "precision": "同名公园公交站参考点，非营位入口",
+        "travelLabel": "北支江公园公交站",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/12528963820",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "北支江公园",
+        "pointKind": "公交站"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1698,
+        "distance": 35047.8,
+        "geometryUrl": "routes/C062.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "RCjqk____38TAAAAHwAAAEEBAADGAQAA3SoLQkkHp0EQkRFEee9NRBMAAAAfAAAAQQEAAMYBAAAaJwEACfUmB1_hygEk9SYHPOHKARIAfwMAAAAA",
+            "location": [
+              119.993609,
+              30.073183
+            ],
+            "name": "江滨东大道",
+            "distance": 4.672253496
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.993636,30.0731477?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.0731477,
+          "longitude": 119.993636,
+          "crs": "WGS84",
+          "precision": "同名公园公交站参考点，非营位入口",
+          "travelLabel": "北支江公园公交站",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/node/12528963820",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "北支江公园",
+          "pointKind": "公交站"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C110": {
+      "name": "羊山公园",
+      "location": {
+        "latitude": 30.1154876,
+        "longitude": 120.5409716,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "羊山公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1355693388",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "羊山公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 2345.7,
+        "distance": 47591.3,
+        "geometryUrl": "routes/C110.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "pMjojRZMEpAMAAAAQgAAAAAAAAAAAAAA6ItfQQngkEIAAAAAAAAAAAwAAABCAAAAAAAAAAAAAAAaJwEAZFEvB2GJywEsTy8HoIbLAQAAzwcAAAAA",
+            "location": [
+              120.54154,
+              30.116193
+            ],
+            "name": "羊山路",
+            "distance": 95.4136791
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.5409716,30.1154876?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1154876,
+          "longitude": 120.5409716,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "羊山公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1355693388",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "羊山公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C024": {
+      "name": "河桥古镇",
+      "location": {
+        "latitude": 30.1048354,
+        "longitude": 119.23647,
+        "crs": "WGS84",
+        "precision": "同名古镇公交站参考点，溪滩位置未核实",
+        "travelLabel": "河桥古镇公交站",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/19660955",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "河桥古镇",
+        "pointKind": "公交站"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 4523.4,
+        "distance": 105798.1,
+        "geometryUrl": "routes/C024.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "lD-MiQhN6okAAAAAjgAAAHcAAAAAAAAASIx3PhR2HUOAPgVDAAAAAAAAAACOAAAAdwAAAAAAAAAaJwEAUmcbBw1dywF2ZxsHA13LAQgALwEAAAAA",
+            "location": [
+              119.236434,
+              30.104845
+            ],
+            "name": "",
+            "distance": 3.641955222
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.23647,30.1048354?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1048354,
+          "longitude": 119.23647,
+          "crs": "WGS84",
+          "precision": "同名古镇公交站参考点，溪滩位置未核实",
+          "travelLabel": "河桥古镇公交站",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/19660955",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "河桥古镇",
+          "pointKind": "公交站"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C008": {
+      "name": "乌龟潭",
+      "location": {
+        "latitude": 30.2340105,
+        "longitude": 120.1283633,
+        "crs": "WGS84",
+        "precision": "同名水域范围参考点，非营位入口",
+        "travelLabel": "乌龟潭",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/161419347",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "乌龟潭",
+        "pointKind": "区域参考点"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 478.6,
+        "distance": 6726.2,
+        "geometryUrl": "routes/C008.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "4kT1j____38IAAAARQAAAAAAAADKAAAAEmpXQXhBuEIAAAAArHyaQwgAAABFAAAAAAAAAMoAAAAaJwEARQcpB9FZzQFrAykHm1XNAQAADwgAAAAA",
+            "location": [
+              120.129349,
+              30.235089
+            ],
+            "name": "杨公堤",
+            "distance": 152.6132529
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.1283633,30.2340105?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2340105,
+          "longitude": 120.1283633,
+          "crs": "WGS84",
+          "precision": "同名水域范围参考点，非营位入口",
+          "travelLabel": "乌龟潭",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/161419347",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "乌龟潭",
+          "pointKind": "区域参考点"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C112": {
+      "name": "高教西公园",
+      "location": {
+        "latitude": 30.3195256,
+        "longitude": 120.3473132,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "高教西公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/186613743",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "高教西公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1306.3,
+        "distance": 22974.7,
+        "geometryUrl": "routes/C112.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "SjBukv___39JAAAAAgEAAI8AAADIAAAAOjvhQibLjEMasVpDpdCYQ0kAAAACAQAAjwAAAMgAAAAaJwEAtFosBwapzgGxWiwHpqPOAQQArwUAAAAA",
+            "location": [
+              120.347316,
+              30.320902
+            ],
+            "name": "学源街",
+            "distance": 152.5407953
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.3473132,30.3195256?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.3195256,
+          "longitude": 120.3473132,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "高教西公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/186613743",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "高教西公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C116": {
+      "name": "临平公园",
+      "location": {
+        "latitude": 30.4217548,
+        "longitude": 120.2786276,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "临平公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/229705516",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "临平公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1584.5,
+        "distance": 29448.6,
+        "geometryUrl": "routes/C116.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "uK41ko1hT5JvAAAAAAAAAEsDAAARAQAA9WQ5QgAAAADqt69DvITjQm8AAAAAAAAASwMAABEBAAAaJwEAO08rB04z0AFkTisH-zLQAQwArwoAAAAA",
+            "location": [
+              120.278843,
+              30.421838
+            ],
+            "name": "",
+            "distance": 22.61234416
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.2786276,30.4217548?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.4217548,
+          "longitude": 120.2786276,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "临平公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/229705516",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "临平公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C118": {
+      "name": "吴越文化公园",
+      "location": {
+        "latitude": 30.2284365,
+        "longitude": 119.7290531,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "吴越文化公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/491879245",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "吴越文化公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 2055.1,
+        "distance": 45583.4,
+        "geometryUrl": "routes/C118.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "phrhgf___38XAAAAFwAAABQAAABTAQAA80xVQgAAAAAc90BC5_ZHRBcAAAAXAAAAFAAAAFMBAAAaJwEAY-oiB-k3zQGd6yIH1T_NAQIAXxEAAAAA",
+            "location": [
+              119.728739,
+              30.226409
+            ],
+            "name": "吴越街",
+            "distance": 226.8395469
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.7290531,30.2284365?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2284365,
+          "longitude": 119.7290531,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "吴越文化公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/491879245",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "吴越文化公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C010": {
+      "name": "青年林",
+      "location": {
+        "latitude": 30.2785253,
+        "longitude": 120.3305438,
+        "crs": "WGS84",
+        "precision": "下沙同名树林范围参考点，非营位入口",
+        "travelLabel": "青年林",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/650075936",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "青年林",
+        "pointKind": "区域参考点"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1294,
+        "distance": 21228.8,
+        "geometryUrl": "routes/C010.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "HkXdhP___38wAAAAiwAAAGsAAABgAgAAz96TQngZC0Mp-yJD2j1oRDAAAACLAAAAawAAAGACAAAaJwEAABYsB-0AzgEwGSwHfQPOAQQAzxMAAAAA",
+            "location": [
+              120.329728,
+              30.277869
+            ],
+            "name": "之江东路",
+            "distance": 107.0191707
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.3305438,30.2785253?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2785253,
+          "longitude": 120.3305438,
+          "crs": "WGS84",
+          "precision": "下沙同名树林范围参考点，非营位入口",
+          "travelLabel": "青年林",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/650075936",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "青年林",
+          "pointKind": "区域参考点"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C115": {
+      "name": "龙安湖公园",
+      "location": {
+        "latitude": 30.4513302,
+        "longitude": 120.2698691,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "龙安湖公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1186521610",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "龙安湖公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1479.1,
+        "distance": 29753.7,
+        "geometryUrl": "routes/C115.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "4Y7Jj____38VAAAAjgAAAFoAAAApAAAADGscQqGZWUMo9SJD04qSQhUAAACOAAAAWgAAACkAAAAaJwEAHTQrB26p0AEtLCsHgqbQAQQAzwkAAAAA",
+            "location": [
+              120.271901,
+              30.452078
+            ],
+            "name": "荷禹路",
+            "distance": 212.0094895
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.2698691,30.4513302?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.4513302,
+          "longitude": 120.2698691,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "龙安湖公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1186521610",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "龙安湖公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C100": {
+      "name": "北塘河爱心公园",
+      "location": {
+        "latitude": 30.1994562,
+        "longitude": 120.1988719,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "北塘河爱心公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1368372600",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "北塘河爱心公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 657.5,
+        "distance": 11544.9,
+        "geometryUrl": "routes/C100.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "fBkgg____3-vAAAAyQAAACoAAAAnAAAAcZqFQyhJHUKHm4BCiH1sQq8AAADJAAAAKgAAACcAAAAaJwEAYxcqB07NzAHYFioHoM7MAQIArw8AAAAA",
+            "location": [
+              120.199011,
+              30.199118
+            ],
+            "name": "滨和路",
+            "distance": 39.78911648
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.1988719,30.1994562?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1994562,
+          "longitude": 120.1988719,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "北塘河爱心公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1368372600",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "北塘河爱心公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C030": {
+      "name": "山田大桥",
+      "location": {
+        "latitude": 30.1955532,
+        "longitude": 119.1155909,
+        "crs": "WGS84",
+        "precision": "同名桥梁参考点，非桥下营位",
+        "travelLabel": "山田大桥",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1424409686",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "山田大桥",
+        "pointKind": "桥梁"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 4705.9,
+        "distance": 111168,
+        "geometryUrl": "routes/C030.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "zxf-gSgY_oEtAAAAKgAAAAAAAAAAAAAAGMjVQomvxEIAAAAAAAAAAC0AAAAqAAAAAAAAAAAAAAAaJwEAQY8ZB2C_zAFHjxkHYb_MAQAArwoAAAAA",
+            "location": [
+              119.115585,
+              30.195552
+            ],
+            "name": "",
+            "distance": 0.5884356001
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.1155909,30.1955532?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1955532,
+          "longitude": 119.1155909,
+          "crs": "WGS84",
+          "precision": "同名桥梁参考点，非桥下营位",
+          "travelLabel": "山田大桥",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1424409686",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "山田大桥",
+          "pointKind": "桥梁"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C031": {
+      "name": "洪潭大桥",
+      "location": {
+        "latitude": 30.2051834,
+        "longitude": 119.1080218,
+        "crs": "WGS84",
+        "precision": "同名桥梁参考点，非桥下营位",
+        "travelLabel": "洪潭大桥",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/1424409687",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "洪潭大桥",
+        "pointKind": "桥梁"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 4763.3,
+        "distance": 112533,
+        "geometryUrl": "routes/C031.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "CRj-gRmfGI0FAAAAGgAAABIAAAAAAAAAPD5MQbEvdkJX-itCAAAAAAUAAAAaAAAAEgAAAAAAAAAaJwEAxnEZBwTlzAG2cRkH_-TMAQIAPxUAAAAA",
+            "location": [
+              119.108038,
+              30.205188
+            ],
+            "name": "",
+            "distance": 1.636981613
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.1080218,30.2051834?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2051834,
+          "longitude": 119.1080218,
+          "crs": "WGS84",
+          "precision": "同名桥梁参考点，非桥下营位",
+          "travelLabel": "洪潭大桥",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/1424409687",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "洪潭大桥",
+          "pointKind": "桥梁"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C094": {
+      "name": "东湖路市民公园",
+      "location": {
+        "latitude": 30.3054101,
+        "longitude": 120.2823403,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "东湖路市民公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/19298209",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "东湖路市民公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 933.6,
+        "distance": 15469.6,
+        "geometryUrl": "routes/C094.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "DzBukv___38CAAAAggAAAO4AAAB2AAAAymUUQK7jDUPzA4RDFogDQwIAAACCAAAA7gAAAHYAAAAaJwEA9V0rB591zgHkXCsHgmzOAQIA_wUAAAAA",
+            "location": [
+              120.282613,
+              30.307743
+            ],
+            "name": "九乔街",
+            "distance": 259.9607418
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.2823403,30.3054101?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.3054101,
+          "longitude": 120.2823403,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "东湖路市民公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/19298209",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "东湖路市民公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C083": {
+      "name": "孤山公园",
+      "location": {
+        "latitude": 30.254135,
+        "longitude": 120.1378116,
+        "crs": "WGS84",
+        "precision": "同名公园范围参考点，非营位入口",
+        "travelLabel": "孤山公园",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/relation/20083679",
+        "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+        "matchedName": "孤山公园",
+        "pointKind": "公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 367.4,
+        "distance": 4067.7,
+        "geometryUrl": "routes/C083.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "MRdoijYXaIorAAAAAAAAAAAAAAAAAAAAMfONQQAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAAAAAAAaJwEASyopB3uhzQFUKCkHN6TNAQAAnxUAAAAA",
+            "location": [
+              120.138315,
+              30.253435
+            ],
+            "name": "",
+            "distance": 91.45568782
+          }
+        ],
+        "queriedAt": "2026-09-23T21:50:07.433437+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.1378116,30.254135?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.254135,
+          "longitude": 120.1378116,
+          "crs": "WGS84",
+          "precision": "同名公园范围参考点，非营位入口",
+          "travelLabel": "孤山公园",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/relation/20083679",
+          "checkedAt": "2026-09-23T21:50:07.433437+08:00",
+          "matchedName": "孤山公园",
+          "pointKind": "公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C003": {
+      "name": "余杭南湖公园",
+      "location": {
+        "latitude": 30.271173,
+        "longitude": 119.9298379,
+        "crs": "WGS84",
+        "precision": "余杭南湖公园范围参考点，非营位入口",
+        "travelLabel": "南湖公园",
+        "pointKind": "公园",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/way/775708037",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "南湖公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1372.7,
+        "distance": 25136.8,
+        "geometryUrl": "routes/C003.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "mLhhiSa4aIqPAAAABgAAAAAAAACJAAAA9_BbQ1wA-kAAAAAAKLVRQ48AAAAGAAAAAAAAAIkAAAAaJwEADfklB7rszQHu-yUHxebNAQAAPwQAAAAA",
+            "location": [
+              119.929101,
+              30.272698
+            ],
+            "name": "南湖路",
+            "distance": 183.3276193
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.9298379,30.271173?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.271173,
+          "longitude": 119.9298379,
+          "crs": "WGS84",
+          "precision": "余杭南湖公园范围参考点，非营位入口",
+          "travelLabel": "南湖公园",
+          "pointKind": "公园",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/way/775708037",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "南湖公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C037": {
+      "name": "余杭吴山公园",
+      "location": {
+        "latitude": 30.38722,
+        "longitude": 119.8630025,
+        "crs": "WGS84",
+        "precision": "余杭径山吴山公园范围参考点，非营位入口",
+        "travelLabel": "吴山公园",
+        "pointKind": "公园",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/way/1231737782",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "吴山公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 2119.2,
+        "distance": 39235.8,
+        "geometryUrl": "routes/C037.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "7Wzlku5s5ZJcAAAANQAAAA0AAAAQAAAAo9WAQizUEUL1PxFBjyItQVwAAAA1AAAADQAAABAAAAAaJwEAwPUkByutzwHb9iQHFKzPAQIADwMAAAAA",
+            "location": [
+              119.86272,
+              30.387499
+            ],
+            "name": "",
+            "distance": 41.18991666
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.8630025,30.38722?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.38722,
+          "longitude": 119.8630025,
+          "crs": "WGS84",
+          "precision": "余杭径山吴山公园范围参考点，非营位入口",
+          "travelLabel": "吴山公园",
+          "pointKind": "公园",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/way/1231737782",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "吴山公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C123": {
+      "name": "富阳儿童公园",
+      "location": {
+        "latitude": 30.0569037,
+        "longitude": 119.9430402,
+        "crs": "WGS84",
+        "precision": "富阳儿童公园范围参考点，非营位入口",
+        "travelLabel": "富阳儿童公园",
+        "pointKind": "公园",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/relation/6501369",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "儿童公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1974.1,
+        "distance": 40425.7,
+        "geometryUrl": "routes/C123.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "HF8ViTOYFYkAAAAACgAAAAAAAAAAAAAAAAAAAJdf5EAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAaJwEAUS8mBzymygGALyYHyKHKAQAATxMAAAAA",
+            "location": [
+              119.942993,
+              30.058044
+            ],
+            "name": "",
+            "distance": 126.4544437
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.9430402,30.0569037?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.0569037,
+          "longitude": 119.9430402,
+          "crs": "WGS84",
+          "precision": "富阳儿童公园范围参考点，非营位入口",
+          "travelLabel": "富阳儿童公园",
+          "pointKind": "公园",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/relation/6501369",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "儿童公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C173": {
+      "name": "入坑艺术公园",
+      "location": {
+        "latitude": 30.2273254,
+        "longitude": 119.9386855,
+        "crs": "WGS84",
+        "precision": "入坑艺术公园停车场入口参考点，非营位",
+        "travelLabel": "入坑艺术公园停车场",
+        "pointKind": "停车场",
+        "source": "Amap",
+        "sourceUrl": "https://www.amap.com/place/B0J0JSFWNP",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "入坑艺术公园地面停车场(出入口)"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1328.6,
+        "distance": 24656.6,
+        "geometryUrl": "routes/C173.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "DXnSiu8394wGAAAAIAAAACoAAACVAAAA9nCYQEf-qkHPMOhBkBzPQgYAAAAgAAAAKgAAAJUAAAAaJwEAgB4mB3M7zQF-HiYHfTvNAQIAbxAAAAAA",
+            "location": [
+              119.938688,
+              30.227315
+            ],
+            "name": "",
+            "distance": 1.12515807
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.9386855,30.2273254?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2273254,
+          "longitude": 119.9386855,
+          "crs": "WGS84",
+          "precision": "入坑艺术公园停车场入口参考点，非营位",
+          "travelLabel": "入坑艺术公园停车场",
+          "pointKind": "停车场",
+          "source": "Amap",
+          "sourceUrl": "https://www.amap.com/place/B0J0JSFWNP",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "入坑艺术公园地面停车场(出入口)"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C207": {
+      "name": "山屿露营·大清谷店",
+      "location": {
+        "latitude": 30.1947033,
+        "longitude": 120.061721,
+        "crs": "WGS84",
+        "precision": "大清谷景区参考点，山屿露营店入口未核实",
+        "travelLabel": "大清谷景区",
+        "pointKind": "景区",
+        "source": "Amap",
+        "sourceUrl": "https://ditu.amap.com/place/B023B0229C",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "大清谷"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1195.3,
+        "distance": 21577.8,
+        "geometryUrl": "routes/C207.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "bMy5hVKWfJQmAAAALAAAAEECAAD7AgAAwx4rQtXjQUKdNSBE5U1URCYAAAAsAAAAQQIAAPsCAAAaJwEAXg0oB1O3zAEZ_ycHD7zMATAAnwwAAAAA",
+            "location": [
+              120.065374,
+              30.193491
+            ],
+            "name": "清谷路",
+            "distance": 376.624696
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.061721,30.1947033?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1947033,
+          "longitude": 120.061721,
+          "crs": "WGS84",
+          "precision": "大清谷景区参考点，山屿露营店入口未核实",
+          "travelLabel": "大清谷景区",
+          "pointKind": "景区",
+          "source": "Amap",
+          "sourceUrl": "https://ditu.amap.com/place/B023B0229C",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "大清谷"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C007": {
+      "name": "光明寺水库",
+      "location": {
+        "latitude": 30.1793708,
+        "longitude": 120.0255138,
+        "crs": "WGS84",
+        "precision": "光明寺水库范围参考点，非营位入口",
+        "travelLabel": "光明寺水库",
+        "pointKind": "水库",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/way/117948709",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "光明寺水库"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1447.3,
+        "distance": 21893.4,
+        "geometryUrl": "routes/C007.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "AyDcjwUg3I8AAAAADQAAAAAAAACKBAAAAAAAABkwZEAAAAAAs3ehQwAAAAANAAAAAAAAAIoEAAAaJwEAlXUnB0GDzAGqcScHK4DMAQAAjwUAAAAAzvcygwQg3I8IAAAAAAAAAGEBAAAAAAAAV4aqQAAAAAAoIXRDAAAAAAgAAAAAAAAAYQEAAAAAAAAaJwEAlXUnB0GDzAGqcScHK4DMARQADwsAAAAA",
+            "location": [
+              120.026517,
+              30.180161
+            ],
+            "name": "",
+            "distance": 130.3922357
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.0255138,30.1793708?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1793708,
+          "longitude": 120.0255138,
+          "crs": "WGS84",
+          "precision": "光明寺水库范围参考点，非营位入口",
+          "travelLabel": "光明寺水库",
+          "pointKind": "水库",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/way/117948709",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "光明寺水库"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C042": {
+      "name": "浮云岭",
+      "location": {
+        "latitude": 30.1064849,
+        "longitude": 119.4479044,
+        "crs": "WGS84",
+        "precision": "浮云岭地名参考点，3-1号营位入口未核实",
+        "travelLabel": "浮云岭",
+        "pointKind": "区域参考点",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/11542881437",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "浮云岭"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 4401,
+        "distance": 82059,
+        "geometryUrl": "routes/C042.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "QBthiI4zi5QHAAAACgAAAPAMAAAmEAAAwHv9QIOrLkE3x2VF5p6PRQcAAAAKAAAA8AwAACYQAAAaJwEAdqEeB2RiywFgoR4HdWPLAeIAXwUAAAAA",
+            "location": [
+              119.447926,
+              30.106212
+            ],
+            "name": "",
+            "distance": 30.33745904
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.4479044,30.1064849?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1064849,
+          "longitude": 119.4479044,
+          "crs": "WGS84",
+          "precision": "浮云岭地名参考点，3-1号营位入口未核实",
+          "travelLabel": "浮云岭",
+          "pointKind": "区域参考点",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/node/11542881437",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "浮云岭"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C162": {
+      "name": "大朗山",
+      "location": {
+        "latitude": 30.1963831,
+        "longitude": 119.9316601,
+        "crs": "WGS84",
+        "precision": "大朗山地名参考点，山顶营位入口未核实",
+        "travelLabel": "大朗山",
+        "pointKind": "区域参考点",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/8595835981",
+        "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+        "matchedName": "大朗山"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1827,
+        "distance": 27210.8,
+        "geometryUrl": "routes/C162.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "EbkkjxO5JI8QAAAAAAAAAB8BAAA9AAAAkLA2QQAAAACfN0hDGp4nQhAAAAAAAAAAHwEAAD0AAAAaJwEAwQEmB8PCzAEMAyYHn8LMARIATwsAAAAA",
+            "location": [
+              119.931329,
+              30.196419
+            ],
+            "name": "",
+            "distance": 32.1295853
+          }
+        ],
+        "queriedAt": "2026-09-23T21:55:22.536081+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.9316601,30.1963831?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.1963831,
+          "longitude": 119.9316601,
+          "crs": "WGS84",
+          "precision": "大朗山地名参考点，山顶营位入口未核实",
+          "travelLabel": "大朗山",
+          "pointKind": "区域参考点",
+          "source": "OpenStreetMap",
+          "sourceUrl": "https://www.openstreetmap.org/node/8595835981",
+          "checkedAt": "2026-09-23T21:55:22.536081+08:00",
+          "matchedName": "大朗山"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C075": {
+      "name": "南阳美女坝",
+      "location": {
+        "latitude": 30.2632961,
+        "longitude": 120.3865537,
+        "crs": "WGS84",
+        "precision": "萧山美女坝游船码头参考点，非露营落点",
+        "travelLabel": "美女坝",
+        "pointKind": "码头",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/way/1133514821",
+        "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+        "matchedName": "美女坝"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1642.2,
+        "distance": 28959,
+        "geometryUrl": "routes/C075.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "NR33j-rC45EQAAAAAAAAADsAAADLAwAASh4wQQAAAADCNyNCOX4oRBAAAAAAAAAAOwAAAMsDAAAaJwEAu_csB13FzQH68ywHAMjNAQYADwIAAAAA",
+            "location": [
+              120.387515,
+              30.262621
+            ],
+            "name": "钱塘江南岸海塘",
+            "distance": 118.9511717
+          }
+        ],
+        "queriedAt": "2026-09-23T21:56:38.419988+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.3865537,30.2632961?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.2632961,
+          "longitude": 120.3865537,
+          "crs": "WGS84",
+          "precision": "萧山美女坝游船码头参考点，非露营落点",
+          "travelLabel": "美女坝",
+          "pointKind": "码头",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/way/1133514821",
+          "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+          "matchedName": "美女坝"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C130": {
+      "name": "安禾村古城桥",
+      "location": {
+        "latitude": 29.8608237,
+        "longitude": 119.9126853,
+        "crs": "WGS84",
+        "precision": "富阳常安古城桥地名参考点，安禾村营位未核实",
+        "travelLabel": "古城桥",
+        "pointKind": "区域参考点",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/node/12820399291",
+        "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+        "matchedName": "古城桥"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 2974.3,
+        "distance": 64388.2,
+        "geometryUrl": "routes/C130.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "wY9jhribuJR2AAAA1AAAAAAAAABDGQAA-DukQlA7E0MAAAAAYlGMRXYAAADUAAAAAAAAAEMZAAAaJwEA7bglB7KjxwHtuCUH2KPHAQAA7xAAAAAA",
+            "location": [
+              119.912685,
+              29.860786
+            ],
+            "name": "",
+            "distance": 4.212312864
+          }
+        ],
+        "queriedAt": "2026-09-23T21:56:38.419988+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.9126853,29.8608237?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 29.8608237,
+          "longitude": 119.9126853,
+          "crs": "WGS84",
+          "precision": "富阳常安古城桥地名参考点，安禾村营位未核实",
+          "travelLabel": "古城桥",
+          "pointKind": "区域参考点",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/node/12820399291",
+          "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+          "matchedName": "古城桥"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C155": {
+      "name": "杭钢公园",
+      "location": {
+        "latitude": 30.3607192,
+        "longitude": 120.1662503,
+        "crs": "WGS84",
+        "precision": "拱墅大运河杭钢公园范围参考点，非营位入口",
+        "travelLabel": "大运河杭钢公园",
+        "pointKind": "公园",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/way/1396534442",
+        "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+        "matchedName": "大运河杭钢公园"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 1000,
+        "distance": 15522.7,
+        "geometryUrl": "routes/C155.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "pUc9k_Ejy5QUAAAAAAAAAM8AAACLAQAAdnG0QQAAAABArWZDR8nbQxQAAAAAAAAAzwAAAIsBAAAaJwEAsZ0pB6lEzwFqlykHj0TPAQgArxUAAAAA",
+            "location": [
+              120.167857,
+              30.360745
+            ],
+            "name": "崇越路",
+            "distance": 154.4940636
+          }
+        ],
+        "queriedAt": "2026-09-23T21:56:38.419988+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;120.1662503,30.3607192?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 30.3607192,
+          "longitude": 120.1662503,
+          "crs": "WGS84",
+          "precision": "拱墅大运河杭钢公园范围参考点，非营位入口",
+          "travelLabel": "大运河杭钢公园",
+          "pointKind": "公园",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/way/1396534442",
+          "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+          "matchedName": "大运河杭钢公园"
+        },
+        "isSnapshot": true
+      }
+    },
+    "C138": {
+      "name": "富阳双喜村",
+      "location": {
+        "latitude": 29.8186655,
+        "longitude": 119.944215,
+        "crs": "WGS84",
+        "precision": "富阳湖源乡双喜村委会参考点，壶源溪营位未核实",
+        "travelLabel": "双喜村村委会",
+        "pointKind": "村委会",
+        "source": "OpenStreetMap Nominatim",
+        "sourceUrl": "https://www.openstreetmap.org/way/1522004171",
+        "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+        "matchedName": "双喜村村委会"
+      },
+      "images": [],
+      "routeSnapshot": {
+        "duration": 3383.4,
+        "distance": 70800.9,
+        "geometryUrl": "routes/C138.json?v=wulinmen-20260923b",
+        "waypoints": [
+          {
+            "hint": "PZaJiv___38HAAAAHgAAAAAAAABUAAAA4k5MQQAUI0IAAAAAgJ4VQwcAAAAeAAAAAAAAAFQAAAAaJwEAFVopB2LqzQFMWikHberNAQAAbwoAAAAA",
+            "location": [
+              120.150549,
+              30.272098
+            ],
+            "name": "环城西路",
+            "distance": 5.430729991
+          },
+          {
+            "hint": "Y2rVlGdq1ZQiAAAAGAAAAGwCAAAAAAAA7EzBQaWUgUHD-NZDAAAAACIAAAAYAAAAbAIAAAAAAAAaJwEAzTQmB_v-xgEXNCYHKv_GARYATwwAAAAA",
+            "location": [
+              119.944397,
+              29.818619
+            ],
+            "name": "",
+            "distance": 18.34651927
+          }
+        ],
+        "queriedAt": "2026-09-23T21:56:38.419988+08:00",
+        "sourceUrl": "https://project-osrm.org/",
+        "requestUrl": "https://router.project-osrm.org/route/v1/driving/120.1506043,30.2721085;119.944215,29.8186655?overview=full&geometries=geojson&steps=false",
+        "origin": "杭州武林门地铁站",
+        "originLocation": {
+          "name": "杭州武林门地铁站",
+          "latitude": 30.2721085,
+          "longitude": 120.1506043,
+          "sourceUrl": "https://www.openstreetmap.org/node/9494588668",
+          "precision": "车站参考点，驾车按附近可通行道路匹配",
+          "coordinateSystem": "WGS84"
+        },
+        "destinationLocation": {
+          "latitude": 29.8186655,
+          "longitude": 119.944215,
+          "crs": "WGS84",
+          "precision": "富阳湖源乡双喜村委会参考点，壶源溪营位未核实",
+          "travelLabel": "双喜村村委会",
+          "pointKind": "村委会",
+          "source": "OpenStreetMap Nominatim",
+          "sourceUrl": "https://www.openstreetmap.org/way/1522004171",
+          "checkedAt": "2026-09-23T21:56:38.419988+08:00",
+          "matchedName": "双喜村村委会"
+        },
+        "isSnapshot": true
       }
     }
   }

@@ -12031,6 +12031,25 @@
       "mentionAuthors": 2,
       "summary": "来自露营合集的地点线索，具体营位和开放规则待核实。",
       "detailCount": 1,
+      "publicPhotos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/%E6%9D%AD%E5%B7%9E_%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA_-_panoramio_%282%29.jpg/960px-%E6%9D%AD%E5%B7%9E_%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/%E6%9D%AD%E5%B7%9E_%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E_%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA_-_panoramio_(2).jpg",
+          "sourceTitle": "Wikimedia Commons · 杭州 柳浪闻莺 - panoramio (2).jpg",
+          "author": "zhiyin586@163.com",
+          "license": "CC BY 3.0",
+          "publishedAt": null,
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "柳浪闻莺 · 历史景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "Wikimedia Commons 图片元数据明确指向该地点；为区域景观照片，不作为营位实景或当前营地规则依据。",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
       "overview": {
         "paragraphs": [
           {
@@ -13021,6 +13040,25 @@
       "mentionAuthors": 1,
       "summary": "来自露营合集的地点线索，具体营位和开放规则待核实。",
       "detailCount": 0,
+      "publicPhotos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/20120623%E6%9D%AD%E5%B7%9E%E5%85%AD%E5%92%8C%E5%85%AC%E5%9B%AD%E6%B1%A0%E5%A1%98%E4%B8%80%E8%A7%92%E5%85%A8%E6%99%AF_-_panoramio.jpg/960px-20120623%E6%9D%AD%E5%B7%9E%E5%85%AD%E5%92%8C%E5%85%AC%E5%9B%AD%E6%B1%A0%E5%A1%98%E4%B8%80%E8%A7%92%E5%85%A8%E6%99%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/20120623%E6%9D%AD%E5%B7%9E%E5%85%AD%E5%92%8C%E5%85%AC%E5%9B%AD%E6%B1%A0%E5%A1%98%E4%B8%80%E8%A7%92%E5%85%A8%E6%99%AF_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20120623%E6%9D%AD%E5%B7%9E%E5%85%AD%E5%92%8C%E5%85%AC%E5%9B%AD%E6%B1%A0%E5%A1%98%E4%B8%80%E8%A7%92%E5%85%A8%E6%99%AF_-_panoramio.jpg",
+          "sourceTitle": "Wikimedia Commons · 20120623杭州六和公园池塘一角全景 - panoramio.jpg",
+          "author": "fish4fish",
+          "license": "CC BY-SA 3.0",
+          "publishedAt": null,
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "六和公园 · 历史景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "Wikimedia Commons 图片元数据明确指向该地点；为区域景观照片，不作为营位实景或当前营地规则依据。",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ],
       "overview": {
         "paragraphs": [
           {
@@ -13587,6 +13625,25 @@
       "mentionAuthors": 1,
       "summary": "来自露营合集的地点线索，具体营位和开放规则待核实。",
       "detailCount": 0,
+      "publicPhotos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/20150521%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD.jpg/960px-20150521%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/20150521%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20150521%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD.jpg",
+          "sourceTitle": "Wikimedia Commons · 20150521金沙湖公园.jpg",
+          "author": "MasaneMiyaPA",
+          "license": "CC BY-SA 4.0",
+          "publishedAt": null,
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "金沙湖公园 · 历史景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "Wikimedia Commons 图片元数据明确指向该地点；为区域景观照片，不作为营位实景或当前营地规则依据。",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
       "overview": {
         "paragraphs": [
           {
@@ -13862,6 +13919,25 @@
       "mentionAuthors": 1,
       "summary": "来自露营合集的地点线索，具体营位和开放规则待核实。",
       "detailCount": 0,
+      "publicPhotos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%E6%9D%AD%E5%B7%9E._%E4%B8%B4%E5%B9%B3%E5%B1%B1%EF%BC%88%E4%B8%B4%E5%B9%B3%E5%85%AC%E5%9B%AD%EF%BC%89_-_panoramio_%281%29.jpg/960px-%E6%9D%AD%E5%B7%9E._%E4%B8%B4%E5%B9%B3%E5%B1%B1%EF%BC%88%E4%B8%B4%E5%B9%B3%E5%85%AC%E5%9B%AD%EF%BC%89_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/%E6%9D%AD%E5%B7%9E._%E4%B8%B4%E5%B9%B3%E5%B1%B1%EF%BC%88%E4%B8%B4%E5%B9%B3%E5%85%AC%E5%9B%AD%EF%BC%89_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E._%E4%B8%B4%E5%B9%B3%E5%B1%B1%EF%BC%88%E4%B8%B4%E5%B9%B3%E5%85%AC%E5%9B%AD%EF%BC%89_-_panoramio_(1).jpg",
+          "sourceTitle": "Wikimedia Commons · 杭州. 临平山（临平公园） - panoramio (1).jpg",
+          "author": "zhiyin586@163.com",
+          "license": "CC BY 3.0",
+          "publishedAt": null,
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "临平公园 · 历史景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "Wikimedia Commons 图片元数据明确指向该地点；为区域景观照片，不作为营位实景或当前营地规则依据。",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
       "overview": {
         "paragraphs": [
           {
@@ -14137,6 +14213,25 @@
       "mentionAuthors": 1,
       "summary": "来自露营合集的地点线索，具体营位和开放规则待核实。",
       "detailCount": 0,
+      "publicPhotos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD%E6%B9%96%E8%BE%B9%E7%9F%B3%E8%88%AB.jpg/960px-%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD%E6%B9%96%E8%BE%B9%E7%9F%B3%E8%88%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD%E6%B9%96%E8%BE%B9%E7%9F%B3%E8%88%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD%E6%B9%96%E8%BE%B9%E7%9F%B3%E8%88%AB.jpg",
+          "sourceTitle": "Wikimedia Commons · 东吴文化公园湖边石舫.jpg",
+          "author": "Lt2818",
+          "license": "CC BY-SA 4.0",
+          "publishedAt": null,
+          "takenAt": null,
+          "status": "keep",
+          "origin": "public-source",
+          "kind": "source",
+          "label": "东吴文化公园 · 历史景观照片",
+          "reviewedAt": "2026-09-23",
+          "reviewReason": "Wikimedia Commons 图片元数据明确指向该地点；为区域景观照片，不作为营位实景或当前营地规则依据。",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
       "overview": {
         "paragraphs": [
           {
