@@ -1,0 +1,122 @@
+{
+  "C013": {
+    "source": "Amap",
+    "matchedName": "白马湖公园",
+    "latitude": 30.160328,
+    "longitude": 120.209234,
+    "sourceUrl": "https://ditu.amap.com/place/B0FFKON70E",
+    "precision": "高德同名公园地标；可搭帐篷区域与入口未核实",
+    "travelLabel": "白马湖公园",
+    "pointKind": "公园地标"
+  },
+  "C033": {
+    "source": "Trip.com",
+    "matchedName": "北湖草荡",
+    "latitude": 30.355338,
+    "longitude": 119.939608,
+    "sourceUrl": "https://gs.ctrip.com/html5/you/sight/hangzhou14/90498137.html",
+    "precision": "携程同名景点位置；湿地范围内营位与入口未核实",
+    "travelLabel": "北湖草荡",
+    "pointKind": "景区地标"
+  },
+  "C058": {
+    "source": "OpenStreetMap",
+    "matchedName": "考拉营地(皋亭山店)",
+    "latitude": 30.3773511,
+    "longitude": 120.2233127,
+    "sourceUrl": "https://www.openstreetmap.org/way/1171487826",
+    "precision": "同名营地范围中心；道路入口未核实",
+    "travelLabel": "考拉营地(皋亭山店)",
+    "pointKind": "营地范围"
+  },
+  "C065": {
+    "source": "Trip.com",
+    "matchedName": "寺坞岭望江阁",
+    "latitude": 30.046666,
+    "longitude": 120.132998,
+    "sourceUrl": "https://gs.ctrip.com/html5/you/sight/hangzhou14/150281241.html",
+    "precision": "携程同名观景点位置；露营营位与车辆到达点未核实",
+    "travelLabel": "寺坞岭望江阁",
+    "pointKind": "观景点"
+  },
+  "C103": {
+    "source": "Amap",
+    "matchedName": "六和公园",
+    "latitude": 30.185436,
+    "longitude": 120.135176,
+    "sourceUrl": "https://ditu.amap.com/place/B0FFG4ENPJ",
+    "precision": "高德同名公园地标；具体营位与入口未核实",
+    "travelLabel": "六和公园",
+    "pointKind": "公园地标"
+  },
+  "C109": {
+    "source": "Amap",
+    "matchedName": "玉湖YOHOO PARK停车场",
+    "latitude": 30.354021,
+    "longitude": 120.112005,
+    "sourceUrl": "https://map.gaode.com/place/B0K06H4RM0",
+    "precision": "高德玉湖公园东南侧停车场；湖边营位未核实",
+    "travelLabel": "玉湖YOHOO PARK停车场",
+    "pointKind": "停车场"
+  },
+  "C121": {
+    "source": "Amap",
+    "matchedName": "东吴文化公园",
+    "latitude": 30.025655,
+    "longitude": 119.936694,
+    "sourceUrl": "https://ditu.amap.com/place/B023B05WJE",
+    "precision": "高德同名公园地标；具体营位与入口未核实",
+    "travelLabel": "东吴文化公园",
+    "pointKind": "公园地标"
+  },
+  "C133": {
+    "source": "Trip.com",
+    "matchedName": "风之谷蓝色森林帐篷营地",
+    "latitude": 30.148886,
+    "longitude": 119.254695,
+    "sourceUrl": "https://gs.ctrip.com/html5/you/sight/hangzhou14/133988349.html",
+    "precision": "携程同名营地景点位置；实际车行入口未核实",
+    "travelLabel": "风之谷蓝色森林帐篷营地",
+    "pointKind": "营地POI"
+  },
+  "C142": {
+    "source": "OpenStreetMap",
+    "matchedName": "富阳同心坝",
+    "latitude": 29.7691201,
+    "longitude": 119.9563696,
+    "sourceUrl": "https://www.openstreetmap.org/node/12819296245",
+    "precision": "同名观景点；附近可停车但河岸营位及通行规则未核实",
+    "travelLabel": "富阳同心坝",
+    "pointKind": "观景点"
+  },
+  "C190": {
+    "source": "Trip.com",
+    "matchedName": "幸福翼公园",
+    "latitude": 30.239658,
+    "longitude": 120.414834,
+    "sourceUrl": "https://gs.ctrip.com/html5/you/sight/hangzhou14/134723881.html",
+    "precision": "携程同名公园位置；具体营位与停车入口未核实",
+    "travelLabel": "幸福翼公园",
+    "pointKind": "公园地标"
+  },
+  "C199": {
+    "source": "Amap",
+    "matchedName": "贝莱特庄园",
+    "latitude": 30.318003,
+    "longitude": 119.879321,
+    "sourceUrl": "https://www.amap.com/place/B0HG9HPN6R",
+    "precision": "高德同名庄园位置；露营区域与入口未核实",
+    "travelLabel": "贝莱特庄园",
+    "pointKind": "庄园POI"
+  },
+  "C215": {
+    "source": "Trip.com",
+    "matchedName": "龙尾巴山塘水库",
+    "latitude": 30.165473,
+    "longitude": 120.029061,
+    "sourceUrl": "https://gs.ctrip.com/html5/you/sight/hangzhou14/133985902.html",
+    "precision": "携程同名水库景点位置；水边营位与可通车入口未核实",
+    "travelLabel": "龙尾巴山塘水库",
+    "pointKind": "水库地标"
+  }
+}

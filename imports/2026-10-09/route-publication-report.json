@@ -1,0 +1,85 @@
+[
+  {
+    "id": "C013",
+    "name": "白马湖公园",
+    "status": "published",
+    "minutes": 16,
+    "roadSnapMeters": 173
+  },
+  {
+    "id": "C033",
+    "name": "北湖草荡",
+    "status": "published",
+    "minutes": 37,
+    "roadSnapMeters": 52
+  },
+  {
+    "id": "C058",
+    "name": "皋亭山考拉营地",
+    "status": "published",
+    "minutes": 17,
+    "roadSnapMeters": 67
+  },
+  {
+    "id": "C065",
+    "name": "寺坞岭望江阁",
+    "status": "published",
+    "minutes": 34,
+    "roadSnapMeters": 74
+  },
+  {
+    "id": "C103",
+    "name": "六和公园",
+    "status": "published",
+    "minutes": 15,
+    "roadSnapMeters": 61
+  },
+  {
+    "id": "C109",
+    "name": "玉湖",
+    "status": "published",
+    "minutes": 14,
+    "roadSnapMeters": 41
+  },
+  {
+    "id": "C121",
+    "name": "东吴文化公园",
+    "status": "published",
+    "minutes": 38,
+    "roadSnapMeters": 324
+  },
+  {
+    "id": "C133",
+    "name": "风之谷蓝色森林",
+    "status": "published",
+    "minutes": 78,
+    "roadSnapMeters": 59
+  },
+  {
+    "id": "C142",
+    "name": "同心坝",
+    "status": "published",
+    "minutes": 65,
+    "roadSnapMeters": 169
+  },
+  {
+    "id": "C190",
+    "name": "幸福翼公园",
+    "status": "published",
+    "minutes": 30,
+    "roadSnapMeters": 17
+  },
+  {
+    "id": "C199",
+    "name": "贝莱特庄园",
+    "status": "not-routed",
+    "reason": "road snap exceeds 500m"
+  },
+  {
+    "id": "C215",
+    "name": "龙尾巴山塘水库",
+    "status": "published",
+    "minutes": 26,
+    "roadSnapMeters": 47
+  }
+]

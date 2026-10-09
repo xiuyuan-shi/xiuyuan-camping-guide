@@ -1,0 +1,1105 @@
+{
+  "release": "2026-09-23.1",
+  "checkedAt": "2026-10-09T15:12:31.094054+00:00",
+  "source": "s3://overturemaps-us-west-2/release/2026-09-23.1/theme=places/type=place/*",
+  "records": {
+    "C020": {
+      "name": "小丁松葡萄园",
+      "area": "小丁松葡萄园附近富春江草坪",
+      "aliases": [],
+      "candidates": []
+    },
+    "C035": {
+      "name": "榉树林地面停车场",
+      "area": "余杭径山榉树林停车场；停车场内与绿道外溪边需分开",
+      "aliases": [
+        "溪岛飞鹭（榉树林停车场）",
+        "榉树林",
+        "径山榉树林"
+      ],
+      "candidates": []
+    },
+    "C068": {
+      "name": "桐庐田山",
+      "area": "青竹名宿路之后左侧下坡口（保留原作者写法，未导航核验）",
+      "aliases": [
+        "桐庐田山草坪"
+      ],
+      "candidates": []
+    },
+    "C125": {
+      "name": "沧州村",
+      "area": "沧州书苑附近河滩，精确营位待核",
+      "aliases": [],
+      "candidates": []
+    },
+    "C004": {
+      "name": "阿里公园",
+      "area": "思凯路与景兴路交叉口东南角；作者称现名滨水公园",
+      "aliases": [],
+      "candidates": []
+    },
+    "C041": {
+      "name": "盼云",
+      "area": "桐庐县瑶琳镇盼云轻奢营地；作者称海拔650米",
+      "aliases": [],
+      "candidates": []
+    },
+    "C045": {
+      "name": "雾松谷",
+      "area": "雾松谷A1，图示约180㎡、标准6成人",
+      "aliases": [],
+      "candidates": []
+    },
+    "C049": {
+      "name": "千岛湖山有岛",
+      "area": "分ABCDE区域；作者称C2安静、DE坡陡",
+      "aliases": [],
+      "candidates": []
+    },
+    "C054": {
+      "name": "鹿鸣大地",
+      "area": "富阳区大地村桃源坞水库旁",
+      "aliases": [],
+      "candidates": []
+    },
+    "C057": {
+      "name": "西溪源谷",
+      "area": "西溪源谷露营基地，完整地址待核",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.669,
+          "id": "5bfe36e5-e729-4a8d-82c6-c5eeb26af0f0",
+          "name": "西溪谷",
+          "commonNames": null,
+          "latitude": 30.289724349975586,
+          "longitude": 120.0666732788086,
+          "addresses": [
+            {
+              "freeform": null,
+              "locality": "Hangzhou",
+              "postcode": null,
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "professional_service",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "238958180129641"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C073": {
+      "name": "渣河墩",
+      "area": "余杭",
+      "aliases": [
+        "渣河墩北苕溪沿岸"
+      ],
+      "candidates": []
+    },
+    "C077": {
+      "name": "桐庐洪石",
+      "area": "桐庐",
+      "aliases": [
+        "桐庐洪石露营点"
+      ],
+      "candidates": []
+    },
+    "C079": {
+      "name": "桐青坞",
+      "area": "临安",
+      "aliases": [
+        "桐青坞（火焰山营地）"
+      ],
+      "candidates": []
+    },
+    "C080": {
+      "name": "安顶村观景台",
+      "area": "安顶山游客中心/安顶村观景台；两落点需分开",
+      "aliases": [],
+      "candidates": []
+    },
+    "C129": {
+      "name": "城坑坞",
+      "area": "富阳",
+      "aliases": [
+        "城坑坞水边露营点"
+      ],
+      "candidates": []
+    },
+    "C143": {
+      "name": "有风营地",
+      "area": "杭州（区县待核实）",
+      "aliases": [
+        "有风营地（水库边）"
+      ],
+      "candidates": []
+    },
+    "C144": {
+      "name": "白象湾湿地（白象湾桥附近）",
+      "area": "淳安（据千岛湖路线，具体行政位置待核）",
+      "aliases": [],
+      "candidates": []
+    },
+    "C145": {
+      "name": "前塘村湖边",
+      "area": "淳安（据千岛湖路线，具体村名匹配待核）",
+      "aliases": [],
+      "candidates": []
+    },
+    "C146": {
+      "name": "富山村村委前花海区域",
+      "area": "淳安（据千岛湖路线，入口待核）",
+      "aliases": [],
+      "candidates": []
+    },
+    "C147": {
+      "name": "田立方共享农场",
+      "area": "临平乔司",
+      "aliases": [],
+      "candidates": []
+    },
+    "C148": {
+      "name": "黄弹村石梯山庄附近溪潭",
+      "area": "富阳",
+      "aliases": [],
+      "candidates": []
+    },
+    "C149": {
+      "name": "泥舍村山顶",
+      "area": "富阳",
+      "aliases": [],
+      "candidates": []
+    },
+    "C150": {
+      "name": "牵牛岗露营点",
+      "area": "临安/淳安边界（具体营位归属待核）",
+      "aliases": [
+        "牵牛岗",
+        "大明山牵牛岗"
+      ],
+      "candidates": []
+    },
+    "C151": {
+      "name": "路隐那森·中苕溪营地",
+      "area": "余杭",
+      "aliases": [],
+      "candidates": []
+    },
+    "C152": {
+      "name": "康门水库周边",
+      "area": "余杭良渚",
+      "aliases": [
+        "康门水库"
+      ],
+      "candidates": []
+    },
+    "C005": {
+      "name": "运河亚运公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.624,
+          "id": "d148c373-74e5-4b01-b395-cf1d777b22b7",
+          "name": "运河公园",
+          "commonNames": null,
+          "latitude": 31.296403884887695,
+          "longitude": 120.57453918457031,
+          "addresses": [
+            {
+              "freeform": "三香路",
+              "locality": null,
+              "postcode": "215000",
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "606773206105393"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C021": {
+      "name": "长川绿道",
+      "area": "具体区域待核实",
+      "aliases": [
+        "长川绿道露营地"
+      ],
+      "candidates": []
+    },
+    "C023": {
+      "name": "潘堰村",
+      "area": "具体区域待核实",
+      "aliases": [
+        "潘堰村露营地",
+        "多彩田园诗画潘堰"
+      ],
+      "candidates": []
+    },
+    "C038": {
+      "name": "杨家村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C001": {
+      "name": "进贤村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C002": {
+      "name": "下溪村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C011": {
+      "name": "富阳之江北公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C013": {
+      "name": "白马湖公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C015": {
+      "name": "滨江工业遗址公园及之江绿道廊架",
+      "area": "具体区域待核实",
+      "aliases": [
+        "滨江工业遗址公园露营地",
+        "之江绿道廊架"
+      ],
+      "candidates": []
+    },
+    "C016": {
+      "name": "青山湖太阳湾旅游驿站",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C017": {
+      "name": "余杭苕溪落塘埠",
+      "area": "具体区域待核实",
+      "aliases": [
+        "苕溪-落塘埠"
+      ],
+      "candidates": []
+    },
+    "C018": {
+      "name": "越秀风之谷公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C019": {
+      "name": "萧山中科粮油育种实验基地",
+      "area": "具体区域待核实",
+      "aliases": [
+        "中科粮油育种实验基地"
+      ],
+      "candidates": []
+    },
+    "C022": {
+      "name": "余杭自由大草坪露营地",
+      "area": "具体区域待核实",
+      "aliases": [
+        "自由大草坪露营地"
+      ],
+      "candidates": []
+    },
+    "C025": {
+      "name": "乌象坝及乌象大桥",
+      "area": "具体区域待核实",
+      "aliases": [
+        "乌象坝&乌象大桥露营地"
+      ],
+      "candidates": []
+    },
+    "C027": {
+      "name": "观新村及杭州汐遇民宿",
+      "area": "具体区域待核实",
+      "aliases": [
+        "观新村&杭州汐遇民宿"
+      ],
+      "candidates": []
+    },
+    "C029": {
+      "name": "桐庐上店村",
+      "area": "具体区域待核实",
+      "aliases": [
+        "上店村"
+      ],
+      "candidates": []
+    },
+    "C033": {
+      "name": "北湖草荡",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C034": {
+      "name": "张堰村杉树林",
+      "area": "具体区域待核实",
+      "aliases": [
+        "杉树林（张堰村）"
+      ],
+      "candidates": []
+    },
+    "C036": {
+      "name": "溪塔村古樟树",
+      "area": "具体区域待核实",
+      "aliases": [
+        "溪塔村百年古樟树"
+      ],
+      "candidates": []
+    },
+    "C058": {
+      "name": "皋亭山考拉营地",
+      "area": "具体区域待核实",
+      "aliases": [
+        "考拉营地（皋亭山）"
+      ],
+      "candidates": []
+    },
+    "C059": {
+      "name": "富阳云海营地",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C060": {
+      "name": "小古城苕溪营地",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C061": {
+      "name": "安顶山云雾茶镇停车场",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C063": {
+      "name": "富阳湘溪村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C064": {
+      "name": "湘湖渔村停车场",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C065": {
+      "name": "寺坞岭望江阁",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C066": {
+      "name": "青山村茅草园生态农庄停车点",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C067": {
+      "name": "富阳七一村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C069": {
+      "name": "富阳小李线",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C071": {
+      "name": "富阳祥多葡萄园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C072": {
+      "name": "间余水居民宿旁河道",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C074": {
+      "name": "北塘河三益线4号停车场",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C076": {
+      "name": "桐庐大源溪蕾蕾草莓园附近",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C078": {
+      "name": "盛联村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C081": {
+      "name": "安顶山游客中心",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C084": {
+      "name": "九溪公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.585,
+          "id": "07058fe5-f6fa-4736-9960-140cbd78d246",
+          "name": "花溪公园",
+          "commonNames": null,
+          "latitude": 31.300006866455078,
+          "longitude": 121.08956146240234,
+          "addresses": [
+            {
+              "freeform": "花桥镇花园路",
+              "locality": null,
+              "postcode": "215000",
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "285969122251078"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C087": {
+      "name": "紫霞公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C088": {
+      "name": "嘉绿苑小游园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C089": {
+      "name": "象山海塘遗址公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C096": {
+      "name": "运河文体公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.624,
+          "id": "d148c373-74e5-4b01-b395-cf1d777b22b7",
+          "name": "运河公园",
+          "commonNames": null,
+          "latitude": 31.296403884887695,
+          "longitude": 120.57453918457031,
+          "addresses": [
+            {
+              "freeform": "三香路",
+              "locality": null,
+              "postcode": "215000",
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "606773206105393"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C097": {
+      "name": "丁兰长睦绕城绿地",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C101": {
+      "name": "智慧新天地沿江公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C102": {
+      "name": "沿江景观带公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C103": {
+      "name": "六和公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.669,
+          "id": "3a24eccd-e46d-4d87-892e-ad44d9352b66",
+          "name": "六公园",
+          "commonNames": null,
+          "latitude": 30.25969696044922,
+          "longitude": 120.15655517578125,
+          "addresses": [
+            {
+              "freeform": "六公园",
+              "locality": "Hangzhou",
+              "postcode": null,
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "440963089762909"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C105": {
+      "name": "市北西公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C107": {
+      "name": "江南公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.585,
+          "id": "acd429e3-bcc7-4675-9086-e4757c5f3850",
+          "name": "望江公园",
+          "commonNames": null,
+          "latitude": 30.227136611938477,
+          "longitude": 120.19465637207031,
+          "addresses": [
+            {
+              "freeform": null,
+              "locality": "Hangzhou",
+              "postcode": null,
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "276684463277128"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        },
+        {
+          "nameScore": 0.585,
+          "id": "5f51d2b0-83b1-4878-b17e-bef14701ee24",
+          "name": "滨江公园",
+          "commonNames": null,
+          "latitude": 31.337928771972656,
+          "longitude": 118.35336303710938,
+          "addresses": [
+            {
+              "freeform": "滨江北路",
+              "locality": null,
+              "postcode": "241000",
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "219944408071153"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C108": {
+      "name": "山水见公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C109": {
+      "name": "玉湖",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C113": {
+      "name": "钱江直河公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C114": {
+      "name": "沿江景观东公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C117": {
+      "name": "水汀东湖公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C119": {
+      "name": "玲珑山公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C120": {
+      "name": "苕溪锦绣公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C121": {
+      "name": "东吴文化公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 1.0,
+          "id": "6413431d-5f32-4a53-9afc-f930a9704fff",
+          "name": "东吴文化公园",
+          "commonNames": null,
+          "latitude": 30.028457641601562,
+          "longitude": 119.9364013671875,
+          "addresses": [
+            {
+              "freeform": null,
+              "locality": "Fuyang",
+              "postcode": null,
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "park",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "188841975342465"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C122": {
+      "name": "西大道景观二期公园",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C126": {
+      "name": "仰天坪",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C127": {
+      "name": "沙坞水库附近",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C128": {
+      "name": "徐家坞村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C131": {
+      "name": "富阳回龙村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C132": {
+      "name": "蝴蝶谷",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C133": {
+      "name": "风之谷蓝色森林",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C135": {
+      "name": "余杭皮山坞",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C136": {
+      "name": "桐庐高家村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C137": {
+      "name": "桐庐高明村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C139": {
+      "name": "清凉峰马啸小学附近",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C141": {
+      "name": "窈口村",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C142": {
+      "name": "同心坝",
+      "area": "具体区域待核实",
+      "aliases": [],
+      "candidates": []
+    },
+    "C154": {
+      "name": "沿江景观10号桥水杉林",
+      "area": "杭州钱塘区·钱塘江边",
+      "aliases": [],
+      "candidates": []
+    },
+    "C156": {
+      "name": "星空农庄（径山双溪）",
+      "area": "杭州余杭·径山双溪",
+      "aliases": [],
+      "candidates": []
+    },
+    "C157": {
+      "name": "建德之江山风农场",
+      "area": "杭州市建德市下涯镇之江村，导航山风农场（入口待核）",
+      "aliases": [
+        "建德下涯之江村山风农场"
+      ],
+      "candidates": []
+    },
+    "C158": {
+      "name": "青山村露营地",
+      "area": "杭州余杭·黄湖镇青山村",
+      "aliases": [
+        "青山村"
+      ],
+      "candidates": []
+    },
+    "C159": {
+      "name": "观潮城江边营地",
+      "area": "杭州萧山·观潮城",
+      "aliases": [
+        "观潮城"
+      ],
+      "candidates": []
+    },
+    "C163": {
+      "name": "枫岭村大草坪",
+      "area": "杭州余杭·枫岭村",
+      "aliases": [],
+      "candidates": []
+    },
+    "C171": {
+      "name": "清凉药谷（浙西小天池）",
+      "area": "杭州临安",
+      "aliases": [],
+      "candidates": []
+    },
+    "C174": {
+      "name": "进贤村绅士溪水露营地",
+      "area": "杭州余杭·径山进贤村",
+      "aliases": [],
+      "candidates": []
+    },
+    "C175": {
+      "name": "遐也空间",
+      "area": "杭州萧山·戴村",
+      "aliases": [],
+      "candidates": []
+    },
+    "C179": {
+      "name": "东纪坞水库",
+      "area": "杭州萧山·东纪坞",
+      "aliases": [],
+      "candidates": []
+    },
+    "C180": {
+      "name": "富阳龙鳞坝（梅州驿站）",
+      "area": "杭州富阳·龙鳞坝",
+      "aliases": [],
+      "candidates": []
+    },
+    "C181": {
+      "name": "钱岸公园七堡艺文公园",
+      "area": "杭州上城区·钱塘江边",
+      "aliases": [],
+      "candidates": []
+    },
+    "C182": {
+      "name": "安顶山茶山",
+      "area": "杭州富阳·安顶山",
+      "aliases": [
+        "安顶山"
+      ],
+      "candidates": []
+    },
+    "C183": {
+      "name": "田间有座岛露营地",
+      "area": "杭州余杭·瓶窑",
+      "aliases": [],
+      "candidates": []
+    },
+    "C186": {
+      "name": "湘湖湘农路露营地",
+      "area": "杭州萧山·湘湖",
+      "aliases": [],
+      "candidates": []
+    },
+    "C190": {
+      "name": "幸福翼公园",
+      "area": "杭州萧山",
+      "aliases": [],
+      "candidates": []
+    },
+    "C192": {
+      "name": "翠羊湾·休闲露营农庄",
+      "area": "杭州余杭",
+      "aliases": [],
+      "candidates": []
+    },
+    "C193": {
+      "name": "太子尖星空营地",
+      "area": "杭州临安·太子尖",
+      "aliases": [],
+      "candidates": []
+    },
+    "C194": {
+      "name": "沐心岛",
+      "area": "杭州萧山·湘湖沐心岛",
+      "aliases": [
+        "湘湖沐心岛房车营地",
+        "湘湖沐心岛房车露营"
+      ],
+      "candidates": []
+    },
+    "C195": {
+      "name": "在山野·亚运村露营基地",
+      "area": "杭州萧山·亚运村",
+      "aliases": [],
+      "candidates": []
+    },
+    "C196": {
+      "name": "新安江白沙奇雾驻车点",
+      "area": "杭州建德·新安江",
+      "aliases": [],
+      "candidates": []
+    },
+    "C197": {
+      "name": "千岛湖阳光路989停车场",
+      "area": "杭州淳安·千岛湖",
+      "aliases": [],
+      "candidates": []
+    },
+    "C198": {
+      "name": "听潮音乐营地-木栖",
+      "area": "杭州萧山",
+      "aliases": [
+        "听潮音乐营地（萧山溯溪露营地）"
+      ],
+      "candidates": []
+    },
+    "C199": {
+      "name": "贝莱特庄园",
+      "area": "杭州余杭·径山",
+      "aliases": [],
+      "candidates": []
+    },
+    "C200": {
+      "name": "建德新安江绿道驿站",
+      "area": "杭州建德·新安江",
+      "aliases": [],
+      "candidates": [
+        {
+          "nameScore": 0.567,
+          "id": "7805d046-9284-47e8-befa-becfb579f701",
+          "name": "新安江站",
+          "commonNames": null,
+          "latitude": 29.46436882019043,
+          "longitude": 119.25827026367188,
+          "addresses": [
+            {
+              "freeform": null,
+              "locality": "Jiande",
+              "postcode": null,
+              "region": null,
+              "country": "CN"
+            }
+          ],
+          "websites": null,
+          "category": "train_station",
+          "operatingStatus": null,
+          "sources": [
+            {
+              "dataset": "meta",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": "1402784956637645"
+            },
+            {
+              "dataset": "Overture",
+              "license": "CDLA-Permissive-2.0",
+              "recordId": null
+            }
+          ]
+        }
+      ]
+    },
+    "C208": {
+      "name": "建德李家镇塘底石窟水库",
+      "area": "杭州建德·李家镇塘底",
+      "aliases": [
+        "建德李家镇塘底水库（金鱼秘境）"
+      ],
+      "candidates": []
+    },
+    "C209": {
+      "name": "石门村猷戏谷（大鱼线）",
+      "area": "杭州临安·大鱼线石门村",
+      "aliases": [
+        "临安大鱼线石门村猷戏谷"
+      ],
+      "candidates": []
+    },
+    "C213": {
+      "name": "北塘河草坪",
+      "area": "杭州萧山·北塘河",
+      "aliases": [],
+      "candidates": []
+    },
+    "C215": {
+      "name": "龙尾巴山塘水库",
+      "area": "杭州",
+      "aliases": [],
+      "candidates": []
+    },
+    "C216": {
+      "name": "建德之江村（车中泊点）",
+      "area": "建德之江村",
+      "aliases": [],
+      "candidates": []
+    }
+  }
+}

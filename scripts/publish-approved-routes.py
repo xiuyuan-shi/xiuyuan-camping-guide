@@ -5,6 +5,7 @@ Each point is a named place reference unless its source proves an actual camp
 entrance. A place name alone never establishes permission to camp there.
 """
 import datetime as dt
+import argparse
 import json
 import math
 import subprocess
@@ -12,7 +13,11 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-approvals = json.loads((ROOT/'imports/2026-09-23/place-approvals.json').read_text())
+parser = argparse.ArgumentParser()
+parser.add_argument('--approvals', default='imports/2026-09-23/place-approvals.json')
+parser.add_argument('--report', default='imports/2026-09-23/route-publication-report.json')
+args = parser.parse_args()
+approvals = json.loads((ROOT/args.approvals).read_text())
 osm = {(e['type'], e['id']): e for e in
        json.loads((ROOT/'imports/2026-09-23/osm-exact-search.json').read_text())['elements']}
 geocoded = json.loads((ROOT/'imports/2026-09-23/public-place-search.json').read_text())
@@ -62,7 +67,10 @@ for rid, decision in approvals.items():
         report.append({'id': rid, 'status': 'already-published'})
         continue
     record = records[rid]
-    if decision['source'] == 'OpenStreetMap':
+    if decision['source'] == 'OpenStreetMap' and 'latitude' in decision:
+        lat, lon = decision['latitude'], decision['longitude']
+        source_url = decision['sourceUrl']
+    elif decision['source'] == 'OpenStreetMap':
         element = osm[(decision['type'], decision['osmId'])]
         if element['tags'].get('name') != decision['matchedName']:
             raise ValueError(f'{rid} OSM name mismatch')
@@ -75,8 +83,11 @@ for rid, decision in approvals.items():
             raise ValueError(f'{rid} geocoding name or city mismatch')
         lat, lon = float(result['lat']), float(result['lon'])
         source_url = f'https://www.openstreetmap.org/{result["osm_type"]}/{result["osm_id"]}'
-    elif decision['source'] == 'Amap':
+    elif decision['source'] in ('Amap', 'Trip.com'):
         lat, lon = gcj_to_wgs(decision['latitude'], decision['longitude'])
+        source_url = decision['sourceUrl']
+    elif decision['source'] == 'Overture Maps':
+        lat, lon = decision['latitude'], decision['longitude']
         source_url = decision['sourceUrl']
     else:
         raise ValueError(f'{rid}: unsupported source')
@@ -105,7 +116,7 @@ for rid, decision in approvals.items():
             'geometry': route['geometry'], 'originLocation': origin
         }, ensure_ascii=False, separators=(',', ':')) + '\n')
         snapshot = {'duration': route['duration'], 'distance': route['distance'],
-                    'geometryUrl': f'routes/{rid}.json?v=wulinmen-20260923b',
+                    'geometryUrl': f'routes/{rid}.json?v=wulinmen-20261009a',
                     'waypoints': payload['waypoints'], 'queriedAt': now,
                     'sourceUrl': 'https://project-osrm.org/', 'requestUrl': route_url,
                     'origin': origin['name'], 'originLocation': origin,
@@ -124,7 +135,7 @@ for rid, decision in approvals.items():
     time.sleep(0.5)
 live['updatedAt'] = now
 live_path.write_text(json.dumps(live, ensure_ascii=False, indent=2) + '\n')
-(ROOT/'imports/2026-09-23/route-publication-report.json').write_text(
+(ROOT/args.report).write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print('ADDED', sum(x['status']=='published' for x in report),
       'TOTAL', len(live['records']), flush=True)
