@@ -30,6 +30,6 @@ Open-Meteo模型天气采用20分钟缓存，校验上海日期、模型时间�
 
 `python3 scripts/check-site.py`统一执行导出一致性、来源保留、导入幂等、允许扩充与阻止覆盖、JS语法及行为回归。
 
-`ci/validate.yml`是准备好的GitHub Actions模板，计划在push/main和PR执行同一检查。本次GitHub登录缺少`workflow`授权，GitHub拒绝新增工作流；模板尚未启用。本次发布已先在本地完成完整检查。取得该项授权后，再将模板移至`.github/workflows/validate.yml`并验证实际运行。
+`.github/workflows/validate.yml`在推送至main及PR时执行同一完整检查，任务只读取仓库内容，最长运行10分钟。本次启用已获用户批准；实际运行结果见优化与发布验收记录。
 
 发布前完成独立审查、全部本地检查及320/390px和桌面浏览器验收，再向既有main推送；确认Pages构建成功，并匿名对比HTML、数据、脚本、路线和照片与本地内容。不要发布本机路径、认证材料、原始登录日志或无许可照片。
