@@ -166,4 +166,22 @@ def run():
    w.writerow([v['rowNumber'],v['name'],v['area'],'已合并' if v['status']=='merge' else '待核',v['recordId'] or '',v['reason'],*v['facts'].values(),v['highlights'],v['description'],v['rawDescription'],*(x for n in v['notes'] for x in (n['url'],'地点关联已检查' if n['association']=='matched' else '地点关联待核')),*v['interactions'].values(),*(x for i in range(1,10) for x in (next((p['url'] for p in v['imageCandidates'] if p['slot']==i),''),next((p['status'] for p in v['imageCandidates'] if p['slot']==i),'')))])
  version=hashlib.sha256((ROOT/'data.json').read_bytes()).hexdigest()[:12];p=ROOT/'index.html';html=p.read_text();html=re.sub(r'(name="camp-data-version" content=")[^"]+',lambda m:m[1]+version,html);html=re.sub(r'(?<!-)data.json\?v=[a-f0-9]+','data.json?v='+version,html);html=re.sub(r'live-data.json\?v=[a-f0-9]+', 'live-data.json?v='+re.search(r'name="camp-live-version" content="([^"]+)', html)[1],html);p.write_text(html)
  print(json.dumps(summary,ensure_ascii=False,indent=2))
-if __name__=='__main__':run()
+if __name__=='__main__':
+ import argparse, subprocess, sys, tempfile, shutil
+ parser=argparse.ArgumentParser(description='当前资料由library.json维护；历史重建只生成候选文件。')
+ parser.add_argument('--preview-historical',type=Path)
+ args=parser.parse_args()
+ if args.preview_historical:
+  destination=args.preview_historical.resolve()
+  if destination.suffix!='.json' or destination.exists() or (destination.is_relative_to(ROOT) and not destination.is_relative_to(ROOT/'imports/historical-previews')):raise SystemExit('历史候选必须使用新的独立JSON路径，不能覆盖当前站点文件')
+  with tempfile.TemporaryDirectory(prefix='camp-historical-preview-') as folder:
+   work=Path(folder)/'site';shutil.copytree(ROOT,work,ignore=shutil.ignore_patterns('.git','library.json','details'))
+   ROOT=work;FOLDER=ROOT/'imports'/BATCH
+   run()
+   destination.parent.mkdir(parents=True,exist_ok=True)
+   shutil.copy2(ROOT/'data.json',destination)
+  print('Historical candidate saved; current library unchanged')
+ elif (ROOT/'library.json').exists():
+  subprocess.run([sys.executable,str(ROOT/'scripts/export-site.py')],check=True)
+ else:
+  raise SystemExit('缺少权威library.json；历史重建请显式指定--preview-historical输出位置')

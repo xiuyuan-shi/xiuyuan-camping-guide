@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'imports/2026-10-09/nominatim-bounded.json'
 OUT.parent.mkdir(parents=True, exist_ok=True)
 stored = json.loads(OUT.read_text()) if OUT.exists() else {}
-data = json.loads((ROOT/'data.json').read_text())
+data = json.loads((ROOT/'library.json').read_text())
 live = json.loads((ROOT/'live-data.json').read_text())
 missing = [r for r in data['records'] if r['scope']=='hangzhou'
            and r['id'] not in live['records']]

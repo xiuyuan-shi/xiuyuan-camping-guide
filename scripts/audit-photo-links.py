@@ -13,7 +13,7 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = json.loads((ROOT / 'data.json').read_text())
+DATA = json.loads((ROOT / 'library.json').read_text())
 LIVE = json.loads((ROOT / 'live-data.json').read_text())
 OUT = ROOT / 'imports/2026-09-23/photo-link-audit.json'
 urls = set()
@@ -29,9 +29,10 @@ for record in LIVE['records'].values():
 old = json.loads(OUT.read_text()) if OUT.exists() else {}
 
 def check(url):
+    checked_at = dt.datetime.now(dt.timezone.utc).isoformat()
     if url.startswith('assets/photos/'):
         path = ROOT / url
-        return url, {'displayUrl': url, 'status': 200 if path.is_file() else 404,
+        return url, {'checkedAt': checked_at, 'displayUrl': url, 'status': 200 if path.is_file() else 404,
                      'mime': 'image/jpeg' if path.is_file() else None,
                      'bytes': path.stat().st_size if path.is_file() else None,
                      'error': None if path.is_file() else 'local asset missing'}
@@ -45,12 +46,15 @@ def check(url):
     responses = re.findall(r'^HTTP/\S+\s+(\d+)', proc.stdout, re.M)
     mime = re.findall(r'^content-type:\s*([^\r\n]+)', proc.stdout, re.I | re.M)
     length = re.findall(r'^content-length:\s*(\d+)', proc.stdout, re.I | re.M)
-    return url, {'displayUrl': display, 'status': int(responses[-1]) if responses else None,
+    return url, {'checkedAt': checked_at, 'displayUrl': display, 'status': int(responses[-1]) if responses else None,
                  'mime': mime[-1].strip() if mime else None,
                  'bytes': int(length[-1]) if length else None,
                  'error': proc.stderr[-200:] if proc.returncode else None}
 
-pending = sorted(url for url in urls if url not in old or old[url]['status'] != 200)
+def expired(entry):
+    try:return (dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(entry['checkedAt'])).total_seconds()>7*86400
+    except (KeyError,ValueError,TypeError):return True
+pending = sorted(url for url in urls if url not in old or old[url]['status'] != 200 or expired(old[url]))
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
     for i, (url, result) in enumerate(pool.map(check, pending), 1):
         old[url] = result

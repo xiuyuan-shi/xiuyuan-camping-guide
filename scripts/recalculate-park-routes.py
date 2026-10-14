@@ -11,7 +11,7 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-data = json.loads((ROOT / 'data.json').read_text())
+data = json.loads((ROOT / 'library.json').read_text())
 live_path = ROOT / 'live-data.json'
 live = json.loads(live_path.read_text())
 features = json.loads((ROOT / 'basemap.geojson').read_text())['features']

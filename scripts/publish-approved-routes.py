@@ -21,7 +21,7 @@ approvals = json.loads((ROOT/args.approvals).read_text())
 osm = {(e['type'], e['id']): e for e in
        json.loads((ROOT/'imports/2026-09-23/osm-exact-search.json').read_text())['elements']}
 geocoded = json.loads((ROOT/'imports/2026-09-23/public-place-search.json').read_text())
-data = json.loads((ROOT/'data.json').read_text())
+data = json.loads((ROOT/'library.json').read_text())
 records = {r['id']: r for r in data['records']}
 live_path = ROOT/'live-data.json'
 live = json.loads(live_path.read_text())

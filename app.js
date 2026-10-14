@@ -1,29 +1,259 @@
 'use strict';
-const $=s=>document.querySelector(s);const esc=x=>String(x??'').replaceAll('验证版','资料').replaceAll('原表','来源记录').replaceAll('旧资料','资料').replaceAll('新资料','资料').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const icon=(n,cls='icon')=>`<img class="${cls}" src="assets/icons/${n}.svg" alt="">`;
-let library,city='杭州',scope='hangzhou',limit=12,lastFocus;const detailDialog=$('#detail-dialog'),utilityDialog=$('#utility-dialog');
-const claims=(r,k)=>{const fact=r.primaryFacts?.[k];if(fact)return [fact.status==='conflict'?'来源说法不一致':fact.status==='unknown'?'待核实':fact.status==='yes'?(k==='toilet'||k==='parking'?'资料称有':'资料称可'):fact.status==='no'?(k==='toilet'||k==='parking'?'资料称无':'资料称不可'):fact.status==='free'?'资料称免费':'资料称收费'];const primary=r.evidence.filter(e=>e.priority==='primary').flatMap(e=>e.fields.filter(f=>f.key===k).map(f=>f.value));return primary.length?primary:r.evidence.flatMap(e=>e.fields.filter(f=>f.key===k).map(f=>f.value));};
 
-const words=r=>[r.name,r.type,r.area,...r.tags,...r.aliases,...(r.overview?.paragraphs||[]).map(p=>p.text),...r.evidence.flatMap(e=>e.fields.map(f=>f.value))].join(' ');
-function filtered(){if(city!=='杭州')return[];let q=$('#query').value.trim().toLowerCase(),env=$('#environment').value,people=$('#audience').value,budget=$('#budget').value,facility=$('#facility').value;let rows=library.records.filter(r=>r.scope===scope&&(!q||words(r).toLowerCase().includes(q))&&(!env||new RegExp(env).test(words(r)))&&(!people||new RegExp(people).test(claims(r,'audience').join(' ')))&&(!facility||(r.primaryFacts?.[facility]?r.primaryFacts[facility].status==='yes':claims(r,facility).some(v=>!/^未|^待|未核实|未知|冲突/.test(v))))&&(!budget||(budget==='free'?claims(r,'fee').some(x=>/免费/.test(x)):budget==='priced'?claims(r,'fee').some(x=>/\d|付费|收费/.test(x)):claims(r,'fee').some(x=>/未知|冲突|待核/.test(x)))));return rows.sort((a,b)=>((!!b.primaryData*10000+Live.allowed(b).length*100+!!b.location*10+!!b.hasDetails)-(!!a.primaryData*10000+Live.allowed(a).length*100+!!a.location*10+!!a.hasDetails)));}
-function fee(r){const fact=r.primaryFacts?.fee;if(fact){if(fact.status==='conflict')return '费用说法不一致';if(fact.status==='unknown')return '费用待核实';if(fact.status==='free')return /停车.*\d/.test(fact.value)?'露营免费 · 停车另计':'资料称免费';if(fact.status==='paid')return /\d/.test(fact.value)?'收费 · 价格见详情':'资料称收费';}let v=claims(r,'fee').join('；');if(/冲突/.test(v))return '费用记录有冲突';if(/未知/.test(v))return '费用待核实';if(/付费/.test(v)&&!/\d/.test(v))return '付费 · 价格待核';if(/免费/.test(v)&&!/\d/.test(v))return /收费/.test(v)&&!/不收费|无收费|未收费/.test(v)?'部分区域免费':'有免费线索';let m=v.match(/(?:¥|￥)?\s*\d+(?:[—–~-]\d+)?\s*(?:元|块)(?:\s*[/／]\s*(?:人|位|天|晚|车|顶))?/);return m?'费用见原文':'预算待核实';}
-function facility(r,k,label,ico){const fact=r.primaryFacts?.[k];if(fact){const state=fact.status==='conflict'?'说法不一':fact.status==='unknown'?'待核实':fact.status==='yes'?(k==='toilet'?'资料称有':'资料称可'):(k==='toilet'?'资料称无':'资料称不可');return `<div class="facility"><div class="facility-label">${icon(ico)}${label}</div><div class="facility-state ${fact.status==='yes'?'reported':''}">${icon(fact.status==='yes'?'circle-check-filled':'help-circle-filled')}${state}</div></div>`;}let values=claims(r,k).filter(v=>!/^未|^待|未核实/.test(v));let has=values.length>0,reported=k==='toilet'&&has&&values.some(v=>/有|旁/.test(v)&&!/没有|无厕所/.test(v));return `<div class="facility"><div class="facility-label">${icon(ico)}${label}</div><div class="facility-state ${reported?'reported':''}">${icon(reported?'circle-check-filled':'help-circle-filled')}${reported?'作者称有':has?'见原文':'待核实'}</div></div>`;}
-function render(){if(!library)return;let rows=filtered();$('#cards').innerHTML=rows.slice(0,limit).map((r,index)=>{return `<article class="camp-card" data-record="${r.id}">${Live.photoBlock(r,index===0)}<div class="card-main"><div class="name-row"><h2>${esc(r.name)}</h2>${r.type==='待分类'?'':`<span class="camp-kind">${esc(r.type==='公园与绿地'?'公园绿地':r.type==='自然与乡村地点'?'自然地点':r.type)}</span>`}</div><div class="rating-row">${ratingButton(r)}</div><p class="environment">${esc(r.tags.length?r.tags.slice(0,3).join(' · '):r.hasDetails?'环境信息见详情':'环境 · 待补充')}</p><div class="cost-route"><div class="cost">${icon('coin-yuan')}<div class="cost-text"><strong>${esc(fee(r))}</strong><small>${r.primaryFacts?.fee?'费用以现场为准':/\d|免费|原文/.test(fee(r))?'费用见详情':'自带装备 · 费用待核'}</small></div></div><div class="route">${icon('map-pin')}${Live.routeCard(r)}</div></div><div class="facilities">${facility(r,'toilet','厕所','toilet-paper')}${facility(r,'overnight','过夜','tent')}${facility(r,'stove','卡式炉','cooker')}</div><button class="detail-button" data-open="${r.id}" aria-label="查看${esc(r.name)}详情">查看详情${icon('chevron-right')}</button></div></article>`}).join('');$('#empty').hidden=rows.length!==0;$('#empty-title').textContent=city==='杭州'?'没有匹配的地点':city+'资料尚未开放';$('#empty-copy').textContent=city==='杭州'?'换个关键词，或清除筛选再看看。':'目前先整理杭州，后续再扩展其他城市。';$('#load-more').hidden=rows.length<=limit;$('#load-more').textContent=`再看 ${Math.min(12,rows.length-limit)} 处`;document.querySelectorAll('.filters select').forEach(s=>s.classList.toggle('active',!!s.value));Live.hydrate();if(document.body.classList.contains('map-mode'))Live.updateMap();}
-
-function panel(title,html){lastFocus=document.activeElement;$('#utility-title').textContent=title;$('#utility-content').innerHTML=html;utilityDialog.showModal();document.body.classList.add('dialog-open');utilityDialog.scrollTop=0;}
-function weather(id){Live.setPage('weather',id);}
-function season(id){Live.setPage('season',id);}
-function album(id,index=0){Live.setPage('photos',id,index);}
-function openDetail(id){Live.setPage('camp',id);}
-document.addEventListener('click',e=>{let b=e.target.closest('button');if(!b)return;if(b.dataset.open)openDetail(b.dataset.open);else if(b.dataset.weather)weather(b.dataset.weather);else if(b.dataset.season)season(b.dataset.season);else if(b.dataset.album)album(b.dataset.album,Number(b.dataset.index)||0);});
-$('#query').addEventListener('input',()=>{limit=12;render();});document.querySelectorAll('.filters select').forEach(s=>s.addEventListener('change',()=>{limit=12;render();}));document.querySelectorAll('[data-city]').forEach(b=>b.addEventListener('click',()=>{city=b.dataset.city;scope='hangzhou';document.querySelectorAll('[data-city]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));limit=12;render();}));$('#load-more').onclick=()=>{limit+=12;render();};$('#reset').onclick=()=>{city='杭州';scope='hangzhou';$('#query').value='';document.querySelectorAll('.filters select').forEach(s=>s.value='');document.querySelectorAll('[data-city]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.city===city)));limit=12;render();};$('#detail-close').onclick=()=>detailDialog.close();$('#utility-close').onclick=()=>utilityDialog.close();for(let d of [detailDialog,utilityDialog])d.addEventListener('close',()=>{if(!detailDialog.open&&!utilityDialog.open)document.body.classList.remove('dialog-open');if(d===detailDialog)history.replaceState(null,'',location.pathname+location.search);if(lastFocus?.isConnected)lastFocus.focus();});
-let trip={adults:'2',gear:'自带装备',mode:'日营'};try{let t=JSON.parse(localStorage.getItem('camp-trip'));if(t&&['1','2','3','4','5','6'].includes(t.adults)&&['自带装备','租用装备'].includes(t.gear)&&['日营','过夜'].includes(t.mode))trip=t;}catch{}
-function tripLabel(){$('#trip-summary').textContent=`${trip.adults}位成人 · ${trip.gear} · ${trip.mode}`;}tripLabel();$('#trip-open').onclick=()=>{panel('出行偏好',`<form id="trip-form" class="trip-form"><label>同行人数<select name="adults">${[1,2,3,4,5,6].map(n=>`<option value="${n}" ${String(n)===trip.adults?'selected':''}>${n}位成人</option>`).join('')}</select></label><label>装备<select name="gear">${['自带装备','租用装备'].map(v=>`<option ${v===trip.gear?'selected':''}>${v}</option>`).join('')}</select></label><label>行程<select name="mode">${['日营','过夜'].map(v=>`<option ${v===trip.mode?'selected':''}>${v}</option>`).join('')}</select></label><p class="panel-note">偏好保存在本机。尚未用偏好筛除营地，过夜和装备租赁是否允许请查看原文确认。</p><button class="primary" type="submit">保存偏好</button></form>`);$('#trip-form').onsubmit=e=>{e.preventDefault();let f=new FormData(e.target);trip=Object.fromEntries(f.entries());try{localStorage.setItem('camp-trip',JSON.stringify(trip));}catch{}tripLabel();utilityDialog.close();};};
-$('#about-open').onclick=()=>panel('资料与图片说明',`<p>当前整理杭州 ${library.counts.hangzhou} 处地点，其中 ${library.records.filter(r=>r.scope==='hangzhou'&&r.hasDetails).length} 处有具体介绍。名单包含公园、村落和具体营位，尚未逐条核实。</p><h3>资料来源</h3><p>整合用户提供的清单与笔记资料，核对后合并同一地点。笔记来源链接保留在“依据”页，地点关联状态单独标记。</p><h3>星级如何看</h3><p>参考星级按已有景观、活动、设施和人群线索计算，并展示覆盖维度。它不是经实地验证的营地质量分；正式评级要求具体营位、近期规则、独立反馈和20项条件齐全。点击星级可看明细。</p><h3>更新时间</h3><p>每周四维护，逐批复查。原文日期与采集日期分别保存，未覆盖的记录不刷新采集日期。</p><h3>图片与天气</h3><p>照片来自已筛选的清单配图、既有笔记和公开图源；区域景观不等于营位核验，最多9张。天气来自 Open-Meteo 的位置模型预报；地图为 OpenStreetMap。路线从杭州武林门地铁站出发，由 OSRM 估算，不含实时路况。没有可靠坐标时不推算车程或营地天气。原文链接可能需要小红书登录。</p>`);
-
-$('#nearby-open').onclick=()=>{scope=scope==='hangzhou'?'nearby':'hangzhou';city='杭州';document.querySelectorAll('[data-city]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.city===city)));$('#query').value='';document.querySelectorAll('.filters select').forEach(s=>s.value='');limit=12;render();window.scrollTo({top:0,behavior:'auto'});};
-fetch('data.json?v='+($('meta[name=camp-data-version]')?.content||'6'),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('load');return r.json();}).then(async data=>{library=data;await Live.init(data);$('#updated').textContent=`资料更新 ${data.updatedAt} · 每周维护`;render();Live.show();}).catch(()=>{$('#error').hidden=false;});
-
-function starString(n){return '★'.repeat(Math.floor(n))+(n%1?'◐':'')+'☆'.repeat(5-Math.ceil(n));}
-function ratingButton(r){const v=CampRatings.evaluate(r,library.sources);return `<button class="rating rating-button ${v.status==='unrated'?'unrated':''}" data-rating="${r.id}" aria-label="查看${esc(r.name)}星级推荐依据"><span class="star-glyph" aria-hidden="true">${v.score===null?'☆☆☆☆☆':starString(v.stars)}</span><span>${v.status==='rated'?'推荐':v.status==='provisional'?'参考星级':'星级待评'}${v.score===null?'':' '+v.score.toFixed(1)+'/5'}</span></button>`;}
-document.addEventListener('click',e=>{const b=e.target.closest('[data-rating]');if(!b)return;const r=library.records.find(r=>r.id===b.dataset.rating);if(!r)return;const v=CampRatings.evaluate(r,library.sources);const rated=v.status==='rated',proxy=v.status==='provisional';panel('星级推荐依据',`<h3>${esc(r.name)}</h3>${v.score!==null?`<p class="rating-stars" aria-label="${v.stars}星，共5星">${starString(v.stars)}</p><p>${rated?'正式推荐':'资料参考'} ${v.score.toFixed(1)}/5${rated?' · 权重变化范围 '+v.range.map(n=>n.toFixed(1)).join('–'):''}</p>`:'<p>当前资料不足，暂不计算参考星级。这不表示营地质量差。</p>'}${proxy?`<p class="panel-note">本分数只概括已有资料中明确提及的景观、活动、设施和适配线索，覆盖 ${v.coverage}/${v.totalProxy} 个维度。清单与笔记尚未全部独立核验，不能作为营地质量或现行规则保证。</p><h3>本次如何计算</h3><p>各已知维度等权平均，未知维度不计0分，也不参与平均；星图四舍五入到半星。已知维度不同的地点，不宜直接比较分数。</p><ul>${v.parts.map(p=>`<li>${esc(p.name)}：${p.value.toFixed(1)}/5 · ${esc(p.basis)}</li>`).join('')}</ul><details><summary>为何尚未达到正式评级证据</summary><ul>${v.reasons.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul></details>`:''}${!proxy&&!rated?'<ul>'+v.reasons.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':''}<h3>正式评级标准</h3><p>默认自带装备日营。到达便利、基础设施、场地条件和日营适配四维各占25%，每维5项；经核实满足得1分，明确不满足得0分。未知项不填0分。</p>${v.dimensions.map((d,i)=>`<details><summary>${d.name} · 25%${rated?' · '+v.subscores[i]+'/5':''}</summary><ul>${d.items.map(([,name])=>'<li>'+esc(name)+'</li>').join('')}</ul></details>`).join('')}<p class="fine">星级是本指南的公开推荐模型，并非官方等级。点赞量、照片数和免费与否不直接加分；当前规则须以营地方最新说明为准。</p><p><a href="rating-methodology.html" target="_blank" rel="noopener">查看完整评分规则</a></p>`);});
+const $ = s => document.querySelector(s);
+const esc = x => String(x ?? '').replaceAll('验证版', '资料').replaceAll('原表', '来源记录').replaceAll('旧资料', '资料').replaceAll('新资料', '资料').replace(/[&<>"']/g, c => ({
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  "'": '&#39;'
+})[c]);
+const icon = (n, cls = 'icon') => `<img class="${cls}" src="assets/icons/${n}.svg" alt="">`;
+let library,
+  city = '杭州',
+  scope = 'hangzhou',
+  limit = 12,
+  lastFocus;
+let mapBounds = null;
+const utilityDialog = $('#utility-dialog');
+const claims = (r, k) => {
+  const fact = r.primaryFacts?.[k];
+  if (fact) return [fact.status === 'conflict' ? '来源说法不一致' : fact.status === 'unknown' ? '待核实' : fact.status === 'yes' ? k === 'toilet' || k === 'parking' ? '资料称有' : '资料称可' : fact.status === 'no' ? k === 'toilet' || k === 'parking' ? '资料称无' : '资料称不可' : fact.status === 'free' ? '资料称免费' : '资料称收费'];
+  return CampDomain.values(r, k);
+};
+const words = r => r.searchText || [r.name, r.area, ...r.tags].join(' ');
+function filtered() {
+  if (!library || city !== '杭州') return [];
+  const f = {
+    scope,
+    query: $('#query').value,
+    environment: $('#environment').value,
+    audience: $('#audience').value,
+    budget: $('#budget').value,
+    facility: $('#facility').value,
+    bounds: mapBounds
+  };
+  return library.records.filter(r => CampDomain.matches(r, f)).sort((a, b) => !!b.primaryData * 10000 + Live.allowed(b).length * 100 + !!b.location * 10 + !!b.hasDetails - (!!a.primaryData * 10000 + Live.allowed(a).length * 100 + !!a.location * 10 + !!a.hasDetails) || a.id.localeCompare(b.id));
+}
+function fee(r) {
+  const fact = r.primaryFacts?.fee;
+  if (fact) {
+    if (fact.status === 'conflict') return '费用说法不一致';
+    if (fact.status === 'unknown') return '费用待核实';
+    if (fact.status === 'free') return /停车.*\d/.test(fact.value) ? '露营免费 · 停车另计' : '资料称免费';
+    if (fact.status === 'paid') return /\d/.test(fact.value) ? '收费 · 价格见详情' : '资料称收费';
+  }
+  let v = claims(r, 'fee').join('；');
+  if (/冲突/.test(v)) return '费用记录有冲突';
+  if (/未知/.test(v)) return '费用待核实';
+  if (/付费/.test(v) && !/\d/.test(v)) return '付费 · 价格待核';
+  if (/免费/.test(v) && !/\d/.test(v)) return /收费/.test(v) && !/不收费|无收费|未收费/.test(v) ? '部分区域免费' : '有免费线索';
+  let m = v.match(/(?:¥|￥)?\s*\d+(?:[—–~-]\d+)?\s*(?:元|块)(?:\s*[/／]\s*(?:人|位|天|晚|车|顶))?/);
+  return m ? '费用见原文' : '预算待核实';
+}
+function facility(r, k, label, ico) {
+  const state = CampDomain.facilityState(r, k),
+    text = state === 'yes' ? k === 'toilet' ? '资料称有' : '资料称可' : state === 'no' ? k === 'toilet' ? '资料称无' : '资料称不可' : state === 'conflict' ? '说法不一' : '待核实';
+  return '<div class="facility"><div class="facility-label">' + icon(ico) + label + '</div><div class="facility-state ' + (state === 'yes' ? 'reported' : '') + '">' + icon(state === 'yes' ? 'circle-check-filled' : 'help-circle-filled') + text + '</div></div>';
+}
+function render() {
+  syncFilters();
+  if (!library) return;
+  let rows = filtered();
+  $('#cards').innerHTML = rows.slice(0, limit).map((r, index) => {
+    return `<article class="camp-card" data-record="${r.id}">${Live.photoBlock(r, index === 0)}<div class="card-main"><div class="name-row"><h2>${esc(r.name)}</h2>${r.type === '待分类' ? '' : `<span class="camp-kind">${esc(r.type === '公园与绿地' ? '公园绿地' : r.type === '自然与乡村地点' ? '自然地点' : r.type)}</span>`}</div><div class="rating-row">${ratingButton(r)}</div><p class="environment">${esc(CampDomain.displayTags(r).length ? CampDomain.displayTags(r).slice(0,3).join(' · ') : r.hasDetails ? '环境信息见详情' : '环境 · 待补充')}</p><div class="cost-route"><div class="cost">${icon('coin-yuan')}<div class="cost-text"><strong>${esc(fee(r))}</strong><small>${r.primaryFacts?.fee ? '费用以现场为准' : /\d|免费|原文/.test(fee(r)) ? '费用见详情' : '自带装备 · 费用待核'}</small></div></div><div class="route">${icon('map-pin')}${Live.routeCard(r)}</div></div><div class="facilities">${facility(r, 'toilet', '厕所', 'toilet-paper')}${facility(r, 'overnight', '过夜', 'tent')}${facility(r, 'stove', '卡式炉', 'cooker')}</div><button class="detail-button" data-open="${r.id}" aria-label="查看${esc(r.name)}详情">查看详情${icon('chevron-right')}</button></div></article>`;
+  }).join('');
+  $('#results-status').textContent = '当前筛选 ' + rows.length + ' 处地点';
+  $('#clear-map-area').hidden = !mapBounds;
+  $('#empty').hidden = rows.length !== 0;
+  $('#empty-title').textContent = city === '杭州' ? '没有匹配的地点' : city + '资料尚未开放';
+  $('#empty-copy').textContent = city === '杭州' ? '换个关键词，或清除筛选再看看。' : '目前先整理杭州，后续再扩展其他城市。';
+  $('#load-more').hidden = rows.length <= limit;
+  $('#load-more').textContent = `再看 ${Math.min(12, rows.length - limit)} 处`;
+  document.querySelectorAll('.filters select').forEach(s => s.classList.toggle('active', !!s.value));
+  Live.hydrate();
+  if (document.body.classList.contains('map-mode')) Live.updateMap();
+}
+function panel(title, html) {
+  lastFocus = document.activeElement;
+  $('#utility-title').textContent = title;
+  $('#utility-content').innerHTML = html;
+  utilityDialog.showModal();
+  document.body.classList.add('dialog-open');
+  utilityDialog.scrollTop = 0;
+}
+function weather(id) {
+  Live.setPage('weather', id);
+}
+function season(id) {
+  Live.setPage('season', id);
+}
+function album(id, index = 0) {
+  Live.setPage('photos', id, index);
+}
+function openDetail(id) {
+  Live.setPage('camp', id);
+}
+document.addEventListener('click', e => {
+  let b = e.target.closest('button');
+  if (!b) return;
+  if (b.dataset.imageRetry) {
+    Live.retryImage(b);
+    return;
+  }
+  if (b.dataset.open) openDetail(b.dataset.open);else if (b.dataset.weather) weather(b.dataset.weather);else if (b.dataset.season) season(b.dataset.season);else if (b.dataset.album) album(b.dataset.album, Number(b.dataset.index) || 0);
+});
+$('#query').addEventListener('input', () => {
+  limit = 12;
+  render();
+});
+document.querySelectorAll('.filters select').forEach(s => s.addEventListener('change', () => {
+  limit = 12;
+  render();
+}));
+document.querySelectorAll('[data-city]').forEach(b => b.addEventListener('click', () => {
+  city = b.dataset.city;
+  scope = 'hangzhou';
+  mapBounds = null;
+  document.querySelectorAll('[data-city]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  limit = 12;
+  render();
+}));
+$('#load-more').onclick = () => {
+  limit += 12;
+  render();
+};
+$('#reset').onclick = () => {
+  city = '杭州';
+  scope = 'hangzhou';
+  mapBounds = null;
+  mapBounds = null;
+  $('#query').value = '';
+  document.querySelectorAll('.filters select').forEach(s => s.value = '');
+  document.querySelectorAll('[data-city]').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.city === city)));
+  limit = 12;
+  render();
+};
+$('#utility-close').onclick = () => utilityDialog.close();
+for (let d of [utilityDialog]) d.addEventListener('close', () => {
+  if (!utilityDialog.open) document.body.classList.remove('dialog-open');
+  if (lastFocus?.isConnected) lastFocus.focus({
+    preventScroll: true
+  });
+});
+let trip = {
+  adults: '2',
+  gear: '自带装备',
+  mode: '日营'
+};
+try {
+  let t = JSON.parse(localStorage.getItem('camp-trip'));
+  if (t && ['1', '2', '3', '4', '5', '6'].includes(t.adults) && ['自带装备', '租用装备'].includes(t.gear) && ['日营', '过夜'].includes(t.mode)) trip = t;
+} catch {}
+function tripLabel() {
+  $('#trip-summary').textContent = `${trip.adults}位成人 · ${trip.gear} · ${trip.mode}`;
+}
+tripLabel();
+$('#trip-open').onclick = () => {
+  panel('出行偏好', `<form id="trip-form" class="trip-form"><label>同行人数<select name="adults">${[1, 2, 3, 4, 5, 6].map(n => `<option value="${n}" ${String(n) === trip.adults ? 'selected' : ''}>${n}位成人</option>`).join('')}</select></label><label>装备<select name="gear">${['自带装备', '租用装备'].map(v => `<option ${v === trip.gear ? 'selected' : ''}>${v}</option>`).join('')}</select></label><label>行程<select name="mode">${['日营', '过夜'].map(v => `<option ${v === trip.mode ? 'selected' : ''}>${v}</option>`).join('')}</select></label><p class="panel-note">偏好保存在本机。尚未用偏好筛除营地，过夜和装备租赁是否允许请查看原文确认。</p><button class="primary" type="submit">保存偏好</button></form>`);
+  $('#trip-form').onsubmit = e => {
+    e.preventDefault();
+    let f = new FormData(e.target);
+    trip = Object.fromEntries(f.entries());
+    try {
+      localStorage.setItem('camp-trip', JSON.stringify(trip));
+    } catch {}
+    tripLabel();
+    utilityDialog.close();
+  };
+};
+$('#about-open').onclick = () => panel('资料与图片说明', `<p>当前整理杭州相关资料 ${library.counts.hangzhou} 处地点线索，其中 ${library.records.filter(r => r.scope === 'hangzhou' && r.hasDetails).length} 处有具体介绍。名单包含公园、村落和具体营位，尚未逐条核实。</p><h3>资料来源</h3><p>整合用户提供的清单与笔记资料，核对后合并同一地点。笔记来源链接保留在“依据”页，地点关联状态单独标记。</p><h3>星级如何看</h3><p>参考星级按已有景观、活动、设施和人群线索计算，并展示覆盖维度。它不是经实地验证的营地质量分；正式评级要求具体营位、近期规则、独立反馈和20项条件齐全。点击星级可看明细。</p><h3>更新时间</h3><p>资料整理：${esc(library.updatedAt)}。${esc(library.maintenance.label)}；原文日期与采集日期分别保存，未覆盖的记录不刷新日期。</p><h3>图片与天气</h3><p>相册仅展示有明确许可、署名和地点依据的照片；未确认的配图保留为来源线索。历史景观不等于现行营位核验，最多9张。天气来自 Open-Meteo 的位置模型预报；地图为 OpenStreetMap。路线从杭州武林门地铁站出发，由 OSRM 估算，不含实时路况。没有可靠坐标时不推算车程或营地天气。原文链接可能需要小红书登录。</p>`);
+$('#nearby-open').onclick = () => {
+  scope = scope === 'hangzhou' ? 'nearby' : 'hangzhou';
+  mapBounds = null;
+  city = '杭州';
+  document.querySelectorAll('[data-city]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.city === city)));
+  $('#query').value = '';
+  document.querySelectorAll('.filters select').forEach(s => s.value = '');
+  limit = 12;
+  render();
+  window.scrollTo({
+    top: 0,
+    behavior: 'auto'
+  });
+};
+async function boot() {
+  $('#error').hidden = true;
+  $('#loading').hidden = false;
+  try {
+    library = CampStore.validateIndex(await CampStore.json('data.json?v=' + ($('meta[name=camp-data-version]')?.content || '2')));
+    restoreFilters();
+    $('#updated').textContent = '资料整理 ' + library.updatedAt + ' · ' + library.maintenance.label;
+    $('#loading').hidden = true;
+    render();
+    const extension = Live.init(library);
+    Live.show();
+    await extension;
+    render();
+    Live.show();
+  } catch (e) {
+    $('#loading').hidden = true;
+    $('#error').hidden = false;
+    $('#error-copy').textContent = e.message;
+  }
+}
+boot();
+function starString(n) {
+  return '★'.repeat(Math.floor(n)) + (n % 1 ? '◐' : '') + '☆'.repeat(5 - Math.ceil(n));
+}
+function ratingButton(r) {
+  const v = CampRatings.evaluate(r, library.sources);
+  return `<button class="rating rating-button ${v.status === 'unrated' ? 'unrated' : ''}" data-rating="${r.id}" aria-label="查看${esc(r.name)}星级推荐依据"><span class="star-glyph" aria-hidden="true">${v.score === null ? '☆☆☆☆☆' : starString(v.stars)}</span><span>${v.status === 'rated' ? '推荐' : v.status === 'provisional' ? '参考星级' : '星级待评'}${v.score === null ? '' : ' ' + v.score.toFixed(1) + '/5' + (v.status === 'provisional' ? ' · ' + v.coverage + '/' + v.totalProxy + '维' : '')}</span></button>`;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-rating]');
+  if (!b) return;
+  const r = library.records.find(r => r.id === b.dataset.rating);
+  if (!r) return;
+  const v = CampRatings.evaluate(r, library.sources);
+  const rated = v.status === 'rated',
+    proxy = v.status === 'provisional';
+  panel('星级推荐依据', `<h3>${esc(r.name)}</h3>${v.score !== null ? `<p class="rating-stars" aria-label="${v.stars}星，共5星">${starString(v.stars)}</p><p>${rated ? '正式推荐' : '资料参考'} ${v.score.toFixed(1)}/5${rated ? ' · 权重变化范围 ' + v.range.map(n => n.toFixed(1)).join('–') : ''}</p>` : '<p>当前资料不足，暂不计算参考星级。这不表示营地质量差。</p>'}${proxy ? `<p class="panel-note">本分数只概括已有资料中明确提及的景观、活动、设施和适配线索，覆盖 ${v.coverage}/${v.totalProxy} 个维度。清单与笔记尚未全部独立核验，不能作为营地质量或现行规则保证。</p><h3>本次如何计算</h3><p>各已知维度等权平均，未知维度不计0分，也不参与平均；星图四舍五入到半星。已知维度不同的地点，不宜直接比较分数。</p><ul>${v.parts.map(p => `<li>${esc(p.name)}：${p.value.toFixed(1)}/5 · ${esc(p.basis)}</li>`).join('')}</ul><details><summary>为何尚未达到正式评级证据</summary><ul>${v.reasons.map(x => '<li>' + esc(x) + '</li>').join('')}</ul></details>` : ''}${!proxy && !rated ? '<ul>' + v.reasons.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : ''}<h3>正式评级标准</h3><p>默认自带装备日营。到达便利、基础设施、场地条件和日营适配四维各占25%，每维5项；经核实满足得1分，明确不满足得0分。未知项不填0分。</p>${v.dimensions.map((d, i) => `<details><summary>${d.name} · 25%${rated ? ' · ' + v.subscores[i] + '/5' : ''}</summary><ul>${d.items.map(([, name]) => '<li>' + esc(name) + '</li>').join('')}</ul></details>`).join('')}<p class="fine">星级是本指南的公开推荐模型，并非官方等级。点赞量、照片数和免费与否不直接加分；当前规则须以营地方最新说明为准。</p><p><a href="rating-methodology.html" target="_blank" rel="noopener">查看完整评分规则</a></p>`);
+});
+function syncFilters() {
+  if (!library) return;
+  const p = new URLSearchParams(location.search);
+  for (const [k, v] of Object.entries({
+    city,
+    scope,
+    q: $('#query').value,
+    environment: $('#environment').value,
+    audience: $('#audience').value,
+    budget: $('#budget').value,
+    facility: $('#facility').value,
+    limit: String(limit),
+    area: mapBounds ? mapBounds.join(',') : ''
+  })) {
+    if (v) p.set(k, v);else p.delete(k);
+  }
+  history.replaceState(history.state, '', location.pathname + (p.toString() ? '?' + p : '') + location.hash);
+}
+function restoreFilters() {
+  const p = new URLSearchParams(location.search);
+  city = ['杭州', '苏州', '南京', '上海', '宁波'].includes(p.get('city')) ? p.get('city') : '杭州';
+  scope = ['hangzhou', 'nearby'].includes(p.get('scope')) ? p.get('scope') : 'hangzhou';
+  $('#query').value = (p.get('q') || '').slice(0, 200);
+  for (const key of ['environment', 'audience', 'budget', 'facility']) {
+    const el = $('#' + key),
+      value = p.get(key) || '';
+    el.value = Array.from(el.options).some(o => o.value === value) ? value : '';
+  }
+  limit = Math.max(12, Math.min(500, Number.parseInt(p.get('limit')) || 12));
+  const area = (p.get('area') || '').split(',').map(Number);
+  mapBounds = area.length === 4 && area.every(Number.isFinite) && area[0] < area[2] && area[1] < area[3] && area.every((v, i) => Math.abs(v) <= (i % 2 ? 90 : 180)) ? area : null;
+  document.querySelectorAll('[data-city]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.city === city)));
+}
+$('#clear-map-area').onclick = () => {
+  mapBounds = null;
+  render();
+};

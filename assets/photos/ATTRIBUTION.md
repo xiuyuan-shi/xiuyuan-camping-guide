@@ -41,3 +41,16 @@ Licensed, unmodified JPEG display copies. Cropped to fit cards with CSS; origina
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
 - Original: https://upload.wikimedia.org/wikipedia/commons/a/a6/Xiang_Lake_03.jpg
 - SHA256: 15b039b378b764209b2291d24629311f83428e38247475f87c42b053bb7296d7
+
+
+## 2026年10月14日同域许可副本
+
+以下为已具有许可和地点来源依据的历史照片，未新增营位或露营许可结论。原始图片地址保存在library.json中。
+
+| 文件 | 内容范围 | 作者 | 许可 | 来源 | 修改说明 |
+| --- | --- | --- | --- | --- | --- |
+| assets/photos/c085-licensed.jpg | 柳浪闻莺区域历史景观 | zhiyin586@163.com | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | [来源](https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E_%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA_-_panoramio_(2).jpg) | 最长边1280像素，展示可能裁切 |
+| assets/photos/c103-licensed.jpg | 六和公园区域历史景观 | fish4fish | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [来源](https://commons.wikimedia.org/wiki/File:20120623%E6%9D%AD%E5%B7%9E%E5%85%AD%E5%92%8C%E5%85%AC%E5%9B%AD%E6%B1%A0%E5%A1%98%E4%B8%80%E8%A7%92%E5%85%A8%E6%99%AF_-_panoramio.jpg) | 最长边1280像素，展示可能裁切 |
+| assets/photos/c111-licensed.jpg | 金沙湖公园区域历史景观 | MasaneMiyaPA | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [来源](https://commons.wikimedia.org/wiki/File:20150521%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD.jpg) | 最长边1280像素，展示可能裁切 |
+| assets/photos/c116-licensed.jpg | 临平公园区域历史景观 | zhiyin586@163.com | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | [来源](https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E._%E4%B8%B4%E5%B9%B3%E5%B1%B1%EF%BC%88%E4%B8%B4%E5%B9%B3%E5%85%AC%E5%9B%AD%EF%BC%89_-_panoramio_(1).jpg) | 最长边1280像素，展示可能裁切 |
+| assets/photos/c121-licensed.jpg | 东吴文化公园区域历史景观 | Lt2818 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [来源](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD%E6%B9%96%E8%BE%B9%E7%9F%B3%E8%88%AB.jpg) | 最长边1280像素，展示可能裁切 |

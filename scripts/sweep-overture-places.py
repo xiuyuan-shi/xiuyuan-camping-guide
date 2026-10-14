@@ -78,7 +78,7 @@ else:
                                  'downloadedAt': dt.datetime.now(dt.timezone.utc).isoformat(),
                                  'source': SOURCE, 'places': places}, ensure_ascii=False) + '\n')
 
-data = json.loads((ROOT / 'data.json').read_text())
+data = json.loads((ROOT / 'library.json').read_text())
 live = json.loads((ROOT / 'live-data.json').read_text())
 missing = [r for r in data['records'] if r['scope'] == 'hangzhou'
            and r['id'] not in live['records']]

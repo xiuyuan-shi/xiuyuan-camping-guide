@@ -14,7 +14,7 @@ from urllib.parse import urlencode, quote
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'imports/2026-09-23/public-place-search.json'
-DATA = json.loads((ROOT / 'data.json').read_text())
+DATA = json.loads((ROOT / 'library.json').read_text())
 LIVE = json.loads((ROOT / 'live-data.json').read_text())
 OSM = json.loads((ROOT/'imports/2026-09-23/osm-exact-search.json').read_text())
 EXACT = {e.get('tags', {}).get('name') for e in OSM['elements']}

@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.parse import urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = json.loads((ROOT/'data.json').read_text())
+DATA = json.loads((ROOT/'library.json').read_text())
 LIVE = json.loads((ROOT/'live-data.json').read_text())
 OUT = ROOT/'imports/2026-09-23/commons-photo-search.json'
 stored = json.loads(OUT.read_text()) if OUT.exists() else {}
