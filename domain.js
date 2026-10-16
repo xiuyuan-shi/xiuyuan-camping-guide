@@ -50,7 +50,10 @@
     return null;
   }
   function photoAllowed(p) {
-    return p?.permission === 'allowed' && p.associationConfirmed === true && !!p.author && !!p.license && https(p.licenseUrl) && https(p.sourceUrl) && (https(p.url) || /^assets\/photos\/[a-z0-9-]+\.jpg$/.test(p.url)) && !/[?&](sign|expires|x-expires|xsec_token)=/i.test(p.url);
+    if (!p || !https(p.sourceUrl) || !((https(p.url) || /^assets\/photos\/[a-z0-9-]+\.jpg$/.test(p.url))) || /[?&](sign|expires|x-expires|xsec_token)=/i.test(p.url)) return false;
+    if (p.permission === 'denied' || ['exclude','withheld','unavailable'].includes(p.status) || p.review?.status === 'exclude') return false;
+    const restored = p.displayBasis === 'restored-previous' && p.kind === 'source' && /^assets\/photos\/restored-[a-f0-9]{20}\.jpg$/.test(p.url) && /^[a-f0-9]{64}$/.test(p.sha256 || '') && /^[a-f0-9]{40}$/.test(p.restoredFrom || '') && /^\d{4}-\d{2}-\d{2}$/.test(p.restoredAt || '');
+    return restored || p.permission === 'allowed' && p.associationConfirmed === true && !!p.author && !!p.license && https(p.licenseUrl);
   }
   const values = (r, key) => r.claimedValues?.[key] || (r.evidence || []).flatMap(e => (e.fields || []).filter(f => f.key === key).map(f => f.value));
   function facilityState(r, key) {

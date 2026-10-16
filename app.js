@@ -167,7 +167,7 @@ $('#trip-open').onclick = () => {
     utilityDialog.close();
   };
 };
-$('#about-open').onclick = () => panel('资料与图片说明', `<p>当前整理杭州相关资料 ${library.counts.hangzhou} 处地点线索，其中 ${library.records.filter(r => r.scope === 'hangzhou' && r.hasDetails).length} 处有具体介绍。名单包含公园、村落和具体营位，尚未逐条核实。</p><h3>资料来源</h3><p>整合用户提供的清单与笔记资料，核对后合并同一地点。笔记来源链接保留在“依据”页，地点关联状态单独标记。</p><h3>星级如何看</h3><p>参考星级按已有景观、活动、设施和人群线索计算，并展示覆盖维度。它不是经实地验证的营地质量分；正式评级要求具体营位、近期规则、独立反馈和20项条件齐全。点击星级可看明细。</p><h3>更新时间</h3><p>资料整理：${esc(library.updatedAt)}。${esc(library.maintenance.label)}；原文日期与采集日期分别保存，未覆盖的记录不刷新日期。</p><h3>图片与天气</h3><p>相册仅展示有明确许可、署名和地点依据的照片；未确认的配图保留为来源线索。历史景观不等于现行营位核验，最多9张。天气来自 Open-Meteo 的位置模型预报；地图为 OpenStreetMap。路线从杭州武林门地铁站出发，由 OSRM 估算，不含实时路况。没有可靠坐标时不推算车程或营地天气。原文链接可能需要小红书登录。</p>`);
+$('#about-open').onclick = () => panel('资料与图片说明', `<p>当前整理杭州相关资料 ${library.counts.hangzhou} 处地点线索，其中 ${library.records.filter(r => r.scope === 'hangzhou' && r.hasDetails).length} 处有具体介绍。名单包含公园、村落和具体营位，尚未逐条核实。</p><h3>资料来源</h3><p>整合用户提供的清单与笔记资料，核对后合并同一地点。笔记来源链接保留在“依据”页，地点关联状态单独标记。</p><h3>星级如何看</h3><p>参考星级按已有景观、活动、设施和人群线索计算，并展示覆盖维度。它不是经实地验证的营地质量分；正式评级要求具体营位、近期规则、独立反馈和20项条件齐全。点击星级可看明细。</p><h3>更新时间</h3><p>资料整理：${esc(library.updatedAt)}。${esc(library.maintenance.label)}；原文日期与采集日期分别保存，未覆盖的记录不刷新日期。</p><h3>图片与天气</h3><p>相册恢复展示此前已筛选的来源配图，并保留来源、拍摄日期及地点待核说明；恢复展示不代表完成营位或使用许可核验。历史景观不等于现行营位核验，最多9张。天气来自 Open-Meteo 的位置模型预报；地图为 OpenStreetMap。路线从杭州武林门地铁站出发，由 OSRM 估算，不含实时路况。没有可靠坐标时不推算车程或营地天气。原文链接可能需要小红书登录。</p>`);
 $('#nearby-open').onclick = () => {
   scope = scope === 'hangzhou' ? 'nearby' : 'hangzhou';
   mapBounds = null;

@@ -44,7 +44,7 @@ def claimed(r):
         out[k]=list(dict.fromkeys(str(v) for v in values if v))
     return out
 
-def photos(r,live,sources,policy):
+def photos(r,live,sources,policy,restored=None):
     candidates=[]
     for p in live.get('images',[]):candidates.append(dict(p))
     for p in r.get('reviewedPhotos',[]):
@@ -56,11 +56,32 @@ def photos(r,live,sources,policy):
             if p.get('review',{}).get('status')=='keep' and rows.intersection(p.get('excelRows',[])):
                 candidates.append({**p,'sourceUrl':s.get('url'),'author':s.get('author'),'sourceTitle':s.get('title'),'associationConfirmed':p.get('associationConfirmed',False)})
     unique={p['url']:p for p in candidates if p.get('url')};approved=[];held=[]
+    identity=lambda p:re.sub(r'^http://','https://',p.get('originalUrl') or p.get('url',''))
+    restore_by_url={identity(p):p for p in restored or []};seen=set()
+    if len(restore_by_url)!=len(restored or []):raise ValueError('恢复图片清单重复：'+r.get('id',''))
     for p in unique.values():
+        restoration=restore_by_url.get(identity(p))
+        if restoration:seen.add(identity(p))
         local=p['url'].startswith('assets/photos/')
         signed=any(k.lower() in ['sign','expires','x-expires','xsec_token'] for k in parse_qs(urlsplit(p['url']).query))
         reason=None
         if p.get('status') in ['exclude','withheld','unavailable'] or p.get('review',{}).get('status')=='exclude':reason='内容审核未采用'
+        elif p.get('permission')=='denied':reason='图片已有明确拒绝状态'
+        elif restoration:
+            if p.get('status')!='keep' and p.get('review',{}).get('status')!='keep':raise ValueError('恢复清单包含未通过旧内容筛选的图片')
+            if restoration.get('sourceUrl')!=p.get('sourceUrl') or not https(p.get('sourceUrl')):raise ValueError('恢复图片来源与原记录不一致')
+            filename=restoration.get('url','');path=ROOT/filename
+            expected='assets/photos/restored-'+hashlib.sha256(identity(p).encode()).hexdigest()[:20]+'.jpg'
+            if filename!=expected:raise ValueError('恢复图片资源与原图地址不匹配')
+            if not re.fullmatch(r'assets/photos/restored-[a-f0-9]{20}\.jpg',filename) or not path.is_file():raise ValueError('恢复图片的本地资源不存在')
+            if hashlib.sha256(path.read_bytes()).hexdigest()!=restoration.get('sha256'):raise ValueError('恢复图片资源校验不一致')
+            display={**p,**restoration,'displayBasis':'restored-previous'}
+            # Displaying a prior source photo does not change permission/location facts.
+            for key in ['permission','license','licenseUrl','associationConfirmed','associationEvidence']:
+                if key in p:display[key]=p[key]
+                else:display.pop(key,None)
+            approved.append(display)
+            continue
         elif p.get('permission')!='allowed':reason='未通过独立授权审核'
         elif p.get('associationConfirmed') is not True or not isinstance(p.get('associationEvidence'),dict) or p['associationEvidence'].get('sourceUrl')!=p.get('sourceUrl') or not p['associationEvidence'].get('scope'):reason='拍摄地点尚未确认'
         elif p.get('license') not in policy['photoLicenses'] or not https(p.get('licenseUrl')):reason='缺少可回查的使用许可'
@@ -73,17 +94,25 @@ def photos(r,live,sources,policy):
             elif not p.get('sha256') or hashlib.sha256(path.read_bytes()).hexdigest()!=p['sha256']:reason='本地图片校验不一致'
         if reason:held.append({'sourceUrl':p.get('sourceUrl'),'reason':reason});continue
         approved.append({**p,'label':p.get('label') or r['name']+'区域实景'})
+    if set(restore_by_url)-seen:raise ValueError('恢复清单图片已不在原始资料中：'+r.get('id',''))
     return approved[:9],held
 
 def generate():
     data=load('library.json');live=load('live-data.json');policy=load('policy.json');meta=load('site-meta.json');validate(data)
     ids={r['id'] for r in data['records']}
     if set(live['records'])-ids:raise ValueError('扩展数据包含资料库中不存在的地点')
+    restoration=load('photo-restorations.json') if (ROOT/'photo-restorations.json').exists() else {'records':{}}
+    if restoration['records'] and (restoration.get('schemaVersion')!=1 or not re.fullmatch(r'[a-f0-9]{40}',restoration.get('baselineCommit','')) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',restoration.get('restoredAt',''))):raise ValueError('图片恢复清单的依据或日期无效')
+    if set(restoration['records'])-ids:raise ValueError('恢复清单指向不存在的地点')
+    for entries in restoration['records'].values():
+        for entry in entries:
+            if entry.get('displayBasis')!='restored-previous' or entry.get('restoredAt')!=restoration['restoredAt'] or not https(entry.get('originalUrl')):raise ValueError('图片恢复记录无效')
+            entry['restoredFrom']=restoration['baselineCommit']
     counts={'total':len(ids),**{s:sum(r['scope']==s for r in data['records']) for s in ['hangzhou','nearby','outside']},'withDetails':sum(bool(r.get('hasDetails')) for r in data['records'])}
     source_index={sid:{k:s[k] for k in ['id','title','author','date','url'] if k in s} for sid,s in data['sources'].items()}
     files={};records=[];visible_photos=0;held_photos=0
     for original in data['records']:
-        r=dict(original);r['claimedValues']=claimed(r);p,held=photos(r,live['records'].get(r['id'],{}),data['sources'],policy)
+        r=dict(original);r['claimedValues']=claimed(r);p,held=photos(r,live['records'].get(r['id'],{}),data['sources'],policy,restoration['records'].get(r['id'],[]))
         r['referenceEvidence']={}
         for dimension,keys in {'scenery':['environment'],'activities':['hiking','stove','experience'],'facilities':['toilet','parking'],'audience':['audience']}.items():
             evidence=[(e,f) for e in r.get('evidence',[]) if not e.get('withheldCompilationClaims') and re.fullmatch(r'\d{4}-\d{2}-\d{2}',data['sources'][e['sourceId']].get('date','')) for f in e.get('fields',[]) if f['key'] in keys]

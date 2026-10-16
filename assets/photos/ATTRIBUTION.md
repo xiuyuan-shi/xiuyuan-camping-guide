@@ -54,3 +54,8 @@ Licensed, unmodified JPEG display copies. Cropped to fit cards with CSS; origina
 | assets/photos/c111-licensed.jpg | 金沙湖公园区域历史景观 | MasaneMiyaPA | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [来源](https://commons.wikimedia.org/wiki/File:20150521%E9%87%91%E6%B2%99%E6%B9%96%E5%85%AC%E5%9B%AD.jpg) | 最长边1280像素，展示可能裁切 |
 | assets/photos/c116-licensed.jpg | 临平公园区域历史景观 | zhiyin586@163.com | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | [来源](https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E._%E4%B8%B4%E5%B9%B3%E5%B1%B1%EF%BC%88%E4%B8%B4%E5%B9%B3%E5%85%AC%E5%9B%AD%EF%BC%89_-_panoramio_(1).jpg) | 最长边1280像素，展示可能裁切 |
 | assets/photos/c121-licensed.jpg | 东吴文化公园区域历史景观 | Lt2818 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [来源](https://commons.wikimedia.org/wiki/File:%E4%B8%9C%E5%90%B4%E6%96%87%E5%8C%96%E5%85%AC%E5%9B%AD%E6%B9%96%E8%BE%B9%E7%9F%B3%E8%88%AB.jpg) | 最长边1280像素，展示可能裁切 |
+
+
+## 2026-10-16 旧配图恢复
+
+按用户要求恢复优化前已展示的170张来源配图，本地文件名以restored-开头。逐图原始地址、来源页面、作者及旧展示信息保存在photo-restorations.json；不将原本未知的许可或地点字段改为已确认。副本等比例缩放至最长边不超过960像素、JPEG质量76，用于页面显示，原始链接继续保留。前述10张CC许可图片保留其原有署名和许可。

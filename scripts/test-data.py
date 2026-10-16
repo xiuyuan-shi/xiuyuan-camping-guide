@@ -20,7 +20,10 @@ for r in data['records']:
  assert detail['record']['id']==r['id'] and detail['record']['evidence']==r['evidence']
  assert all(detail['sources'][sid]==data['sources'][sid] for sid in r['sourceIds'])
  assert item['detailUrl'].split('=')[-1]==hashlib.sha256((ROOT/filename).read_bytes()).hexdigest()[:12]
- assert all(p['permission']=='allowed' and p['associationConfirmed'] and p['license'] and p['licenseUrl'] for p in item['displayPhotos'])
+ for p in item['displayPhotos']:
+  if p.get('displayBasis')=='restored-previous':
+   assert p['kind']=='source' and p['restoredFrom'] and p['restoredAt'] and p.get('permission')!='denied'
+  else:assert p['permission']=='allowed' and p['associationConfirmed'] and p['license'] and p['licenseUrl']
  for p in item['displayPhotos']:
   if p['url'].startswith('assets/'):assert hashlib.sha256((ROOT/p['url']).read_bytes()).hexdigest()==p['sha256']
 for row in rows:
@@ -29,7 +32,7 @@ for row in rows:
  assert not row['recordId'] or row['recordId'] in ids
 
 # Explicit negative states must never be replaced by a historical keep/allowed flag.
-record=next(r for r in index['records'] if r['displayPhotos']);photo=record['displayPhotos'][0]
+photo=next(p for r in index['records'] for p in r['displayPhotos'] if p.get('permission')=='allowed' and p.get('displayBasis')!='restored-previous')
 for change in [{'associationConfirmed':False},{'permission':'denied'},{'permission':'unknown'},{'status':'exclude'}]:
  candidate={**photo,**change};approved,held=exporter.photos({'name':'fixture','sourceIds':[]},{'images':[candidate]}, {},read(ROOT/'policy.json'))
  assert not approved and held
@@ -55,4 +58,4 @@ with tempfile.TemporaryDirectory(prefix='camp-data-regression-') as directory:
  (copy/'library.json').write_text(json.dumps(amended,ensure_ascii=False))
  before=(copy/'data.json').read_bytes();amended['records']=[r for r in amended['records'] if r['id']!='C990'];(copy/'library.json').write_text(json.dumps(amended,ensure_ascii=False));proc=run('export-site.py',copy);assert proc.returncode!=0
  assert (copy/'data.json').read_bytes()==before
-print('PASS: retained IDs/rows/sources, lazy details, licensed assets, idempotence, new evidence preserved, valid expansion, destructive removal blocked')
+print('PASS: retained IDs/rows/sources, lazy details, sourced photo assets, idempotence, new evidence preserved, valid expansion, destructive removal blocked')
